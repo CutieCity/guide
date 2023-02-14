@@ -1,0 +1,10 @@
+*.bak
+*.diff
+*.orig
+*.patch
+*.sw[a-p]
+*.tmp
+.DS_Store
+.vscode/
+site/
+venv/
