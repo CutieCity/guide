@@ -1,0 +1,66 @@
+/* Define primary and accent colors for all themes. */
+:root {
+  --md-primary-fg-color: #d57f7b;
+  --md-primary-fg-color--light: #d57f7b;
+  --md-primary-fg-color--dark: #d57f7b;
+  --md-primary-bg-color: #f8ead4;
+  --md-primary-bg-color--light: #f8ead4b3;
+  --md-accent-fg-color: #f29894;
+  --md-accent-fg-color--transparent: #f298941a;
+  --md-accent-bg-color: #f8ead4;
+  --md-accent-bg-color--light: #f8ead4b3;
+}
+
+/* Define foreground and background colors for light ("default") theme. */
+:root,
+[data-md-color-scheme="default"] {
+  --md-default-fg-color: #14191ade;
+  --md-default-fg-color--light: #14191a8a;
+  --md-default-fg-color--lighter: #14191a52;
+  --md-default-fg-color--lightest: #14191a12;
+  --md-default-bg-color: #fcf5ea;
+  --md-default-bg-color--light: #fcf5eab3;
+  --md-default-bg-color--lighter: #fcf5ea4d;
+  --md-default-bg-color--lightest: #fcf5ea1f;
+  --md-code-fg-color: #2c393b;
+  --md-code-bg-color: #f8ead4;
+  --md-footer-fg-color: #fcf5ea;
+  --md-footer-fg-color--light: #fcf5eab3;
+  --md-footer-fg-color--lighter: #fcf5ea73;
+  --md-footer-bg-color: #14191ade;
+  --md-footer-bg-color--dark: #14191a52;
+}
+
+/* Define foreground and background colors for dark ("slate") theme. */
+:root,
+[data-md-color-scheme="slate"] {
+  --md-default-fg-color: #fefaf5de;
+  --md-default-fg-color--light: #fefaf58a;
+  --md-default-fg-color--lighter: #fefaf552;
+  --md-default-fg-color--lightest: #fefaf512;
+  --md-default-bg-color: #1e2527;
+  --md-default-bg-color--light: #1e2527b3;
+  --md-default-bg-color--lighter: #1e25274d;
+  --md-default-bg-color--lightest: #1e25271f;
+  --md-code-fg-color: #fcf5ea;
+  --md-code-bg-color: #2c393b;
+  --md-footer-fg-color: #fcf5ea;
+  --md-footer-fg-color--light: #fcf5eab3;
+  --md-footer-fg-color--lighter: #fcf5ea73;
+  --md-footer-bg-color: #14191ade;
+  --md-footer-bg-color--dark: #14191a52;
+}
+
+/* Constrain the content area width on bigger (i.e. non-mobile) screens. */
+@media screen and (min-width: 76.25em) {
+  .md-content {
+    max-width: 800px;
+  }
+}
+
+/* Hide the dynamic "Back to top" button on smaller (i.e. mobile) screens. */
+@media screen and (max-width: 76.25em) {
+  .md-top.md-icon {
+    display: none !important;
+  }
+}
