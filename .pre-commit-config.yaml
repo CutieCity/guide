@@ -37,5 +37,10 @@ repos:
       - id: fix-smartquotes
       - id: fix-spaces
 
+  - repo: https://github.com/python-jsonschema/check-jsonschema
+    rev: 0.21.0
+    hooks:
+      - id: check-github-workflows
+
 ci:
   autoupdate_schedule: quarterly
