@@ -6,6 +6,8 @@ repo_url: https://github.com/CutieCity/guide
 
 nav:
   - Home: index.md
+  - Self-Hosting:
+      - Object Storage: self-hosting/object-storage.md
 
 theme:
   name: material
@@ -24,6 +26,7 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
   features:
+    - navigation.sections
     - navigation.top
     - toc.integrate
 
@@ -41,8 +44,16 @@ extra:
 
 extra_css:
   - stylesheets/global.css
+  - stylesheets/material.css
 
 markdown_extensions:
   - admonition
   - attr_list
   - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+plugins:
+  - glightbox:
+      auto_caption: true

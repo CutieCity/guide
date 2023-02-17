@@ -64,3 +64,13 @@
     display: none !important;
   }
 }
+
+/* Add some extra horizontal spacing around emoji. */
+.twemoji {
+  margin: 0 0.25em;
+}
+
+/* Limit the vertical space occupiable by preview images. */
+.image-preview {
+  max-height: 300px;
+}
