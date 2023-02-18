@@ -26,6 +26,8 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
   features:
+    - content.code.copy
+    - content.tabs.link
     - navigation.sections
     - navigation.top
     - toc.integrate
@@ -53,7 +55,15 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.keys
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: ☍
+      permalink_title: Link to this section
+      title: Page Contents
 
 plugins:
-  - glightbox:
-      auto_caption: true
+  - glightbox
+  - search

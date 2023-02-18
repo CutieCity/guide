@@ -43,11 +43,15 @@ your payment information until you hit the limits of their [free plan]:
 - 150GB of download bandwidth per month
 - 10,000 [segments] in total
 
+### Creating a bucket
+
 Once you've activated your account and successfully signed in, navigate to your
 **Buckets** page and create the bucket that will hold all of your instance's
 media files. Bucket names have to be unique, so pick something cute and
 relevant! (The bucket for [cutie.city] is named `cutiecity`, in case that's a
 helpful example.)
+
+### Obtaining an API key
 
 Next, navigate to your **Access** page. You should see a menu that looks like
 this:
@@ -91,6 +95,105 @@ particular key! At the bottom, there is a large blue button labeled "Download
 [segments]: https://docs.storj.io/dcs/concepts/definitions
 [cutie.city]: https://cutie.city
 
-## Setting up the Uplink CLI
+## Setting up the Storj CLI
+
+We're done with the Storj web interface for now! The next steps will make use of
+their [Uplink] CLI tool, which provides the easiest way to generate all of the
+configuration variables that you need to connect your Mastodon instance to your
+Storj bucket.
+
+[uplink]: https://docs.storj.io/dcs/downloads/download-uplink-cli
+
+### Installing Uplink
+
+=== "Linux"
+
+    Execute the following commands in your terminal. (Depending on your
+    machine's architecture, you may need to replace `amd64` with `arm` or
+    `arm64` in the first two commands.)
+
+    ```console
+    curl -L https://github.com/storj/storj/releases/latest/download/uplink_linux_amd64.zip -o uplink_linux_amd64.zip
+    ```
+    ```console
+    unzip -o uplink_linux_amd64.zip
+    ```
+    ```console
+    sudo install uplink /usr/local/bin/uplink
+    ```
+
+=== "macOS"
+
+    Execute the following commands in your terminal.
+
+    ```console
+    curl -L https://github.com/storj/storj/releases/latest/download/uplink_darwin_amd64.zip -o uplink_darwin_amd64.zip
+    ```
+    ```console
+    unzip -o uplink_darwin_amd64.zip
+    ```
+    ```console
+    sudo install uplink /usr/local/bin/uplink
+    ```
+
+=== "Windows"
+
+    1. Download the [Windows binary zip file] for Uplink.
+
+    2. Right-click the downloaded file and select "Extract All". You can put the
+       contents in whatever folder you want, but your home folder (i.e.
+       `C:\Users\YOUR_NAME`) is recommended.
+
+    3. Don't bother trying to open the `uplink.exe` file - it's only usable via
+       the command line.
+
+    4. Open your terminal of choice (e.g. PowerShell) and `cd` into the folder
+       where you put the `uplink.exe` file. (If you put it in your home folder,
+       you don't need to `cd`.)
+
+[windows binary zip file]:
+  https://github.com/storj/storj/releases/latest/download/uplink_windows_amd64.zip
+
+### Running the setup wizard
+
+=== "Linux"
+
+    ```console
+    uplink setup
+    ```
+
+=== "macOS"
+
+    ```console
+    uplink setup
+    ```
+
+=== "Windows"
+
+    ```console
+    .\uplink.exe setup
+    ```
+
+When asked to enter a name, you can leave it blank (i.e. just hit ++enter++).
+You'll then be asked for information from the `.txt` file you downloaded
+earlier, so open up that file and proceed with the following steps.
+
+1. First, you'll need the "API key or Access grant" - this is on the line
+   labeled `restricted key` in the text file. Copy and paste its alphanumeric
+   value into the setup wizard.
+
+2. Next, you'll need the information on the line labeled `satellite address`.
+   Copy and paste this <u>entire</u> value, **including the port number** at the
+   end (i.e. `7777`).
+
+3. Finally, you'll be asked to enter (and then confirm) a passphrase. You'll
+   subsequently be asked for this passphrase whenever you open your project in
+   the Storj web interface, so choose a good one and don't forget it!
+
+## Configuring Mastodon
+
+Coming soon!
+
+## Linking your own domain
 
 Coming soon!
