@@ -59,7 +59,7 @@ this:
 ![](/images/storj-access.png "Screenshot of the Access Management page on Storj.
 Three sections are displayed: Access Grant, S3 Credentials, and API Key. The
 blue action button in the API Key section reads "Create Keys for CLI" and is
-circled in pink."){.image-preview data-gallery="storj-access"}
+circled in pink."){.preview data-gallery="storj-access"}
 
 Click the "Create Keys for CLI" button in the **API Key** section (it's circled
 in the above screenshot). Put in whatever name you want, check the box to select
@@ -68,26 +68,35 @@ shown the resulting **Satellite Address** and **API Key**, but don't worry about
 using them right now - just click "Download .txt" and put the file somewhere
 safe.
 
-<div class="grid" markdown>
-<figure markdown>
+<div class="grid two-columns" style="margin-bottom: 0;" markdown>
+<figure style="width: 100%;" markdown>
 
 ![](/images/storj-create-key.png "Screenshot of the "Create Access" modal
 dialog. The type is set to "API Access", the name is set to "Kiki" (but this is
 unimportant), and the checkbox for "All" permissions is checked and circled in
 pink. The remaining options are untouched, and display their default
-values."){.image-preview data-gallery="storj-key"}
+values."){.preview data-gallery="storj-key" style="object-position: 0 42%;"}
 
 </figure>
-<figure markdown>
+<figure style="width: 100%;" markdown>
 
 ![](/images/storj-download-key.png "Screenshot of the success dialog displayed
-after clicking the "Create Keys" button in the previous image. The "Satellite
-Address" and "API Key" are visible - but don't worry, I've deleted this
-particular key! At the bottom, there is a large blue button labeled "Download
-.txt". It's circled in pink."){.image-preview data-gallery="storj-key"}
+after clicking the "Create Keys" button in the previous image. At the bottom,
+there is a large blue button labeled "Download .txt". It's circled in pink. The
+"Satellite Address" and "API Key" are visible. (Don't worry, I've revoked this
+particular key!)"){.preview data-gallery="storj-key"}
 
 </figure>
 </div>
+
+<p style="margin-top: 0; text-align: center;" markdown>
+<small style="font-style: italic;">
+
+**Tip:** Click on any of these images to expand them, or hover over them to view
+an image description.
+
+</small>
+</p>
 
 [create a storj account]: https://storj.io/signup
 [free plan]:
@@ -194,6 +203,6 @@ earlier, so open up that file and proceed with the following steps.
 
 Coming soon!
 
-## Linking your own domain
+## Linking your domain
 
 Coming soon!

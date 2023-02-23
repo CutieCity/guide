@@ -1,7 +1,9 @@
 site_name: Cutie City Guide
+site_url: https://guide.cutie.city
 site_description: A guidebook for Cutie City and the wider Fediverse.
 site_author: Nuztalgia
 copyright: Copyright &copy; 2023 Nuztalgia
+repo_name: CutieCity/guide
 repo_url: https://github.com/CutieCity/guide
 
 nav:
@@ -14,6 +16,7 @@ theme:
   favicon: images/favicon.png
   icon:
     logo: material/map-search
+    repo: fontawesome/brands/github
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -36,7 +39,7 @@ extra:
   social:
     - icon: material/mastodon
       link: https://cutie.city
-      name: Check out our Mastodon server!
+      name: Check out our Mastodon instance!
     - icon: material/github
       link: https://github.com/CutieCity
       name: Visit our organization on GitHub!
@@ -47,6 +50,10 @@ extra:
 extra_css:
   - stylesheets/global.css
   - stylesheets/material.css
+
+plugins:
+  - glightbox
+  - search
 
 markdown_extensions:
   - admonition
@@ -63,7 +70,3 @@ markdown_extensions:
       permalink: ☍
       permalink_title: Link to this section
       title: Page Contents
-
-plugins:
-  - glightbox
-  - search

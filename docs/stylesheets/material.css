@@ -41,6 +41,7 @@
   margin-top: 0;
 }
 
+/* prettier-ignore */
 .md-typeset .grid > .highlight > pre:only-child,
 .md-typeset .grid > .highlight > pre > code,
 .md-typeset .grid > .highlighttable,
@@ -49,14 +50,6 @@
 .md-typeset .grid > .highlighttable > tbody > tr > .code,
 .md-typeset .grid > .highlighttable > tbody > tr > .code > .highlight,
 .md-typeset .grid > .highlighttable > tbody > tr > .code > .highlight > pre,
-.md-typeset
-  .grid
-  > .highlighttable
-  > tbody
-  > tr
-  > .code
-  > .highlight
-  > pre
-  > code {
+.md-typeset .grid > .highlighttable > tbody > tr > .code > .highlight > pre > code {
   height: 100%;
 }

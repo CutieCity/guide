@@ -47,30 +47,59 @@
   --md-footer-fg-color: #fcf5ea;
   --md-footer-fg-color--light: #fcf5eab3;
   --md-footer-fg-color--lighter: #fcf5ea73;
-  --md-footer-bg-color: #14191ade;
-  --md-footer-bg-color--dark: #14191a52;
+  --md-footer-bg-color: #14191a8a;
+  --md-footer-bg-color--dark: #14191ab3;
 }
 
-/* Constrain the content area width on bigger (i.e. non-mobile) screens. */
+/* Adjust some features of the layout on bigger (i.e. non-mobile) screens. */
 @media screen and (min-width: 76.25em) {
+  /* Constrain the width of the content area to keep it easy-to-read. */
   .md-content {
     max-width: 800px;
   }
+  /* Hide the topmost navigation section title and the "Home" link. */
+  .md-nav--primary > .md-nav__title,
+  .md-nav--primary > .md-nav__list > .md-nav__item:first-child {
+    display: none;
+  }
+  /* Align the second navigation section to where the first one would be. */
+  .md-nav--primary > .md-nav__list > .md-nav__item:nth-child(2),
+  .md-nav--primary > .md-nav__list > .md-nav__item:nth-child(2) > label {
+    margin-top: 0;
+  }
 }
 
-/* Hide the dynamic "Back to top" button on smaller (i.e. mobile) screens. */
+/* Adjust some features of the layout on smaller (i.e. mobile) screens. */
 @media screen and (max-width: 76.25em) {
+  /* Hide the "Back to top" button that normally appears when scrolling up. */
   .md-top.md-icon {
     display: none !important;
   }
+  /* Hide the "Home" link in the top-level navigation menu. */
+  .md-nav--primary > .md-nav__list > .md-nav__item:first-child {
+    display: none;
+  }
+}
+
+/* Adjust the maximum height and scaling/cropping of preview images. */
+img.preview {
+  max-height: 168px;
+  object-fit: cover;
+  object-position: bottom;
+  width: 100%;
+}
+
+/* Make sure that two-column grids have two "cells" in each row. */
+.grid.two-columns {
+  grid-template-columns: repeat(2, minmax(50%, 1fr)) !important;
+}
+
+/* Hide the anchor link for the top-level header on each page. */
+.md-typeset h1 > .headerlink {
+  display: none;
 }
 
 /* Add some extra horizontal spacing around emoji. */
 .twemoji {
   margin: 0 0.25em;
-}
-
-/* Limit the vertical space occupiable by preview images. */
-.image-preview {
-  max-height: 300px;
 }
