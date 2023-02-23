@@ -99,6 +99,11 @@ img.preview {
   display: none;
 }
 
+/* Hide sort icons in center-aligned headers for sortable tables. */
+.md-typeset__table table th[align="center"]:after {
+  display: none !important;
+}
+
 /* Add some extra horizontal spacing around emoji. */
 .twemoji {
   margin: 0 0.25em;

@@ -8,6 +8,8 @@ repo_url: https://github.com/CutieCity/guide
 
 nav:
   - Home: index.md
+  - Cutie City:
+      - Custom Emoji: cutie-city/custom-emoji.md
   - Self-Hosting:
       - Object Storage: self-hosting/object-storage.md
 
@@ -51,6 +53,10 @@ extra_css:
   - stylesheets/global.css
   - stylesheets/material.css
 
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/custom-emoji.js
+
 plugins:
   - glightbox
   - search
@@ -66,6 +72,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+  - tables
   - toc:
       permalink: ☍
       permalink_title: Link to this section
