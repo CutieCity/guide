@@ -1,3 +1,25 @@
+# Copyright (c) 2023 Nuztalgia <nuztalgia@gmail.com>
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to
+# deal in the Software without restriction, including without limitation the
+# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+# sell copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+# IN THE SOFTWARE.
+
+"""This script fetches emoji data from Cutie City and writes it into a Markdown file."""
+
 from __future__ import annotations
 
 import json
@@ -31,12 +53,15 @@ MD_COMMENT: Final[Template] = Template("\n<!-- $label custom-emoji\\.py -->\n")
 
 @dataclass(frozen=True, kw_only=True, order=True)
 class Emoji:
+    """A dataclass representing the information necessary to display a custom emoji."""
+
     name: str
     default_url: str
     static_url: str
 
     @classmethod
     def create(cls, **emoji_data: Any) -> Emoji:
+        """Creates and returns a new `Emoji` instance based on the given data."""
         return cls(
             name=emoji_data["shortcode"],
             default_url=(url := emoji_data.get("url", "")),
@@ -44,11 +69,13 @@ class Emoji:
         )
 
     def to_markdown(self, static: bool = False) -> str:
+        """Returns properly-formatted Markdown code for displaying this `Emoji`."""
         url = self.static_url if static else self.default_url
         return MD_EMOJI_ITEM.substitute(name=self.name, url=url)
 
 
 def get_file_template(file_contents: str) -> Template | None:
+    """Parses the existing file and returns a `Template` for writing the new data."""
     search_file = partial(re.search, string=file_contents, flags=re.DOTALL)
 
     begin_match = search_file(f"^.*?{MD_COMMENT.substitute(label='BEGIN')}")
@@ -61,7 +88,8 @@ def get_file_template(file_contents: str) -> Template | None:
         return None
 
 
-def fetch_emoji_list(timeout_seconds: int = 10) -> list[dict[str, str]] | str:
+def fetch_emoji_list(timeout_seconds: int = 10) -> list[dict[str, Any]] | str:
+    """Fetches and returns custom emoji data from the Cutie City (Mastodon) API."""
     try:
         with urlopen(EMOJI_API_ENDPOINT, timeout=timeout_seconds) as response:
             return json.loads(response.read())
@@ -74,6 +102,7 @@ def fetch_emoji_list(timeout_seconds: int = 10) -> list[dict[str, str]] | str:
 
 
 def build_output_markdown(emoji_by_category: dict[str, list[Emoji]]) -> str:
+    """Returns properly-formatted Markdown code for displaying *all* custom emoji."""
     output_markdown = []
 
     for category in sorted(emoji_by_category):
@@ -95,6 +124,7 @@ def build_output_markdown(emoji_by_category: dict[str, list[Emoji]]) -> str:
 
 
 def main() -> int:
+    """Serves as the primary entry point for (and executes) this entire script."""
     logging.basicConfig(format="%(levelname)s: %(message)s", level=logging.INFO)
     logging.info("Starting 'custom-emoji' script.")
 
