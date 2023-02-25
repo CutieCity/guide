@@ -1,0 +1,69 @@
+/* Hide the last column of the credits table on smaller screens. */
+@media screen and (max-width: 76.25em) {
+  .md-typeset table:not([class]) :is(td, th):last-child {
+    display: none;
+  }
+}
+
+/* Fix padding and alignment of all cells in the credits table. */
+.md-typeset table:not([class]) :is(td, th) {
+  padding: 1em 2.5em;
+  vertical-align: middle;
+}
+
+/* Center-align contents of the first column of the credits table. */
+.md-typeset table:not([class]) td:first-child {
+  display: flex !important;
+  align-items: center;
+}
+
+/* Fix size and margin for emoji images inside the credits table. */
+.md-typeset table:not([class]) img {
+  height: 24px;
+  width: 24px;
+  margin-right: 0.48rem;
+}
+
+/* Slightly increase font size for code blocks in the credits table. */
+.md-typeset table:not([class]) code {
+  font-size: 0.9em;
+}
+
+/* Remove extranous spacing around content tab groups in admonitions. */
+details > .tabbed-set {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Position tab group labels in the center of the available space. */
+.tabbed-labels {
+  justify-content: center;
+}
+
+/* Make emoji grids use 3 columns on desktop and 1 column on mobile. */
+.grid {
+  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr)) !important;
+}
+
+/* Center-align images and text inside each emoji grid card. */
+.grid li {
+  display: flex !important;
+  align-items: center;
+}
+
+/* Set the size and margin for all emoji inside the grids. */
+.grid img {
+  height: 32px;
+  width: 32px;
+  margin-right: 0.35rem;
+}
+
+/* Adjust the size and overflow behavior of emoji shortcodes. */
+.grid code {
+  display: block;
+  font-size: 0.9em;
+  overflow: auto;
+  scrollbar-width: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

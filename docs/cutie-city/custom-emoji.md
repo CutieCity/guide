@@ -1,14 +1,18 @@
+---
+glightbox: false
+---
+
 # Custom Emoji
 
 ## Attribution
 
-<!-- prettier-ignore-start -->
+| Emoji Pack                                                       | Creator        | License                                       |
+| ---------------------------------------------------------------- | -------------- | --------------------------------------------- |
+| ![:blobfox_wink:]{title=":blobfox_wink:"} **[Blobfox]**          | [Volpeon]      | <code>[Apache-2.0]</code>                     |
+| ![:blobhaj_innocent:]{title=":blobhaj_innocent:"} **[Blobhaj]**  | [Heatherhorns] | _unknown_                                     |
+| ![:queer_cat_trans:]{title=":queer_cat_trans:"} **[Queer Cats]** | [Zoe Bijl]     | <code>[CC0]</code> / <code>[Unlicense]</code> |
 
-| Emoji Pack | Creator | License |
-| ---------- | ------- | ------- |
-| ![:blobfox_wink:]{.twemoji title=":blobfox_wink:"} **[Blobfox]** | [Volpeon] | <code>[Apache-2.0]</code> |
-| ![:blobhaj_innocent:]{.twemoji title=":blobhaj_innocent:"} **[Blobhaj]** | [Heatherhorns] | *unknown* |
-| ![:queer_cat_trans:]{.twemoji title=":queer_cat_trans:"} **[Queer Cats]** | [Zoe Bijl] | <code>[CC0]</code> / <code>[Unlicense]</code> |
+<!-- prettier-ignore-start -->
 
 [:blobfox_wink:]:
   https://media.cutie.city/custom_emojis/images/000/000/393/original/5ec9916a19a66e82.png
@@ -1092,3 +1096,5 @@
         </div>
 
 <!-- END custom-emoji.py -->
+
+<link rel="stylesheet" href="../../stylesheets/custom-emoji.css" />
