@@ -1,3 +1,8 @@
+/* Hide third-level headers (they're only there to create ToC links). */
+h3 {
+  display: none;
+}
+
 /* Hide the last column of the credits table on smaller screens. */
 @media screen and (max-width: 76.25em) {
   .md-typeset table:not([class]) :is(td, th):last-child {
@@ -29,10 +34,38 @@
   font-size: 0.9em;
 }
 
-/* Remove extranous spacing around content tab groups in admonitions. */
-details > .tabbed-set {
+/* Set the border color for expandable emoji-category blocks. */
+.md-typeset .admonition.emoji-category,
+.md-typeset details.emoji-category {
+  border-color: var(--md-primary-fg-color);
+}
+
+/* Set the background color for the title bars of category blocks. */
+.md-typeset .emoji-category > .admonition-title,
+.md-typeset .emoji-category > summary {
+  background-color: var(--md-accent-fg-color--transparent);
+}
+
+/* Set the icons inside the title bars of category blocks. */
+.md-typeset .emoji-category > .admonition-title::before,
+.md-typeset .emoji-category > summary::before {
+  background-color: var(--md-primary-fg-color);
+  mask-image: var(--md-toc-icon);
+  -webkit-mask-image: var(--md-toc-icon);
+}
+
+/* Set the text color for active content tab labels. */
+.tabbed-set > input:first-child:checked ~ .tabbed-labels > :first-child,
+.tabbed-set > input:nth-child(2):checked ~ .tabbed-labels > :nth-child(2) {
+  color: var(--md-typeset-a-color) !important;
+}
+
+/* Remove vertical margins and indicators for content tab groups. */
+.tabbed-set {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
+  --md-indicator-x: 0px !important;
+  --md-indicator-width: 0px !important;
 }
 
 /* Position tab group labels in the center of the available space. */

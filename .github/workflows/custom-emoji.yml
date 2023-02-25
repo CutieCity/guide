@@ -1,11 +1,6 @@
 name: Update Custom Emoji
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - "docs/cutie-city/custom-emoji.md"
   schedule:
     - cron: 0 0 * * 1
   workflow_dispatch:
@@ -44,7 +39,7 @@ jobs:
       - name: Run custom-emoji.py and pre-commit
         run: |
           python scripts/custom-emoji.py
-          pre-commit run --all-files --verbose
+          pre-commit run --all-files
 
       - name: Auto-commit any changes
         uses: stefanzweifel/git-auto-commit-action@v4

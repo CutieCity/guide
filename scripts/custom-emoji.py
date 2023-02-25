@@ -36,19 +36,21 @@ from urllib.request import urlopen
 EMOJI_API_ENDPOINT: Final[str] = "https://cutie.city/api/v1/custom_emojis"
 OUTPUT_FILE_REL_PATH: Final[str] = "../../docs/cutie-city/custom-emoji.md"
 
-MD_CATEGORY_HEADER: Final[Template] = Template('??? quote "$name ($count)"')
+MD_CATEGORY_HEADER: Final[Template] = Template(
+    '??? emoji-category "$name ($count)"\n\n    ### $name'
+)
 MD_TAB_HEADER: Final[Template] = Template(
-    '    === "$animate Animations"\n\n'
-    '        <div class="grid cards emoji" markdown>'
+    '    === "$animation_label Animations"\n\n'
+    '        <div class="grid cards" markdown>'
 )
 MD_EMOJI_ITEM: Final[Template] = Template(
     '        - ![:$name:]($url){title=":$name:"} `:$name:`'
 )
 
-MD_DEFAULT_TAB_HEADER: Final[str] = MD_TAB_HEADER.substitute(animate="Enable")
-MD_STATIC_TAB_HEADER: Final[str] = MD_TAB_HEADER.substitute(animate="Pause")
+MD_DEFAULT_TAB_HEADER: Final[str] = MD_TAB_HEADER.substitute(animation_label="Enable")
+MD_STATIC_TAB_HEADER: Final[str] = MD_TAB_HEADER.substitute(animation_label="Pause")
 MD_TAB_FOOTER: Final[str] = f"{' ' * 8}</div>"
-MD_COMMENT: Final[Template] = Template("\n<!-- $label custom-emoji\\.py -->\n")
+MD_COMMENT: Final[Template] = Template("\n<!-- emoji-categories-$label -->\n")
 
 
 @dataclass(frozen=True, kw_only=True, order=True)
@@ -78,12 +80,12 @@ def get_file_template(file_contents: str) -> Template | None:
     """Parses the existing file and returns a `Template` for writing the new data."""
     search_file = partial(re.search, string=file_contents, flags=re.DOTALL)
 
-    begin_match = search_file(f"^.*?{MD_COMMENT.substitute(label='BEGIN')}")
-    end_match = search_file(f"{MD_COMMENT.substitute(label='END')}.*$")
+    start_match = search_file(f"^.*?{MD_COMMENT.substitute(label='start')}")
+    end_match = search_file(f"{MD_COMMENT.substitute(label='end')}.*$")
 
-    if begin_match and end_match:
-        beginning, ending = begin_match.group(0), end_match.group(0)
-        return Template(f"{beginning}\n$output_markdown\n{ending}")
+    if start_match and end_match:
+        start_content, end_content = start_match.group(0), end_match.group(0)
+        return Template(f"{start_content}\n$output_markdown\n{end_content}")
     else:
         return None
 
