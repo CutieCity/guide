@@ -1,10 +1,10 @@
 document$.subscribe(function () {
   if (window.location.href.includes("/custom-emoji/")) {
     for (const [buttonId, callback] of [
-      ["#expand-categories", onExpandCategoriesClick],
-      ["#collapse-categories", onCollapseCategoriesClick],
-      ["#enable-animations", onEnableAnimationsClick],
-      ["#pause-animations", onPauseAnimationsClick],
+      ["#expand-categories", () => onCategoryButtonClick(true, "expanded")],
+      ["#collapse-categories", () => onCategoryButtonClick(false, "collapsed")],
+      ["#enable-animations", (button) => onAnimateButtonClick(button, "first")],
+      ["#pause-animations", (button) => onAnimateButtonClick(button, "last")],
     ]) {
       enableButtonAction(buttonId, callback);
     }
@@ -14,10 +14,35 @@ document$.subscribe(function () {
       document.querySelector("#pause-animations").classList.add("disabled");
     }
 
-    document.querySelectorAll(".grid li").forEach(enableCopyToClipboard);
+    document
+      .querySelectorAll("[href$='#emoji-categories'] + nav .md-nav__link")
+      .forEach(enableCategorySmoothScroll);
+
     document.querySelectorAll(".category").forEach(enableCategoryListener);
+    document.querySelectorAll(".grid li").forEach(enableCopyToClipboard);
   }
 });
+
+function onCategoryButtonClick(shouldOpenAll, alertLabel) {
+  document
+    .querySelectorAll(".category")
+    .forEach((detailsElement) => (detailsElement.open = shouldOpenAll));
+  alert$.next(`All categories ${alertLabel}.`);
+}
+
+function onAnimateButtonClick(clickedButtonElement, tabPosition) {
+  document.querySelector(`.tabbed-labels label:${tabPosition}-child`).click();
+  document
+    .querySelectorAll(".md-button[id$=-animations]")
+    .forEach((buttonElement) => {
+      if (buttonElement.id === clickedButtonElement.id) {
+        buttonElement.classList.add("disabled");
+      } else {
+        buttonElement.classList.remove("disabled");
+      }
+    });
+  alert$.next(`Animations ${buttonElement.id.match(/^[a-z]+/)}d.`);
+}
 
 function enableButtonAction(buttonId, callback) {
   const buttonElement = document.querySelector(buttonId);
@@ -28,10 +53,26 @@ function enableButtonAction(buttonId, callback) {
   });
 }
 
-function enableCopyToClipboard(cardElement) {
-  cardElement.addEventListener("click", () => {
-    navigator.clipboard.writeText(cardElement.innerText);
-    alert$.next("Copied to clipboard.");
+function enableCategorySmoothScroll(linkElement) {
+  const headerId = linkElement.href.match(/#[a-z-]+$/);
+  const detailsElement = document.querySelector(headerId).parentNode;
+  const moreOffset = detailsElement.querySelector("summary").offsetHeight * 1.5;
+  const backToTopButton = document.querySelector("[data-md-component='top']");
+
+  linkElement.addEventListener("click", (clickEvent) => {
+    clickEvent.preventDefault();
+    detailsElement.open = true;
+
+    let scrollFromTop = detailsElement.offsetTop - moreOffset;
+    window.scrollTo({ top: scrollFromTop, behavior: "smooth" });
+    window.history.pushState({}, "", linkElement.href);
+
+    if (document.querySelector("[data-md-toggle='drawer']").checked) {
+      document.querySelector(".md-overlay[for$='drawer']").click();
+    } else {
+      backToTopButton.setAttribute("tabindex", "-1");
+      backToTopButton.setAttribute("hidden", "");
+    }
   });
 }
 
@@ -40,47 +81,24 @@ function enableCategoryListener(detailsElement) {
   const collapseButton = document.querySelector("#collapse-categories");
   const categoryCount = document.querySelectorAll(".category").length;
 
+  const updateButton = (buttonElement, currentCount, disableCount) => {
+    if (currentCount === disableCount) {
+      buttonElement.classList.add("disabled");
+    } else {
+      buttonElement.classList.remove("disabled");
+    }
+  };
+
   detailsElement.addEventListener("toggle", () => {
     let categoriesOpen = document.querySelectorAll(".category[open]").length;
-
-    if (categoriesOpen === 0) {
-      collapseButton.classList.add("disabled");
-    } else {
-      collapseButton.classList.remove("disabled");
-    }
-
-    if (categoriesOpen === categoryCount) {
-      expandButton.classList.add("disabled");
-    } else {
-      expandButton.classList.remove("disabled");
-    }
+    updateButton(collapseButton, categoriesOpen, 0);
+    updateButton(expandButton, categoriesOpen, categoryCount);
   });
 }
 
-function onExpandCategoriesClick(buttonElement) {
-  document
-    .querySelectorAll(".category")
-    .forEach((detailsElement) => (detailsElement.open = true));
-  alert$.next("All categories expanded.");
-}
-
-function onCollapseCategoriesClick(buttonElement) {
-  document
-    .querySelectorAll(".category")
-    .forEach((detailsElement) => (detailsElement.open = false));
-  alert$.next("All categories collapsed.");
-}
-
-function onEnableAnimationsClick(buttonElement) {
-  document.querySelector(".tabbed-labels label:first-child").click();
-  document.querySelector("#pause-animations").classList.remove("disabled");
-  buttonElement.classList.add("disabled");
-  alert$.next("Animations enabled.");
-}
-
-function onPauseAnimationsClick(buttonElement) {
-  document.querySelector(".tabbed-labels label:last-child").click();
-  document.querySelector("#enable-animations").classList.remove("disabled");
-  buttonElement.classList.add("disabled");
-  alert$.next("Animations paused.");
+function enableCopyToClipboard(cardElement) {
+  cardElement.addEventListener("click", () => {
+    navigator.clipboard.writeText(cardElement.innerText);
+    alert$.next("Copied to clipboard.");
+  });
 }

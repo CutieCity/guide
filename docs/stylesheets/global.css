@@ -89,6 +89,11 @@ img.preview {
   width: 100%;
 }
 
+/* Hide lowlevel headers (i.e. ToC links) inside expandable categories. */
+.category > summary + h3 {
+  font-size: 0px;
+}
+
 /* Make sure that two-column grids have two "cells" in each row. */
 .grid.two-columns {
   grid-template-columns: repeat(2, minmax(50%, 1fr)) !important;
