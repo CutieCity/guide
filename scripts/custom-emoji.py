@@ -39,17 +39,21 @@ OUTPUT_FILE_REL_PATH: Final[str] = "../../docs/cutie-city/custom-emoji.md"
 MD_CATEGORY_HEADER: Final[Template] = Template(
     '??? category "$name ($count)"\n\n    ### $name'
 )
+MD_GRID_HEADER: Final[Template] = Template(
+    '$indent    <div class="grid cards small-columns" markdown>'
+)
 MD_TAB_HEADER: Final[Template] = Template(
     '    === "$animation_label Animations"\n\n'
-    '        <div class="grid cards small-columns" markdown>'
+    + MD_GRID_HEADER.substitute(indent=" " * 4)
 )
 MD_EMOJI_ITEM: Final[Template] = Template(
-    '        - ![:$name:]($url){title=":$name:"} `:$name:`'
+    '$indent    - ![:$name:]($url){title=":$name:" loading="lazy"} `:$name:`'
 )
 
 MD_DEFAULT_TAB_HEADER: Final[str] = MD_TAB_HEADER.substitute(animation_label="Enable")
 MD_STATIC_TAB_HEADER: Final[str] = MD_TAB_HEADER.substitute(animation_label="Pause")
 MD_TAB_FOOTER: Final[str] = f"{' ' * 8}</div>"
+MD_GRID_FOOTER: Final[str] = f"{' ' * 4}</div>"
 MD_COMMENT: Final[Template] = Template("\n<!-- emoji-categories-$label -->\n")
 
 
@@ -70,10 +74,10 @@ class Emoji:
             static_url=emoji_data.get("static_url", url),
         )
 
-    def to_markdown(self, static: bool = False) -> str:
+    def to_markdown(self, indent: str = " " * 4, static: bool = False) -> str:
         """Returns properly-formatted Markdown code for displaying this `Emoji`."""
         url = self.static_url if static else self.default_url
-        return MD_EMOJI_ITEM.substitute(name=self.name, url=url)
+        return MD_EMOJI_ITEM.substitute(indent=indent, name=self.name, url=url)
 
 
 def get_file_template(file_contents: str) -> Template | None:
@@ -111,16 +115,29 @@ def build_output_markdown(emoji_by_category: dict[str, list[Emoji]]) -> str:
         # noinspection PyTypeChecker
         emoji_list = sorted(emoji_by_category[category])
 
-        output_markdown += [
-            MD_CATEGORY_HEADER.substitute(name=category, count=len(emoji_list)),
-            MD_DEFAULT_TAB_HEADER,
-            "\n".join([emoji.to_markdown() for emoji in emoji_list]),
-            MD_TAB_FOOTER,
-            MD_STATIC_TAB_HEADER,
-            "\n".join([emoji.to_markdown(static=True) for emoji in emoji_list]),
-            MD_TAB_FOOTER,
-        ]
-        logging.info(f"  - SUCCESS: Generated markdown for '{category}'.")
+        output_markdown.append(
+            MD_CATEGORY_HEADER.substitute(name=category, count=len(emoji_list))
+        )
+
+        if any(emoji.default_url.endswith("gif") for emoji in emoji_list):
+            output_markdown += [
+                MD_DEFAULT_TAB_HEADER,
+                "\n".join([emoji.to_markdown() for emoji in emoji_list]),
+                MD_TAB_FOOTER,
+                MD_STATIC_TAB_HEADER,
+                "\n".join([emoji.to_markdown(static=True) for emoji in emoji_list]),
+                MD_TAB_FOOTER,
+            ]
+            component = "tabs"
+        else:
+            output_markdown += [
+                MD_GRID_HEADER.substitute(indent=""),
+                "\n".join([emoji.to_markdown(indent="") for emoji in emoji_list]),
+                MD_GRID_FOOTER,
+            ]
+            component = "grid"
+
+        logging.info(f"  - SUCCESS: Generated {component} markdown for '{category}'.")
 
     return "\n\n".join(output_markdown)
 
