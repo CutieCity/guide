@@ -24,6 +24,19 @@
  *  IN THE SOFTWARE.
  */
 
+.md-source-file__fact {
+  align-items: center;
+  color: var(--md-default-fg-color--light);
+  display: inline-flex;
+  font-size: 0.68rem;
+  gap: 0.3rem;
+  margin-right: 0.6rem;
+}
+
+.md-source-file__fact svg {
+  width: 0.9rem;
+}
+
 .md-typeset .grid {
   grid-gap: 0.4rem;
   display: grid;

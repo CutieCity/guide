@@ -13,8 +13,12 @@ nav:
   - Self-Hosting:
       - Object Storage: self-hosting/object-storage.md
 
+watch:
+  - overrides/
+
 theme:
   name: material
+  custom_dir: overrides
   favicon: images/favicon.png
   icon:
     logo: material/map-search
@@ -54,6 +58,11 @@ extra_css:
   - stylesheets/material.css
 
 plugins:
+  - git-revision-date-localized:
+      type: timeago
+      locale: en
+      exclude:
+        - index.md
   - glightbox
   - search
 
