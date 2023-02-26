@@ -71,9 +71,9 @@
 
 /* Adjust some features of the layout on smaller (i.e. mobile) screens. */
 @media screen and (max-width: 76.25em) {
-  /* Hide the "Back to top" button that normally appears when scrolling up. */
-  .md-top.md-icon {
-    display: none !important;
+  /* Always hide anchor links that appear next to headers. */
+  .md-typeset .headerlink {
+    display: none;
   }
   /* Hide the "Home" link in the top-level navigation menu. */
   .md-nav--primary > .md-nav__list > .md-nav__item:first-child {
@@ -106,6 +106,12 @@ img.preview {
   grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr)) !important;
   margin-top: 0.4rem !important;
   margin-bottom: 0.6rem !important;
+}
+
+/* Only display header anchor links when they're being hovered. */
+.md-typeset :target > .headerlink:not(:hover) {
+  opacity: 0;
+  transition: opacity 250ms;
 }
 
 /* Hide the anchor link for the top-level header on each page. */

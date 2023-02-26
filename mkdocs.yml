@@ -38,7 +38,6 @@ theme:
     - content.code.copy
     - content.tabs.link
     - navigation.sections
-    - navigation.top
     - toc.integrate
 
 extra:
@@ -56,8 +55,10 @@ extra:
 extra_css:
   - stylesheets/global.css
   - stylesheets/material.css
+  - stylesheets/custom-emoji.css
 
 extra_javascript:
+  - javascripts/global.js
   - javascripts/custom-emoji.js
 
 plugins:
@@ -89,5 +90,5 @@ markdown_extensions:
   - tables
   - toc:
       permalink: ☍
-      permalink_title: Link to this section
+      permalink_title: Copy link to this section
       title: Page Contents

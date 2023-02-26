@@ -41,7 +41,7 @@ function onAnimateButtonClick(clickedButtonElement, tabPosition) {
         buttonElement.classList.remove("disabled");
       }
     });
-  alert$.next(`Animations ${buttonElement.id.match(/^[a-z]+/)}d.`);
+  alert$.next(`Animations ${clickedButtonElement.id.match(/^[a-z]+/)}d.`);
 }
 
 function enableButtonAction(buttonId, callback) {
@@ -57,22 +57,11 @@ function enableCategorySmoothScroll(linkElement) {
   const headerId = linkElement.href.match(/#[a-z-]+$/);
   const detailsElement = document.querySelector(headerId).parentNode;
   const moreOffset = detailsElement.querySelector("summary").offsetHeight * 1.5;
-  const backToTopButton = document.querySelector("[data-md-component='top']");
 
   linkElement.addEventListener("click", (clickEvent) => {
     clickEvent.preventDefault();
     detailsElement.open = true;
-
-    let scrollFromTop = detailsElement.offsetTop - moreOffset;
-    window.scrollTo({ top: scrollFromTop, behavior: "smooth" });
-    window.history.pushState({}, "", linkElement.href);
-
-    if (document.querySelector("[data-md-toggle='drawer']").checked) {
-      document.querySelector(".md-overlay[for$='drawer']").click();
-    } else {
-      backToTopButton.setAttribute("tabindex", "-1");
-      backToTopButton.setAttribute("hidden", "");
-    }
+    smoothScrollTo(detailsElement.offsetTop - moreOffset, linkElement.href);
   });
 }
 
@@ -98,7 +87,6 @@ function enableCategoryListener(detailsElement) {
 
 function enableCopyToClipboard(cardElement) {
   cardElement.addEventListener("click", () => {
-    navigator.clipboard.writeText(cardElement.innerText);
-    alert$.next("Copied to clipboard.");
+    copyToClipboard(cardElement.innerText);
   });
 }

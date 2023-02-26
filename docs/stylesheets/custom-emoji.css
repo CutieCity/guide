@@ -1,19 +1,19 @@
 /* Align contents of each grid card and make it look clickable. */
-.grid.small-columns li {
+h1#custom-emoji ~ * .grid.small-columns li {
   display: flex !important;
   align-items: center;
   cursor: pointer;
 }
 
 /* Set the size and margin for all emoji inside the grids. */
-.grid.small-columns img {
+h1#custom-emoji ~ * .grid.small-columns img {
   height: 32px;
   width: 32px;
   margin-right: 0.35rem;
 }
 
 /* Adjust the size and overflow behavior of emoji shortcodes. */
-.grid.small-columns code {
+h1#custom-emoji ~ * .grid.small-columns code {
   display: block;
   font-size: 0.9em;
   overflow: auto;
@@ -23,24 +23,24 @@
 }
 
 /* Hide all tab labels/controls (buttons are used instead). */
-.md-typeset .tabbed-labels {
+h1#custom-emoji ~ * .tabbed-labels {
   display: none;
 }
 
 /* Remove vertical margins for content tab groups. */
-.md-typeset .tabbed-set {
+h1#custom-emoji ~ * .tabbed-set {
   margin-top: 0.2rem;
   margin-bottom: 0;
 }
 
 /* Fix padding and alignment of all cells in the credits table. */
-.md-typeset table:not([class]) :is(td, th) {
+h1#custom-emoji ~ * table:not([class]) :is(td, th) {
   padding: 1em 2.5em;
   vertical-align: middle;
 }
 
 /* Center-align contents of the first column of the credits table. */
-.md-typeset table:not([class]) td:first-child {
+h1#custom-emoji ~ * table:not([class]) td:first-child {
   display: flex;
   align-items: center;
 }
@@ -48,12 +48,12 @@
 /* Adjust some features of the layout on smaller (i.e. mobile) screens. */
 @media screen and (max-width: 76.25em) {
   /* Facilitate scrolling to see the complete emoji shortcodes. */
-  .grid.small-columns code {
+  h1#custom-emoji ~ * .grid.small-columns code {
     padding: 0.3em;
     text-overflow: initial;
   }
   /* Hide the last column of the credits table (license info). */
-  .md-typeset table:not([class]) :is(td, th):last-child {
+  h1#custom-emoji ~ * table:not([class]) :is(td, th):last-child {
     display: none;
   }
 }

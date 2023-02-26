@@ -1199,5 +1199,3 @@ awesome emoji that don't happen to fit into a single pack/theme!
 [xomikasa]: https://emoji.gg/user/647561486712963101
 [:bugcat_love:]:
   https://media.cutie.city/custom_emojis/images/000/000/200/original/4dd8f893b2cfbef0.gif
-
-<link rel="stylesheet" href="../../stylesheets/custom-emoji.css" />
