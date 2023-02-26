@@ -37,6 +37,13 @@
   width: 0.9rem;
 }
 
+.md-source-file__fact .md-author {
+  float: left;
+  height: 1.6rem;
+  width: 1.6rem;
+  margin-right: 0.2rem;
+}
+
 .md-typeset .grid {
   grid-gap: 0.4rem;
   display: grid;

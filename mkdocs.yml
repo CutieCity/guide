@@ -58,6 +58,9 @@ extra_css:
   - stylesheets/material.css
 
 plugins:
+  - git-committers:
+      repository: CutieCity/guide
+      branch: main
   - git-revision-date-localized:
       type: timeago
       locale: en
