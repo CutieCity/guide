@@ -3,40 +3,33 @@ h3 {
   display: none;
 }
 
-/* Set the text color for active content tab labels. */
-.tabbed-set > input:first-child:checked ~ .tabbed-labels > :first-child,
-.tabbed-set > input:nth-child(2):checked ~ .tabbed-labels > :nth-child(2) {
-  color: var(--md-typeset-a-color) !important;
+/* Hide all tab labels/controls (buttons are used instead). */
+.md-typeset .tabbed-labels {
+  display: none;
 }
 
-/* Remove vertical margins and indicators for content tab groups. */
+/* Remove vertical margins for content tab groups. */
 .tabbed-set {
-  margin-top: 0 !important;
+  margin-top: 0.2rem !important;
   margin-bottom: 0 !important;
-  --md-indicator-x: 0px !important;
-  --md-indicator-width: 0px !important;
 }
 
-/* Position tab group labels in the center of the available space. */
-.tabbed-labels {
-  justify-content: center;
-}
-
-/* Center-align images and text inside each emoji grid card. */
-.grid li {
+/* Align contents of each grid card and make it look clickable. */
+.grid.small-columns li {
   display: flex !important;
   align-items: center;
+  cursor: pointer;
 }
 
 /* Set the size and margin for all emoji inside the grids. */
-.grid img {
+.grid.small-columns img {
   height: 32px;
   width: 32px;
   margin-right: 0.35rem;
 }
 
 /* Adjust the size and overflow behavior of emoji shortcodes. */
-.grid code {
+.grid.small-columns code {
   display: block;
   font-size: 0.9em;
   overflow: auto;

@@ -92,6 +92,8 @@ img.preview {
 /* Make sure that two-column grids have two "cells" in each row. */
 .grid.two-columns {
   grid-template-columns: repeat(2, minmax(50%, 1fr)) !important;
+  align-items: center;
+  justify-items: center;
 }
 
 /* Define grids with columns that are half the normal minimum width. */
@@ -116,6 +118,23 @@ img.preview {
 /* Slightly increase font size for code text inside tables. */
 .md-typeset table:not([class]) code {
   font-size: 0.9em;
+}
+
+/* Style "fake button" CTAs that fill their available space. */
+.md-typeset .md-button.fill {
+  border-radius: 0.2rem;
+  padding: 0.5em 0;
+  text-align: center;
+  white-space: nowrap;
+  width: 100%;
+}
+
+/* Override some styles to make a "fake button" appear disabled. */
+.md-typeset .md-button.fill.disabled {
+  background-color: initial;
+  border-color: var(--md-default-fg-color--light);
+  color: var(--md-default-fg-color--light);
+  cursor: initial;
 }
 
 /* Add some extra horizontal spacing around emoji. */

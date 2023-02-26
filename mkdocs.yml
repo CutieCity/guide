@@ -57,6 +57,9 @@ extra_css:
   - stylesheets/global.css
   - stylesheets/material.css
 
+extra_javascript:
+  - javascripts/custom-emoji.js
+
 plugins:
   - git-committers:
       enabled: !ENV [ENABLE_GIT_PLUGINS, false]

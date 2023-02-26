@@ -21,6 +21,34 @@ a message if you'd like this page to be refreshed ahead of schedule!
 [:send_love:]:
   https://media.cutie.city/custom_emojis/images/000/000/591/original/ebeff1f12d06bb6e.png
 
+## Page Controls
+
+There are currently **464** custom emoji on this page. That's a lot! Here are
+some handy controls to help you browse them more easily:
+
+<div class="grid two-columns" markdown>
+
+  <div class="md-button md-button--primary fill" id="expand-categories">
+    Expand all categories
+  </div>
+
+  <div class="md-button md-button--primary fill disabled" id="enable-animations">
+    Enable animations
+  </div>
+
+  <div class="md-button md-button--primary fill disabled" id="collapse-categories">
+    Collapse all categories
+  </div>
+
+  <div class="md-button md-button--primary fill" id="pause-animations">
+    Pause animations
+  </div>
+
+</div>
+
+And don't forget - you can use the table of contents to quickly jump around the
+page. Have fun!
+
 ## Emoji Categories
 
 <!-- emoji-categories-start -->
