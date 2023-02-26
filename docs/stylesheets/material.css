@@ -30,7 +30,7 @@
   display: inline-flex;
   font-size: 0.68rem;
   gap: 0.3rem;
-  margin-right: 0.6rem;
+  margin-right: 0.8rem;
 }
 
 .md-source-file__fact svg {
@@ -39,9 +39,19 @@
 
 .md-source-file__fact .md-author {
   float: left;
-  height: 1.6rem;
-  width: 1.6rem;
+  height: 1.4rem;
+  width: 1.4rem;
   margin-right: 0.2rem;
+}
+
+.md-source-file__fact a.md-author img {
+  filter: grayscale(100%) opacity(75%);
+  transition: filter 250ms;
+}
+
+.md-source-file__fact a.md-author:focus img,
+.md-source-file__fact a.md-author:hover img {
+  filter: grayscale(0);
 }
 
 .md-typeset .grid {

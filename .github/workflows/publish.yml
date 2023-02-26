@@ -41,6 +41,8 @@ jobs:
 
       - name: Build static site
         run: mkdocs build
+        env:
+          ENABLE_GIT_PLUGINS: true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1

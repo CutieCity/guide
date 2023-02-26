@@ -59,9 +59,11 @@ extra_css:
 
 plugins:
   - git-committers:
+      enabled: !ENV [ENABLE_GIT_PLUGINS, false]
       repository: CutieCity/guide
       branch: main
   - git-revision-date-localized:
+      enabled: !ENV [ENABLE_GIT_PLUGINS, false]
       type: timeago
       locale: en
       exclude:
