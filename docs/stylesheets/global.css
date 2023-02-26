@@ -94,14 +94,28 @@ img.preview {
   grid-template-columns: repeat(2, minmax(50%, 1fr)) !important;
 }
 
+/* Define grids with columns that are half the normal minimum width. */
+.grid.small-columns {
+  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr)) !important;
+  margin-top: 0.4rem !important;
+  margin-bottom: 0.6rem !important;
+}
+
 /* Hide the anchor link for the top-level header on each page. */
 .md-typeset h1 > .headerlink {
   display: none;
 }
 
-/* Hide sort icons in center-aligned headers for sortable tables. */
-.md-typeset__table table th[align="center"]:after {
-  display: none !important;
+/* Fix size and margin for all images inside tables. */
+.md-typeset table:not([class]) img {
+  height: 24px;
+  width: 24px;
+  margin-right: 0.48rem;
+}
+
+/* Slightly increase font size for code text inside tables. */
+.md-typeset table:not([class]) code {
+  font-size: 0.9em;
 }
 
 /* Add some extra horizontal spacing around emoji. */

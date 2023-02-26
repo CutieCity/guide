@@ -54,6 +54,23 @@
   filter: grayscale(0);
 }
 
+.md-typeset .admonition.category,
+.md-typeset details.category {
+  border-color: var(--md-primary-fg-color);
+}
+
+.md-typeset .category > .admonition-title,
+.md-typeset .category > summary {
+  background-color: var(--md-accent-fg-color--transparent);
+}
+
+.md-typeset .category > .admonition-title::before,
+.md-typeset .category > summary::before {
+  background-color: var(--md-primary-fg-color);
+  mask-image: var(--md-toc-icon);
+  -webkit-mask-image: var(--md-toc-icon);
+}
+
 .md-typeset .grid {
   grid-gap: 0.4rem;
   display: grid;

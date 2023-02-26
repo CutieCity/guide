@@ -37,11 +37,11 @@ EMOJI_API_ENDPOINT: Final[str] = "https://cutie.city/api/v1/custom_emojis"
 OUTPUT_FILE_REL_PATH: Final[str] = "../../docs/cutie-city/custom-emoji.md"
 
 MD_CATEGORY_HEADER: Final[Template] = Template(
-    '??? emoji-category "$name ($count)"\n\n    ### $name'
+    '??? category "$name ($count)"\n\n    ### $name'
 )
 MD_TAB_HEADER: Final[Template] = Template(
     '    === "$animation_label Animations"\n\n'
-    '        <div class="grid cards" markdown>'
+    '        <div class="grid cards small-columns" markdown>'
 )
 MD_EMOJI_ITEM: Final[Template] = Template(
     '        - ![:$name:]($url){title=":$name:"} `:$name:`'

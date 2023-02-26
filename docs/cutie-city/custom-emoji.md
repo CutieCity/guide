@@ -9,7 +9,7 @@ instance! ![:angelic_heart:]{.twemoji title=":angelic_heart:"}
 
 This page is updated automatically via a [GitHub Action] that runs once per
 week. The workflow can also be triggered manually, so feel free to send [@admin]
-a message if you'd like this catalog to be refreshed ahead of schedule!
+a message if you'd like this page to be refreshed ahead of schedule!
 ![:send_love:]{.twemoji title=":send_love:"}
 
 [cutie.city]: https://cutie.city
@@ -25,13 +25,13 @@ a message if you'd like this catalog to be refreshed ahead of schedule!
 
 <!-- emoji-categories-start -->
 
-??? emoji-category "Animal Packs (48)"
+??? category "Animal Packs (48)"
 
     ### Animal Packs
 
     === "Enable Animations"
 
-        <div class="grid cards" markdown>
+        <div class="grid cards small-columns" markdown>
 
         - ![:axolotl_angry:](https://media.cutie.city/custom_emojis/images/000/000/118/original/6636ce789f6d106d.png){title=":axolotl_angry:"} `:axolotl_angry:`
         - ![:axolotl_cry:](https://media.cutie.city/custom_emojis/images/000/000/120/original/0cc4943cd2cee988.png){title=":axolotl_cry:"} `:axolotl_cry:`
@@ -86,7 +86,7 @@ a message if you'd like this catalog to be refreshed ahead of schedule!
 
     === "Pause Animations"
 
-        <div class="grid cards" markdown>
+        <div class="grid cards small-columns" markdown>
 
         - ![:axolotl_angry:](https://media.cutie.city/custom_emojis/images/000/000/118/static/6636ce789f6d106d.png){title=":axolotl_angry:"} `:axolotl_angry:`
         - ![:axolotl_cry:](https://media.cutie.city/custom_emojis/images/000/000/120/static/0cc4943cd2cee988.png){title=":axolotl_cry:"} `:axolotl_cry:`
@@ -139,13 +139,13 @@ a message if you'd like this catalog to be refreshed ahead of schedule!
 
         </div>
 
-??? emoji-category "Blobfox (184)"
+??? category "Blobfox (184)"
 
     ### Blobfox
 
     === "Enable Animations"
 
-        <div class="grid cards" markdown>
+        <div class="grid cards small-columns" markdown>
 
         - ![:blobfox:](https://media.cutie.city/custom_emojis/images/000/000/368/original/94513ccda5a93ef3.png){title=":blobfox:"} `:blobfox:`
         - ![:blobfox_angry:](https://media.cutie.city/custom_emojis/images/000/000/364/original/1cce2c0c4690bab0.png){title=":blobfox_angry:"} `:blobfox_angry:`
@@ -336,7 +336,7 @@ a message if you'd like this catalog to be refreshed ahead of schedule!
 
     === "Pause Animations"
 
-        <div class="grid cards" markdown>
+        <div class="grid cards small-columns" markdown>
 
         - ![:blobfox:](https://media.cutie.city/custom_emojis/images/000/000/368/static/94513ccda5a93ef3.png){title=":blobfox:"} `:blobfox:`
         - ![:blobfox_angry:](https://media.cutie.city/custom_emojis/images/000/000/364/static/1cce2c0c4690bab0.png){title=":blobfox_angry:"} `:blobfox_angry:`
@@ -525,13 +525,13 @@ a message if you'd like this catalog to be refreshed ahead of schedule!
 
         </div>
 
-??? emoji-category "Blobhaj (32)"
+??? category "Blobhaj (32)"
 
     ### Blobhaj
 
     === "Enable Animations"
 
-        <div class="grid cards" markdown>
+        <div class="grid cards small-columns" markdown>
 
         - ![:blobhaj_angry:](https://media.cutie.city/custom_emojis/images/000/000/328/original/db0e28433dce34f6.png){title=":blobhaj_angry:"} `:blobhaj_angry:`
         - ![:blobhaj_blanket:](https://media.cutie.city/custom_emojis/images/000/000/323/original/2ccb0c8fa021f4e1.png){title=":blobhaj_blanket:"} `:blobhaj_blanket:`
@@ -570,7 +570,7 @@ a message if you'd like this catalog to be refreshed ahead of schedule!
 
     === "Pause Animations"
 
-        <div class="grid cards" markdown>
+        <div class="grid cards small-columns" markdown>
 
         - ![:blobhaj_angry:](https://media.cutie.city/custom_emojis/images/000/000/328/static/db0e28433dce34f6.png){title=":blobhaj_angry:"} `:blobhaj_angry:`
         - ![:blobhaj_blanket:](https://media.cutie.city/custom_emojis/images/000/000/323/static/2ccb0c8fa021f4e1.png){title=":blobhaj_blanket:"} `:blobhaj_blanket:`
@@ -607,13 +607,13 @@ a message if you'd like this catalog to be refreshed ahead of schedule!
 
         </div>
 
-??? emoji-category "Miscellaneous (72)"
+??? category "Miscellaneous (72)"
 
     ### Miscellaneous
 
     === "Enable Animations"
 
-        <div class="grid cards" markdown>
+        <div class="grid cards small-columns" markdown>
 
         - ![:angelic_heart:](https://media.cutie.city/custom_emojis/images/000/000/067/original/3f3459e03c5e9b31.png){title=":angelic_heart:"} `:angelic_heart:`
         - ![:antifa:](https://media.cutie.city/custom_emojis/images/000/000/301/original/bb2b8b95608ca5ac.png){title=":antifa:"} `:antifa:`
@@ -692,7 +692,7 @@ a message if you'd like this catalog to be refreshed ahead of schedule!
 
     === "Pause Animations"
 
-        <div class="grid cards" markdown>
+        <div class="grid cards small-columns" markdown>
 
         - ![:angelic_heart:](https://media.cutie.city/custom_emojis/images/000/000/067/static/3f3459e03c5e9b31.png){title=":angelic_heart:"} `:angelic_heart:`
         - ![:antifa:](https://media.cutie.city/custom_emojis/images/000/000/301/static/bb2b8b95608ca5ac.png){title=":antifa:"} `:antifa:`
@@ -769,13 +769,13 @@ a message if you'd like this catalog to be refreshed ahead of schedule!
 
         </div>
 
-??? emoji-category "Patrick (24)"
+??? category "Patrick (24)"
 
     ### Patrick
 
     === "Enable Animations"
 
-        <div class="grid cards" markdown>
+        <div class="grid cards small-columns" markdown>
 
         - ![:patrick_ayaya:](https://media.cutie.city/custom_emojis/images/000/000/147/original/ee3a3bb074e271ee.png){title=":patrick_ayaya:"} `:patrick_ayaya:`
         - ![:patrick_baby:](https://media.cutie.city/custom_emojis/images/000/000/129/original/d9bf82de401c770b.png){title=":patrick_baby:"} `:patrick_baby:`
@@ -806,7 +806,7 @@ a message if you'd like this catalog to be refreshed ahead of schedule!
 
     === "Pause Animations"
 
-        <div class="grid cards" markdown>
+        <div class="grid cards small-columns" markdown>
 
         - ![:patrick_ayaya:](https://media.cutie.city/custom_emojis/images/000/000/147/static/ee3a3bb074e271ee.png){title=":patrick_ayaya:"} `:patrick_ayaya:`
         - ![:patrick_baby:](https://media.cutie.city/custom_emojis/images/000/000/129/static/d9bf82de401c770b.png){title=":patrick_baby:"} `:patrick_baby:`
@@ -835,13 +835,13 @@ a message if you'd like this catalog to be refreshed ahead of schedule!
 
         </div>
 
-??? emoji-category "Pokemon (32)"
+??? category "Pokemon (32)"
 
     ### Pokemon
 
     === "Enable Animations"
 
-        <div class="grid cards" markdown>
+        <div class="grid cards small-columns" markdown>
 
         - ![:bulbasaur_confused:](https://media.cutie.city/custom_emojis/images/000/000/163/original/b2fe04de3bda3d3c.png){title=":bulbasaur_confused:"} `:bulbasaur_confused:`
         - ![:charmander_yay:](https://media.cutie.city/custom_emojis/images/000/000/162/original/a7bdb174134bc94f.png){title=":charmander_yay:"} `:charmander_yay:`
@@ -880,7 +880,7 @@ a message if you'd like this catalog to be refreshed ahead of schedule!
 
     === "Pause Animations"
 
-        <div class="grid cards" markdown>
+        <div class="grid cards small-columns" markdown>
 
         - ![:bulbasaur_confused:](https://media.cutie.city/custom_emojis/images/000/000/163/static/b2fe04de3bda3d3c.png){title=":bulbasaur_confused:"} `:bulbasaur_confused:`
         - ![:charmander_yay:](https://media.cutie.city/custom_emojis/images/000/000/162/static/a7bdb174134bc94f.png){title=":charmander_yay:"} `:charmander_yay:`
@@ -917,13 +917,13 @@ a message if you'd like this catalog to be refreshed ahead of schedule!
 
         </div>
 
-??? emoji-category "Pride Flags (40)"
+??? category "Pride Flags (40)"
 
     ### Pride Flags
 
     === "Enable Animations"
 
-        <div class="grid cards" markdown>
+        <div class="grid cards small-columns" markdown>
 
         - ![:flag_abrosexual:](https://media.cutie.city/custom_emojis/images/000/000/054/original/b05a3b6e17a35e02.png){title=":flag_abrosexual:"} `:flag_abrosexual:`
         - ![:flag_agender:](https://media.cutie.city/custom_emojis/images/000/000/310/original/93936bcb55e017d7.png){title=":flag_agender:"} `:flag_agender:`
@@ -970,7 +970,7 @@ a message if you'd like this catalog to be refreshed ahead of schedule!
 
     === "Pause Animations"
 
-        <div class="grid cards" markdown>
+        <div class="grid cards small-columns" markdown>
 
         - ![:flag_abrosexual:](https://media.cutie.city/custom_emojis/images/000/000/054/static/b05a3b6e17a35e02.png){title=":flag_abrosexual:"} `:flag_abrosexual:`
         - ![:flag_agender:](https://media.cutie.city/custom_emojis/images/000/000/310/static/93936bcb55e017d7.png){title=":flag_agender:"} `:flag_agender:`
@@ -1015,13 +1015,13 @@ a message if you'd like this catalog to be refreshed ahead of schedule!
 
         </div>
 
-??? emoji-category "Queer Cats (32)"
+??? category "Queer Cats (32)"
 
     ### Queer Cats
 
     === "Enable Animations"
 
-        <div class="grid cards" markdown>
+        <div class="grid cards small-columns" markdown>
 
         - ![:qc_heart_agender:](https://media.cutie.city/custom_emojis/images/000/000/282/original/225302b67062d19b.png){title=":qc_heart_agender:"} `:qc_heart_agender:`
         - ![:qc_heart_aromantic:](https://media.cutie.city/custom_emojis/images/000/000/283/original/8a596026738ad29d.png){title=":qc_heart_aromantic:"} `:qc_heart_aromantic:`
@@ -1060,7 +1060,7 @@ a message if you'd like this catalog to be refreshed ahead of schedule!
 
     === "Pause Animations"
 
-        <div class="grid cards" markdown>
+        <div class="grid cards small-columns" markdown>
 
         - ![:qc_heart_agender:](https://media.cutie.city/custom_emojis/images/000/000/282/static/225302b67062d19b.png){title=":qc_heart_agender:"} `:qc_heart_agender:`
         - ![:qc_heart_aromantic:](https://media.cutie.city/custom_emojis/images/000/000/283/static/8a596026738ad29d.png){title=":qc_heart_aromantic:"} `:qc_heart_aromantic:`

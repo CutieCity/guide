@@ -3,26 +3,6 @@ h3 {
   display: none;
 }
 
-/* Set the border color for expandable emoji-category blocks. */
-.md-typeset .admonition.emoji-category,
-.md-typeset details.emoji-category {
-  border-color: var(--md-primary-fg-color);
-}
-
-/* Set the background color for the title bars of category blocks. */
-.md-typeset .emoji-category > .admonition-title,
-.md-typeset .emoji-category > summary {
-  background-color: var(--md-accent-fg-color--transparent);
-}
-
-/* Set the icons inside the title bars of category blocks. */
-.md-typeset .emoji-category > .admonition-title::before,
-.md-typeset .emoji-category > summary::before {
-  background-color: var(--md-primary-fg-color);
-  mask-image: var(--md-toc-icon);
-  -webkit-mask-image: var(--md-toc-icon);
-}
-
 /* Set the text color for active content tab labels. */
 .tabbed-set > input:first-child:checked ~ .tabbed-labels > :first-child,
 .tabbed-set > input:nth-child(2):checked ~ .tabbed-labels > :nth-child(2) {
@@ -40,13 +20,6 @@ h3 {
 /* Position tab group labels in the center of the available space. */
 .tabbed-labels {
   justify-content: center;
-}
-
-/* Make grids use 3 columns on desktop and 1 on mobile, and fix margins. */
-.grid {
-  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr)) !important;
-  margin-top: 0.4rem !important;
-  margin-bottom: 0.6rem !important;
 }
 
 /* Center-align images and text inside each emoji grid card. */
@@ -82,18 +55,6 @@ h3 {
 .md-typeset table:not([class]) td:first-child {
   display: flex !important;
   align-items: center;
-}
-
-/* Fix size and margin for emoji images inside the credits table. */
-.md-typeset table:not([class]) img {
-  height: 24px;
-  width: 24px;
-  margin-right: 0.48rem;
-}
-
-/* Slightly increase font size for code blocks in the credits table. */
-.md-typeset table:not([class]) code {
-  font-size: 0.9em;
 }
 
 /* Hide the last column of the credits table on smaller screens. */
