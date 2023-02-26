@@ -44,6 +44,22 @@ some handy controls to help you browse them more easily:
     Pause animations
   </div>
 
+  <small id="categories-label">
+    **0** out of **8** categories are currently expanded.
+  </small>
+
+  <small id="animations-label">
+    All animations are currently **enabled**.
+  </small>
+
+  <small id="categories-label-compact">
+    **0**/**8** categories are expanded.
+  </small>
+
+  <small id="animations-label-compact">
+    All animations are **enabled**.
+  </small>
+
 </div>
 
 And don't forget - you can use the table of contents to quickly jump around the

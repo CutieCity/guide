@@ -10,9 +10,14 @@ document$.subscribe(function () {
     }
 
     if (!document.querySelector(".tabbed-set > input:first-child").checked) {
+      document
+        .querySelectorAll("[id^=animations-label] strong")
+        .forEach((label) => (label.textContent = "paused"));
       document.querySelector("#enable-animations").classList.remove("disabled");
       document.querySelector("#pause-animations").classList.add("disabled");
     }
+
+    document.querySelector(".grid.two-columns").classList.add("loaded");
 
     document
       .querySelectorAll("[href$='#emoji-categories'] + nav .md-nav__link")
@@ -31,7 +36,9 @@ function onCategoryButtonClick(shouldOpenAll, alertLabel) {
 }
 
 function onAnimateButtonClick(clickedButtonElement, tabPosition) {
+  const statusText = `${clickedButtonElement.id.match(/^[a-z]+/)}d`;
   document.querySelector(`.tabbed-labels label:${tabPosition}-child`).click();
+
   document
     .querySelectorAll(".md-button[id$=-animations]")
     .forEach((buttonElement) => {
@@ -41,6 +48,10 @@ function onAnimateButtonClick(clickedButtonElement, tabPosition) {
         buttonElement.classList.remove("disabled");
       }
     });
+  document
+    .querySelectorAll("[id^=animations-label] strong")
+    .forEach((label) => (label.textContent = statusText));
+
   alert$.next(`Animations ${clickedButtonElement.id.match(/^[a-z]+/)}d.`);
 }
 
@@ -60,7 +71,9 @@ function enableCategorySmoothScroll(linkElement) {
 
   linkElement.addEventListener("click", (clickEvent) => {
     clickEvent.preventDefault();
-    detailsElement.open = true;
+    document
+      .querySelectorAll(".category")
+      .forEach((element) => (element.open = element === detailsElement));
     smoothScrollTo(detailsElement.offsetTop - moreOffset, linkElement.href);
   });
 }
@@ -68,6 +81,7 @@ function enableCategorySmoothScroll(linkElement) {
 function enableCategoryListener(detailsElement) {
   const expandButton = document.querySelector("#expand-categories");
   const collapseButton = document.querySelector("#collapse-categories");
+  const categoryLabels = document.querySelectorAll("[id^=categories-label]");
   const categoryCount = document.querySelectorAll(".category").length;
 
   const updateButton = (buttonElement, currentCount, disableCount) => {
@@ -80,8 +94,13 @@ function enableCategoryListener(detailsElement) {
 
   detailsElement.addEventListener("toggle", () => {
     let categoriesOpen = document.querySelectorAll(".category[open]").length;
+
     updateButton(collapseButton, categoriesOpen, 0);
     updateButton(expandButton, categoriesOpen, categoryCount);
+
+    categoryLabels.forEach((label) => {
+      label.querySelector("strong").textContent = categoriesOpen.toString();
+    });
   });
 }
 

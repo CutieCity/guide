@@ -51,6 +51,16 @@
   --md-footer-bg-color--dark: #14191ab3;
 }
 
+/* Define keyframes for a super-basic "fade in" animation. */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 /* Adjust some features of the layout on bigger (i.e. non-mobile) screens. */
 @media screen and (min-width: 76.25em) {
   /* Constrain the width of the content area to keep it easy-to-read. */
@@ -136,6 +146,7 @@ img.preview {
   border-radius: 0.2rem;
   padding: 0.5em 0;
   text-align: center;
+  user-select: none;
   white-space: nowrap;
   width: 100%;
 }

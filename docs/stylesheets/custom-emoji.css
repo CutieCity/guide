@@ -1,3 +1,15 @@
+/* Make "page controls" grid invisible when page is first loaded. */
+h1#custom-emoji ~ .grid.two-columns {
+  opacity: 0;
+}
+
+/* Allow "page controls" grid to fade in when page is fully loaded. */
+h1#custom-emoji ~ .grid.two-columns.loaded {
+  animation: fadeIn ease-in 250ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
 /* Align contents of each grid card and make it look clickable. */
 h1#custom-emoji ~ * .grid.small-columns li {
   display: flex !important;
@@ -45,6 +57,15 @@ h1#custom-emoji ~ * table:not([class]) td:first-child {
   align-items: center;
 }
 
+/* Adjust some features of the layout on bigger (i.e. non-mobile) screens. */
+@media screen and (min-width: 76.25em) {
+  /* Hide the short-text labels for the page controls. */
+  h1#custom-emoji ~ * #animations-label-compact,
+  h1#custom-emoji ~ * #categories-label-compact {
+    display: none;
+  }
+}
+
 /* Adjust some features of the layout on smaller (i.e. mobile) screens. */
 @media screen and (max-width: 76.25em) {
   /* Facilitate scrolling to see the complete emoji shortcodes. */
@@ -54,6 +75,11 @@ h1#custom-emoji ~ * table:not([class]) td:first-child {
   }
   /* Hide the last column of the credits table (license info). */
   h1#custom-emoji ~ * table:not([class]) :is(td, th):last-child {
+    display: none;
+  }
+  /* Hide the full-text labels for the page controls. */
+  h1#custom-emoji ~ * #animations-label,
+  h1#custom-emoji ~ * #categories-label {
     display: none;
   }
 }
