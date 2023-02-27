@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cutie-city-guide"
+version = "0.0.1"
+description = "Various tools to help put together the Cutie City Guide."
+authors = [
+    { name = "Nuztalgia" },
+    { email = "nuztalgia@gmail.com" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.11"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.11",
+    "Typing :: Typed",
+]

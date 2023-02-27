@@ -35,8 +35,8 @@ from urllib.error import HTTPError
 from urllib.request import urlopen
 
 EMOJI_API_ENDPOINT: Final[str] = "https://cutie.city/api/v1/custom_emojis"
-MD_FILE_REL_PATH: Final[str] = "../../docs/cutie-city/custom-emoji.md"
-INDEX_FILE_REL_PATH: Final[str] = "../cutiemoji.py"
+MD_FILE_REL_PATH: Final[str] = "../../../docs/cutie-city/custom-emoji.md"
+INDEX_FILE_REL_PATH: Final[str] = "../emoji_db.py"
 
 MD_CATEGORY_HEADER: Final[Template] = Template(
     '??? category "$name ($count)"\n\n    ### $name'
@@ -261,7 +261,7 @@ def write_files(
 def main() -> int:
     """Serves as the primary entry point for (and executes) this entire script."""
     logging.basicConfig(format="%(levelname)s: %(message)s", level=logging.INFO)
-    logging.info("Starting 'custom-emoji' script.")
+    logging.info("Starting the Cutie City emoji script.")
 
     markdown_file = File("markdown", get_md_file_template, MD_FILE_REL_PATH)
     index_file = File("index", get_index_file_template, INDEX_FILE_REL_PATH)
@@ -295,7 +295,7 @@ def main() -> int:
         logging.error(error.args[0])
         return 1
 
-    logging.info("Successfully finished 'custom-emoji' script.")
+    logging.info("Successfully finished the Cutie City emoji script.")
     return 0
 
 

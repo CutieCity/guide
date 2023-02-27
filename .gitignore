@@ -1,5 +1,6 @@
 *.bak
 *.diff
+*.egg-info/
 *.orig
 *.patch
 *.py[cdo]
