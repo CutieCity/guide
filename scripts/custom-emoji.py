@@ -18,23 +18,25 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-"""This script fetches emoji data from Cutie City and writes it into a Markdown file."""
+"""This script fetches emoji data from Cutie City and writes it into two other files."""
 
 from __future__ import annotations
 
 import json
 import logging
 import re
-from dataclasses import dataclass
-from functools import partial
+from collections.abc import Callable
+from dataclasses import InitVar, dataclass, field
+from functools import cached_property, partial
 from pathlib import Path
 from string import Template
-from typing import Any, Final
+from typing import Any, Final, cast
 from urllib.error import HTTPError
 from urllib.request import urlopen
 
 EMOJI_API_ENDPOINT: Final[str] = "https://cutie.city/api/v1/custom_emojis"
-OUTPUT_FILE_REL_PATH: Final[str] = "../../docs/cutie-city/custom-emoji.md"
+MD_FILE_REL_PATH: Final[str] = "../../docs/cutie-city/custom-emoji.md"
+INDEX_FILE_REL_PATH: Final[str] = "../cutiemoji.py"
 
 MD_CATEGORY_HEADER: Final[Template] = Template(
     '??? category "$name ($count)"\n\n    ### $name'
@@ -49,12 +51,17 @@ MD_TAB_HEADER: Final[Template] = Template(
 MD_EMOJI_ITEM: Final[Template] = Template(
     '$indent    - ![:$name:]($url){title=":$name:" loading="lazy"} `:$name:`'
 )
+MD_COMMENT: Final[Template] = Template("\n<!-- emoji-categories-$label -->\n")
 
 MD_DEFAULT_TAB_HEADER: Final[str] = MD_TAB_HEADER.substitute(animation_label="Enable")
 MD_STATIC_TAB_HEADER: Final[str] = MD_TAB_HEADER.substitute(animation_label="Pause")
 MD_TAB_FOOTER: Final[str] = f"{' ' * 8}</div>"
 MD_GRID_FOOTER: Final[str] = f"{' ' * 4}</div>"
-MD_COMMENT: Final[Template] = Template("\n<!-- emoji-categories-$label -->\n")
+
+EMOJI_URL_PATTERN: Final[re.Pattern] = re.compile(
+    r"^https://media\.cutie\.city/custom_emojis/images/"
+    r"([0-9/]{12}original/[0-9a-f]{16}\.[a-zA-Z]{3,4})$"
+)
 
 
 @dataclass(frozen=True, kw_only=True, order=True)
@@ -80,18 +87,60 @@ class Emoji:
         return MD_EMOJI_ITEM.substitute(indent=indent, name=self.name, url=url)
 
 
-def get_file_template(file_contents: str) -> Template | None:
-    """Parses the existing file and returns a `Template` for writing the new data."""
+@dataclass
+class File:
+    """A dataclass representing the information necessary to write to a given file."""
+
+    label: str
+    get_template: Callable[[str], Template | None]
+    rel_path: InitVar[str]
+    path: Path = field(init=False)
+
+    def __post_init__(self, rel_path: str) -> None:
+        """Finish up initialization for this `File` object (i.e. resolve its path)."""
+        self.path = (Path(__file__) / rel_path).resolve()
+
+    @cached_property
+    def template(self) -> Template | None:
+        """Reads the text of the `File` and tries to return a `Template` for writing."""
+        return self.get_template(self.path.read_text())
+
+    def write(
+        self,
+        generated_content: str,
+        transform: Callable[[str], str] | None = None,
+    ) -> None:
+        """Pieces together the file content and writes it to the path for the `File`."""
+        file_content = cast(Template, self.template).substitute(
+            **{f"generated_{self.label}_content": generated_content}
+        )
+        if transform:
+            file_content = transform(file_content)
+
+        num_bytes = len(file_content.encode("utf-8"))
+        logging.info(f"Writing {num_bytes} bytes to {self.label} file: '{self.path}'")
+        self.path.write_text(file_content, newline="\n")
+
+
+def get_md_file_template(file_contents: str) -> Template | None:
+    """Parses the existing Markdown file and returns a `Template` for writing to it."""
     search_file = partial(re.search, string=file_contents, flags=re.DOTALL)
 
     start_match = search_file(f"^.*?{MD_COMMENT.substitute(label='start')}")
     end_match = search_file(f"{MD_COMMENT.substitute(label='end')}.*$")
 
     if start_match and end_match:
-        start_content, end_content = start_match.group(0), end_match.group(0)
-        return Template(f"{start_content}\n$output_markdown\n{end_content}")
+        return Template(
+            f"{start_match.group(0)}\n$generated_markdown_content\n{end_match.group(0)}"
+        )
     else:
         return None
+
+
+def get_index_file_template(file_contents: str) -> Template | None:
+    """Parses the existing index file and returns a `Template` for writing to it."""
+    match = re.match("^.*?\n_EMOJI: Final[cdirst, [\\]]+ = ", file_contents, re.DOTALL)
+    return (match and Template(f"{match.group(0)}$generated_index_content\n")) or None
 
 
 def fetch_emoji_list(timeout_seconds: int = 10) -> list[dict[str, Any]] | str:
@@ -107,20 +156,46 @@ def fetch_emoji_list(timeout_seconds: int = 10) -> list[dict[str, Any]] | str:
         return f"Response from 'GET {EMOJI_API_ENDPOINT}' is not valid JSON."
 
 
-def build_output_markdown(emoji_by_category: dict[str, list[Emoji]]) -> str:
+def organize_emoji(
+    all_emoji: list[dict[str, Any]]
+) -> tuple[dict[str, list[Emoji]], dict[str, dict[str, str]]]:
+    """Returns a tuple consisting of two differently-organized emoji dictionaries."""
+    emoji_by_category: Final[dict[str, list[Emoji]]] = {}
+    emoji_index: Final[dict[str, dict[str, str]]] = {}
+
+    for emoji_data in all_emoji:
+        if (category := emoji_data["category"]) not in emoji_by_category:
+            emoji_by_category[category] = []
+
+        emoji = Emoji.create(**emoji_data)
+
+        if not (emoji_url_match := EMOJI_URL_PATTERN.match(emoji.default_url)):
+            raise ValueError(f"Unexpected emoji url pattern: '{emoji.default_url}'")
+
+        emoji_by_category[category].append(emoji)
+        emoji_index[f":{emoji.name}:"] = {
+            "name": emoji.name.replace("_", " "),
+            "category": category,
+            "unicode": emoji_url_match.group(1),
+        }
+
+    return emoji_by_category, {k: emoji_index[k] for k in sorted(emoji_index.keys())}
+
+
+def generate_emoji_md_code(emoji_by_category: dict[str, list[Emoji]]) -> str:
     """Returns properly-formatted Markdown code for displaying *all* custom emoji."""
-    output_markdown = []
+    markdown_components = []
 
     for category in sorted(emoji_by_category):
         # noinspection PyTypeChecker
         emoji_list = sorted(emoji_by_category[category])
 
-        output_markdown.append(
+        markdown_components.append(
             MD_CATEGORY_HEADER.substitute(name=category, count=len(emoji_list))
         )
 
         if any(emoji.default_url.endswith("gif") for emoji in emoji_list):
-            output_markdown += [
+            markdown_components += [
                 MD_DEFAULT_TAB_HEADER,
                 "\n".join([emoji.to_markdown() for emoji in emoji_list]),
                 MD_TAB_FOOTER,
@@ -128,18 +203,59 @@ def build_output_markdown(emoji_by_category: dict[str, list[Emoji]]) -> str:
                 "\n".join([emoji.to_markdown(static=True) for emoji in emoji_list]),
                 MD_TAB_FOOTER,
             ]
-            component = "tabs"
         else:
-            output_markdown += [
+            markdown_components += [
                 MD_GRID_HEADER.substitute(indent=""),
                 "\n".join([emoji.to_markdown(indent="") for emoji in emoji_list]),
                 MD_GRID_FOOTER,
             ]
-            component = "grid"
 
-        logging.info(f"  - SUCCESS: Generated {component} markdown for '{category}'.")
+    return "\n\n".join(markdown_components)
 
-    return "\n\n".join(output_markdown)
+
+def transform_md_text(original_text: str, emoji_count: int, category_count: int) -> str:
+    """Makes final adjustments to the Markdown code before it's written to file."""
+    intermediate_text = re.sub(
+        pattern=r"\*\*[0-9]{3,}\*\* custom emoji",
+        repl=f"**{emoji_count}** custom emoji",
+        string=original_text,
+        count=1,
+    )
+    return re.sub(
+        pattern=r"\*\*[0-9]+\*\* categories",
+        repl=f"**{category_count}** categories",
+        string=intermediate_text,
+        count=2,
+    )
+
+
+def transform_index_text(original_text: str) -> str:
+    """Makes final adjustments to the emoji index code before it's written to file."""
+    intermediate_text = original_text.replace("    }\n}", "    },\n}")
+    return intermediate_text.replace('"\n    },', '",\n    },')
+
+
+def write_files(
+    markdown_file: File,
+    index_file: File,
+    emoji_by_category: dict[str, list[Emoji]],
+    emoji_index: dict[str, dict[str, str]],
+) -> None:
+    """Properly formats the given emoji data as code & writes it to the given files."""
+    counts = {"category_count": len(emoji_by_category), "emoji_count": len(emoji_index)}
+    logging.info(
+        f"  - SUCCESS: Sorted {counts['category_count']} "
+        f"emoji into {counts['emoji_count']} categories."
+    )
+
+    logging.info(f"Formatting markup code for '{markdown_file.path.name}'.")
+    markdown_file.write(
+        generate_emoji_md_code(emoji_by_category),
+        partial(transform_md_text, **counts),
+    )
+
+    logging.info(f"Formatting emoji index for '{index_file.path.name}'.")
+    index_file.write(json.dumps(emoji_index, indent=4), transform_index_text)
 
 
 def main() -> int:
@@ -147,20 +263,21 @@ def main() -> int:
     logging.basicConfig(format="%(levelname)s: %(message)s", level=logging.INFO)
     logging.info("Starting 'custom-emoji' script.")
 
-    output_file: Final[Path] = (Path(__file__) / OUTPUT_FILE_REL_PATH).resolve()
-    emoji_by_category: Final[dict[str, list[Emoji]]] = {}
+    markdown_file = File("markdown", get_md_file_template, MD_FILE_REL_PATH)
+    index_file = File("index", get_index_file_template, INDEX_FILE_REL_PATH)
 
-    if not output_file.is_file():
-        logging.error(f"Could not resolve output file path: '{output_file}'")
-        return 1
+    for file in [markdown_file, index_file]:
+        if not file.path.is_file():
+            logging.error(f"Could not resolve {file.label} file path: '{file.path}'")
+            return 1
 
-    logging.info(f"Attempting to parse output file: '{output_file}'")
+        logging.info(f"Attempting to parse {file.label} file: '{file.path}'")
 
-    if file_template := get_file_template(output_file.read_text()):
-        logging.info("  - SUCCESS: Found this script's target region.")
-    else:
-        logging.error("Could not find this script's target region in the output file.")
-        return 1
+        if file.template:
+            logging.info("  - SUCCESS: Found this script's target region.")
+        else:
+            logging.error(f"Could not find the target region in the {file.label} file.")
+            return 1
 
     logging.info(f"Requesting all custom emoji from: '{EMOJI_API_ENDPOINT}'")
 
@@ -170,17 +287,13 @@ def main() -> int:
         logging.error(all_emoji or "Response did not contain any custom emoji.")
         return 1
 
-    for emoji_data in all_emoji:
-        if (category := emoji_data["category"]) not in emoji_by_category:
-            emoji_by_category[category] = []
-        emoji_by_category[category].append(Emoji.create(**emoji_data))
+    logging.info("Sorting all custom emoji by category and index.")
 
-    logging.info(f"Processing {len(emoji_by_category)} custom emoji categories.")
-    file_contents = file_template.substitute(
-        output_markdown=build_output_markdown(emoji_by_category)
-    )
-    logging.info(f"Writing {len(file_contents.encode('utf-8'))} bytes to output file.")
-    output_file.write_text(file_contents, newline="\n")
+    try:
+        write_files(markdown_file, index_file, *organize_emoji(all_emoji))
+    except ValueError as error:
+        logging.error(error.args[0])
+        return 1
 
     logging.info("Successfully finished 'custom-emoji' script.")
     return 0
