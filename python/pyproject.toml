@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cutie-city-guide"
-version = "0.0.1"
+version = "0.1.0"
 description = "Various tools to help put together the Cutie City Guide."
 authors = [
     { name = "Nuztalgia" },
@@ -19,6 +19,3 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
     "Typing :: Typed",
 ]
-
-[project.scripts]
-cutiemoji = "cutiecityguide.emoji_script:main"

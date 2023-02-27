@@ -48,7 +48,11 @@ MD_TAB_HEADER: Final[Template] = Template(
     '    === "$animation_label Animations"\n\n'
     + MD_GRID_HEADER.substitute(indent=" " * 4)
 )
-MD_EMOJI_ITEM: Final[Template] = Template("$indent    - :$name: `:$name:`")
+MD_EMOJI_ITEM_DEFAULT: Final[Template] = Template("$indent    - :$name: `:$name:`")
+MD_EMOJI_ITEM_STATIC: Final[Template] = Template(
+    "$indent    - ![:$name:]($url){.cutiemoji "
+    r'loading="lazy" title="\:$name:"} `:$name:`'
+)
 MD_COMMENT: Final[Template] = Template("\n<!-- emoji-categories-$label -->\n")
 
 MD_DEFAULT_TAB_HEADER: Final[str] = MD_TAB_HEADER.substitute(animation_label="Enable")
@@ -81,8 +85,14 @@ class Emoji:
 
     def to_markdown(self, indent: str = " " * 4, static: bool = False) -> str:
         """Returns properly-formatted Markdown code for displaying this `Emoji`."""
-        url = self.static_url if static else self.default_url
-        return MD_EMOJI_ITEM.substitute(indent=indent, name=self.name, url=url)
+        keywords = {"indent": indent, "name": self.name}
+        template = MD_EMOJI_ITEM_DEFAULT
+
+        if static and (self.default_url[-3:] != self.static_url[-3:]):
+            keywords["url"] = self.static_url
+            template = MD_EMOJI_ITEM_STATIC
+
+        return template.substitute(**keywords)
 
 
 @dataclass
@@ -231,8 +241,8 @@ def write_files(
     """Properly formats the given emoji data as code & writes it to the given files."""
     counts = {"category_count": len(emoji_by_category), "emoji_count": len(emoji_index)}
     logging.info(
-        f"  - SUCCESS: Sorted {counts['category_count']} "
-        f"emoji into {counts['emoji_count']} categories."
+        f"  - SUCCESS: Sorted {counts['emoji_count']} emoji"
+        f" into {counts['category_count']} categories."
     )
 
     logging.info(f"Formatting markup code for '{markdown_file.path.name}'.")
@@ -262,9 +272,7 @@ def main() -> int:
 
         logging.info(f"Attempting to parse {file.label} file: '{file.path}'")
 
-        if file.template:
-            logging.info("  - SUCCESS: Found this script's target region.")
-        else:
+        if not file.template:
             logging.error(f"Could not find the target region in the {file.label} file.")
             return 1
 
