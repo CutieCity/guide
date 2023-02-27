@@ -36,7 +36,7 @@ from urllib.request import urlopen
 
 EMOJI_API_ENDPOINT: Final[str] = "https://cutie.city/api/v1/custom_emojis"
 MD_FILE_REL_PATH: Final[str] = "../../../docs/cutie-city/custom-emoji.md"
-INDEX_FILE_REL_PATH: Final[str] = "../emoji_db.py"
+INDEX_FILE_REL_PATH: Final[str] = "../assets/emoji_index.json"
 
 MD_CATEGORY_HEADER: Final[Template] = Template(
     '??? category "$name ($count)"\n\n    ### $name'
@@ -48,9 +48,7 @@ MD_TAB_HEADER: Final[Template] = Template(
     '    === "$animation_label Animations"\n\n'
     + MD_GRID_HEADER.substitute(indent=" " * 4)
 )
-MD_EMOJI_ITEM: Final[Template] = Template(
-    '$indent    - ![:$name:]($url){title=":$name:" loading="lazy"} `:$name:`'
-)
+MD_EMOJI_ITEM: Final[Template] = Template("$indent    - :$name: `:$name:`")
 MD_COMMENT: Final[Template] = Template("\n<!-- emoji-categories-$label -->\n")
 
 MD_DEFAULT_TAB_HEADER: Final[str] = MD_TAB_HEADER.substitute(animation_label="Enable")
@@ -137,12 +135,6 @@ def get_md_file_template(file_contents: str) -> Template | None:
         return None
 
 
-def get_index_file_template(file_contents: str) -> Template | None:
-    """Parses the existing index file and returns a `Template` for writing to it."""
-    match = re.match("^.*?\n_EMOJI: Final[cdirst, [\\]]+ = ", file_contents, re.DOTALL)
-    return (match and Template(f"{match.group(0)}$generated_index_content\n")) or None
-
-
 def fetch_emoji_list(timeout_seconds: int = 10) -> list[dict[str, Any]] | str:
     """Fetches and returns custom emoji data from the Cutie City (Mastodon) API."""
     try:
@@ -169,14 +161,15 @@ def organize_emoji(
 
         emoji = Emoji.create(**emoji_data)
 
-        if not (emoji_url_match := EMOJI_URL_PATTERN.match(emoji.default_url)):
+        if emoji_url_match := EMOJI_URL_PATTERN.match(emoji.default_url):
+            emoji_url = emoji_url_match.group(1)
+        else:
             raise ValueError(f"Unexpected emoji url pattern: '{emoji.default_url}'")
 
         emoji_by_category[category].append(emoji)
         emoji_index[f":{emoji.name}:"] = {
             "name": emoji.name.replace("_", " "),
-            "category": category,
-            "unicode": emoji_url_match.group(1),
+            "category": emoji_url,  # This is a hack to pass a non-unicode identifier.
         }
 
     return emoji_by_category, {k: emoji_index[k] for k in sorted(emoji_index.keys())}
@@ -229,12 +222,6 @@ def transform_md_text(original_text: str, emoji_count: int, category_count: int)
     )
 
 
-def transform_index_text(original_text: str) -> str:
-    """Makes final adjustments to the emoji index code before it's written to file."""
-    intermediate_text = original_text.replace("    }\n}", "    },\n}")
-    return intermediate_text.replace('"\n    },', '",\n    },')
-
-
 def write_files(
     markdown_file: File,
     index_file: File,
@@ -255,7 +242,7 @@ def write_files(
     )
 
     logging.info(f"Formatting emoji index for '{index_file.path.name}'.")
-    index_file.write(json.dumps(emoji_index, indent=4), transform_index_text)
+    index_file.write(json.dumps(emoji_index, indent=2))
 
 
 def main() -> int:
@@ -264,7 +251,9 @@ def main() -> int:
     logging.info("Starting the Cutie City emoji script.")
 
     markdown_file = File("markdown", get_md_file_template, MD_FILE_REL_PATH)
-    index_file = File("index", get_index_file_template, INDEX_FILE_REL_PATH)
+    index_file = File(
+        "index", lambda _: Template("$generated_index_content\n"), INDEX_FILE_REL_PATH
+    )
 
     for file in [markdown_file, index_file]:
         if not file.path.is_file():

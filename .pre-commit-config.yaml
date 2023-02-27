@@ -15,6 +15,7 @@ repos:
       - id: check-builtin-literals
       - id: check-case-conflict
       - id: check-docstring-first
+      - id: check-json
       - id: check-merge-conflict
         args: ["--assume-in-merge"]
       - id: check-toml
@@ -69,7 +70,7 @@ repos:
     hooks:
       - id: pydocstyle
         args: ["--convention=google"]
-        exclude: ^python/([a-z_]+/__[a-z]+__|setup)\.py$
+        exclude: ^python/setup\.py$
 
   - repo: https://github.com/pre-commit/mirrors-mypy
     rev: v1.0.1
