@@ -141,6 +141,14 @@ img.preview {
   font-size: 0.9em;
 }
 
+/* Style custom "cutiemoji" similarly to "twemoji". */
+.md-typeset .cutiemoji {
+  display: inline-flex;
+  height: 1.125em;
+  margin: 0 0.1em;
+  vertical-align: text-top;
+}
+
 /* Style "fake button" CTAs that fill their available space. */
 .md-typeset .md-button.fill {
   border-radius: 0.2rem;
@@ -157,9 +165,4 @@ img.preview {
   border-color: var(--md-default-fg-color--light);
   color: var(--md-default-fg-color--light);
   cursor: initial;
-}
-
-/* Add some extra horizontal spacing around emoji. */
-.twemoji {
-  margin: 0 0.25em;
 }

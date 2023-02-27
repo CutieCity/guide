@@ -5,21 +5,16 @@ glightbox: false
 # Custom Emoji
 
 These are all the custom emoji that have been added to the [cutie.city] Mastodon
-instance! ![:angelic_heart:]{.twemoji title=":angelic_heart:"}
+instance! :angelic_heart:
 
 This page is updated automatically via a [GitHub Action] that runs once per
 week. The workflow can also be triggered manually, so feel free to send [@admin]
-a message if you'd like this page to be refreshed ahead of schedule!
-![:send_love:]{.twemoji title=":send_love:"}
+a message if you'd like this page to be refreshed ahead of schedule! :send_love:
 
 [cutie.city]: https://cutie.city
 [@admin]: https://cutie.city/@admin
 [github action]:
   https://github.com/CutieCity/guide/actions/workflows/custom-emoji.yml
-[:angelic_heart:]:
-  https://media.cutie.city/custom_emojis/images/000/000/067/original/3f3459e03c5e9b31.png
-[:send_love:]:
-  https://media.cutie.city/custom_emojis/images/000/000/591/original/ebeff1f12d06bb6e.png
 
 ## Page Controls
 
@@ -789,43 +784,23 @@ page. Have fun!
 ## Artist Credits
 
 Thank you so much to these amazing creators for helping to make Cutie City even
-cuter! ![:star_happy:]{.twemoji title=":star_happy:"}
+cuter! :star_happy:
 
-[:star_happy:]:
-  https://media.cutie.city/custom_emojis/images/000/000/079/original/ccbc4c266c864528.png
-
-| Emoji Pack                                                       | Creator        | License                                       |
-| ---------------------------------------------------------------- | -------------- | --------------------------------------------- |
-| ![:blobfox_wink:]{title=":blobfox_wink:"} **[Blobfox]**          | [Volpeon]      | <code>[Apache-2.0]</code>                     |
-| ![:blobhaj_innocent:]{title=":blobhaj_innocent:"} **[Blobhaj]**  | [Heatherhorns] | _unknown_                                     |
-| ![:espeon_love:]{title=":espeon_love:"} **[Eeveelutions]**       | The Egg        | [emoji.gg Basic License]                      |
-| ![:kitty_plead:]{title=":kitty_plead:"} **[Kitty Faces]**        | Ean            | [emoji.gg Basic License]                      |
-| ![:rowlet_love:]{title=":rowlet_love:"} **[More Pokemon]**       | Sativa         | [emoji.gg Basic License]                      |
-| ![:patrick_sip:]{title=":patrick_sip:"} **[Patrick]**            | René           | [emoji.gg Basic License]                      |
-| ![:shiba_oh:]{title=":shiba_oh:"} **[Shiba Faces]**              | Marimo         | [emoji.gg Basic License]                      |
-| ![:queer_cat_trans:]{title=":queer_cat_trans:"} **[Queer Cats]** | [Zoe Bijl]     | <code>[CC0]</code> / <code>[Unlicense]</code> |
+| Emoji Pack                         | Creator        | License                                       |
+| ---------------------------------- | -------------- | --------------------------------------------- |
+| :blobfox_wink: **[Blobfox]**       | [Volpeon]      | <code>[Apache-2.0]</code>                     |
+| :blobhaj_innocent: **[Blobhaj]**   | [Heatherhorns] | _unknown_                                     |
+| :espeon_love: **[Eeveelutions]**   | The Egg        | [emoji.gg Basic License]                      |
+| :kitty_plead: **[Kitty Faces]**    | Ean            | [emoji.gg Basic License]                      |
+| :rowlet_love: **[More Pokemon]**   | Sativa         | [emoji.gg Basic License]                      |
+| :patrick_sip: **[Patrick]**        | René           | [emoji.gg Basic License]                      |
+| :shiba_oh: **[Shiba Faces]**       | Marimo         | [emoji.gg Basic License]                      |
+| :queer_cat_trans: **[Queer Cats]** | [Zoe Bijl]     | <code>[CC0]</code> / <code>[Unlicense]</code> |
 
 <!-- prettier-ignore-start -->
 
-[:blobfox_wink:]:
-  https://media.cutie.city/custom_emojis/images/000/000/393/original/5ec9916a19a66e82.png
-[:blobhaj_innocent:]:
-  https://media.cutie.city/custom_emojis/images/000/000/334/original/41ca6cd22e4bbd27.png
-[:espeon_love:]:
-  https://media.cutie.city/custom_emojis/images/000/000/048/original/3f456f0a7ceb2fc0.png
-[:kitty_plead:]:
-  https://media.cutie.city/custom_emojis/images/000/000/096/original/906d8bc3cb247193.png
-[:rowlet_love:]:
-  https://media.cutie.city/custom_emojis/images/000/000/170/original/a338bad37f228935.png
-[:patrick_sip:]:
-  https://media.cutie.city/custom_emojis/images/000/000/126/original/d0855c1db48f9aee.png
-[:shiba_oh:]:
-  https://media.cutie.city/custom_emojis/images/000/000/223/original/ad56fc5c720ce326.png
-[:queer_cat_trans:]:
-  https://media.cutie.city/custom_emojis/images/000/000/276/original/d174dbb27542a0d4.png
-
-[blobhaj]: http://heatherhorns.com/emoji
 [blobfox]: https://volpeon.ink/emojis/blobfox
+[blobhaj]: http://heatherhorns.com/emoji
 [eeveelutions]: https://emoji.gg/user/581895449146032148
 [kitty faces]: https://emoji.gg/user/407588192406208519
 [more pokemon]: https://emoji.gg/user/352545088489914380
@@ -847,8 +822,7 @@ cuter! ![:star_happy:]{.twemoji title=":star_happy:"}
 All of our custom emoji that don't belong to one of the above packs are most
 likely from [emoji.gg] and covered by their [Basic License]. Special thanks to
 [Clover Cutie], [DRIJUCE], [ivyllx], and [xoMikasa] for contributing lots of
-awesome emoji that don't happen to fit into a single pack/theme!
-![:bugcat_love:]{.twemoji title=":bugcat_love:"}
+awesome emoji that don't happen to fit into a single pack/theme! :bugcat_love:
 
 [emoji.gg]: https://emoji.gg
 [basic license]: https://emoji.gg/licenses
@@ -856,5 +830,3 @@ awesome emoji that don't happen to fit into a single pack/theme!
 [drijuce]: https://emoji.gg/user/244347920722296832
 [ivyllx]: https://emoji.gg/user/783502379974656020
 [xomikasa]: https://emoji.gg/user/647561486712963101
-[:bugcat_love:]:
-  https://media.cutie.city/custom_emojis/images/000/000/200/original/4dd8f893b2cfbef0.gif

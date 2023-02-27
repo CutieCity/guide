@@ -24,8 +24,7 @@ In the words of the official [Mastodon documentation]:
 All of those providers are viable choices, as are self-hosted options like
 [Garage] and [MinIO]. However, I chose to use [Storj] because I saw a progress
 pride rainbow on their website and thought it was cute, so this page will be
-focused on how to get set up with their service.
-![](https://media.cutie.city/custom_emojis/images/000/000/001/original/a74939ddcc369a94.png ":flag_progress:"){.twemoji}
+focused on how to get set up with their service. :flag_progress:
 
 [mastodon documentation]: https://docs.joinmastodon.org/user/run-your-own/
 [garage]: https://garagehq.deuxfleurs.fr/

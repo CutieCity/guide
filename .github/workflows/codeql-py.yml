@@ -25,9 +25,13 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: "3.11"
+          cache: pip
+          cache-dependency-path: ./python/setup.py
 
       - name: Set up for CodeQL
-        run: echo "CODEQL_PYTHON=$(which python)" >> $GITHUB_ENV
+        run: |
+          pip install -e ./python
+          echo "CODEQL_PYTHON=$(which python)" >> $GITHUB_ENV
 
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v2

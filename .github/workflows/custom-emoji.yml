@@ -36,12 +36,13 @@ jobs:
           key:
             pre-commit|${{ env.PY }}|${{ hashFiles('.pre-commit-config.yaml') }}
 
-      - name: Run custom-emoji.py and pre-commit
+      - name: Run emoji script and pre-commit
         run: |
-          python scripts/custom-emoji.py
+          pip install -e ./python
+          python -m cutiecityguide.emoji_script
           pre-commit run --all-files
 
       - name: Auto-commit any changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Update custom-emoji.md
+          commit_message: Update custom emoji files
