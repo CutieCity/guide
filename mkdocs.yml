@@ -23,6 +23,11 @@ theme:
   icon:
     logo: material/map-search
     repo: fontawesome/brands/github
+    admonition:
+      note: material/note-search-outline
+      abstract: material/list-box-outline
+      tip: material/lightbulb-on-outline
+      info: material/information-outline
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default

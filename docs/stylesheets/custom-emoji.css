@@ -1,3 +1,8 @@
+/* Hide headers (i.e. ToC anchors) inside expandable categories. */
+h1#custom-emoji ~ .abstract > summary + h3 {
+  font-size: 0px;
+}
+
 /* Make "page controls" grid invisible when page is first loaded. */
 h1#custom-emoji ~ .grid.two-columns {
   opacity: 0;
@@ -15,13 +20,34 @@ h1#custom-emoji ~ * .grid.small-columns li {
   display: flex !important;
   align-items: center;
   cursor: pointer;
+  position: relative;
+}
+
+/* Set up an invisible "copy" icon in the top right of each card. */
+h1#custom-emoji ~ * .grid.small-columns li::after {
+  content: "";
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 0.24rem;
+  right: 0.2rem;
+  opacity: 0;
+  transition: opacity 250ms;
+  background-color: var(--md-default-fg-color--lighter);
+  mask-image: var(--md-clipboard-icon);
+  -webkit-mask-image: var(--md-clipboard-icon);
+}
+
+/* Make the "copy" icon become visible when its card is hovered. */
+h1#custom-emoji ~ * .grid.small-columns li:hover::after {
+  opacity: 0.5;
 }
 
 /* Set the size and margin for all emoji inside the grids. */
 h1#custom-emoji ~ * .grid.small-columns img {
   height: 32px;
   width: 32px;
-  margin-right: 0.35rem;
+  margin-right: 0.3rem;
 }
 
 /* Adjust the size and overflow behavior of emoji shortcodes. */
@@ -37,12 +63,6 @@ h1#custom-emoji ~ * .grid.small-columns code {
 /* Hide all tab labels/controls (buttons are used instead). */
 h1#custom-emoji ~ * .tabbed-labels {
   display: none;
-}
-
-/* Remove vertical margins for content tab groups. */
-h1#custom-emoji ~ * .tabbed-set {
-  margin-top: 0.2rem;
-  margin-bottom: 0;
 }
 
 /* Fix padding and alignment of all cells in the credits table. */

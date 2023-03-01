@@ -64,7 +64,7 @@ page. Have fun!
 
 <!-- emoji-categories-start -->
 
-??? category "Animal Packs (48)"
+??? abstract "Animal Packs (48)"
 
     ### Animal Packs
 
@@ -178,7 +178,7 @@ page. Have fun!
 
         </div>
 
-??? category "Blobfox (184)"
+??? abstract "Blobfox (184)"
 
     ### Blobfox
 
@@ -371,7 +371,7 @@ page. Have fun!
 
     </div>
 
-??? category "Blobhaj (32)"
+??? abstract "Blobhaj (32)"
 
     ### Blobhaj
 
@@ -412,7 +412,7 @@ page. Have fun!
 
     </div>
 
-??? category "Miscellaneous (72)"
+??? abstract "Miscellaneous (72)"
 
     ### Miscellaneous
 
@@ -574,7 +574,7 @@ page. Have fun!
 
         </div>
 
-??? category "Patrick (24)"
+??? abstract "Patrick (24)"
 
     ### Patrick
 
@@ -607,7 +607,7 @@ page. Have fun!
 
     </div>
 
-??? category "Pokemon (32)"
+??? abstract "Pokemon (32)"
 
     ### Pokemon
 
@@ -689,7 +689,7 @@ page. Have fun!
 
         </div>
 
-??? category "Pride Flags (40)"
+??? abstract "Pride Flags (40)"
 
     ### Pride Flags
 
@@ -738,7 +738,7 @@ page. Have fun!
 
     </div>
 
-??? category "Queer Cats (32)"
+??? abstract "Queer Cats (32)"
 
     ### Queer Cats
 

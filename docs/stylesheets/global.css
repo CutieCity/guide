@@ -1,8 +1,8 @@
 /* Define primary and accent colors for all themes. */
 :root {
   --md-primary-fg-color: #d57f7b;
-  --md-primary-fg-color--light: #d57f7b;
-  --md-primary-fg-color--dark: #d57f7b;
+  --md-primary-fg-color--light: #dd9995;
+  --md-primary-fg-color--dark: #c0726f;
   --md-primary-bg-color: #f8ead4;
   --md-primary-bg-color--light: #f8ead4b3;
   --md-accent-fg-color: #f29894;
@@ -99,11 +99,6 @@ img.preview {
   width: 100%;
 }
 
-/* Hide lowlevel headers (i.e. ToC links) inside expandable categories. */
-.category > summary + h3 {
-  font-size: 0px;
-}
-
 /* Make sure that two-column grids have two "cells" in each row. */
 .grid.two-columns {
   grid-template-columns: repeat(2, minmax(50%, 1fr)) !important;
@@ -139,6 +134,11 @@ img.preview {
 /* Slightly increase font size for code text inside tables. */
 .md-typeset table:not([class]) code {
   font-size: 0.9em;
+}
+
+/* Change the color of the block quote indicator/border. */
+.md-typeset blockquote {
+  border-left: 0.2rem solid var(--md-primary-fg-color) !important;
 }
 
 /* Style custom "cutiemoji" similarly to "twemoji". */

@@ -23,14 +23,14 @@ document$.subscribe(function () {
       .querySelectorAll("[href$='#emoji-categories'] + nav .md-nav__link")
       .forEach(enableCategorySmoothScroll);
 
-    document.querySelectorAll(".category").forEach(enableCategoryListener);
+    document.querySelectorAll(".abstract").forEach(enableCategoryListener);
     document.querySelectorAll(".grid li").forEach(enableCopyToClipboard);
   }
 });
 
 function onCategoryButtonClick(shouldOpenAll, alertLabel) {
   document
-    .querySelectorAll(".category")
+    .querySelectorAll(".abstract")
     .forEach((detailsElement) => (detailsElement.open = shouldOpenAll));
   alert$.next(`All categories ${alertLabel}.`);
 }
@@ -72,7 +72,7 @@ function enableCategorySmoothScroll(linkElement) {
   linkElement.addEventListener("click", (clickEvent) => {
     clickEvent.preventDefault();
     document
-      .querySelectorAll(".category")
+      .querySelectorAll(".abstract")
       .forEach((element) => (element.open = element === detailsElement));
     smoothScrollTo(detailsElement.offsetTop - moreOffset, linkElement.href);
   });
@@ -82,7 +82,7 @@ function enableCategoryListener(detailsElement) {
   const expandButton = document.querySelector("#expand-categories");
   const collapseButton = document.querySelector("#collapse-categories");
   const categoryLabels = document.querySelectorAll("[id^=categories-label]");
-  const categoryCount = document.querySelectorAll(".category").length;
+  const categoryCount = document.querySelectorAll(".abstract").length;
 
   const updateButton = (buttonElement, currentCount, disableCount) => {
     if (currentCount === disableCount) {
@@ -93,7 +93,7 @@ function enableCategoryListener(detailsElement) {
   };
 
   detailsElement.addEventListener("toggle", () => {
-    let categoriesOpen = document.querySelectorAll(".category[open]").length;
+    let categoriesOpen = document.querySelectorAll(".abstract[open]").length;
 
     updateButton(collapseButton, categoriesOpen, 0);
     updateButton(expandButton, categoriesOpen, categoryCount);

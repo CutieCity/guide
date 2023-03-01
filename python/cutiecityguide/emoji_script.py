@@ -39,7 +39,7 @@ MD_FILE_REL_PATH: Final[str] = "../../../docs/cutie-city/custom-emoji.md"
 INDEX_FILE_REL_PATH: Final[str] = "../assets/emoji_index.json"
 
 MD_CATEGORY_HEADER: Final[Template] = Template(
-    '??? category "$name ($count)"\n\n    ### $name'
+    '??? abstract "$name ($count)"\n\n    ### $name'
 )
 MD_GRID_HEADER: Final[Template] = Template(
     '$indent    <div class="grid cards small-columns" markdown>'
