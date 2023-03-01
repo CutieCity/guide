@@ -314,7 +314,7 @@ generated for them.
   // Limit the width of the secret key example to maintain column proportions.
   const maxWidth = document.querySelector("#access-key").offsetWidth;
   document.querySelector("#secret-key")
-    .setAttribute("style", `display: block; max-width: ${maxWidth + 10}px`);
+    .setAttribute("style", `display: block; max-width: ${maxWidth}px`);
 </script>
 
 Once you're finished, **save the file** and then restart the relevant Mastodon
@@ -364,7 +364,6 @@ S3_ALIAS_HOST=link.storjshare.io/raw/LINK_SHARING_KEY/BUCKET # (1)!
 
 1. You configured this value in an [earlier step](#configuring-mastodon), so it
    should actually look something like this:
-
    ```{.ini .no-copy #alias-example}
    S3_ALIAS_HOST=link.storjshare.io/raw/jwcl3biyuellbunqouyj7g4htdna/cutiecity
    ```
