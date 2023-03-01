@@ -77,17 +77,22 @@ plugins:
       locale: en
       exclude:
         - index.md
-  - glightbox
+  - glightbox:
+      skip_classes:
+        - cutiemoji
   - search
 
 markdown_extensions:
   - admonition
   - attr_list
   - md_in_html
+  - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:cutiecityguide.emoji_index
       emoji_generator: !!python/name:cutiecityguide.emoji_generator
+  - pymdownx.highlight:
+      pygments_lang_class: true
   - pymdownx.keys
   - pymdownx.superfences
   - pymdownx.tabbed:

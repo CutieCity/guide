@@ -113,6 +113,11 @@ img.preview {
   margin-bottom: 0.6rem !important;
 }
 
+/* Change the color of "strings" (i.e. values) in `ini` code blocks. */
+.highlight.language-ini .s {
+  color: var(--md-accent-fg-color);
+}
+
 /* Only display header anchor links when they're being hovered. */
 .md-typeset :target > .headerlink:not(:hover) {
   opacity: 0;

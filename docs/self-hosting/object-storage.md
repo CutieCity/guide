@@ -48,7 +48,7 @@ Once you've activated your account and successfully signed in, navigate to your
 **Buckets** page and create the bucket that will hold all of your instance's
 media files. Bucket names have to be unique, so pick something cute and
 relevant! (The bucket for [cutie.city] is named `cutiecity`, in case that's a
-helpful example.)
+helpful example. :blobfox_derp_mlem:)
 
 ### Obtaining an API key
 
@@ -62,7 +62,7 @@ circled in pink."){.preview data-gallery="storj-access"}
 
 Click the "Create Keys for CLI" button in the **API Key** section (it's circled
 in the above screenshot). Put in whatever name you want, check the box to select
-<u>all</u> the permissions, and then click the "Create Keys" button. You'll be
+^^all^^ the permissions, and then click the "Create Keys" button. You'll be
 shown the resulting **Satellite Address** and **API Key**, but don't worry about
 using them right now - just click "Download .txt" and put the file somewhere
 safe.
@@ -103,7 +103,7 @@ an image description.
 [segments]: https://docs.storj.io/dcs/concepts/definitions
 [cutie.city]: https://cutie.city
 
-## Setting up the Storj CLI
+## Navigating the Storj CLI
 
 We're done with the Storj web interface for now! The next steps will make use of
 their [Uplink] CLI tool, which provides the easiest way to generate all of the
@@ -184,23 +184,149 @@ Storj bucket.
 
 When asked to enter a name, you can leave it blank (i.e. just hit ++enter++).
 You'll then be asked for information from the `.txt` file you downloaded
-earlier, so open up that file and proceed with the following steps.
+earlier, so open up that file (it should only contain two lines) and use it to
+proceed through the following steps.
 
 1. First, you'll need the "API key or Access grant" - this is on the line
    labeled `restricted key` in the text file. Copy and paste its alphanumeric
    value into the setup wizard.
 
 2. Next, you'll need the information on the line labeled `satellite address`.
-   Copy and paste this <u>entire</u> value, **including the port number** at the
+   Copy and paste this ^^entire^^ value, **including the port number** at the
    end (i.e. `7777`).
 
-3. Finally, you'll be asked to enter (and then confirm) a passphrase. You'll
-   subsequently be asked for this passphrase whenever you open your project in
-   the Storj web interface, so choose a good one and don't forget it!
+3. You'll then be asked to enter and confirm a passphrase. (As far as I can
+   tell, this passphrase is only required when you open your project in the
+   Storj web interface... but don't forget it!)
+
+4. Finally, you'll be asked whether you'd like S3 backwards-compatible Gateway
+   credentials. This is what we're here for, so respond with `y` and you should
+   see something like this:
+
+   ```{.console .no-copy}
+   ============== GATEWAY CREDENTIALS ==============
+   Access Key ID: jklasdfgh12zxcvbnm34ytrewqpo
+   Secret Key   : jyuiopqwert123asdfghjkl456zxcvbnm789qwertyuiop0asdfgh
+   Endpoint     : https://gateway.storjshare.io
+   ```
+
+Make sure to keep these credentials safe! They're what'll give your Mastodon
+instance the ability to create and destroy objects in your Storj project, and
+you definitely don't want that power to fall into the wrong hands. :kitty_eyes:
+
+### Getting a link-sharing key
+
+Storj's concept of "public buckets" differs slightly from other services. A
+unique **link-sharing key** is required in order to view your files from outside
+their web interface.
+
+To generate a link-sharing key for your instance's Storj bucket, run the
+following command (and **don't forget** to replace `BUCKET` with the name of
+[your own bucket](#creating-a-bucket), e.g. `cutiecity`):
+
+=== "Linux"
+
+    ```console
+    uplink share --url --readonly --disallow-lists --not-after=none sj://BUCKET
+    ```
+
+=== "macOS"
+
+    ```console
+    uplink share --url --readonly --disallow-lists --not-after=none sj://BUCKET
+    ```
+
+=== "Windows"
+
+    ```{.console .no-copy}
+    .\uplink.exe share --url --readonly --disallow-lists --not-after=none sj://BUCKET
+    ```
+
+At the end of the resulting CLI output, you should see a section that looks
+similar to this:
+
+```{.console .no-copy #linkshare-output}
+================== BROWSER URL ==================
+URL       : https://link.storjshare.io/s/jwcl3biyuellbunqouyj7g4htdna/cutiecity
+```
+
+<script>
+  // Surround the link-sharing key with tags to make it appear as bold text.
+  const span = document.querySelector("#linkshare-output span:last-child");
+  const strong = document.createElement("strong");
+  const keyString = span.innerHTML.match(/[a-z0-9]{28}/)[0];
+  strong.appendChild(document.createTextNode(keyString));
+  span.innerHTML = span.innerHTML.replace(keyString, strong.outerHTML);
+</script>
+
+Your link-sharing key is the gibberish-looking part of the URL it spits out -
+mine is bolded above, as an example. This is the only piece of information you
+need from the command you just ran, so feel free to ignore/discard the rest of
+the output.
+
+??? tip "Tip - Don't mix up your keys!"
+
+    Just like the S3 access key you generated in the previous step, your
+    link-sharing key should be **28 characters** long. Take care not to confuse
+    the two! They serve different purposes and are used throughout the rest of
+    this guide.
+
+    As mentioned earlier, your **S3 access key** (when used alongside your **S3
+    secret key**) effectively grants complete access to your Storj project. It's
+    extremely important to keep these two keys ^^private^^.
+
+    On the other hand, your **link-sharing key** isn't sensitive information, as
+    it only allows other people to read (not write) your files in the Storj
+    bucket for your Mastodon instance. In fact, if you decide to forgo the
+    [last section](#linking-your-domain) of this guide, your link-sharing key
+    will be visible in all image/video links from your instance. This is
+    perfectly fine and safe! :cozy:
 
 ## Configuring Mastodon
 
-Coming soon!
+Now that you have your link-sharing key and S3 credentials, it's time to plug
+them all into your Mastodon environment! Open up your `.env.production` file and
+configure your `S3` and `AWS` variables as follows:
+
+```ini title="/home/mastodon/live/.env.production"
+S3_ENABLED=true
+S3_PROTOCOL=https
+S3_REGION=global
+S3_ENDPOINT=https://gateway.storjshare.io
+S3_HOSTNAME=gateway.storjshare.io
+S3_BUCKET=BUCKET
+S3_ALIAS_HOST=link.storjshare.io/raw/LINK_SHARING_KEY/BUCKET
+AWS_ACCESS_KEY_ID=S3_ACCESS_KEY
+AWS_SECRET_ACCESS_KEY=S3_SECRET_KEY
+```
+
+Make sure to replace all of the placeholders with the actual values you've
+generated for them.
+
+| Placeholder ID     | Explanation                                                                  | Example                                                              |
+| ------------------ | ---------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| `BUCKET`           | The name of your bucket. _(Appears twice!)_                                  | `cutiecity`                                                          |
+| `LINK_SHARING_KEY` | Your link-sharing key from the [previous step](#getting-a-link-sharing-key). | `jwcl3biyuellbunqouyj7g4htdna`                                       |
+| `S3_ACCESS_KEY`    | Your `Access Key ID` from the [setup wizard](#running-the-setup-wizard).     | `jklasdfgh12zxcvbnm34ytrewqpo`{#access-key}                          |
+| `S3_SECRET_KEY`    | Your `Secret Key` from the [setup wizard](#running-the-setup-wizard).        | `jyuiopqwert123asdfghjkl456zxcvbnm789qwertyuiop0asdfgh`{#secret-key} |
+
+<script>
+  // Limit the width of the secret key example to maintain column proportions.
+  const maxWidth = document.querySelector("#access-key").offsetWidth;
+  document.querySelector("#secret-key")
+    .setAttribute("style", `display: block; max-width: ${maxWidth}px`);
+</script>
+
+Once you've finished, **save the file** and then restart the relevant Mastodon
+processes:
+
+```console
+systemctl restart mastodon-sidekiq && systemctl reload mastodon-web
+```
+
+You should now be able to open up your Mastodon instance in your browser and
+upload images. They'll go straight to your Storj bucket and be accessible to the
+public via link-sharing! :celebrate:
 
 ## Linking your domain
 
