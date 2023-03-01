@@ -278,8 +278,8 @@ the output.
     On the other hand, your **link-sharing key** isn't sensitive information, as
     it only allows other people to read (not write) your files in the Storj
     bucket for your Mastodon instance. In fact, if you decide to forgo the
-    [last section](#linking-your-domain) of this guide, your link-sharing key
-    will be visible in all image/video links from your instance. This is
+    [last section](#linking-your-own-domain) of this guide, your link-sharing
+    key will be visible in all image/video links from your instance. This is
     perfectly fine and safe! :cozy:
 
 ## Configuring Mastodon
@@ -314,10 +314,10 @@ generated for them.
   // Limit the width of the secret key example to maintain column proportions.
   const maxWidth = document.querySelector("#access-key").offsetWidth;
   document.querySelector("#secret-key")
-    .setAttribute("style", `display: block; max-width: ${maxWidth}px`);
+    .setAttribute("style", `display: block; max-width: ${maxWidth + 10}px`);
 </script>
 
-Once you've finished, **save the file** and then restart the relevant Mastodon
+Once you're finished, **save the file** and then restart the relevant Mastodon
 processes:
 
 ```console
@@ -326,8 +326,228 @@ systemctl restart mastodon-sidekiq && systemctl reload mastodon-web
 
 You should now be able to open up your Mastodon instance in your browser and
 upload images. They'll go straight to your Storj bucket and be accessible to the
-public via link-sharing! :celebrate:
+public via link-sharing!
 
-## Linking your domain
+## Linking your own domain
 
-Coming soon!
+At this point, images/videos that have been uploaded to your instance will have
+fairly long URLs. For example, check out these raw URLs for [an avatar] and [a
+custom emoji] from Cutie City.
+
+If you're satisfied with those URLs, then feel free to skip this section -
+you're done with this guide! But if you'd like shorter ones that use your own
+domain (like [this][this-avatar] or [this][this-custom-emoji]), then keep
+reading. :blobhaj_read:
+
+[an avatar]:
+  https://link.storjshare.io/raw/jwcl3biyuellbunqouyj7g4htdna/cutiecity/accounts/avatars/109/867/520/496/596/492/original/a37f55905bc13d6d.png
+[a custom emoji]:
+  https://link.storjshare.io/raw/jwcl3biyuellbunqouyj7g4htdna/cutiecity/custom_emojis/images/000/000/597/original/beb5024972b75d0d.png
+[this-avatar]:
+  https://media.cutie.city/accounts/avatars/109/867/520/496/596/492/original/a37f55905bc13d6d.png
+[this-custom-emoji]:
+  https://media.cutie.city/custom_emojis/images/000/000/597/original/beb5024972b75d0d.png
+
+### Designating a subdomain
+
+The first thing you'll need to do is pick a name for the subdomain that will be
+serving your images and videos. I personally chose `media` (as in
+`media.cutie.city`), but you can use something like `files`, `content`, or any
+other term you prefer.
+
+After you've decided on a name, open up your `.env.production` file again and
+look for this line:
+
+```{.ini .annotate .no-copy title="/home/mastodon/live/.env.production"}
+S3_ALIAS_HOST=link.storjshare.io/raw/LINK_SHARING_KEY/BUCKET # (1)!
+```
+
+1. You configured this value in an [earlier step](#configuring-mastodon), so it
+   should actually look something like this:
+
+   ```{.ini .no-copy #alias-example}
+   S3_ALIAS_HOST=link.storjshare.io/raw/jwcl3biyuellbunqouyj7g4htdna/cutiecity
+   ```
+
+<style>
+/* Extra-specific styling to make the code annotation look better. */
+#alias-example span:last-child::after { content: "  "; }
+#alias-example pre { margin-top: 0.6em; margin-bottom: 0.2em; }
+.annotate code .md-annotation .md-tooltip { width: 15.65rem; }
+</style>
+
+Make sure to keep your `LINK_SHARING_KEY` and `BUCKET` on hand, because you'll
+need them in the next step. Once you've copied them somewhere, replace the value
+of `S3_ALIAS_HOST` with the subdomain you decided on. As an example, here's what
+that line looks like in my config:
+
+```{.ini .no-copy title="/home/mastodon/live/.env.production"}
+S3_ALIAS_HOST=media.cutie.city
+```
+
+### Reverse-proxying via nginx
+
+Now you'll need to set up a **reverse proxy** so that all requests to your
+subdomain can be passed on to Storj. Since [nginx] is mentioned in the official
+[Mastodon setup instructions] and also works very nicely as a reverse proxy,
+it's what I decided to use for this piece of the puzzle.
+
+Note that Storj has recently implemented official support for [custom domains],
+which solves the same problem but requires you to upgrade to a [Pro Account].
+There are also other open-source projects that function similarly to (or even
+better than) nginx, such as [Caddy].
+
+If you have a different preferred solution, feel free to use that instead - and
+after setting it up, you can skip ahead to the next (and very last) step. But if
+you'd like to use **nginx**, expand the following info box for instructions.
+
+[nginx]: https://nginx.org
+[mastodon setup instructions]:
+  https://docs.joinmastodon.org/admin/install/#setting-up-nginx
+[custom domains]: https://docs.storj.io/dcs/custom-domains-for-linksharing
+[pro account]: https://docs.storj.io/dcs/concepts/limits
+[caddy]: https://caddyserver.com/docs/quick-starts/reverse-proxy
+[this article]:
+  https://docs.joinmastodon.org/admin/optional/object-storage-proxy
+[this thread]:
+  https://forum.storj.io/t/object-storage-provider-for-mastodon-instance/11464/26
+[pull request]:
+  https://github.com/CutieCity/.github/blob/main/.github/contributing.md
+[this page]:
+  https://github.com/CutieCity/guide/blob/main/docs/self-hosting/object-storage.md
+
+??? info "Info - Configuring nginx"
+
+    **Disclaimer:** I am *far* from a nginx expert and only barely know enough
+    about it to get this particular use case to work. The code provided here was
+    cobbled together based on [this article] from the official Mastodon docs and
+    [this thread] on the Storj forums. If you're more knowledgeable than I am
+    (which, let's be real, is quite likely) and would like to help improve this
+    guide, please don't hesitate to open a [pull request] for [this page]!
+    :bear_love:
+
+    With all that said, here's the nginx configuration that I use to solve the
+    problem at hand:
+
+    ```nginx linenums="1" hl_lines="4 15 23 24 41" title="/etc/nginx/sites-available/media.cutie.city"
+    server {
+      listen 80;
+      listen [::]:80;
+      server_name media.cutie.city;
+
+      access_log /dev/null;
+      error_log /dev/null;
+
+      return 301 https://$host$request_uri;
+    }
+
+    server {
+      listen 443 ssl http2;
+      listen [::]:443 ssl http2;
+      server_name media.cutie.city;
+
+      ssl_protocols TLSv1.2 TLSv1.3;
+      ssl_ciphers HIGH:!MEDIUM:!LOW:!aNULL:!NULL:!SHA;
+      ssl_prefer_server_ciphers on;
+      ssl_session_cache shared:SSL:10m;
+      ssl_session_tickets off;
+
+      ssl_certificate /etc/letsencrypt/live/media.cutie.city/fullchain.pem;
+      ssl_certificate_key /etc/letsencrypt/live/media.cutie.city/privkey.pem;
+
+      keepalive_timeout 30;
+
+      access_log /var/log/nginx/media-access.log;
+      error_log /var/log/nginx/media-error.log;
+
+      root /var/www/html;
+
+      location = / {
+        index index.html;
+      }
+
+      location / {
+        try_files $uri @s3;
+      }
+
+      set $s3_backend 'http://link.storjshare.io/raw/LINK_SHARING_KEY/BUCKET';
+
+      location @s3 {
+        limit_except GET {
+          deny all;
+        }
+
+        resolver 8.8.8.8;
+        proxy_set_header Host link.storjshare.io;
+        proxy_set_header Connection '';
+        proxy_set_header Authorization '';
+        proxy_hide_header Set-Cookie;
+        proxy_hide_header 'Access-Control-Allow-Origin';
+        proxy_hide_header 'Access-Control-Allow-Methods';
+        proxy_hide_header 'Access-Control-Allow-Headers';
+        proxy_hide_header x-amz-id-2;
+        proxy_hide_header x-amz-request-id;
+        proxy_hide_header x-amz-meta-server-side-encryption;
+        proxy_hide_header x-amz-server-side-encryption;
+        proxy_hide_header x-amz-bucket-region;
+        proxy_hide_header x-amzn-requestid;
+        proxy_ignore_headers Set-Cookie;
+        proxy_pass $s3_backend$uri;
+        proxy_intercept_errors off;
+
+        proxy_cache CACHE;
+        proxy_cache_valid 200 48h;
+        proxy_cache_use_stale error timeout updating http_500 http_502 http_503 http_504;
+        proxy_cache_lock on;
+
+        expires 1y;
+        add_header Cache-Control public;
+        add_header 'Access-Control-Allow-Origin' '*';
+        add_header X-Cache-Status $upstream_cache_status;
+      }
+    }
+    ```
+
+    You'll need to replace `media.cutie.city` with your own domain (including
+    the subdomain you set up in the [previous step](#designating-a-subdomain))
+    on all of the highlighted lines. Additionally, on line 41, replace
+    `LINK_SHARING_KEY` and `BUCKET` with the values that **used to be** in your
+    `S3_ALIAS_HOST` config.
+
+    Save this file to `/etc/nginx/sites-available/media.cutie.city` (again,
+    replace `media.cutie.city` with your own domain) and then enable it using
+    these commands:
+
+    ```console
+    ln -s /etc/nginx/sites-available/media.cutie.city /etc/nginx/sites-enabled/
+    ```
+
+    ```console
+    systemctl reload nginx
+    ```
+
+    You'll also need an SSL certificate for your subdomain. As usual, replace
+    `media.cutie.city` with your own domain:
+
+    ```console
+    certbot certonly --nginx -d media.cutie.city
+    ```
+
+    Your certificate info should be saved to `/etc/letsencrypt/live/`,
+    fulfilling lines 23-24 of your configuration file. Reload nginx one last
+    time before proceeding to the final step:
+
+    ```console
+    systemctl reload nginx
+    ```
+
+### Putting it all into action
+
+The very last thing you need to do is... restart the Mastodon processes again!
+
+```console
+systemctl restart mastodon-sidekiq && systemctl reload mastodon-web
+```
+
+Once that's done, you can open up your Mastodon instance in your browser again
+and admire your fancy new custom media URLs! :celebrate:

@@ -118,6 +118,11 @@ img.preview {
   color: var(--md-accent-fg-color);
 }
 
+/* Prevent some of the jankiness with the annotation icons. */
+.md-annotation__index [data-md-annotation-id]:before {
+  transform: unset;
+}
+
 /* Only display header anchor links when they're being hovered. */
 .md-typeset :target > .headerlink:not(:hover) {
   opacity: 0;
