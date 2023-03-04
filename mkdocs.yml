@@ -9,6 +9,7 @@ repo_url: https://github.com/CutieCity/guide
 nav:
   - Home: index.md
   - Cutie City:
+      - Code of Conduct: cutie-city/code-of-conduct.md
       - Custom Emoji: cutie-city/custom-emoji.md
   - Self-Hosting:
       - Object Storage: self-hosting/object-storage.md
