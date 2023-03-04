@@ -793,6 +793,7 @@ cuter! :star_happy:
 | :espeon_love: **[Eeveelutions]**   | The Egg        | [emoji.gg Basic License]                      |
 | :kitty_plead: **[Kitty Faces]**    | Ean            | [emoji.gg Basic License]                      |
 | :rowlet_love: **[More Pokemon]**   | Sativa         | [emoji.gg Basic License]                      |
+| :ms_orc: **[Mutant Standard]**     | [Dzuk]         | <code>[CC-BY-SA-4.0]</code>                   |
 | :patrick_sip: **[Patrick]**        | René           | [emoji.gg Basic License]                      |
 | :shiba_oh: **[Shiba Faces]**       | Marimo         | [emoji.gg Basic License]                      |
 | :queer_cat_trans: **[Queer Cats]** | [Zoe Bijl]     | <code>[CC0]</code> / <code>[Unlicense]</code> |
@@ -804,16 +805,19 @@ cuter! :star_happy:
 [eeveelutions]: https://emoji.gg/user/581895449146032148
 [kitty faces]: https://emoji.gg/user/407588192406208519
 [more pokemon]: https://emoji.gg/user/352545088489914380
+[mutant standard]: https://mutant.tech
 [patrick]: https://emoji.gg/user/232043016024621056
 [shiba faces]: https://emoji.gg/user/232313302179512331
 [queer cats]: https://github.com/ZoeBijl/QueerCats
 
 [volpeon]: https://cutie.city/@volpeon@is-a.wyvern.rip
 [heatherhorns]: https://cutie.city/@heatherhorns@plush.city
+[dzuk]: https://cutie.city/@dzuk@weirder.earth
 [zoe bijl]: https://cutie.city/@moiety@front-end.social
 
 [apache-2.0]: https://choosealicense.com/licenses/apache-2.0/
 [emoji.gg basic license]: https://emoji.gg/licenses
+[CC-BY-SA-4.0]: https://choosealicense.com/licenses/cc-by-sa-4.0/
 [cc0]: https://choosealicense.com/licenses/cc0-1.0/
 [unlicense]: https://choosealicense.com/licenses/unlicense/
 

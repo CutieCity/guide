@@ -5,12 +5,18 @@ on:
     - cron: 0 0 * * 1
   workflow_dispatch:
 
+concurrency:
+  group: custom-emoji
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
 jobs:
-  run:
+  update:
     runs-on: ubuntu-latest
+    outputs:
+      changes_detected: ${{ steps.auto-commit-action.outputs.changes_detected }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v3
@@ -46,3 +52,12 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update custom emoji files
+
+      - name: "Run if changes have been detected"
+        if: steps.auto-commit-action.outputs.changes_detected == 'true'
+        run: echo "Changes!"
+
+  publish:
+    needs: update
+    if: needs.update.outputs.changes_detected == 'true'
+    uses: ./.github/workflows/publish.yml

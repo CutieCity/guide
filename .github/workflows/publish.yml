@@ -7,15 +7,16 @@ on:
     paths:
       - "docs/**"
       - "mkdocs.yml"
+  workflow_call:
   workflow_dispatch:
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
 
 permissions:
   pages: write
   id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
 
 jobs:
   build:

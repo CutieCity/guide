@@ -62,7 +62,7 @@ MD_GRID_FOOTER: Final[str] = f"{' ' * 4}</div>"
 
 EMOJI_URL_PATTERN: Final[re.Pattern] = re.compile(
     r"^https://media\.cutie\.city/custom_emojis/images/"
-    r"([0-9/]{12}original/[0-9a-f]{16}\.[a-zA-Z]{3,4})$"
+    r"([0-9/]{12}original/\w+\.[a-zA-Z]{3,4})$"
 )
 
 

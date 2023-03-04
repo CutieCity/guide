@@ -15,20 +15,20 @@ these spaces at the discretion of the administrator.
       <https://cutie.city>.
 
     - "The administrator" refers to the (currently solo) instance admin and
-      moderator, [@admin] (a.k.a. [@nuz]).
+      moderator, [@admin] (a.k.a.&nbsp;[@nuz]).
 
 [@admin]: https://cutie.city/@admin
 [@nuz]: https://cutie.city/@nuz
 
 ## Standards
 
-Examples of behavior that contributes to a healthy community include:
+Examples of actions that contribute to a healthy community include:
 
 - Demonstrating empathy and kindness to others
 - Being respectful of differing opinions, viewpoints, and experiences
 - Giving and gracefully accepting constructive feedback
 - Accepting responsibility and apologizing to those affected by our mistakes,
-  and learning from those experiences to avoid repeating them
+  and learning from those experiences
 - Focusing on what's best not just for ourselves as individuals, but for the
   overall community
 
@@ -45,9 +45,9 @@ Examples of behavior that contributes to a healthy community include:
   including those related to food, health, parenting, drugs, and employment
 - Deliberate misgendering, using "dead" or rejected names, or refusing to use
   the correct pronouns for anyone
-- [Microaggressions](https://rationalwiki.org/wiki/Microaggression), which take
-  the form of everyday jokes, put-downs, and/or insults that carry judgmental or
-  stereotypical implications towards marginalized groups
+- [Microaggressions], which take the form of everyday jokes, put-downs, and/or
+  insults that carry judgmental or stereotypical implications towards
+  marginalized groups
 - Threats, deliberate intimidation, or incitement of violence (including
   encouraging anyone to commit suicide or to engage in self-harm)
 - Unwelcome sexual attention, or gratuitous sexual images/behaviors in spaces
@@ -59,13 +59,16 @@ Examples of behavior that contributes to a healthy community include:
   inappropriate levels of intimacy with others
 - Persistent communication (or disruption of others' communication) after a
   request to stop
-- Stalking or unwelcome following (e.g. across websites)
+- Stalking or unwelcome following (e.g. across websites or communication
+  methods)
 - Logging or investigating someone's online activity for harassment purposes
 - Nonconsensual photography or recording, including posting pictures or videos
   of others for harassment purposes
-- Deliberate "outing" of any aspect of anyone's identity without their consent,
-  or publication of non-harassing private communications, except as necessary to
-  protect vulnerable people from intentional abuse
+- Deliberate "outing" of any aspect of anyone's identity or private
+  communications without their consent, except as necessary to protect
+  vulnerable people from intentional abuse
+
+[microaggressions]: https://rationalwiki.org/wiki/Microaggression
 
 ## Non-Issues
 
@@ -115,15 +118,15 @@ this page, please contact the administrator via DM.
 ## Attribution
 
 This code of conduct was adapted from that of [Friend Camp], which in turn was
-adapted from that of [LGBTQ in Technology]. Both of these sources use the
+adapted from that of [LGBTQ in Technology]. Both of those sources use the
 [Creative Commons Zero] license, which means their contents are in the public
 domain.
 
 This code of conduct also incorporates elements from the [Contributor Covenant],
 which is released under the [CC-BY-4.0] license.
 
-The contents of this page are released under the [same license] used by the
-[`CutieCity/guide`](https://github.com/CutieCity/guide) repository.
+This code of conduct is released under the [same license] used by the
+<code>[CutieCity/guide]</code> project.
 
 [friend camp]: https://friend.camp
 [lgbtq in technology]: https://lgbtq.technology/coc.html
@@ -132,3 +135,4 @@ The contents of this page are released under the [same license] used by the
   https://www.contributor-covenant.org/version/2/1/code_of_conduct/
 [cc-by-4.0]: https://choosealicense.com/licenses/cc-by-4.0/
 [same license]: https://github.com/CutieCity/guide/blob/main/LICENSE
+[cutiecity/guide]: https://github.com/CutieCity/guide
