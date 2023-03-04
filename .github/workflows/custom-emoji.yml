@@ -9,14 +9,12 @@ concurrency:
   group: custom-emoji
   cancel-in-progress: true
 
-permissions:
-  contents: write
-
 jobs:
   update:
     runs-on: ubuntu-latest
-    outputs:
-      changes_detected: ${{ steps.auto-commit-action.outputs.changes_detected }}
+    permissions:
+      contents: write
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v3
@@ -53,11 +51,29 @@ jobs:
         with:
           commit_message: Update custom emoji files
 
-      - name: "Run if changes have been detected"
-        if: steps.auto-commit-action.outputs.changes_detected == 'true'
-        run: echo "Changes!"
+  filter:
+    needs: update
+    runs-on: ubuntu-latest
+    outputs:
+      index_updated: ${{ steps.filter.outputs.index }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Run paths-filter action
+        uses: dorny/paths-filter@v2
+        id: filter
+        with:
+          filters: |
+            index: python/cutiecityguide/assets/emoji_index.json
 
   publish:
-    needs: update
-    if: needs.update.outputs.changes_detected == 'true'
+    needs: filter
+    if: needs.filter.outputs.index_updated == 'true'
     uses: ./.github/workflows/publish.yml
+    permissions:
+      pages: write
+      id-token: write

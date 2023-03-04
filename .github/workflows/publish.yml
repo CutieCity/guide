@@ -27,6 +27,9 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Pull latest changes
+        run: git pull
+
       - name: Set up GitHub Pages
         uses: actions/configure-pages@v3
 
