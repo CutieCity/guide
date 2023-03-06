@@ -9,7 +9,8 @@ instance! :angelic_heart:
 
 This page is updated automatically via a [GitHub Action] that runs once per
 week. The workflow can also be triggered manually, so feel free to send [@admin]
-a message if you'd like this page to be refreshed ahead of schedule! :send_love:
+a message if this page is out of date and you'd like it to be refreshed ahead of
+schedule. :send_love:
 
 [cutie.city]: https://cutie.city
 [@admin]: https://cutie.city/@admin
@@ -57,8 +58,8 @@ some handy controls to help you browse them more easily:
 
 </div>
 
-And don't forget - you can use the table of contents to quickly jump around the
-page. Have fun!
+And don't forget - you can use the **table of contents** to quickly jump around
+the page. Have fun!
 
 ## Emoji Categories
 
@@ -786,27 +787,37 @@ page. Have fun!
 Thank you so much to these amazing creators for helping to make Cutie City even
 cuter! :star_happy:
 
-| Emoji Pack                         | Creator        | License                                       |
-| ---------------------------------- | -------------- | --------------------------------------------- |
-| :blobfox_wink: **[Blobfox]**       | [Volpeon]      | <code>[Apache-2.0]</code>                     |
-| :blobhaj_innocent: **[Blobhaj]**   | [Heatherhorns] | _unknown_                                     |
-| :espeon_love: **[Eeveelutions]**   | The Egg        | [emoji.gg Basic License]                      |
-| :kitty_plead: **[Kitty Faces]**    | Ean            | [emoji.gg Basic License]                      |
-| :rowlet_love: **[More Pokemon]**   | Sativa         | [emoji.gg Basic License]                      |
-| :ms_orc: **[Mutant Standard]**     | [Dzuk]         | <code>[CC-BY-SA-4.0]</code>                   |
-| :patrick_sip: **[Patrick]**        | René           | [emoji.gg Basic License]                      |
-| :shiba_oh: **[Shiba Faces]**       | Marimo         | [emoji.gg Basic License]                      |
-| :queer_cat_trans: **[Queer Cats]** | [Zoe Bijl]     | <code>[CC0]</code> / <code>[Unlicense]</code> |
+| Emoji Pack                            | Creator              | License                                       |
+| ------------------------------------- | -------------------- | --------------------------------------------- |
+| :blobfox_wink: **[Blobfox]**          | [Volpeon]            | <code>[Apache-2.0]</code>                     |
+| :blobhaj_innocent: **[Blobhaj]**      | [Heatherhorns]       | _unknown_                                     |
+| :blob_aww: **[Blobs]**                | Blob Emoji Community | <code>[Apache-2.0]</code>                     |
+| :bunhd_love: **[BunHD]**              | [Volpeon]            | <code>[Apache-2.0]</code>                     |
+| :chick_sprout: **[Chick Faces]**      | Kimmy                | [emoji.gg Basic License]                      |
+| :espeon_love: **[Eeveelutions]**      | The Egg              | [emoji.gg Basic License]                      |
+| :kitty_plead: **[Kitty Faces]**       | Ean                  | [emoji.gg Basic License]                      |
+| :rowlet_love: **[More Pokemon]**      | Sativa               | [emoji.gg Basic License]                      |
+| :ms_orc: **[Mutant Standard]**        | [Dzuk]               | <code>[CC-BY-SA-4.0]</code>                   |
+| :patrick_sip: **[Patrick]**           | René                 | [emoji.gg Basic License]                      |
+| :penguin_love: **[Penguin Faces]**    | Kimmy                | [emoji.gg Basic License]                      |
+| :heart_omnisexual: **[Pride Hearts]** | Raptortrash212       | [emoji.gg Basic License]                      |
+| :shiba_oh: **[Shiba Faces]**          | Marimo               | [emoji.gg Basic License]                      |
+| :queer_cat_trans: **[Queer Cats]**    | [Zoe Bijl]           | <code>[CC0]</code> / <code>[Unlicense]</code> |
 
 <!-- prettier-ignore-start -->
 
-[blobfox]: https://volpeon.ink/emojis/blobfox
+[blobfox]: https://volpeon.ink/projects/emojis/blobfox
 [blobhaj]: http://heatherhorns.com/emoji
+[blobs]: https://blobs.gg
+[bunhd]: https://volpeon.ink/projects/emojis/bunhd
+[chick faces]: https://emoji.gg/user/1007807648349040661
 [eeveelutions]: https://emoji.gg/user/581895449146032148
 [kitty faces]: https://emoji.gg/user/407588192406208519
 [more pokemon]: https://emoji.gg/user/352545088489914380
 [mutant standard]: https://mutant.tech
 [patrick]: https://emoji.gg/user/232043016024621056
+[penguin faces]: https://emoji.gg/user/1007807648349040661
+[pride hearts]: https://emoji.gg/user/259423902470504448
 [shiba faces]: https://emoji.gg/user/232313302179512331
 [queer cats]: https://github.com/ZoeBijl/QueerCats
 

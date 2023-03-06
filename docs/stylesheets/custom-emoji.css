@@ -38,11 +38,6 @@ h1#custom-emoji ~ * .grid.small-columns li::after {
   -webkit-mask-image: var(--md-clipboard-icon);
 }
 
-/* Make the "copy" icon become visible when its card is hovered. */
-h1#custom-emoji ~ * .grid.small-columns li:hover::after {
-  opacity: 0.5;
-}
-
 /* Set the size and margin for all emoji inside the grids. */
 h1#custom-emoji ~ * .grid.small-columns img {
   height: 32px;
@@ -56,8 +51,12 @@ h1#custom-emoji ~ * .grid.small-columns code {
   font-size: 0.9em;
   overflow: auto;
   scrollbar-width: none;
-  text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+/* Hide scrollbars in webkit-based browsers (e.g. Chrome). */
+h1#custom-emoji ~ * .grid.small-columns code::-webkit-scrollbar {
+  display: none;
 }
 
 /* Hide all tab labels/controls (buttons are used instead). */
@@ -65,9 +64,8 @@ h1#custom-emoji ~ * .tabbed-labels {
   display: none;
 }
 
-/* Fix padding and alignment of all cells in the credits table. */
+/* Fix alignment of all cells in the credits table. */
 h1#custom-emoji ~ * table:not([class]) :is(td, th) {
-  padding: 1em 2.5em;
   vertical-align: middle;
 }
 
@@ -84,6 +82,16 @@ h1#custom-emoji ~ * table:not([class]) td:first-child {
   h1#custom-emoji ~ * #categories-label-compact {
     display: none;
   }
+
+  /* Make the "copy" icon become visible when its card is hovered. */
+  h1#custom-emoji ~ * .grid.small-columns li:hover::after {
+    opacity: 0.5;
+  }
+
+  /* Add padding to all cells in the credits table. */
+  h1#custom-emoji ~ * table:not([class]) :is(td, th) {
+    padding: 1em 2.5em;
+  }
 }
 
 /* Adjust some features of the layout on smaller (i.e. mobile) screens. */
@@ -91,12 +99,13 @@ h1#custom-emoji ~ * table:not([class]) td:first-child {
   /* Facilitate scrolling to see the complete emoji shortcodes. */
   h1#custom-emoji ~ * .grid.small-columns code {
     padding: 0.3em;
-    text-overflow: initial;
   }
+
   /* Hide the last column of the credits table (license info). */
   h1#custom-emoji ~ * table:not([class]) :is(td, th):last-child {
     display: none;
   }
+
   /* Hide the full-text labels for the page controls. */
   h1#custom-emoji ~ * #animations-label,
   h1#custom-emoji ~ * #categories-label {
