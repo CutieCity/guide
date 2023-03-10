@@ -1,4 +1,16 @@
 {
+  ":10_out_of_10:": {
+    "name": "10 out of 10",
+    "category": "000/002/193/original/a8cf90a4adfe4c5d.png"
+  },
+  ":adhd:": {
+    "name": "adhd",
+    "category": "000/002/787/original/7b92721902ee7dd1.png"
+  },
+  ":anarchy:": {
+    "name": "anarchy",
+    "category": "000/002/143/original/888342b872b9ac95.png"
+  },
   ":angelic_heart:": {
     "name": "angelic heart",
     "category": "000/000/067/original/3f3459e03c5e9b31.png"
@@ -35,6 +47,10 @@
     "name": "baby elephant",
     "category": "000/000/091/original/e187abb77c09d1b1.png"
   },
+  ":baby_kangaroo:": {
+    "name": "baby kangaroo",
+    "category": "000/002/590/original/65c073da1e682a72.png"
+  },
   ":baby_kitty:": {
     "name": "baby kitty",
     "category": "000/000/092/original/19e4645b26fd78f9.png"
@@ -55,9 +71,21 @@
     "name": "baby penguin love",
     "category": "000/000/090/original/67ea815b73fc1846.png"
   },
+  ":baby_yoda:": {
+    "name": "baby yoda",
+    "category": "000/002/575/original/311144d4b5a2a1b7.gif"
+  },
+  ":baby_yoda_sleepy:": {
+    "name": "baby yoda sleepy",
+    "category": "000/002/324/original/6c2a4e8838873454.png"
+  },
   ":bear_dance:": {
     "name": "bear dance",
     "category": "000/000/244/original/053ffc967b47f660.gif"
+  },
+  ":bear_fire:": {
+    "name": "bear fire",
+    "category": "000/002/548/original/219be9b0ecb8d7a0.gif"
   },
   ":bear_flowers:": {
     "name": "bear flowers",
@@ -83,6 +111,10 @@
     "name": "bear shrug",
     "category": "000/000/247/original/e5814b86ddf83b8e.png"
   },
+  ":bedtime:": {
+    "name": "bedtime",
+    "category": "000/002/569/original/4a604e5a008a3b89.png"
+  },
   ":bee_happy:": {
     "name": "bee happy",
     "category": "000/000/581/original/7b8ae60e7b2b679b.png"
@@ -91,6 +123,58 @@
     "name": "big heart eyes",
     "category": "000/000/582/original/dc71137488db08c4.png"
   },
+  ":big_mood:": {
+    "name": "big mood",
+    "category": "000/002/502/original/626e088ae971a239.png"
+  },
+  ":bird_bow:": {
+    "name": "bird bow",
+    "category": "000/002/588/original/f447294b1fb9aacc.png"
+  },
+  ":bird_cuddle:": {
+    "name": "bird cuddle",
+    "category": "000/002/284/original/1ad20a851de1f9f3.png"
+  },
+  ":bird_facepalm:": {
+    "name": "bird facepalm",
+    "category": "000/002/294/original/eed2ed828216f253.png"
+  },
+  ":bird_heart:": {
+    "name": "bird heart",
+    "category": "000/002/421/original/bb1476f0ad3f25dc.png"
+  },
+  ":bird_heh:": {
+    "name": "bird heh",
+    "category": "000/002/424/original/898d9cddda244481.png"
+  },
+  ":bird_idea:": {
+    "name": "bird idea",
+    "category": "000/002/285/original/a6c6c3cec3106303.png"
+  },
+  ":bird_love:": {
+    "name": "bird love",
+    "category": "000/002/315/original/c0171b2903d155e5.png"
+  },
+  ":bird_peek:": {
+    "name": "bird peek",
+    "category": "000/002/286/original/5e9c157647cfdf23.png"
+  },
+  ":bird_preen:": {
+    "name": "bird preen",
+    "category": "000/002/289/original/5f22f54ab5dd8eae.png"
+  },
+  ":bird_scoot:": {
+    "name": "bird scoot",
+    "category": "000/002/281/original/80cbd28ae1e45b40.gif"
+  },
+  ":bird_thumbs_up:": {
+    "name": "bird thumbs up",
+    "category": "000/002/295/original/1fcdd6bad56b531c.png"
+  },
+  ":bird_wave:": {
+    "name": "bird wave",
+    "category": "000/002/422/original/fa1b38ab3abfe451.png"
+  },
   ":birthday_cake:": {
     "name": "birthday cake",
     "category": "000/000/061/original/637204866f2ae73a.png"
@@ -98,6 +182,522 @@
   ":black_lives_matter:": {
     "name": "black lives matter",
     "category": "000/000/185/original/6ed985485749ce3a.png"
+  },
+  ":blahaj:": {
+    "name": "blahaj",
+    "category": "000/002/535/original/646d217e1b162fb6.png"
+  },
+  ":blob_amused:": {
+    "name": "blob amused",
+    "category": "000/002/452/original/blob_amused.png"
+  },
+  ":blob_angry:": {
+    "name": "blob angry",
+    "category": "000/002/445/original/64e81179ed11c2d2.png"
+  },
+  ":blob_aww:": {
+    "name": "blob aww",
+    "category": "000/001/921/original/092c13e2ade4696e.png"
+  },
+  ":blob_band_bass:": {
+    "name": "blob band bass",
+    "category": "000/001/922/original/b0257d9cb54bb130.gif"
+  },
+  ":blob_band_drums:": {
+    "name": "blob band drums",
+    "category": "000/001/923/original/a3a63c5146b8e2b5.gif"
+  },
+  ":blob_band_guitar:": {
+    "name": "blob band guitar",
+    "category": "000/001/924/original/bf3bcf5a17bce5dd.gif"
+  },
+  ":blob_band_keyboard:": {
+    "name": "blob band keyboard",
+    "category": "000/001/925/original/890b2cab6616e1f1.gif"
+  },
+  ":blob_blast_off:": {
+    "name": "blob blast off",
+    "category": "000/001/927/original/315fff1778085e9a.gif"
+  },
+  ":blob_blush:": {
+    "name": "blob blush",
+    "category": "000/001/985/original/a4247cfb70f95116.png"
+  },
+  ":blob_blush_surprised:": {
+    "name": "blob blush surprised",
+    "category": "000/001/986/original/06676afe77b44a06.gif"
+  },
+  ":blob_bongo:": {
+    "name": "blob bongo",
+    "category": "000/001/928/original/bc4679e3f3e39acf.gif"
+  },
+  ":blob_bounce:": {
+    "name": "blob bounce",
+    "category": "000/001/929/original/108d42e3f1e84664.gif"
+  },
+  ":blob_bounce_fast:": {
+    "name": "blob bounce fast",
+    "category": "000/001/930/original/09376f30ef2393de.gif"
+  },
+  ":blob_bounce_roll:": {
+    "name": "blob bounce roll",
+    "category": "000/001/987/original/379c831b41e8bae8.gif"
+  },
+  ":blob_bounce_squish:": {
+    "name": "blob bounce squish",
+    "category": "000/001/988/original/ab9d4b5c893ad874.gif"
+  },
+  ":blob_broken:": {
+    "name": "blob broken",
+    "category": "000/001/931/original/2a7a38f2f1b6ed31.png"
+  },
+  ":blob_camera:": {
+    "name": "blob camera",
+    "category": "000/001/932/original/65a0646df615491c.png"
+  },
+  ":blob_caramell_dansen:": {
+    "name": "blob caramell dansen",
+    "category": "000/001/933/original/2a3441fcb1a99cde.gif"
+  },
+  ":blob_cheer:": {
+    "name": "blob cheer",
+    "category": "000/001/989/original/94a3dd78840161d6.png"
+  },
+  ":blob_cheer_left:": {
+    "name": "blob cheer left",
+    "category": "000/002/453/original/blob_cheer_left.gif"
+  },
+  ":blob_cheer_right:": {
+    "name": "blob cheer right",
+    "category": "000/002/454/original/blob_cheer_right.gif"
+  },
+  ":blob_clipboard:": {
+    "name": "blob clipboard",
+    "category": "000/002/455/original/blob_clipboard.png"
+  },
+  ":blob_comfy_morning:": {
+    "name": "blob comfy morning",
+    "category": "000/001/934/original/8e1819a1aec5b4cd.png"
+  },
+  ":blob_comfy_night:": {
+    "name": "blob comfy night",
+    "category": "000/001/935/original/c9c06acff2c2d78b.png"
+  },
+  ":blob_confused:": {
+    "name": "blob confused",
+    "category": "000/002/456/original/blob_confused.png"
+  },
+  ":blob_conga:": {
+    "name": "blob conga",
+    "category": "000/001/936/original/606c7a5ba28f655b.gif"
+  },
+  ":blob_couple:": {
+    "name": "blob couple",
+    "category": "000/001/990/original/9975775cbc7a27ec.png"
+  },
+  ":blob_couple_kiss:": {
+    "name": "blob couple kiss",
+    "category": "000/002/457/original/blob_couple_kiss.gif"
+  },
+  ":blob_cry:": {
+    "name": "blob cry",
+    "category": "000/002/458/original/blob_cry.png"
+  },
+  ":blob_dead:": {
+    "name": "blob dead",
+    "category": "000/001/991/original/73ae32befd837f96.png"
+  },
+  ":blob_derpy:": {
+    "name": "blob derpy",
+    "category": "000/001/937/original/616f8ea953c4ad5f.gif"
+  },
+  ":blob_derpy_happy:": {
+    "name": "blob derpy happy",
+    "category": "000/001/938/original/9cb084b6d86153f5.gif"
+  },
+  ":blob_dizzy:": {
+    "name": "blob dizzy",
+    "category": "000/001/939/original/6543ea283e12fee3.gif"
+  },
+  ":blob_doubt:": {
+    "name": "blob doubt",
+    "category": "000/001/992/original/d1c3a6c5d5ca38bc.png"
+  },
+  ":blob_drool:": {
+    "name": "blob drool",
+    "category": "000/001/993/original/f7b70de92f5c6d99.gif"
+  },
+  ":blob_dundundun:": {
+    "name": "blob dundundun",
+    "category": "000/001/940/original/5a4643d8eaaaedd9.gif"
+  },
+  ":blob_embarrassed:": {
+    "name": "blob embarrassed",
+    "category": "000/002/459/original/blob_embarrassed.png"
+  },
+  ":blob_expressionless:": {
+    "name": "blob expressionless",
+    "category": "000/002/460/original/blob_expressionless.png"
+  },
+  ":blob_facepalm:": {
+    "name": "blob facepalm",
+    "category": "000/002/461/original/blob_facepalm.png"
+  },
+  ":blob_fingerguns:": {
+    "name": "blob fingerguns",
+    "category": "000/001/994/original/38f337cce0aa006e.png"
+  },
+  ":blob_fingers_crossed:": {
+    "name": "blob fingers crossed",
+    "category": "000/002/462/original/blob_fingers_crossed.png"
+  },
+  ":blob_fingertips:": {
+    "name": "blob fingertips",
+    "category": "000/001/941/original/133ab671f94c7aa4.gif"
+  },
+  ":blob_frown:": {
+    "name": "blob frown",
+    "category": "000/002/463/original/blob_frown.png"
+  },
+  ":blob_giggle:": {
+    "name": "blob giggle",
+    "category": "000/001/942/original/1117fb4d68934c13.png"
+  },
+  ":blob_glare:": {
+    "name": "blob glare",
+    "category": "000/001/943/original/23c054abb21d4ef6.gif"
+  },
+  ":blob_grimace:": {
+    "name": "blob grimace",
+    "category": "000/001/995/original/3e2b4c98012c989b.gif"
+  },
+  ":blob_grumpy:": {
+    "name": "blob grumpy",
+    "category": "000/001/996/original/b3a2702554046051.png"
+  },
+  ":blob_happy:": {
+    "name": "blob happy",
+    "category": "000/002/446/original/192290d5769f2072.gif"
+  },
+  ":blob_headpats:": {
+    "name": "blob headpats",
+    "category": "000/001/944/original/9b5804233bb7ca26.gif"
+  },
+  ":blob_headpats_sad:": {
+    "name": "blob headpats sad",
+    "category": "000/002/448/original/c2e6cd5931c726a2.gif"
+  },
+  ":blob_heart:": {
+    "name": "blob heart",
+    "category": "000/001/945/original/44e77884af1ce2e8.png"
+  },
+  ":blob_heart_eyes:": {
+    "name": "blob heart eyes",
+    "category": "000/001/946/original/2e9a7f07d00a25a5.gif"
+  },
+  ":blob_hmph:": {
+    "name": "blob hmph",
+    "category": "000/002/464/original/blob_hmph.png"
+  },
+  ":blob_hop:": {
+    "name": "blob hop",
+    "category": "000/001/947/original/b9068e37c9540d38.gif"
+  },
+  ":blob_hug:": {
+    "name": "blob hug",
+    "category": "000/002/465/original/blob_hug.png"
+  },
+  ":blob_hug_love:": {
+    "name": "blob hug love",
+    "category": "000/002/466/original/blob_hug_love.png"
+  },
+  ":blob_hungry:": {
+    "name": "blob hungry",
+    "category": "000/001/948/original/e3f602df406a4174.gif"
+  },
+  ":blob_hype:": {
+    "name": "blob hype",
+    "category": "000/001/949/original/0077bad90493ead6.gif"
+  },
+  ":blob_jam:": {
+    "name": "blob jam",
+    "category": "000/001/950/original/3ef4c4083f1277e0.gif"
+  },
+  ":blob_kiss:": {
+    "name": "blob kiss",
+    "category": "000/002/467/original/blob_kiss.png"
+  },
+  ":blob_lampshade:": {
+    "name": "blob lampshade",
+    "category": "000/001/951/original/80c0f3f58b622b89.gif"
+  },
+  ":blob_love:": {
+    "name": "blob love",
+    "category": "000/002/468/original/blob_love.png"
+  },
+  ":blob_lul:": {
+    "name": "blob lul",
+    "category": "000/002/469/original/blob_lul.png"
+  },
+  ":blob_lurk:": {
+    "name": "blob lurk",
+    "category": "000/001/952/original/050d46d9a55aaa9f.gif"
+  },
+  ":blob_maracas:": {
+    "name": "blob maracas",
+    "category": "000/001/953/original/5c3507478b43a97c.gif"
+  },
+  ":blob_melt:": {
+    "name": "blob melt",
+    "category": "000/001/997/original/a01c0075b370d6aa.gif"
+  },
+  ":blob_melt_sob_love:": {
+    "name": "blob melt sob love",
+    "category": "000/001/998/original/a2344f751e2c5a4d.gif"
+  },
+  ":blob_melted:": {
+    "name": "blob melted",
+    "category": "000/002/470/original/blob_melted.png"
+  },
+  ":blob_nerdy:": {
+    "name": "blob nerdy",
+    "category": "000/002/471/original/blob_nerdy.png"
+  },
+  ":blob_nervous:": {
+    "name": "blob nervous",
+    "category": "000/001/954/original/c9330523c0eb9f83.gif"
+  },
+  ":blob_nod:": {
+    "name": "blob nod",
+    "category": "000/001/955/original/891d33056019b346.gif"
+  },
+  ":blob_nom_cookie:": {
+    "name": "blob nom cookie",
+    "category": "000/001/999/original/c3928e91148179de.png"
+  },
+  ":blob_not_like_this:": {
+    "name": "blob not like this",
+    "category": "000/002/472/original/blob_not_like_this.png"
+  },
+  ":blob_ooh:": {
+    "name": "blob ooh",
+    "category": "000/002/473/original/blob_ooh.png"
+  },
+  ":blob_owo:": {
+    "name": "blob owo",
+    "category": "000/002/474/original/blob_owo.png"
+  },
+  ":blob_owo_eyes:": {
+    "name": "blob owo eyes",
+    "category": "000/002/475/original/blob_owo_eyes.png"
+  },
+  ":blob_panic:": {
+    "name": "blob panic",
+    "category": "000/001/956/original/5c7934378db02d1a.gif"
+  },
+  ":blob_party:": {
+    "name": "blob party",
+    "category": "000/001/957/original/b717a08282d150f5.gif"
+  },
+  ":blob_peek:": {
+    "name": "blob peek",
+    "category": "000/001/958/original/e640fe7acb5e4ed9.png"
+  },
+  ":blob_popcorn:": {
+    "name": "blob popcorn",
+    "category": "000/002/476/original/blob_popcorn.png"
+  },
+  ":blob_pusheen:": {
+    "name": "blob pusheen",
+    "category": "000/001/959/original/635fa9b7311b89c3.png"
+  },
+  ":blob_rage:": {
+    "name": "blob rage",
+    "category": "000/001/960/original/a7106f78b440106a.png"
+  },
+  ":blob_rain:": {
+    "name": "blob rain",
+    "category": "000/001/961/original/3b3ff7832b56fb64.gif"
+  },
+  ":blob_rainbow:": {
+    "name": "blob rainbow",
+    "category": "000/001/962/original/d2e2f8c79f559900.png"
+  },
+  ":blob_reach:": {
+    "name": "blob reach",
+    "category": "000/002/451/original/a5c6dd86582478f4.gif"
+  },
+  ":blob_reeee:": {
+    "name": "blob reeee",
+    "category": "000/002/000/original/a7155ed62cbc0de2.gif"
+  },
+  ":blob_roll_eyes:": {
+    "name": "blob roll eyes",
+    "category": "000/002/001/original/81bca88c2abdba9b.gif"
+  },
+  ":blob_sad:": {
+    "name": "blob sad",
+    "category": "000/002/449/original/52c79745ad3c8ebf.gif"
+  },
+  ":blob_saxophone:": {
+    "name": "blob saxophone",
+    "category": "000/002/002/original/8bfb45f3aa30d503.gif"
+  },
+  ":blob_shrug:": {
+    "name": "blob shrug",
+    "category": "000/002/477/original/blob_shrug.png"
+  },
+  ":blob_shush:": {
+    "name": "blob shush",
+    "category": "000/002/478/original/blob_shush.png"
+  },
+  ":blob_sigh:": {
+    "name": "blob sigh",
+    "category": "000/001/963/original/da61fc6a7d20e5c0.gif"
+  },
+  ":blob_sign_no:": {
+    "name": "blob sign no",
+    "category": "000/001/964/original/af3bd2db4ba58a3c.png"
+  },
+  ":blob_sign_yes:": {
+    "name": "blob sign yes",
+    "category": "000/001/965/original/c0ebf91a7ba45700.png"
+  },
+  ":blob_sing:": {
+    "name": "blob sing",
+    "category": "000/002/444/original/53d3e661afda8085.gif"
+  },
+  ":blob_sip:": {
+    "name": "blob sip",
+    "category": "000/002/003/original/7eb845caaa6c65d3.png"
+  },
+  ":blob_sleep:": {
+    "name": "blob sleep",
+    "category": "000/001/966/original/a4b593520fe7d0f3.gif"
+  },
+  ":blob_smile:": {
+    "name": "blob smile",
+    "category": "000/002/479/original/blob_smile.png"
+  },
+  ":blob_smooch:": {
+    "name": "blob smooch",
+    "category": "000/001/967/original/6d6b8a528b4e511c.gif"
+  },
+  ":blob_sneeze:": {
+    "name": "blob sneeze",
+    "category": "000/002/480/original/blob_sneeze.png"
+  },
+  ":blob_snow:": {
+    "name": "blob snow",
+    "category": "000/001/968/original/f453f1900681b0fe.gif"
+  },
+  ":blob_snuggle:": {
+    "name": "blob snuggle",
+    "category": "000/002/481/original/blob_snuggle.png"
+  },
+  ":blob_spin:": {
+    "name": "blob spin",
+    "category": "000/001/970/original/0e382e46a1093156.gif"
+  },
+  ":blob_spy:": {
+    "name": "blob spy",
+    "category": "000/002/482/original/blob_spy.png"
+  },
+  ":blob_squee:": {
+    "name": "blob squee",
+    "category": "000/002/483/original/blob_squee.png"
+  },
+  ":blob_stare:": {
+    "name": "blob stare",
+    "category": "000/002/004/original/90bf7107abc80a72.png"
+  },
+  ":blob_surprised:": {
+    "name": "blob surprised",
+    "category": "000/002/484/original/blob_surprised.png"
+  },
+  ":blob_sus:": {
+    "name": "blob sus",
+    "category": "000/001/971/original/0c76d31d082cf16b.png"
+  },
+  ":blob_sweat:": {
+    "name": "blob sweat",
+    "category": "000/001/972/original/98f2239ccb559dee.gif"
+  },
+  ":blob_think:": {
+    "name": "blob think",
+    "category": "000/002/005/original/b1e2a439e5f6b3b3.gif"
+  },
+  ":blob_think_eyes:": {
+    "name": "blob think eyes",
+    "category": "000/002/485/original/blob_think_eyes.png"
+  },
+  ":blob_thonk:": {
+    "name": "blob thonk",
+    "category": "000/002/486/original/blob_thonk.png"
+  },
+  ":blob_thumbs_down:": {
+    "name": "blob thumbs down",
+    "category": "000/002/487/original/blob_thumbs_down.png"
+  },
+  ":blob_thumbs_up:": {
+    "name": "blob thumbs up",
+    "category": "000/002/488/original/blob_thumbs_up.png"
+  },
+  ":blob_trans:": {
+    "name": "blob trans",
+    "category": "000/001/973/original/ccf41b31b90317a8.png"
+  },
+  ":blob_ugly_cry:": {
+    "name": "blob ugly cry",
+    "category": "000/002/006/original/ca60e03ba32838b6.gif"
+  },
+  ":blob_unamused:": {
+    "name": "blob unamused",
+    "category": "000/002/489/original/blob_unamused.png"
+  },
+  ":blob_uwu:": {
+    "name": "blob uwu",
+    "category": "000/002/007/original/c4473c364b2bf188.png"
+  },
+  ":blob_wave:": {
+    "name": "blob wave",
+    "category": "000/002/450/original/d43295bf15104918.gif"
+  },
+  ":blob_weary:": {
+    "name": "blob weary",
+    "category": "000/002/490/original/blob_weary.png"
+  },
+  ":blob_whistle:": {
+    "name": "blob whistle",
+    "category": "000/002/447/original/ac9936a18d5ffff3.gif"
+  },
+  ":blob_whoa:": {
+    "name": "blob whoa",
+    "category": "000/002/491/original/blob_whoa.png"
+  },
+  ":blob_wink:": {
+    "name": "blob wink",
+    "category": "000/002/492/original/blob_wink.gif"
+  },
+  ":blob_wob:": {
+    "name": "blob wob",
+    "category": "000/001/974/original/53f56a0b2da1950e.gif"
+  },
+  ":blob_wob_roll:": {
+    "name": "blob wob roll",
+    "category": "000/001/975/original/ecd21dbf55271484.gif"
+  },
+  ":blob_wob_work:": {
+    "name": "blob wob work",
+    "category": "000/001/977/original/4c54c9c55dc17bdc.gif"
+  },
+  ":blob_wobble:": {
+    "name": "blob wobble",
+    "category": "000/001/978/original/d17567b4706bf1e0.gif"
+  },
+  ":blob_yikes:": {
+    "name": "blob yikes",
+    "category": "000/002/493/original/blob_yikes.png"
   },
   ":blobfox:": {
     "name": "blobfox",
@@ -971,9 +1571,25 @@
     "name": "boba",
     "category": "000/000/059/original/c4898c3942e1eff8.png"
   },
+  ":bonk:": {
+    "name": "bonk",
+    "category": "000/002/567/original/71a7d95e4174f0dd.png"
+  },
+  ":boosts_ok:": {
+    "name": "boosts ok",
+    "category": "000/002/066/original/fd93d7b01c5a20ca.png"
+  },
+  ":bugcat_cry:": {
+    "name": "bugcat cry",
+    "category": "000/002/208/original/d9e6e1b2cec4b8fb.gif"
+  },
   ":bugcat_dance:": {
     "name": "bugcat dance",
     "category": "000/000/263/original/6e16bf391a6d65fa.gif"
+  },
+  ":bugcat_hearts:": {
+    "name": "bugcat hearts",
+    "category": "000/002/217/original/70da938d0da5696b.gif"
   },
   ":bugcat_lick:": {
     "name": "bugcat lick",
@@ -995,9 +1611,109 @@
     "name": "bugcat wobble",
     "category": "000/000/258/original/2557dbde729a6825.gif"
   },
+  ":bugcat_work:": {
+    "name": "bugcat work",
+    "category": "000/002/207/original/41123f89c2f1d678.gif"
+  },
   ":bulbasaur_confused:": {
     "name": "bulbasaur confused",
     "category": "000/000/163/original/b2fe04de3bda3d3c.png"
+  },
+  ":bunhd:": {
+    "name": "bunhd",
+    "category": "000/002/020/original/8954fe5614dd879b.png"
+  },
+  ":bunhd_angry:": {
+    "name": "bunhd angry",
+    "category": "000/002/021/original/9f357d8a9f6565e0.png"
+  },
+  ":bunhd_bored:": {
+    "name": "bunhd bored",
+    "category": "000/002/138/original/865e0fe1c620c3eb.png"
+  },
+  ":bunhd_comfy:": {
+    "name": "bunhd comfy",
+    "category": "000/002/023/original/5b38d8f95dce85a9.png"
+  },
+  ":bunhd_comfy_happy:": {
+    "name": "bunhd comfy happy",
+    "category": "000/002/024/original/11b00bfc7bd45220.png"
+  },
+  ":bunhd_comfy_sleep:": {
+    "name": "bunhd comfy sleep",
+    "category": "000/002/025/original/4c3f8fbadbbcde3c.png"
+  },
+  ":bunhd_cry:": {
+    "name": "bunhd cry",
+    "category": "000/002/026/original/2ab38a346c800f27.png"
+  },
+  ":bunhd_cute:": {
+    "name": "bunhd cute",
+    "category": "000/002/022/original/4fe4ffd6321d8d1e.png"
+  },
+  ":bunhd_googly:": {
+    "name": "bunhd googly",
+    "category": "000/002/027/original/36367ec0c7e3c742.png"
+  },
+  ":bunhd_grumpy:": {
+    "name": "bunhd grumpy",
+    "category": "000/002/028/original/53b561a56612c4c9.png"
+  },
+  ":bunhd_happy:": {
+    "name": "bunhd happy",
+    "category": "000/002/029/original/c1003ac245e2eae1.png"
+  },
+  ":bunhd_knife:": {
+    "name": "bunhd knife",
+    "category": "000/002/031/original/c54ce6cfa722be58.png"
+  },
+  ":bunhd_love:": {
+    "name": "bunhd love",
+    "category": "000/002/030/original/8cf205d172391251.png"
+  },
+  ":bunhd_lurk:": {
+    "name": "bunhd lurk",
+    "category": "000/002/044/original/def2390a79504bd5.png"
+  },
+  ":bunhd_lurk_cute:": {
+    "name": "bunhd lurk cute",
+    "category": "000/002/045/original/38a3d81aef8fb442.png"
+  },
+  ":bunhd_mlem:": {
+    "name": "bunhd mlem",
+    "category": "000/002/032/original/dc8a68c6380a0f4c.png"
+  },
+  ":bunhd_owo:": {
+    "name": "bunhd owo",
+    "category": "000/002/033/original/1cfbaec3606349a1.png"
+  },
+  ":bunhd_peek:": {
+    "name": "bunhd peek",
+    "category": "000/002/041/original/9001cda0091d8995.png"
+  },
+  ":bunhd_sad:": {
+    "name": "bunhd sad",
+    "category": "000/002/038/original/54aa29d7fac6e88e.png"
+  },
+  ":bunhd_sleep:": {
+    "name": "bunhd sleep",
+    "category": "000/002/036/original/1f848d11ca8759db.png"
+  },
+  ":bunhd_smug:": {
+    "name": "bunhd smug",
+    "category": "000/002/037/original/99ebb9d9fceaa3da.png"
+  },
+  ":bunhd_think:": {
+    "name": "bunhd think",
+    "category": "000/002/035/original/d11696456bc8a9f2.png"
+  },
+  ":bunhd_thonk:": {
+    "name": "bunhd thonk",
+    "category": "000/002/039/original/b1c8fb66cae6eb5a.png"
+  },
+  ":bunhd_uwu:": {
+    "name": "bunhd uwu",
+    "category": "000/002/034/original/3e7716b02c0dd5d2.png"
   },
   ":bunny_boba:": {
     "name": "bunny boba",
@@ -1007,45 +1723,209 @@
     "name": "bunny drool",
     "category": "000/000/206/original/76af2895809b3a37.png"
   },
+  ":bunny_evil:": {
+    "name": "bunny evil",
+    "category": "000/002/297/original/fe4911963d8c393e.gif"
+  },
+  ":bunny_hug:": {
+    "name": "bunny hug",
+    "category": "000/002/298/original/1f3719d4be946efd.gif"
+  },
   ":bunny_sign_toxic:": {
     "name": "bunny sign toxic",
     "category": "000/000/586/original/373699b1c3203761.png"
+  },
+  ":butterfly_asexual:": {
+    "name": "butterfly asexual",
+    "category": "000/002/596/original/f1bd31379df97122.png"
+  },
+  ":butterfly_bisexual:": {
+    "name": "butterfly bisexual",
+    "category": "000/002/595/original/0f04719eeffb6d74.png"
+  },
+  ":butterfly_intersex:": {
+    "name": "butterfly intersex",
+    "category": "000/002/594/original/4dc0cca4755497ab.png"
+  },
+  ":butterfly_lesbian:": {
+    "name": "butterfly lesbian",
+    "category": "000/002/593/original/0d9dd79a66237776.png"
+  },
+  ":butterfly_nonbinary:": {
+    "name": "butterfly nonbinary",
+    "category": "000/002/597/original/77e40222a92fcd73.png"
+  },
+  ":butterfly_pansexual:": {
+    "name": "butterfly pansexual",
+    "category": "000/002/591/original/750544fdbb0d7f31.png"
+  },
+  ":butterfly_trans:": {
+    "name": "butterfly trans",
+    "category": "000/002/592/original/d044a694582c606e.png"
+  },
+  ":care_package:": {
+    "name": "care package",
+    "category": "000/002/732/original/58b4806d15b964ef.png"
+  },
+  ":cat_angry:": {
+    "name": "cat angry",
+    "category": "000/002/543/original/945a27e51c760cc8.png"
+  },
+  ":cat_baby:": {
+    "name": "cat baby",
+    "category": "000/002/624/original/7225ddb329ea64f5.gif"
   },
   ":cat_blush:": {
     "name": "cat blush",
     "category": "000/000/255/original/59878fe5672aba6b.png"
   },
+  ":cat_boba:": {
+    "name": "cat boba",
+    "category": "000/002/325/original/7111469ea806f6d7.png"
+  },
   ":cat_bongo:": {
     "name": "cat bongo",
     "category": "000/000/596/original/8d36300b592aac39.gif"
+  },
+  ":cat_buff:": {
+    "name": "cat buff",
+    "category": "000/002/607/original/b1bca3774b160146.png"
   },
   ":cat_clap:": {
     "name": "cat clap",
     "category": "000/000/241/original/a3eafda46c7a3d27.gif"
   },
+  ":cat_creeping:": {
+    "name": "cat creeping",
+    "category": "000/002/614/original/67d7e0690883c608.png"
+  },
   ":cat_cute:": {
     "name": "cat cute",
     "category": "000/000/595/original/f45fd7708c7a97df.png"
+  },
+  ":cat_excited:": {
+    "name": "cat excited",
+    "category": "000/002/617/original/1ffef7cfd9fcd9cc.png"
+  },
+  ":cat_farmer:": {
+    "name": "cat farmer",
+    "category": "000/002/608/original/7b11d17591e5ec31.png"
+  },
+  ":cat_fight:": {
+    "name": "cat fight",
+    "category": "000/002/633/original/831340d8ed29d2c3.gif"
+  },
+  ":cat_friends:": {
+    "name": "cat friends",
+    "category": "000/002/618/original/3b33fcf6e3f3cc69.png"
+  },
+  ":cat_heartbreak:": {
+    "name": "cat heartbreak",
+    "category": "000/002/603/original/08b44630d9f9c202.png"
   },
   ":cat_hearts:": {
     "name": "cat hearts",
     "category": "000/000/198/original/bb3ccc246ba417d8.gif"
   },
+  ":cat_hug:": {
+    "name": "cat hug",
+    "category": "000/002/786/original/134dacd30f1aa634.png"
+  },
+  ":cat_hype:": {
+    "name": "cat hype",
+    "category": "000/002/625/original/8c8c2e10c030f7bc.gif"
+  },
+  ":cat_interact:": {
+    "name": "cat interact",
+    "category": "000/002/566/original/416143347fd82565.gif"
+  },
+  ":cat_jam:": {
+    "name": "cat jam",
+    "category": "000/002/146/original/8f4571af67295afb.gif"
+  },
+  ":cat_love:": {
+    "name": "cat love",
+    "category": "000/002/056/original/aeb96bb3354cd016.png"
+  },
   ":cat_mlem:": {
     "name": "cat mlem",
     "category": "000/000/254/original/4ac0e9bdf4b77ffc.png"
+  },
+  ":cat_no_kisses:": {
+    "name": "cat no kisses",
+    "category": "000/002/632/original/f3b246d4668bc8c8.png"
+  },
+  ":cat_ooh:": {
+    "name": "cat ooh",
+    "category": "000/002/564/original/473b87607a46f161.png"
   },
   ":cat_peek:": {
     "name": "cat peek",
     "category": "000/000/597/original/beb5024972b75d0d.png"
   },
+  ":cat_popcorn:": {
+    "name": "cat popcorn",
+    "category": "000/002/540/original/2431b849339dfd81.gif"
+  },
   ":cat_rainbow:": {
     "name": "cat rainbow",
     "category": "000/000/199/original/e937b9b791942920.png"
   },
+  ":cat_reach:": {
+    "name": "cat reach",
+    "category": "000/002/610/original/5ad6ca385e67a767.png"
+  },
+  ":cat_sad:": {
+    "name": "cat sad",
+    "category": "000/002/071/original/d3199cd3bbfdeb96.png"
+  },
+  ":cat_scared:": {
+    "name": "cat scared",
+    "category": "000/002/542/original/291414d22e76ae37.png"
+  },
+  ":cat_shocked:": {
+    "name": "cat shocked",
+    "category": "000/002/613/original/03505e2f491f07a6.png"
+  },
+  ":cat_shy:": {
+    "name": "cat shy",
+    "category": "000/002/094/original/c6e30eae82c6af1d.png"
+  },
+  ":cat_sleepy:": {
+    "name": "cat sleepy",
+    "category": "000/002/622/original/b7b6474b6f423877.png"
+  },
+  ":cat_smug:": {
+    "name": "cat smug",
+    "category": "000/002/437/original/6d9d954c1201d669.png"
+  },
+  ":cat_sob:": {
+    "name": "cat sob",
+    "category": "000/002/150/original/2093e93a37fcd6b5.png"
+  },
+  ":cat_uwu:": {
+    "name": "cat uwu",
+    "category": "000/002/547/original/173f57725049a09a.png"
+  },
+  ":cat_welp:": {
+    "name": "cat welp",
+    "category": "000/002/074/original/cfa2a42b69c9f158.png"
+  },
+  ":cat_what:": {
+    "name": "cat what",
+    "category": "000/002/609/original/9e11d7e65da26d1b.png"
+  },
+  ":cat_wizard:": {
+    "name": "cat wizard",
+    "category": "000/002/587/original/048ede002f69e46d.png"
+  },
   ":cat_wow:": {
     "name": "cat wow",
     "category": "000/000/600/original/7e69b1aa3cea02a2.png"
+  },
+  ":cat_wtf:": {
+    "name": "cat wtf",
+    "category": "000/002/544/original/e807b36da78a7231.png"
   },
   ":celebrate:": {
     "name": "celebrate",
@@ -1055,9 +1935,57 @@
     "name": "charmander yay",
     "category": "000/000/162/original/a7bdb174134bc94f.png"
   },
+  ":chick_blush:": {
+    "name": "chick blush",
+    "category": "000/002/052/original/675e091df830f829.png"
+  },
+  ":chick_confused:": {
+    "name": "chick confused",
+    "category": "000/002/046/original/3af5221f8a2f7044.png"
+  },
+  ":chick_hearts:": {
+    "name": "chick hearts",
+    "category": "000/002/057/original/f9cf972f3f0883f0.png"
+  },
+  ":chick_jam:": {
+    "name": "chick jam",
+    "category": "000/002/049/original/55da8dcd35e19c02.png"
+  },
   ":chick_love:": {
     "name": "chick love",
-    "category": "000/000/238/original/47c180d48c5347a0.png"
+    "category": "000/002/047/original/0b6b867f3d934b31.png"
+  },
+  ":chick_sleep:": {
+    "name": "chick sleep",
+    "category": "000/002/048/original/aa2990a7b613773c.png"
+  },
+  ":chick_sprout:": {
+    "name": "chick sprout",
+    "category": "000/002/055/original/0a8641922e69199c.png"
+  },
+  ":chick_sweat:": {
+    "name": "chick sweat",
+    "category": "000/002/054/original/026ec0b39dbe20eb.png"
+  },
+  ":chick_thumbs_up:": {
+    "name": "chick thumbs up",
+    "category": "000/002/053/original/567af331965c8e10.png"
+  },
+  ":chick_wow:": {
+    "name": "chick wow",
+    "category": "000/002/051/original/2b0e22fdbcb1db41.png"
+  },
+  ":chikorita_disgust:": {
+    "name": "chikorita disgust",
+    "category": "000/002/323/original/bbb3bc7a0abb8b61.png"
+  },
+  ":clown_skull:": {
+    "name": "clown skull",
+    "category": "000/002/196/original/7bc545afdffafdc5.png"
+  },
+  ":collar:": {
+    "name": "collar",
+    "category": "000/002/552/original/6a628e6bb95cdf44.png"
   },
   ":cookie_heart:": {
     "name": "cookie heart",
@@ -1067,6 +1995,14 @@
     "name": "corgi butt",
     "category": "000/000/590/original/9d8c5e6c493a06e3.gif"
   },
+  ":corgi_smile:": {
+    "name": "corgi smile",
+    "category": "000/002/546/original/e92802f7133bb3c0.png"
+  },
+  ":corgi_yay:": {
+    "name": "corgi yay",
+    "category": "000/002/527/original/952fc56ee05476c7.png"
+  },
   ":cozy:": {
     "name": "cozy",
     "category": "000/000/302/original/33ca06e744313157.png"
@@ -1074,6 +2010,10 @@
   ":cozy_nap:": {
     "name": "cozy nap",
     "category": "000/000/588/original/86b9660cab2d549b.png"
+  },
+  ":cute:": {
+    "name": "cute",
+    "category": "000/002/436/original/06b00569dfb22c8b.png"
   },
   ":derp:": {
     "name": "derp",
@@ -1087,9 +2027,49 @@
     "name": "dizzy love",
     "category": "000/000/584/original/ca45af24fc1a0106.png"
   },
+  ":doge:": {
+    "name": "doge",
+    "category": "000/002/086/original/3d3e88539ad7a11f.png"
+  },
+  ":doge_blob:": {
+    "name": "doge blob",
+    "category": "000/002/210/original/d5c2e0d578932e5d.png"
+  },
+  ":doge_blob_angry:": {
+    "name": "doge blob angry",
+    "category": "000/002/213/original/2435f8ad3339aa2d.png"
+  },
+  ":doge_blob_nerdy:": {
+    "name": "doge blob nerdy",
+    "category": "000/002/212/original/1d07d4731b527382.png"
+  },
+  ":doge_blob_wink:": {
+    "name": "doge blob wink",
+    "category": "000/002/211/original/8fa9a8f574be3cc9.png"
+  },
+  ":doge_laugh:": {
+    "name": "doge laugh",
+    "category": "000/002/088/original/2aa8c3290405ef06.png"
+  },
+  ":dumpster_fire:": {
+    "name": "dumpster fire",
+    "category": "000/002/524/original/462978b840504554.gif"
+  },
+  ":eevee_cool:": {
+    "name": "eevee cool",
+    "category": "000/002/318/original/768a2334a0f743fa.png"
+  },
   ":eevee_joy:": {
     "name": "eevee joy",
     "category": "000/000/040/original/c8acccb0ea746ab9.png"
+  },
+  ":eggplant_hand:": {
+    "name": "eggplant hand",
+    "category": "000/002/549/original/f8e8a9f4b2174b63.png"
+  },
+  ":elmo_fire:": {
+    "name": "elmo fire",
+    "category": "000/002/521/original/03d38025faf532d0.png"
   },
   ":espeon_love:": {
     "name": "espeon love",
@@ -1099,6 +2079,14 @@
     "name": "f key",
     "category": "000/000/202/original/aa8cefa07dae2e87.png"
   },
+  ":fediverse:": {
+    "name": "fediverse",
+    "category": "000/002/065/original/feecf3130a3198dc.png"
+  },
+  ":feminism:": {
+    "name": "feminism",
+    "category": "000/002/573/original/675c2bbb3d06c170.png"
+  },
   ":fennekin_gasp:": {
     "name": "fennekin gasp",
     "category": "000/000/171/original/cfc28fb76081581a.png"
@@ -1107,17 +2095,53 @@
     "name": "flag abrosexual",
     "category": "000/000/054/original/b05a3b6e17a35e02.png"
   },
+  ":flag_aceflux:": {
+    "name": "flag aceflux",
+    "category": "000/002/722/original/928dacb1716ab335.png"
+  },
+  ":flag_achillean:": {
+    "name": "flag achillean",
+    "category": "000/002/685/original/618fdfad745e2546.png"
+  },
+  ":flag_aegoromantic:": {
+    "name": "flag aegoromantic",
+    "category": "000/002/706/original/2561070e4813cfcd.png"
+  },
+  ":flag_aegosexual:": {
+    "name": "flag aegosexual",
+    "category": "000/002/707/original/65ba22f23a61b936.png"
+  },
   ":flag_agender:": {
     "name": "flag agender",
     "category": "000/000/310/original/93936bcb55e017d7.png"
+  },
+  ":flag_ambiamorous:": {
+    "name": "flag ambiamorous",
+    "category": "000/002/709/original/717bb276cb597960.png"
+  },
+  ":flag_anarcha_feminist:": {
+    "name": "flag anarcha feminist",
+    "category": "000/002/690/original/f5d2d7c82cfb7a28.png"
   },
   ":flag_anarcha_queer:": {
     "name": "flag anarcha queer",
     "category": "000/000/158/original/09de2ee84262c748.png"
   },
+  ":flag_anarcha_trans_fem:": {
+    "name": "flag anarcha trans fem",
+    "category": "000/002/716/original/fad0e97127ed3a3a.png"
+  },
+  ":flag_anarcho_communist:": {
+    "name": "flag anarcho communist",
+    "category": "000/002/699/original/21b14e1d78760936.png"
+  },
   ":flag_aroace:": {
     "name": "flag aroace",
     "category": "000/000/014/original/b198d2761c9cca87.png"
+  },
+  ":flag_aroflux:": {
+    "name": "flag aroflux",
+    "category": "000/002/721/original/98798dd44979e075.png"
   },
   ":flag_aromantic:": {
     "name": "flag aromantic",
@@ -1131,13 +2155,37 @@
     "name": "flag autistic",
     "category": "000/000/306/original/e4556c297c5c6414.png"
   },
+  ":flag_bigender:": {
+    "name": "flag bigender",
+    "category": "000/002/680/original/86b533acecc2ffd8.png"
+  },
   ":flag_bisexual:": {
     "name": "flag bisexual",
     "category": "000/000/313/original/30dbacbc24c14ed8.png"
   },
+  ":flag_boyflux:": {
+    "name": "flag boyflux",
+    "category": "000/002/698/original/7cb232bb3d136c58.png"
+  },
+  ":flag_cassgender:": {
+    "name": "flag cassgender",
+    "category": "000/002/723/original/610d00529bd66ed9.png"
+  },
+  ":flag_cis_ally:": {
+    "name": "flag cis ally",
+    "category": "000/002/703/original/3aac817ae7a01033.png"
+  },
+  ":flag_cisgenderless:": {
+    "name": "flag cisgenderless",
+    "category": "000/002/700/original/2c9e2d9c65828416.png"
+  },
   ":flag_demifemme:": {
     "name": "flag demifemme",
     "category": "000/000/570/original/923e47bc14ecdad0.png"
+  },
+  ":flag_demifluid:": {
+    "name": "flag demifluid",
+    "category": "000/002/678/original/991238791416df24.png"
   },
   ":flag_demiflux:": {
     "name": "flag demiflux",
@@ -1159,6 +2207,14 @@
     "name": "flag demisexual",
     "category": "000/000/037/original/fc24295d374d563d.png"
   },
+  ":flag_diamoric:": {
+    "name": "flag diamoric",
+    "category": "000/002/684/original/87d788ddf1f02672.png"
+  },
+  ":flag_enbian:": {
+    "name": "flag enbian",
+    "category": "000/002/708/original/0231a90c0c35e2a6.png"
+  },
   ":flag_gay:": {
     "name": "flag gay",
     "category": "000/000/026/original/6a189ee5b614ec8c.png"
@@ -1166,6 +2222,26 @@
   ":flag_gay_male:": {
     "name": "flag gay male",
     "category": "000/000/278/original/b2c094b275f12a44.png"
+  },
+  ":flag_gay_pirate:": {
+    "name": "flag gay pirate",
+    "category": "000/002/714/original/d5ba3b8a73495a38.png"
+  },
+  ":flag_gay_sunglasses:": {
+    "name": "flag gay sunglasses",
+    "category": "000/002/715/original/f9e655b7e914c60e.png"
+  },
+  ":flag_genderfae:": {
+    "name": "flag genderfae",
+    "category": "000/002/717/original/8300f3481c1daab3.png"
+  },
+  ":flag_genderfaun:": {
+    "name": "flag genderfaun",
+    "category": "000/002/720/original/d23a81410d48897d.png"
+  },
+  ":flag_genderflor:": {
+    "name": "flag genderflor",
+    "category": "000/002/718/original/8d9c37f7a0096746.png"
   },
   ":flag_genderfluid:": {
     "name": "flag genderfluid",
@@ -1178,6 +2254,10 @@
   ":flag_genderqueer:": {
     "name": "flag genderqueer",
     "category": "000/000/322/original/16b3833ce8b814a1.png"
+  },
+  ":flag_girlflux:": {
+    "name": "flag girlflux",
+    "category": "000/002/697/original/75467874d11d9401.png"
   },
   ":flag_grey_ace:": {
     "name": "flag grey ace",
@@ -1195,17 +2275,81 @@
     "name": "flag lesbian",
     "category": "000/000/021/original/8e1e17ee6375fe58.png"
   },
+  ":flag_lesbian_sapphic:": {
+    "name": "flag lesbian sapphic",
+    "category": "000/002/682/original/2016819163372e7b.png"
+  },
+  ":flag_librafeminine:": {
+    "name": "flag librafeminine",
+    "category": "000/002/676/original/cc97ed0894e09dd3.png"
+  },
+  ":flag_librafluid:": {
+    "name": "flag librafluid",
+    "category": "000/002/677/original/3f79a193bf125352.png"
+  },
+  ":flag_libragender:": {
+    "name": "flag libragender",
+    "category": "000/002/674/original/7d6fcfde84537093.png"
+  },
+  ":flag_libramasculine:": {
+    "name": "flag libramasculine",
+    "category": "000/002/675/original/77d4e06d95e657f6.png"
+  },
+  ":flag_lithosexual:": {
+    "name": "flag lithosexual",
+    "category": "000/002/689/original/3f1166df88c9f00e.png"
+  },
+  ":flag_maverique:": {
+    "name": "flag maverique",
+    "category": "000/002/695/original/050a385647cf06d6.png"
+  },
+  ":flag_multisexual:": {
+    "name": "flag multisexual",
+    "category": "000/002/688/original/6beca99a0f0a3157.png"
+  },
+  ":flag_neutrois:": {
+    "name": "flag neutrois",
+    "category": "000/002/696/original/263842d9701e4147.png"
+  },
   ":flag_nonbinary:": {
     "name": "flag nonbinary",
     "category": "000/000/309/original/0258ea08c44cb125.png"
+  },
+  ":flag_nonbinary_lesbian:": {
+    "name": "flag nonbinary lesbian",
+    "category": "000/002/701/original/0af3d4073b46f85d.png"
   },
   ":flag_omnisexual:": {
     "name": "flag omnisexual",
     "category": "000/000/055/original/bc2c92276687e956.png"
   },
+  ":flag_oriented_aroace:": {
+    "name": "flag oriented aroace",
+    "category": "000/002/704/original/26852719a526915e.png"
+  },
+  ":flag_pangender:": {
+    "name": "flag pangender",
+    "category": "000/002/681/original/2b23c369278d82e6.png"
+  },
   ":flag_pansexual:": {
     "name": "flag pansexual",
     "category": "000/000/317/original/eac27b3462fbbfde.png"
+  },
+  ":flag_parafeminine:": {
+    "name": "flag parafeminine",
+    "category": "000/002/692/original/88446f4c9f3dd17d.png"
+  },
+  ":flag_paragender:": {
+    "name": "flag paragender",
+    "category": "000/002/691/original/c04d1fd5dfe31d3e.png"
+  },
+  ":flag_paramasculine:": {
+    "name": "flag paramasculine",
+    "category": "000/002/693/original/fa0c8e27e3b40cd0.png"
+  },
+  ":flag_plural:": {
+    "name": "flag plural",
+    "category": "000/002/702/original/ccdcb73aa51cb35e.png"
   },
   ":flag_polyamorous_alt:": {
     "name": "flag polyamorous alt",
@@ -1219,9 +2363,17 @@
     "name": "flag polyamorous old",
     "category": "000/000/575/original/62a78365c9e8f822.png"
   },
+  ":flag_polygender:": {
+    "name": "flag polygender",
+    "category": "000/002/686/original/a1352cf82accf81a.png"
+  },
   ":flag_polysexual:": {
     "name": "flag polysexual",
     "category": "000/000/319/original/648dbf993b1f4e24.png"
+  },
+  ":flag_pomosexual:": {
+    "name": "flag pomosexual",
+    "category": "000/002/694/original/279292fad65486e1.png"
   },
   ":flag_pride:": {
     "name": "flag pride",
@@ -1235,9 +2387,29 @@
     "name": "flag queer",
     "category": "000/000/066/original/a5a474f0cadecb62.png"
   },
+  ":flag_queer_stripes:": {
+    "name": "flag queer stripes",
+    "category": "000/002/705/original/18ff537792a55c7c.png"
+  },
+  ":flag_questioning:": {
+    "name": "flag questioning",
+    "category": "000/002/712/original/d11f4d5ebd272d55.png"
+  },
+  ":flag_quoiromantic:": {
+    "name": "flag quoiromantic",
+    "category": "000/002/719/original/62be9f6aab89667a.png"
+  },
+  ":flag_quoisexual:": {
+    "name": "flag quoisexual",
+    "category": "000/002/687/original/797a499a5de570ff.png"
+  },
   ":flag_sapphic:": {
     "name": "flag sapphic",
-    "category": "000/000/320/original/0dec14d348e844d8.png"
+    "category": "000/002/683/original/da2351fd02488a30.png"
+  },
+  ":flag_toric:": {
+    "name": "flag toric",
+    "category": "000/002/710/original/556755c4cc55b955.png"
   },
   ":flag_trans:": {
     "name": "flag trans",
@@ -1255,6 +2427,14 @@
     "name": "flag transmasculine",
     "category": "000/000/573/original/961d35ebe936eb62.png"
   },
+  ":flag_trigender:": {
+    "name": "flag trigender",
+    "category": "000/002/679/original/bd63a6dc17aeb331.png"
+  },
+  ":flag_trixic:": {
+    "name": "flag trixic",
+    "category": "000/002/711/original/1034cf4afad39e93.png"
+  },
   ":flag_two_spirit:": {
     "name": "flag two spirit",
     "category": "000/000/056/original/b835b47b42d89bfc.png"
@@ -1263,21 +2443,89 @@
     "name": "flag xenogender",
     "category": "000/000/035/original/01649bed05de2f13.png"
   },
+  ":flareon_pop_cat:": {
+    "name": "flareon pop cat",
+    "category": "000/002/311/original/1564f4fd728bd4d9.gif"
+  },
+  ":flareon_sip:": {
+    "name": "flareon sip",
+    "category": "000/002/310/original/98b9fcba1fa5be10.png"
+  },
   ":flareon_wink:": {
     "name": "flareon wink",
     "category": "000/000/045/original/a620d48bd12c89de.png"
+  },
+  ":fox_aww:": {
+    "name": "fox aww",
+    "category": "000/002/561/original/e7afc55911bac098.png"
+  },
+  ":fox_ban:": {
+    "name": "fox ban",
+    "category": "000/002/626/original/d71d676a3f8b5ace.png"
+  },
+  ":frog_blush:": {
+    "name": "frog blush",
+    "category": "000/002/244/original/9917dd17a45f77c1.png"
+  },
+  ":frog_cozy:": {
+    "name": "frog cozy",
+    "category": "000/002/246/original/41a05244c1265ad2.png"
+  },
+  ":frog_cry:": {
+    "name": "frog cry",
+    "category": "000/002/247/original/97f4eaf423f3a79b.png"
+  },
+  ":frog_dizzy:": {
+    "name": "frog dizzy",
+    "category": "000/002/252/original/be65d9d276fc3414.png"
+  },
+  ":frog_drool:": {
+    "name": "frog drool",
+    "category": "000/002/245/original/bb54b97ebea36a0b.png"
   },
   ":frog_hug:": {
     "name": "frog hug",
     "category": "000/000/062/original/e478b4a01042c9c9.png"
   },
-  ":gaming_controller:": {
-    "name": "gaming controller",
-    "category": "000/000/083/original/3ad41a385442fe16.png"
+  ":frog_hype_stimming:": {
+    "name": "frog hype stimming",
+    "category": "000/002/602/original/23847688d22087af.png"
   },
-  ":gaming_switch:": {
-    "name": "gaming switch",
-    "category": "000/000/084/original/ab6d2abce6a5f03b.png"
+  ":frog_love:": {
+    "name": "frog love",
+    "category": "000/002/253/original/a0d38844e045b411.png"
+  },
+  ":frog_please:": {
+    "name": "frog please",
+    "category": "000/002/249/original/b1f97ba448180607.png"
+  },
+  ":frog_rainbow_blanket:": {
+    "name": "frog rainbow blanket",
+    "category": "000/002/631/original/6e9058128b9279b8.png"
+  },
+  ":frog_skateboard:": {
+    "name": "frog skateboard",
+    "category": "000/002/733/original/8ee28a8ce7ba25cf.png"
+  },
+  ":frog_sus:": {
+    "name": "frog sus",
+    "category": "000/002/250/original/0f3082c4691110b8.png"
+  },
+  ":frog_think:": {
+    "name": "frog think",
+    "category": "000/002/248/original/68ad710b26dc5d10.png"
+  },
+  ":gaming_love:": {
+    "name": "gaming love",
+    "category": "000/002/604/original/1c54ce0173e89d4a.png"
+  },
+  ":gay:": {
+    "name": "gay",
+    "category": "000/002/795/original/e9f9193e4401ea39.png"
+  },
+  ":gay_good:": {
+    "name": "gay good",
+    "category": "000/002/531/original/ff49d54f865a9aa7.png"
   },
   ":gengar_cool:": {
     "name": "gengar cool",
@@ -1290,6 +2538,18 @@
   ":glaceon_uwu:": {
     "name": "glaceon uwu",
     "category": "000/000/047/original/3862c0a099479a5e.png"
+  },
+  ":goose_bonk:": {
+    "name": "goose bonk",
+    "category": "000/002/327/original/43c6f3e6a13e4679.gif"
+  },
+  ":goose_honk:": {
+    "name": "goose honk",
+    "category": "000/002/069/original/ac8559f81fe62943.png"
+  },
+  ":gotta_go_fast:": {
+    "name": "gotta go fast",
+    "category": "000/002/523/original/2197609138da7b1c.gif"
   },
   ":growlithe_hmm:": {
     "name": "growlithe hmm",
@@ -1311,17 +2571,237 @@
     "name": "hatched trans",
     "category": "000/000/107/original/3d2e9531eaa75808.png"
   },
+  ":head_tilt:": {
+    "name": "head tilt",
+    "category": "000/002/539/original/4a05675cd757341e.gif"
+  },
   ":headpats:": {
     "name": "headpats",
     "category": "000/000/189/original/618208d88be6749f.png"
+  },
+  ":heart_abrosexual:": {
+    "name": "heart abrosexual",
+    "category": "000/001/840/original/heart_abrosexual.png"
+  },
+  ":heart_achillean:": {
+    "name": "heart achillean",
+    "category": "000/001/841/original/heart_achillean.png"
+  },
+  ":heart_agender:": {
+    "name": "heart agender",
+    "category": "000/001/842/original/heart_agender.png"
+  },
+  ":heart_agenderflux:": {
+    "name": "heart agenderflux",
+    "category": "000/001/843/original/heart_agenderflux.png"
+  },
+  ":heart_androgyne:": {
+    "name": "heart androgyne",
+    "category": "000/001/844/original/heart_androgyne.png"
+  },
+  ":heart_aromantic:": {
+    "name": "heart aromantic",
+    "category": "000/001/845/original/heart_aromantic.png"
+  },
+  ":heart_asensual:": {
+    "name": "heart asensual",
+    "category": "000/001/846/original/heart_asensual.png"
+  },
+  ":heart_asexual:": {
+    "name": "heart asexual",
+    "category": "000/001/847/original/heart_asexual.png"
+  },
+  ":heart_bigender:": {
+    "name": "heart bigender",
+    "category": "000/001/848/original/heart_bigender.png"
+  },
+  ":heart_bisexual:": {
+    "name": "heart bisexual",
+    "category": "000/001/849/original/heart_bisexual.png"
+  },
+  ":heart_cyber:": {
+    "name": "heart cyber",
+    "category": "000/002/067/original/d07c09341593f5d5.png"
+  },
+  ":heart_demifemme:": {
+    "name": "heart demifemme",
+    "category": "000/001/850/original/heart_demifemme.png"
+  },
+  ":heart_demifluid:": {
+    "name": "heart demifluid",
+    "category": "000/001/851/original/heart_demifluid.png"
+  },
+  ":heart_demiflux:": {
+    "name": "heart demiflux",
+    "category": "000/001/852/original/heart_demiflux.png"
+  },
+  ":heart_demigender:": {
+    "name": "heart demigender",
+    "category": "000/001/853/original/heart_demigender.png"
+  },
+  ":heart_demimasc:": {
+    "name": "heart demimasc",
+    "category": "000/001/854/original/heart_demimasc.png"
+  },
+  ":heart_demiromantic:": {
+    "name": "heart demiromantic",
+    "category": "000/001/855/original/heart_demiromantic.png"
+  },
+  ":heart_demisexual:": {
+    "name": "heart demisexual",
+    "category": "000/001/856/original/heart_demisexual.png"
+  },
+  ":heart_diamoric:": {
+    "name": "heart diamoric",
+    "category": "000/001/857/original/heart_diamoric.png"
+  },
+  ":heart_gay:": {
+    "name": "heart gay",
+    "category": "000/001/858/original/heart_gay.png"
+  },
+  ":heart_genderfluid:": {
+    "name": "heart genderfluid",
+    "category": "000/001/859/original/heart_genderfluid.png"
+  },
+  ":heart_genderflux:": {
+    "name": "heart genderflux",
+    "category": "000/001/860/original/heart_genderflux.png"
+  },
+  ":heart_genderqueer:": {
+    "name": "heart genderqueer",
+    "category": "000/001/861/original/heart_genderqueer.png"
+  },
+  ":heart_gnc:": {
+    "name": "heart gnc",
+    "category": "000/001/862/original/heart_gnc.png"
+  },
+  ":heart_grey_ace:": {
+    "name": "heart grey ace",
+    "category": "000/001/863/original/heart_grey_ace.png"
+  },
+  ":heart_grey_aro:": {
+    "name": "heart grey aro",
+    "category": "000/001/864/original/heart_grey_aro.png"
+  },
+  ":heart_heteroflexible:": {
+    "name": "heart heteroflexible",
+    "category": "000/001/865/original/heart_heteroflexible.png"
+  },
+  ":heart_homoflexible:": {
+    "name": "heart homoflexible",
+    "category": "000/001/866/original/heart_homoflexible.png"
+  },
+  ":heart_intersex:": {
+    "name": "heart intersex",
+    "category": "000/001/867/original/heart_intersex.png"
+  },
+  ":heart_lesbian:": {
+    "name": "heart lesbian",
+    "category": "000/001/868/original/heart_lesbian.png"
+  },
+  ":heart_maverique:": {
+    "name": "heart maverique",
+    "category": "000/001/869/original/heart_maverique.png"
+  },
+  ":heart_neutrois:": {
+    "name": "heart neutrois",
+    "category": "000/001/870/original/heart_neutrois.png"
+  },
+  ":heart_nonbinary:": {
+    "name": "heart nonbinary",
+    "category": "000/001/871/original/heart_nonbinary.png"
+  },
+  ":heart_omnisexual:": {
+    "name": "heart omnisexual",
+    "category": "000/001/872/original/heart_omnisexual.png"
+  },
+  ":heart_pansexual:": {
+    "name": "heart pansexual",
+    "category": "000/001/873/original/heart_pansexual.png"
+  },
+  ":heart_polyamorous:": {
+    "name": "heart polyamorous",
+    "category": "000/001/874/original/heart_polyamorous.png"
+  },
+  ":heart_polysexual:": {
+    "name": "heart polysexual",
+    "category": "000/001/875/original/heart_polysexual.png"
+  },
+  ":heart_pride:": {
+    "name": "heart pride",
+    "category": "000/001/876/original/heart_pride.png"
+  },
+  ":heart_queer:": {
+    "name": "heart queer",
+    "category": "000/002/206/original/a9f0f2f76d23546b.png"
+  },
+  ":heart_queerplatonic:": {
+    "name": "heart queerplatonic",
+    "category": "000/001/878/original/heart_queerplatonic.png"
+  },
+  ":heart_sapphic:": {
+    "name": "heart sapphic",
+    "category": "000/001/879/original/heart_sapphic.png"
+  },
+  ":heart_straight_ally:": {
+    "name": "heart straight ally",
+    "category": "000/001/880/original/heart_straight_ally.png"
+  },
+  ":heart_trans:": {
+    "name": "heart trans",
+    "category": "000/001/881/original/heart_trans.png"
+  },
+  ":heart_transfeminine:": {
+    "name": "heart transfeminine",
+    "category": "000/001/882/original/heart_transfeminine.png"
+  },
+  ":heart_transmasculine:": {
+    "name": "heart transmasculine",
+    "category": "000/001/883/original/heart_transmasculine.png"
+  },
+  ":heart_trigender:": {
+    "name": "heart trigender",
+    "category": "000/001/884/original/heart_trigender.png"
+  },
+  ":heart_two_spirit_gay:": {
+    "name": "heart two spirit gay",
+    "category": "000/001/885/original/heart_two_spirit_gay.png"
+  },
+  ":heart_two_spirit_nb:": {
+    "name": "heart two spirit nb",
+    "category": "000/001/886/original/heart_two_spirit_nb.png"
+  },
+  ":heart_two_spirit_trans:": {
+    "name": "heart two spirit trans",
+    "category": "000/001/887/original/heart_two_spirit_trans.png"
+  },
+  ":heck:": {
+    "name": "heck",
+    "category": "000/002/790/original/044dd0be3de72f0f.png"
   },
   ":hehe:": {
     "name": "hehe",
     "category": "000/000/253/original/4d5731fd51ce92ad.png"
   },
+  ":hugs:": {
+    "name": "hugs",
+    "category": "000/002/794/original/3b392e47e2a3f4f0.png"
+  },
+  ":i_love_you:": {
+    "name": "i love you",
+    "category": "000/002/096/original/7c30638cee0e2da6.png"
+  },
   ":imagination:": {
     "name": "imagination",
     "category": "000/000/153/original/a793cf69a8067181.png"
+  },
+  ":isabelle_heart:": {
+    "name": "isabelle heart",
+    "category": "000/002/601/original/fdafa2b0a13ff064.png"
+  },
+  ":jigglypuff_wow:": {
+    "name": "jigglypuff wow",
+    "category": "000/002/319/original/69e19212f9a3ae8d.png"
   },
   ":jolteon_giggle:": {
     "name": "jolteon giggle",
@@ -1335,13 +2815,29 @@
     "name": "jump for joy",
     "category": "000/000/303/original/473b79a6f5d1287f.gif"
   },
+  ":kaboom:": {
+    "name": "kaboom",
+    "category": "000/002/534/original/19dbf693c1581a75.png"
+  },
   ":kirby_burger:": {
     "name": "kirby burger",
     "category": "000/000/152/original/1f55a00f12edd7ff.png"
   },
+  ":kirby_tired:": {
+    "name": "kirby tired",
+    "category": "000/002/577/original/e8c1bbb18994722d.png"
+  },
   ":kitty_cry:": {
     "name": "kitty cry",
     "category": "000/000/099/original/3e88e00d630404d1.png"
+  },
+  ":kitty_curious:": {
+    "name": "kitty curious",
+    "category": "000/002/583/original/09d9b44e694c869c.png"
+  },
+  ":kitty_drool:": {
+    "name": "kitty drool",
+    "category": "000/002/584/original/0541c7d045d2d0c8.png"
   },
   ":kitty_eyes:": {
     "name": "kitty eyes",
@@ -1367,6 +2863,10 @@
     "name": "kitty shy",
     "category": "000/000/102/original/7cc514d89de1e8d0.png"
   },
+  ":kitty_sly:": {
+    "name": "kitty sly",
+    "category": "000/002/582/original/e009fc66bc3143b2.png"
+  },
   ":kitty_smooch:": {
     "name": "kitty smooch",
     "category": "000/000/117/original/b09e20f9a434c29f.png"
@@ -1379,17 +2879,73 @@
     "name": "kitty yikes",
     "category": "000/000/094/original/b1af23368243e817.png"
   },
+  ":lavender:": {
+    "name": "lavender",
+    "category": "000/002/091/original/49e97f74a4d89a34.png"
+  },
   ":leafeon_flower:": {
     "name": "leafeon flower",
     "category": "000/000/044/original/26d01bba8c535e76.png"
+  },
+  ":leafeon_giggle:": {
+    "name": "leafeon giggle",
+    "category": "000/002/312/original/e598d6c0d09410fd.gif"
+  },
+  ":leafeon_money:": {
+    "name": "leafeon money",
+    "category": "000/002/308/original/6581df86ba8d918d.gif"
+  },
+  ":lego_think:": {
+    "name": "lego think",
+    "category": "000/002/568/original/1f5abe0acb2326f1.png"
+  },
+  ":lesbian_hearts:": {
+    "name": "lesbian hearts",
+    "category": "000/002/730/original/0b71142bf0e50623.png"
+  },
+  ":lesbian_nail_care:": {
+    "name": "lesbian nail care",
+    "category": "000/002/331/original/701cce794efbc500.png"
+  },
+  ":lewd:": {
+    "name": "lewd",
+    "category": "000/002/495/original/69749a12bb0f37af.png"
+  },
+  ":lick_lips:": {
+    "name": "lick lips",
+    "category": "000/002/528/original/54269c1682a78aa0.png"
   },
   ":litten_rage:": {
     "name": "litten rage",
     "category": "000/000/167/original/0d3cb2d22e26c86d.png"
   },
+  ":lizard_hehe:": {
+    "name": "lizard hehe",
+    "category": "000/002/497/original/3322077f82f045be.gif"
+  },
+  ":lol:": {
+    "name": "lol",
+    "category": "000/002/789/original/94cb9dee3438249c.png"
+  },
+  ":mega_flushed:": {
+    "name": "mega flushed",
+    "category": "000/002/329/original/467a712029d679a3.png"
+  },
+  ":menhera_happy:": {
+    "name": "menhera happy",
+    "category": "000/002/500/original/bfa4752dadcaa738.gif"
+  },
+  ":menhera_wink:": {
+    "name": "menhera wink",
+    "category": "000/002/501/original/109e8b238aa4bb7d.png"
+  },
   ":meowth_money:": {
     "name": "meowth money",
     "category": "000/000/360/original/bf3f2b48e2694400.gif"
+  },
+  ":mew_wave:": {
+    "name": "mew wave",
+    "category": "000/002/322/original/6d2b0dafa3ef527a.png"
   },
   ":minccino_knife:": {
     "name": "minccino knife",
@@ -1399,17 +2955,2537 @@
     "name": "mischief",
     "category": "000/000/251/original/865be6c0d7f85d41.png"
   },
+  ":ms_100:": {
+    "name": "ms 100",
+    "category": "000/001/581/original/100.png"
+  },
+  ":ms_100_agender:": {
+    "name": "ms 100 agender",
+    "category": "000/001/348/original/100_agender.png"
+  },
+  ":ms_100_androgyne:": {
+    "name": "ms 100 androgyne",
+    "category": "000/001/349/original/100_androgyne.png"
+  },
+  ":ms_100_aromantic:": {
+    "name": "ms 100 aromantic",
+    "category": "000/001/350/original/100_aromantic.png"
+  },
+  ":ms_100_asexual:": {
+    "name": "ms 100 asexual",
+    "category": "000/001/351/original/100_asexual.png"
+  },
+  ":ms_100_bear:": {
+    "name": "ms 100 bear",
+    "category": "000/001/352/original/100_bear.png"
+  },
+  ":ms_100_bigender:": {
+    "name": "ms 100 bigender",
+    "category": "000/001/353/original/100_bigender.png"
+  },
+  ":ms_100_bisexual:": {
+    "name": "ms 100 bisexual",
+    "category": "000/001/354/original/100_bisexual.png"
+  },
+  ":ms_100_demifemme:": {
+    "name": "ms 100 demifemme",
+    "category": "000/001/355/original/100_demifemme.png"
+  },
+  ":ms_100_demigender:": {
+    "name": "ms 100 demigender",
+    "category": "000/001/356/original/100_demigender.png"
+  },
+  ":ms_100_demimasc:": {
+    "name": "ms 100 demimasc",
+    "category": "000/001/357/original/100_demimasc.png"
+  },
+  ":ms_100_demisexual:": {
+    "name": "ms 100 demisexual",
+    "category": "000/001/358/original/100_demisexual.png"
+  },
+  ":ms_100_enbian:": {
+    "name": "ms 100 enbian",
+    "category": "000/001/359/original/100_enbian.png"
+  },
+  ":ms_100_genderfluid:": {
+    "name": "ms 100 genderfluid",
+    "category": "000/001/360/original/100_genderfluid.png"
+  },
+  ":ms_100_genderqueer:": {
+    "name": "ms 100 genderqueer",
+    "category": "000/001/361/original/100_genderqueer.png"
+  },
+  ":ms_100_intersex:": {
+    "name": "ms 100 intersex",
+    "category": "000/001/362/original/100_intersex.png"
+  },
+  ":ms_100_leather:": {
+    "name": "ms 100 leather",
+    "category": "000/001/363/original/100_leather.png"
+  },
+  ":ms_100_lesbian:": {
+    "name": "ms 100 lesbian",
+    "category": "000/001/364/original/100_lesbian.png"
+  },
+  ":ms_100_lunaric:": {
+    "name": "ms 100 lunaric",
+    "category": "000/001/365/original/100_lunaric.png"
+  },
+  ":ms_100_mercuric:": {
+    "name": "ms 100 mercuric",
+    "category": "000/001/366/original/100_mercuric.png"
+  },
+  ":ms_100_neutrois:": {
+    "name": "ms 100 neutrois",
+    "category": "000/001/367/original/100_neutrois.png"
+  },
+  ":ms_100_nonbinary:": {
+    "name": "ms 100 nonbinary",
+    "category": "000/001/368/original/100_nonbinary.png"
+  },
+  ":ms_100_omnisexual:": {
+    "name": "ms 100 omnisexual",
+    "category": "000/001/369/original/100_omnisexual.png"
+  },
+  ":ms_100_pansexual:": {
+    "name": "ms 100 pansexual",
+    "category": "000/001/370/original/100_pansexual.png"
+  },
+  ":ms_100_polyamorous:": {
+    "name": "ms 100 polyamorous",
+    "category": "000/001/371/original/100_polyamorous.png"
+  },
+  ":ms_100_polysexual:": {
+    "name": "ms 100 polysexual",
+    "category": "000/001/372/original/100_polysexual.png"
+  },
+  ":ms_100_pride:": {
+    "name": "ms 100 pride",
+    "category": "000/001/373/original/100_pride.png"
+  },
+  ":ms_100_quoiromantic:": {
+    "name": "ms 100 quoiromantic",
+    "category": "000/001/374/original/100_quoiromantic.png"
+  },
+  ":ms_100_solaric:": {
+    "name": "ms 100 solaric",
+    "category": "000/001/375/original/100_solaric.png"
+  },
+  ":ms_100_stellaric:": {
+    "name": "ms 100 stellaric",
+    "category": "000/001/376/original/100_stellaric.png"
+  },
+  ":ms_100_trans:": {
+    "name": "ms 100 trans",
+    "category": "000/001/377/original/100_trans.png"
+  },
+  ":ms_alien:": {
+    "name": "ms alien",
+    "category": "000/002/655/original/f73ca2d981aa2a59.png"
+  },
+  ":ms_alien_monster:": {
+    "name": "ms alien monster",
+    "category": "000/001/677/original/alien_monster.png"
+  },
+  ":ms_anger:": {
+    "name": "ms anger",
+    "category": "000/001/582/original/anger.png"
+  },
+  ":ms_arrow_curve_down:": {
+    "name": "ms arrow curve down",
+    "category": "000/001/585/original/arrow_curve_down.png"
+  },
+  ":ms_arrow_curve_left:": {
+    "name": "ms arrow curve left",
+    "category": "000/001/586/original/arrow_curve_left.png"
+  },
+  ":ms_arrow_curve_right:": {
+    "name": "ms arrow curve right",
+    "category": "000/001/587/original/arrow_curve_right.png"
+  },
+  ":ms_arrow_curve_up:": {
+    "name": "ms arrow curve up",
+    "category": "000/001/588/original/arrow_curve_up.png"
+  },
+  ":ms_arrow_down:": {
+    "name": "ms arrow down",
+    "category": "000/001/589/original/arrow_down.png"
+  },
+  ":ms_arrow_down_left:": {
+    "name": "ms arrow down left",
+    "category": "000/001/590/original/arrow_down_left.png"
+  },
+  ":ms_arrow_down_right:": {
+    "name": "ms arrow down right",
+    "category": "000/001/591/original/arrow_down_right.png"
+  },
+  ":ms_arrow_left:": {
+    "name": "ms arrow left",
+    "category": "000/001/592/original/arrow_left.png"
+  },
+  ":ms_arrow_left_right:": {
+    "name": "ms arrow left right",
+    "category": "000/001/593/original/arrow_left_right.png"
+  },
+  ":ms_arrow_right:": {
+    "name": "ms arrow right",
+    "category": "000/001/594/original/arrow_right.png"
+  },
+  ":ms_arrow_up:": {
+    "name": "ms arrow up",
+    "category": "000/001/595/original/arrow_up.png"
+  },
+  ":ms_arrow_up_down:": {
+    "name": "ms arrow up down",
+    "category": "000/001/596/original/arrow_up_down.png"
+  },
+  ":ms_arrow_up_left:": {
+    "name": "ms arrow up left",
+    "category": "000/001/597/original/arrow_up_left.png"
+  },
+  ":ms_arrow_up_right:": {
+    "name": "ms arrow up right",
+    "category": "000/001/598/original/arrow_up_right.png"
+  },
+  ":ms_arrows_clockwise:": {
+    "name": "ms arrows clockwise",
+    "category": "000/001/583/original/arrows_clockwise.png"
+  },
+  ":ms_arrows_counterclockwise:": {
+    "name": "ms arrows counterclockwise",
+    "category": "000/001/584/original/arrows_counterclockwise.png"
+  },
+  ":ms_artist_palette:": {
+    "name": "ms artist palette",
+    "category": "000/001/678/original/artist_palette.png"
+  },
+  ":ms_avocado_toast:": {
+    "name": "ms avocado toast",
+    "category": "000/001/679/original/avocado_toast.png"
+  },
+  ":ms_awoo:": {
+    "name": "ms awoo",
+    "category": "000/001/680/original/awoo.png"
+  },
+  ":ms_bang:": {
+    "name": "ms bang",
+    "category": "000/001/681/original/bang.png"
+  },
+  ":ms_bang_agender:": {
+    "name": "ms bang agender",
+    "category": "000/001/378/original/bang_agender.png"
+  },
+  ":ms_bang_androgyne:": {
+    "name": "ms bang androgyne",
+    "category": "000/001/379/original/bang_androgyne.png"
+  },
+  ":ms_bang_aromantic:": {
+    "name": "ms bang aromantic",
+    "category": "000/001/380/original/bang_aromantic.png"
+  },
+  ":ms_bang_asexual:": {
+    "name": "ms bang asexual",
+    "category": "000/001/381/original/bang_asexual.png"
+  },
+  ":ms_bang_bear:": {
+    "name": "ms bang bear",
+    "category": "000/001/382/original/bang_bear.png"
+  },
+  ":ms_bang_bigender:": {
+    "name": "ms bang bigender",
+    "category": "000/001/383/original/bang_bigender.png"
+  },
+  ":ms_bang_bisexual:": {
+    "name": "ms bang bisexual",
+    "category": "000/001/384/original/bang_bisexual.png"
+  },
+  ":ms_bang_demifemme:": {
+    "name": "ms bang demifemme",
+    "category": "000/001/385/original/bang_demifemme.png"
+  },
+  ":ms_bang_demigender:": {
+    "name": "ms bang demigender",
+    "category": "000/001/386/original/bang_demigender.png"
+  },
+  ":ms_bang_demimasc:": {
+    "name": "ms bang demimasc",
+    "category": "000/001/387/original/bang_demimasc.png"
+  },
+  ":ms_bang_demisexual:": {
+    "name": "ms bang demisexual",
+    "category": "000/001/388/original/bang_demisexual.png"
+  },
+  ":ms_bang_enbian:": {
+    "name": "ms bang enbian",
+    "category": "000/001/389/original/bang_enbian.png"
+  },
+  ":ms_bang_genderfluid:": {
+    "name": "ms bang genderfluid",
+    "category": "000/001/390/original/bang_genderfluid.png"
+  },
+  ":ms_bang_genderqueer:": {
+    "name": "ms bang genderqueer",
+    "category": "000/001/391/original/bang_genderqueer.png"
+  },
+  ":ms_bang_intersex:": {
+    "name": "ms bang intersex",
+    "category": "000/001/392/original/bang_intersex.png"
+  },
+  ":ms_bang_leather:": {
+    "name": "ms bang leather",
+    "category": "000/001/393/original/bang_leather.png"
+  },
+  ":ms_bang_lesbian:": {
+    "name": "ms bang lesbian",
+    "category": "000/001/394/original/bang_lesbian.png"
+  },
+  ":ms_bang_lunaric:": {
+    "name": "ms bang lunaric",
+    "category": "000/001/395/original/bang_lunaric.png"
+  },
+  ":ms_bang_mercuric:": {
+    "name": "ms bang mercuric",
+    "category": "000/001/396/original/bang_mercuric.png"
+  },
+  ":ms_bang_neutrois:": {
+    "name": "ms bang neutrois",
+    "category": "000/001/397/original/bang_neutrois.png"
+  },
+  ":ms_bang_nonbinary:": {
+    "name": "ms bang nonbinary",
+    "category": "000/001/398/original/bang_nonbinary.png"
+  },
+  ":ms_bang_omnisexual:": {
+    "name": "ms bang omnisexual",
+    "category": "000/001/399/original/bang_omnisexual.png"
+  },
+  ":ms_bang_pansexual:": {
+    "name": "ms bang pansexual",
+    "category": "000/001/400/original/bang_pansexual.png"
+  },
+  ":ms_bang_polyamorous:": {
+    "name": "ms bang polyamorous",
+    "category": "000/001/401/original/bang_polyamorous.png"
+  },
+  ":ms_bang_polysexual:": {
+    "name": "ms bang polysexual",
+    "category": "000/001/402/original/bang_polysexual.png"
+  },
+  ":ms_bang_quoiromantic:": {
+    "name": "ms bang quoiromantic",
+    "category": "000/001/403/original/bang_quoiromantic.png"
+  },
+  ":ms_bang_solaric:": {
+    "name": "ms bang solaric",
+    "category": "000/001/404/original/bang_solaric.png"
+  },
+  ":ms_bang_stellaric:": {
+    "name": "ms bang stellaric",
+    "category": "000/001/405/original/bang_stellaric.png"
+  },
+  ":ms_bang_trans:": {
+    "name": "ms bang trans",
+    "category": "000/001/406/original/bang_trans.png"
+  },
+  ":ms_bat:": {
+    "name": "ms bat",
+    "category": "000/000/775/original/bat.png"
+  },
+  ":ms_battery_empty:": {
+    "name": "ms battery empty",
+    "category": "000/001/599/original/battery_empty.png"
+  },
+  ":ms_battery_full:": {
+    "name": "ms battery full",
+    "category": "000/001/600/original/battery_full.png"
+  },
+  ":ms_battery_low:": {
+    "name": "ms battery low",
+    "category": "000/001/601/original/battery_low.png"
+  },
+  ":ms_battery_medium:": {
+    "name": "ms battery medium",
+    "category": "000/001/602/original/battery_medium.png"
+  },
+  ":ms_beach:": {
+    "name": "ms beach",
+    "category": "000/002/671/original/3cb7fc1a112ea9a9.png"
+  },
+  ":ms_bear:": {
+    "name": "ms bear",
+    "category": "000/000/776/original/bear.png"
+  },
+  ":ms_bismuth:": {
+    "name": "ms bismuth",
+    "category": "000/001/682/original/bismuth.png"
+  },
+  ":ms_bite_lip:": {
+    "name": "ms bite lip",
+    "category": "000/001/683/original/bite_lip.png"
+  },
+  ":ms_blue_jay:": {
+    "name": "ms blue jay",
+    "category": "000/000/777/original/blue_jay.png"
+  },
+  ":ms_boar:": {
+    "name": "ms boar",
+    "category": "000/000/778/original/boar.png"
+  },
+  ":ms_box_green_check:": {
+    "name": "ms box green check",
+    "category": "000/001/603/original/box_green_check.png"
+  },
+  ":ms_box_red_cross:": {
+    "name": "ms box red cross",
+    "category": "000/001/604/original/box_red_cross.png"
+  },
+  ":ms_bugbear:": {
+    "name": "ms bugbear",
+    "category": "000/000/779/original/bugbear.png"
+  },
+  ":ms_cannabis_leaf:": {
+    "name": "ms cannabis leaf",
+    "category": "000/001/684/original/cannabis_leaf.png"
+  },
+  ":ms_cannabis_think:": {
+    "name": "ms cannabis think",
+    "category": "000/002/657/original/f0e1119a447a9786.png"
+  },
+  ":ms_cat_blep:": {
+    "name": "ms cat blep",
+    "category": "000/002/645/original/3bd1f729abdc5f96.png"
+  },
+  ":ms_cat_cry:": {
+    "name": "ms cat cry",
+    "category": "000/002/634/original/e5d80459c8bda09d.png"
+  },
+  ":ms_cat_devious:": {
+    "name": "ms cat devious",
+    "category": "000/002/635/original/b63150cca3bf2c77.png"
+  },
+  ":ms_cat_heart_eyes:": {
+    "name": "ms cat heart eyes",
+    "category": "000/002/637/original/381979be509ff5b2.png"
+  },
+  ":ms_cat_joy:": {
+    "name": "ms cat joy",
+    "category": "000/002/638/original/9e08220762fc3fe2.png"
+  },
+  ":ms_cat_kiss:": {
+    "name": "ms cat kiss",
+    "category": "000/002/644/original/f5f3bb0750547835.png"
+  },
+  ":ms_cat_scowl:": {
+    "name": "ms cat scowl",
+    "category": "000/002/641/original/c5714970c009e3f5.png"
+  },
+  ":ms_cat_scream:": {
+    "name": "ms cat scream",
+    "category": "000/002/640/original/d262efd768271a73.png"
+  },
+  ":ms_cat_smile:": {
+    "name": "ms cat smile",
+    "category": "000/002/643/original/3144f0df6f6f36df.png"
+  },
+  ":ms_cat_wow:": {
+    "name": "ms cat wow",
+    "category": "000/002/646/original/c4e7616ce9a4d21f.png"
+  },
+  ":ms_char_0:": {
+    "name": "ms char 0",
+    "category": "000/001/605/original/char_0.png"
+  },
+  ":ms_char_1:": {
+    "name": "ms char 1",
+    "category": "000/001/606/original/char_1.png"
+  },
+  ":ms_char_2:": {
+    "name": "ms char 2",
+    "category": "000/001/607/original/char_2.png"
+  },
+  ":ms_char_3:": {
+    "name": "ms char 3",
+    "category": "000/001/608/original/char_3.png"
+  },
+  ":ms_char_4:": {
+    "name": "ms char 4",
+    "category": "000/001/609/original/char_4.png"
+  },
+  ":ms_char_5:": {
+    "name": "ms char 5",
+    "category": "000/001/610/original/char_5.png"
+  },
+  ":ms_char_6:": {
+    "name": "ms char 6",
+    "category": "000/001/611/original/char_6.png"
+  },
+  ":ms_char_7:": {
+    "name": "ms char 7",
+    "category": "000/001/612/original/char_7.png"
+  },
+  ":ms_char_8:": {
+    "name": "ms char 8",
+    "category": "000/001/613/original/char_8.png"
+  },
+  ":ms_char_9:": {
+    "name": "ms char 9",
+    "category": "000/001/614/original/char_9.png"
+  },
+  ":ms_char_asterisk:": {
+    "name": "ms char asterisk",
+    "category": "000/001/615/original/char_asterisk.png"
+  },
+  ":ms_char_hash:": {
+    "name": "ms char hash",
+    "category": "000/001/616/original/char_hash.png"
+  },
+  ":ms_cheetah:": {
+    "name": "ms cheetah",
+    "category": "000/000/780/original/cheetah.png"
+  },
+  ":ms_confused_cat:": {
+    "name": "ms confused cat",
+    "category": "000/001/686/original/confused_cat.png"
+  },
+  ":ms_confused_dog:": {
+    "name": "ms confused dog",
+    "category": "000/001/687/original/confused_dog.png"
+  },
+  ":ms_construction_sign:": {
+    "name": "ms construction sign",
+    "category": "000/001/688/original/construction_sign.png"
+  },
+  ":ms_couple_both_female:": {
+    "name": "ms couple both female",
+    "category": "000/001/617/original/couple_both_female.png"
+  },
+  ":ms_couple_both_male:": {
+    "name": "ms couple both male",
+    "category": "000/001/618/original/couple_both_male.png"
+  },
+  ":ms_couple_female_and_male:": {
+    "name": "ms couple female and male",
+    "category": "000/001/619/original/couple_female_and_male.png"
+  },
+  ":ms_coyote:": {
+    "name": "ms coyote",
+    "category": "000/000/781/original/coyote.png"
+  },
+  ":ms_crane:": {
+    "name": "ms crane",
+    "category": "000/000/782/original/crane.png"
+  },
+  ":ms_crossed_flags:": {
+    "name": "ms crossed flags",
+    "category": "000/001/689/original/crossed_flags.png"
+  },
+  ":ms_crow:": {
+    "name": "ms crow",
+    "category": "000/000/783/original/crow.png"
+  },
+  ":ms_crt_blue_screen:": {
+    "name": "ms crt blue screen",
+    "category": "000/001/690/original/crt_blue_screen.png"
+  },
+  ":ms_crt_green_lines:": {
+    "name": "ms crt green lines",
+    "category": "000/001/691/original/crt_green_lines.png"
+  },
+  ":ms_crt_noise:": {
+    "name": "ms crt noise",
+    "category": "000/001/692/original/crt_noise.png"
+  },
+  ":ms_crt_off:": {
+    "name": "ms crt off",
+    "category": "000/001/693/original/crt_off.png"
+  },
+  ":ms_crt_prompt:": {
+    "name": "ms crt prompt",
+    "category": "000/001/694/original/crt_prompt.png"
+  },
+  ":ms_crt_test_pattern:": {
+    "name": "ms crt test pattern",
+    "category": "000/001/695/original/crt_test_pattern.png"
+  },
+  ":ms_cursed_eggplant:": {
+    "name": "ms cursed eggplant",
+    "category": "000/001/696/original/cursed_eggplant.png"
+  },
+  ":ms_dark_elf:": {
+    "name": "ms dark elf",
+    "category": "000/000/784/original/dark_elf.png"
+  },
+  ":ms_dash:": {
+    "name": "ms dash",
+    "category": "000/001/697/original/dash.png"
+  },
+  ":ms_deer_with_antlers:": {
+    "name": "ms deer with antlers",
+    "category": "000/000/786/original/deer_with_antlers.png"
+  },
+  ":ms_deer_without_antlers:": {
+    "name": "ms deer without antlers",
+    "category": "000/000/785/original/deer_without_antlers.png"
+  },
+  ":ms_demon:": {
+    "name": "ms demon",
+    "category": "000/000/787/original/demon.png"
+  },
+  ":ms_desert_island:": {
+    "name": "ms desert island",
+    "category": "000/002/672/original/2516b703f2277530.png"
+  },
+  ":ms_dice_10:": {
+    "name": "ms dice 10",
+    "category": "000/001/698/original/dice_10.png"
+  },
+  ":ms_dice_12:": {
+    "name": "ms dice 12",
+    "category": "000/001/699/original/dice_12.png"
+  },
+  ":ms_dice_20:": {
+    "name": "ms dice 20",
+    "category": "000/001/700/original/dice_20.png"
+  },
+  ":ms_dice_4:": {
+    "name": "ms dice 4",
+    "category": "000/001/701/original/dice_4.png"
+  },
+  ":ms_dice_6:": {
+    "name": "ms dice 6",
+    "category": "000/001/702/original/dice_6.png"
+  },
+  ":ms_dice_8:": {
+    "name": "ms dice 8",
+    "category": "000/001/703/original/dice_8.png"
+  },
+  ":ms_dizzy:": {
+    "name": "ms dizzy",
+    "category": "000/001/704/original/dizzy.png"
+  },
+  ":ms_dolphin:": {
+    "name": "ms dolphin",
+    "category": "000/000/788/original/dolphin.png"
+  },
+  ":ms_dont_at_me:": {
+    "name": "ms dont at me",
+    "category": "000/001/620/original/dont_at_me.png"
+  },
+  ":ms_dove:": {
+    "name": "ms dove",
+    "category": "000/000/789/original/dove.png"
+  },
+  ":ms_droplets_agender:": {
+    "name": "ms droplets agender",
+    "category": "000/001/407/original/droplets_agender.png"
+  },
+  ":ms_droplets_androgyne:": {
+    "name": "ms droplets androgyne",
+    "category": "000/001/408/original/droplets_androgyne.png"
+  },
+  ":ms_droplets_aromantic:": {
+    "name": "ms droplets aromantic",
+    "category": "000/001/409/original/droplets_aromantic.png"
+  },
+  ":ms_droplets_asexual:": {
+    "name": "ms droplets asexual",
+    "category": "000/001/410/original/droplets_asexual.png"
+  },
+  ":ms_droplets_bear:": {
+    "name": "ms droplets bear",
+    "category": "000/001/411/original/droplets_bear.png"
+  },
+  ":ms_droplets_bigender:": {
+    "name": "ms droplets bigender",
+    "category": "000/001/412/original/droplets_bigender.png"
+  },
+  ":ms_droplets_bisexual:": {
+    "name": "ms droplets bisexual",
+    "category": "000/001/413/original/droplets_bisexual.png"
+  },
+  ":ms_droplets_demifemme:": {
+    "name": "ms droplets demifemme",
+    "category": "000/001/414/original/droplets_demifemme.png"
+  },
+  ":ms_droplets_demigender:": {
+    "name": "ms droplets demigender",
+    "category": "000/001/415/original/droplets_demigender.png"
+  },
+  ":ms_droplets_demimasc:": {
+    "name": "ms droplets demimasc",
+    "category": "000/001/416/original/droplets_demimasc.png"
+  },
+  ":ms_droplets_demisexual:": {
+    "name": "ms droplets demisexual",
+    "category": "000/001/417/original/droplets_demisexual.png"
+  },
+  ":ms_droplets_enbian:": {
+    "name": "ms droplets enbian",
+    "category": "000/001/418/original/droplets_enbian.png"
+  },
+  ":ms_droplets_genderfluid:": {
+    "name": "ms droplets genderfluid",
+    "category": "000/001/419/original/droplets_genderfluid.png"
+  },
+  ":ms_droplets_genderqueer:": {
+    "name": "ms droplets genderqueer",
+    "category": "000/001/420/original/droplets_genderqueer.png"
+  },
+  ":ms_droplets_intersex:": {
+    "name": "ms droplets intersex",
+    "category": "000/001/421/original/droplets_intersex.png"
+  },
+  ":ms_droplets_leather:": {
+    "name": "ms droplets leather",
+    "category": "000/001/422/original/droplets_leather.png"
+  },
+  ":ms_droplets_lesbian:": {
+    "name": "ms droplets lesbian",
+    "category": "000/001/423/original/droplets_lesbian.png"
+  },
+  ":ms_droplets_lunaric:": {
+    "name": "ms droplets lunaric",
+    "category": "000/001/424/original/droplets_lunaric.png"
+  },
+  ":ms_droplets_mercuric:": {
+    "name": "ms droplets mercuric",
+    "category": "000/001/425/original/droplets_mercuric.png"
+  },
+  ":ms_droplets_neutrois:": {
+    "name": "ms droplets neutrois",
+    "category": "000/001/426/original/droplets_neutrois.png"
+  },
+  ":ms_droplets_nonbinary:": {
+    "name": "ms droplets nonbinary",
+    "category": "000/001/427/original/droplets_nonbinary.png"
+  },
+  ":ms_droplets_omnisexual:": {
+    "name": "ms droplets omnisexual",
+    "category": "000/001/428/original/droplets_omnisexual.png"
+  },
+  ":ms_droplets_pansexual:": {
+    "name": "ms droplets pansexual",
+    "category": "000/001/429/original/droplets_pansexual.png"
+  },
+  ":ms_droplets_polyamorous:": {
+    "name": "ms droplets polyamorous",
+    "category": "000/001/430/original/droplets_polyamorous.png"
+  },
+  ":ms_droplets_polysexual:": {
+    "name": "ms droplets polysexual",
+    "category": "000/001/431/original/droplets_polysexual.png"
+  },
+  ":ms_droplets_pride:": {
+    "name": "ms droplets pride",
+    "category": "000/001/432/original/droplets_pride.png"
+  },
+  ":ms_droplets_quoiromantic:": {
+    "name": "ms droplets quoiromantic",
+    "category": "000/001/433/original/droplets_quoiromantic.png"
+  },
+  ":ms_droplets_solaric:": {
+    "name": "ms droplets solaric",
+    "category": "000/001/434/original/droplets_solaric.png"
+  },
+  ":ms_droplets_stellaric:": {
+    "name": "ms droplets stellaric",
+    "category": "000/001/435/original/droplets_stellaric.png"
+  },
+  ":ms_droplets_trans:": {
+    "name": "ms droplets trans",
+    "category": "000/001/436/original/droplets_trans.png"
+  },
+  ":ms_duck:": {
+    "name": "ms duck",
+    "category": "000/000/790/original/duck.png"
+  },
+  ":ms_eagle:": {
+    "name": "ms eagle",
+    "category": "000/000/791/original/eagle.png"
+  },
+  ":ms_earth_americas:": {
+    "name": "ms earth americas",
+    "category": "000/001/705/original/earth_americas.png"
+  },
+  ":ms_earth_antarctic:": {
+    "name": "ms earth antarctic",
+    "category": "000/001/706/original/earth_antarctic.png"
+  },
+  ":ms_earth_arctic:": {
+    "name": "ms earth arctic",
+    "category": "000/001/707/original/earth_arctic.png"
+  },
+  ":ms_earth_asia_oceania:": {
+    "name": "ms earth asia oceania",
+    "category": "000/001/708/original/earth_asia_oceania.png"
+  },
+  ":ms_earth_emea:": {
+    "name": "ms earth emea",
+    "category": "000/001/709/original/earth_emea.png"
+  },
+  ":ms_earth_pacific:": {
+    "name": "ms earth pacific",
+    "category": "000/001/710/original/earth_pacific.png"
+  },
+  ":ms_earth_world_map:": {
+    "name": "ms earth world map",
+    "category": "000/002/670/original/a7c5d4a5d24d6988.png"
+  },
+  ":ms_eastern_dragon:": {
+    "name": "ms eastern dragon",
+    "category": "000/000/792/original/eastern_dragon.png"
+  },
+  ":ms_eighteen_plus:": {
+    "name": "ms eighteen plus",
+    "category": "000/001/621/original/eighteen_plus.png"
+  },
+  ":ms_elf:": {
+    "name": "ms elf",
+    "category": "000/000/793/original/elf.png"
+  },
+  ":ms_face_angry:": {
+    "name": "ms face angry",
+    "category": "000/001/711/original/face_angry.png"
+  },
+  ":ms_face_anxious:": {
+    "name": "ms face anxious",
+    "category": "000/002/864/original/face_anxious.png"
+  },
+  ":ms_face_asleep:": {
+    "name": "ms face asleep",
+    "category": "000/002/865/original/face_asleep.png"
+  },
+  ":ms_face_astonished:": {
+    "name": "ms face astonished",
+    "category": "000/002/866/original/face_astonished.png"
+  },
+  ":ms_face_bandaged:": {
+    "name": "ms face bandaged",
+    "category": "000/002/867/original/face_bandaged.png"
+  },
+  ":ms_face_big_smile:": {
+    "name": "ms face big smile",
+    "category": "000/002/869/original/face_big_smile.png"
+  },
+  ":ms_face_big_xd:": {
+    "name": "ms face big xd",
+    "category": "000/002/870/original/face_big_xd.png"
+  },
+  ":ms_face_blank:": {
+    "name": "ms face blank",
+    "category": "000/002/871/original/face_blank.png"
+  },
+  ":ms_face_blush:": {
+    "name": "ms face blush",
+    "category": "000/002/662/original/cbd073af7bb749db.png"
+  },
+  ":ms_face_blush_kiss:": {
+    "name": "ms face blush kiss",
+    "category": "000/002/872/original/face_blush_kiss.png"
+  },
+  ":ms_face_cold:": {
+    "name": "ms face cold",
+    "category": "000/002/873/original/face_cold.png"
+  },
+  ":ms_face_concerned:": {
+    "name": "ms face concerned",
+    "category": "000/001/712/original/face_concerned.png"
+  },
+  ":ms_face_confounded:": {
+    "name": "ms face confounded",
+    "category": "000/002/874/original/face_confounded.png"
+  },
+  ":ms_face_content:": {
+    "name": "ms face content",
+    "category": "000/001/713/original/face_content.png"
+  },
+  ":ms_face_cool:": {
+    "name": "ms face cool",
+    "category": "000/002/875/original/face_cool.png"
+  },
+  ":ms_face_cry:": {
+    "name": "ms face cry",
+    "category": "000/002/876/original/face_cry.png"
+  },
+  ":ms_face_dead:": {
+    "name": "ms face dead",
+    "category": "000/001/714/original/face_dead.png"
+  },
+  ":ms_face_disappointed:": {
+    "name": "ms face disappointed",
+    "category": "000/002/877/original/face_disappointed.png"
+  },
+  ":ms_face_dizzy:": {
+    "name": "ms face dizzy",
+    "category": "000/001/715/original/face_dizzy.png"
+  },
+  ":ms_face_embarrassed:": {
+    "name": "ms face embarrassed",
+    "category": "000/002/647/original/2bd809116208ebe9.png"
+  },
+  ":ms_face_frown:": {
+    "name": "ms face frown",
+    "category": "000/002/878/original/face_frown.png"
+  },
+  ":ms_face_grimace:": {
+    "name": "ms face grimace",
+    "category": "000/002/663/original/f6678e2e86298bfd.png"
+  },
+  ":ms_face_grin:": {
+    "name": "ms face grin",
+    "category": "000/002/879/original/face_grin.png"
+  },
+  ":ms_face_happy:": {
+    "name": "ms face happy",
+    "category": "000/002/880/original/face_happy.png"
+  },
+  ":ms_face_heart_eyes:": {
+    "name": "ms face heart eyes",
+    "category": "000/001/716/original/face_heart_eyes.png"
+  },
+  ":ms_face_hot:": {
+    "name": "ms face hot",
+    "category": "000/002/881/original/face_hot.png"
+  },
+  ":ms_face_innocent:": {
+    "name": "ms face innocent",
+    "category": "000/002/882/original/face_innocent.png"
+  },
+  ":ms_face_joy:": {
+    "name": "ms face joy",
+    "category": "000/002/883/original/face_joy.png"
+  },
+  ":ms_face_kiss:": {
+    "name": "ms face kiss",
+    "category": "000/002/884/original/face_kiss.png"
+  },
+  ":ms_face_laugh:": {
+    "name": "ms face laugh",
+    "category": "000/002/885/original/face_laugh.png"
+  },
+  ":ms_face_liar:": {
+    "name": "ms face liar",
+    "category": "000/002/886/original/face_liar.png"
+  },
+  ":ms_face_loved:": {
+    "name": "ms face loved",
+    "category": "000/002/661/original/3c3b131841759550.png"
+  },
+  ":ms_face_mask:": {
+    "name": "ms face mask",
+    "category": "000/002/887/original/face_mask.png"
+  },
+  ":ms_face_mild_panic:": {
+    "name": "ms face mild panic",
+    "category": "000/001/717/original/face_mild_panic.png"
+  },
+  ":ms_face_mind_blown:": {
+    "name": "ms face mind blown",
+    "category": "000/001/718/original/face_mind_blown.png"
+  },
+  ":ms_face_money:": {
+    "name": "ms face money",
+    "category": "000/001/719/original/face_money.png"
+  },
+  ":ms_face_monocle:": {
+    "name": "ms face monocle",
+    "category": "000/002/888/original/face_monocle.png"
+  },
+  ":ms_face_nauseous:": {
+    "name": "ms face nauseous",
+    "category": "000/002/889/original/face_nauseous.png"
+  },
+  ":ms_face_nerdy:": {
+    "name": "ms face nerdy",
+    "category": "000/001/720/original/face_nerdy.png"
+  },
+  ":ms_face_open_mouth:": {
+    "name": "ms face open mouth",
+    "category": "000/002/890/original/face_open_mouth.png"
+  },
+  ":ms_face_owo:": {
+    "name": "ms face owo",
+    "category": "000/001/721/original/face_owo.png"
+  },
+  ":ms_face_party:": {
+    "name": "ms face party",
+    "category": "000/001/722/original/face_party.png"
+  },
+  ":ms_face_pensive:": {
+    "name": "ms face pensive",
+    "category": "000/002/891/original/face_pensive.png"
+  },
+  ":ms_face_persevere:": {
+    "name": "ms face persevere",
+    "category": "000/002/892/original/face_persevere.png"
+  },
+  ":ms_face_plead:": {
+    "name": "ms face plead",
+    "category": "000/002/893/original/face_plead.png"
+  },
+  ":ms_face_rage:": {
+    "name": "ms face rage",
+    "category": "000/002/894/original/face_rage.png"
+  },
+  ":ms_face_raised_eyebrow:": {
+    "name": "ms face raised eyebrow",
+    "category": "000/002/895/original/face_raised_eyebrow.png"
+  },
+  ":ms_face_relaxed:": {
+    "name": "ms face relaxed",
+    "category": "000/001/723/original/face_relaxed.png"
+  },
+  ":ms_face_rofl:": {
+    "name": "ms face rofl",
+    "category": "000/002/896/original/face_rofl.png"
+  },
+  ":ms_face_rolling_eyes:": {
+    "name": "ms face rolling eyes",
+    "category": "000/002/897/original/face_rolling_eyes.png"
+  },
+  ":ms_face_sad:": {
+    "name": "ms face sad",
+    "category": "000/001/724/original/face_sad.png"
+  },
+  ":ms_face_scared:": {
+    "name": "ms face scared",
+    "category": "000/002/898/original/face_scared.png"
+  },
+  ":ms_face_shush:": {
+    "name": "ms face shush",
+    "category": "000/002/667/original/fbaabd6c64b7d727.png"
+  },
+  ":ms_face_sick:": {
+    "name": "ms face sick",
+    "category": "000/002/899/original/face_sick.png"
+  },
+  ":ms_face_sleepy:": {
+    "name": "ms face sleepy",
+    "category": "000/002/900/original/face_sleepy.png"
+  },
+  ":ms_face_smile:": {
+    "name": "ms face smile",
+    "category": "000/002/901/original/face_smile.png"
+  },
+  ":ms_face_smile_upside_down:": {
+    "name": "ms face smile upside down",
+    "category": "000/002/902/original/face_smile_upside_down.png"
+  },
+  ":ms_face_smile_with_tear:": {
+    "name": "ms face smile with tear",
+    "category": "000/002/903/original/face_smile_with_tear.png"
+  },
+  ":ms_face_smirk:": {
+    "name": "ms face smirk",
+    "category": "000/002/665/original/3caf708ba83698b1.png"
+  },
+  ":ms_face_sneeze:": {
+    "name": "ms face sneeze",
+    "category": "000/002/904/original/face_sneeze.png"
+  },
+  ":ms_face_sob:": {
+    "name": "ms face sob",
+    "category": "000/002/905/original/face_sob.png"
+  },
+  ":ms_face_starry_eyes:": {
+    "name": "ms face starry eyes",
+    "category": "000/002/906/original/face_starry_eyes.png"
+  },
+  ":ms_face_surprised:": {
+    "name": "ms face surprised",
+    "category": "000/001/725/original/face_surprised.png"
+  },
+  ":ms_face_sweat_smile:": {
+    "name": "ms face sweat smile",
+    "category": "000/002/907/original/face_sweat_smile.png"
+  },
+  ":ms_face_think:": {
+    "name": "ms face think",
+    "category": "000/002/668/original/5c2b2c5acb52a3c2.png"
+  },
+  ":ms_face_tired:": {
+    "name": "ms face tired",
+    "category": "000/001/726/original/face_tired.png"
+  },
+  ":ms_face_unamused:": {
+    "name": "ms face unamused",
+    "category": "000/002/664/original/39aef99ca64e6f0d.png"
+  },
+  ":ms_face_unsure:": {
+    "name": "ms face unsure",
+    "category": "000/001/727/original/face_unsure.png"
+  },
+  ":ms_face_wink:": {
+    "name": "ms face wink",
+    "category": "000/002/908/original/face_wink.png"
+  },
+  ":ms_face_wink_kiss:": {
+    "name": "ms face wink kiss",
+    "category": "000/002/909/original/face_wink_kiss.png"
+  },
+  ":ms_face_wink_tongue:": {
+    "name": "ms face wink tongue",
+    "category": "000/002/910/original/face_wink_tongue.png"
+  },
+  ":ms_face_yawn:": {
+    "name": "ms face yawn",
+    "category": "000/002/669/original/970376f0c21619ed.png"
+  },
+  ":ms_face_yum:": {
+    "name": "ms face yum",
+    "category": "000/001/728/original/face_yum.png"
+  },
+  ":ms_face_zany:": {
+    "name": "ms face zany",
+    "category": "000/002/911/original/face_zany.png"
+  },
+  ":ms_face_zipped_lips:": {
+    "name": "ms face zipped lips",
+    "category": "000/002/912/original/face_zipped_lips.png"
+  },
+  ":ms_fire:": {
+    "name": "ms fire",
+    "category": "000/001/729/original/fire.png"
+  },
+  ":ms_fish_person:": {
+    "name": "ms fish person",
+    "category": "000/000/794/original/fish_person.png"
+  },
+  ":ms_flag_agender:": {
+    "name": "ms flag agender",
+    "category": "000/001/437/original/flag_agender.png"
+  },
+  ":ms_flag_androgyne:": {
+    "name": "ms flag androgyne",
+    "category": "000/001/438/original/flag_androgyne.png"
+  },
+  ":ms_flag_aromantic:": {
+    "name": "ms flag aromantic",
+    "category": "000/001/439/original/flag_aromantic.png"
+  },
+  ":ms_flag_asexual:": {
+    "name": "ms flag asexual",
+    "category": "000/001/440/original/flag_asexual.png"
+  },
+  ":ms_flag_bear:": {
+    "name": "ms flag bear",
+    "category": "000/001/441/original/flag_bear.png"
+  },
+  ":ms_flag_bigender:": {
+    "name": "ms flag bigender",
+    "category": "000/001/442/original/flag_bigender.png"
+  },
+  ":ms_flag_bisexual:": {
+    "name": "ms flag bisexual",
+    "category": "000/001/443/original/flag_bisexual.png"
+  },
+  ":ms_flag_demifemme:": {
+    "name": "ms flag demifemme",
+    "category": "000/001/444/original/flag_demifemme.png"
+  },
+  ":ms_flag_demigender:": {
+    "name": "ms flag demigender",
+    "category": "000/001/445/original/flag_demigender.png"
+  },
+  ":ms_flag_demimasc:": {
+    "name": "ms flag demimasc",
+    "category": "000/001/446/original/flag_demimasc.png"
+  },
+  ":ms_flag_demisexual:": {
+    "name": "ms flag demisexual",
+    "category": "000/001/447/original/flag_demisexual.png"
+  },
+  ":ms_flag_enbian:": {
+    "name": "ms flag enbian",
+    "category": "000/001/448/original/flag_enbian.png"
+  },
+  ":ms_flag_genderfluid:": {
+    "name": "ms flag genderfluid",
+    "category": "000/001/449/original/flag_genderfluid.png"
+  },
+  ":ms_flag_genderqueer:": {
+    "name": "ms flag genderqueer",
+    "category": "000/001/450/original/flag_genderqueer.png"
+  },
+  ":ms_flag_green:": {
+    "name": "ms flag green",
+    "category": "000/001/622/original/flag_green.png"
+  },
+  ":ms_flag_intersex:": {
+    "name": "ms flag intersex",
+    "category": "000/001/451/original/flag_intersex.png"
+  },
+  ":ms_flag_leather:": {
+    "name": "ms flag leather",
+    "category": "000/001/452/original/flag_leather.png"
+  },
+  ":ms_flag_lesbian:": {
+    "name": "ms flag lesbian",
+    "category": "000/001/453/original/flag_lesbian.png"
+  },
+  ":ms_flag_lunaric:": {
+    "name": "ms flag lunaric",
+    "category": "000/001/454/original/flag_lunaric.png"
+  },
+  ":ms_flag_mercuric:": {
+    "name": "ms flag mercuric",
+    "category": "000/001/455/original/flag_mercuric.png"
+  },
+  ":ms_flag_neutrois:": {
+    "name": "ms flag neutrois",
+    "category": "000/001/456/original/flag_neutrois.png"
+  },
+  ":ms_flag_nonbinary:": {
+    "name": "ms flag nonbinary",
+    "category": "000/001/457/original/flag_nonbinary.png"
+  },
+  ":ms_flag_omnisexual:": {
+    "name": "ms flag omnisexual",
+    "category": "000/001/458/original/flag_omnisexual.png"
+  },
+  ":ms_flag_pansexual:": {
+    "name": "ms flag pansexual",
+    "category": "000/001/459/original/flag_pansexual.png"
+  },
+  ":ms_flag_polyamorous:": {
+    "name": "ms flag polyamorous",
+    "category": "000/002/190/original/49a5167a0084b50a.png"
+  },
+  ":ms_flag_polysexual:": {
+    "name": "ms flag polysexual",
+    "category": "000/001/461/original/flag_polysexual.png"
+  },
+  ":ms_flag_pride:": {
+    "name": "ms flag pride",
+    "category": "000/001/462/original/flag_pride.png"
+  },
+  ":ms_flag_quoiromantic:": {
+    "name": "ms flag quoiromantic",
+    "category": "000/001/463/original/flag_quoiromantic.png"
+  },
+  ":ms_flag_red:": {
+    "name": "ms flag red",
+    "category": "000/001/623/original/flag_red.png"
+  },
+  ":ms_flag_solaric:": {
+    "name": "ms flag solaric",
+    "category": "000/001/464/original/flag_solaric.png"
+  },
+  ":ms_flag_stellaric:": {
+    "name": "ms flag stellaric",
+    "category": "000/001/465/original/flag_stellaric.png"
+  },
+  ":ms_flag_trans:": {
+    "name": "ms flag trans",
+    "category": "000/001/466/original/flag_trans.png"
+  },
+  ":ms_flag_yellow:": {
+    "name": "ms flag yellow",
+    "category": "000/001/624/original/flag_yellow.png"
+  },
+  ":ms_fox:": {
+    "name": "ms fox",
+    "category": "000/000/795/original/fox.png"
+  },
+  ":ms_frankensteins_monster:": {
+    "name": "ms frankensteins monster",
+    "category": "000/001/730/original/frankensteins_monster.png"
+  },
+  ":ms_furry_agender:": {
+    "name": "ms furry agender",
+    "category": "000/001/467/original/furry_agender.png"
+  },
+  ":ms_furry_androgyne:": {
+    "name": "ms furry androgyne",
+    "category": "000/001/468/original/furry_androgyne.png"
+  },
+  ":ms_furry_aromantic:": {
+    "name": "ms furry aromantic",
+    "category": "000/001/469/original/furry_aromantic.png"
+  },
+  ":ms_furry_asexual:": {
+    "name": "ms furry asexual",
+    "category": "000/001/470/original/furry_asexual.png"
+  },
+  ":ms_furry_bear:": {
+    "name": "ms furry bear",
+    "category": "000/001/471/original/furry_bear.png"
+  },
+  ":ms_furry_bigender:": {
+    "name": "ms furry bigender",
+    "category": "000/001/472/original/furry_bigender.png"
+  },
+  ":ms_furry_bisexual:": {
+    "name": "ms furry bisexual",
+    "category": "000/001/473/original/furry_bisexual.png"
+  },
+  ":ms_furry_demifemme:": {
+    "name": "ms furry demifemme",
+    "category": "000/001/474/original/furry_demifemme.png"
+  },
+  ":ms_furry_demigender:": {
+    "name": "ms furry demigender",
+    "category": "000/001/475/original/furry_demigender.png"
+  },
+  ":ms_furry_demimasc:": {
+    "name": "ms furry demimasc",
+    "category": "000/001/476/original/furry_demimasc.png"
+  },
+  ":ms_furry_demisexual:": {
+    "name": "ms furry demisexual",
+    "category": "000/001/477/original/furry_demisexual.png"
+  },
+  ":ms_furry_enbian:": {
+    "name": "ms furry enbian",
+    "category": "000/001/478/original/furry_enbian.png"
+  },
+  ":ms_furry_genderfluid:": {
+    "name": "ms furry genderfluid",
+    "category": "000/001/479/original/furry_genderfluid.png"
+  },
+  ":ms_furry_genderqueer:": {
+    "name": "ms furry genderqueer",
+    "category": "000/001/480/original/furry_genderqueer.png"
+  },
+  ":ms_furry_intersex:": {
+    "name": "ms furry intersex",
+    "category": "000/001/481/original/furry_intersex.png"
+  },
+  ":ms_furry_leather:": {
+    "name": "ms furry leather",
+    "category": "000/001/482/original/furry_leather.png"
+  },
+  ":ms_furry_lesbian:": {
+    "name": "ms furry lesbian",
+    "category": "000/001/483/original/furry_lesbian.png"
+  },
+  ":ms_furry_lunaric:": {
+    "name": "ms furry lunaric",
+    "category": "000/001/484/original/furry_lunaric.png"
+  },
+  ":ms_furry_mercuric:": {
+    "name": "ms furry mercuric",
+    "category": "000/001/485/original/furry_mercuric.png"
+  },
+  ":ms_furry_neutrois:": {
+    "name": "ms furry neutrois",
+    "category": "000/001/486/original/furry_neutrois.png"
+  },
+  ":ms_furry_nonbinary:": {
+    "name": "ms furry nonbinary",
+    "category": "000/001/487/original/furry_nonbinary.png"
+  },
+  ":ms_furry_omnisexual:": {
+    "name": "ms furry omnisexual",
+    "category": "000/001/488/original/furry_omnisexual.png"
+  },
+  ":ms_furry_pansexual:": {
+    "name": "ms furry pansexual",
+    "category": "000/001/489/original/furry_pansexual.png"
+  },
+  ":ms_furry_polyamorous:": {
+    "name": "ms furry polyamorous",
+    "category": "000/001/490/original/furry_polyamorous.png"
+  },
+  ":ms_furry_polysexual:": {
+    "name": "ms furry polysexual",
+    "category": "000/001/491/original/furry_polysexual.png"
+  },
+  ":ms_furry_pride:": {
+    "name": "ms furry pride",
+    "category": "000/001/492/original/furry_pride.png"
+  },
+  ":ms_furry_quoiromantic:": {
+    "name": "ms furry quoiromantic",
+    "category": "000/001/493/original/furry_quoiromantic.png"
+  },
+  ":ms_furry_solaric:": {
+    "name": "ms furry solaric",
+    "category": "000/001/494/original/furry_solaric.png"
+  },
+  ":ms_furry_stellaric:": {
+    "name": "ms furry stellaric",
+    "category": "000/001/495/original/furry_stellaric.png"
+  },
+  ":ms_furry_trans:": {
+    "name": "ms furry trans",
+    "category": "000/001/496/original/furry_trans.png"
+  },
+  ":ms_game_hp:": {
+    "name": "ms game hp",
+    "category": "000/001/625/original/game_hp.png"
+  },
+  ":ms_game_mp:": {
+    "name": "ms game mp",
+    "category": "000/001/626/original/game_mp.png"
+  },
+  ":ms_game_pp:": {
+    "name": "ms game pp",
+    "category": "000/001/627/original/game_pp.png"
+  },
+  ":ms_game_xp:": {
+    "name": "ms game xp",
+    "category": "000/001/628/original/game_xp.png"
+  },
+  ":ms_gender_androgyne:": {
+    "name": "ms gender androgyne",
+    "category": "000/001/629/original/gender_androgyne.png"
+  },
+  ":ms_gender_enby_crossbow:": {
+    "name": "ms gender enby crossbow",
+    "category": "000/001/630/original/gender_enby_crossbow.png"
+  },
+  ":ms_gender_female:": {
+    "name": "ms gender female",
+    "category": "000/001/631/original/gender_female.png"
+  },
+  ":ms_gender_male:": {
+    "name": "ms gender male",
+    "category": "000/001/632/original/gender_male.png"
+  },
+  ":ms_gender_male_and_female:": {
+    "name": "ms gender male and female",
+    "category": "000/001/633/original/gender_male_and_female.png"
+  },
+  ":ms_gender_neuter:": {
+    "name": "ms gender neuter",
+    "category": "000/001/634/original/gender_neuter.png"
+  },
+  ":ms_gender_trans:": {
+    "name": "ms gender trans",
+    "category": "000/001/635/original/gender_trans.png"
+  },
+  ":ms_gender_trans_mercury:": {
+    "name": "ms gender trans mercury",
+    "category": "000/001/636/original/gender_trans_mercury.png"
+  },
+  ":ms_ghost:": {
+    "name": "ms ghost",
+    "category": "000/001/731/original/ghost.png"
+  },
+  ":ms_globe:": {
+    "name": "ms globe",
+    "category": "000/001/732/original/globe.png"
+  },
+  ":ms_glowstick:": {
+    "name": "ms glowstick",
+    "category": "000/001/733/original/glowstick.png"
+  },
+  ":ms_goblin:": {
+    "name": "ms goblin",
+    "category": "000/000/796/original/goblin.png"
+  },
+  ":ms_gryphon:": {
+    "name": "ms gryphon",
+    "category": "000/000/797/original/gryphon.png"
+  },
+  ":ms_haircut:": {
+    "name": "ms haircut",
+    "category": "000/002/673/original/818222e48671b674.png"
+  },
+  ":ms_half_demon:": {
+    "name": "ms half demon",
+    "category": "000/000/798/original/half_demon.png"
+  },
+  ":ms_hand_over_mouth:": {
+    "name": "ms hand over mouth",
+    "category": "000/002/666/original/602e15f64c1b2bb6.png"
+  },
+  ":ms_headpats:": {
+    "name": "ms headpats",
+    "category": "000/001/734/original/headpats.png"
+  },
+  ":ms_heart_arrow:": {
+    "name": "ms heart arrow",
+    "category": "000/001/639/original/heart_arrow.png"
+  },
+  ":ms_heart_beat:": {
+    "name": "ms heart beat",
+    "category": "000/001/640/original/heart_beat.png"
+  },
+  ":ms_heart_black:": {
+    "name": "ms heart black",
+    "category": "000/001/641/original/heart_black.png"
+  },
+  ":ms_heart_blue:": {
+    "name": "ms heart blue",
+    "category": "000/001/642/original/heart_blue.png"
+  },
+  ":ms_heart_broken:": {
+    "name": "ms heart broken",
+    "category": "000/001/643/original/heart_broken.png"
+  },
+  ":ms_heart_empty:": {
+    "name": "ms heart empty",
+    "category": "000/001/644/original/heart_empty.png"
+  },
+  ":ms_heart_exclamation_mark:": {
+    "name": "ms heart exclamation mark",
+    "category": "000/001/645/original/heart_exclamation_mark.png"
+  },
+  ":ms_heart_green:": {
+    "name": "ms heart green",
+    "category": "000/001/646/original/heart_green.png"
+  },
+  ":ms_heart_half:": {
+    "name": "ms heart half",
+    "category": "000/001/647/original/heart_half.png"
+  },
+  ":ms_heart_orange:": {
+    "name": "ms heart orange",
+    "category": "000/001/648/original/heart_orange.png"
+  },
+  ":ms_heart_pink:": {
+    "name": "ms heart pink",
+    "category": "000/001/649/original/heart_pink.png"
+  },
+  ":ms_heart_pulse:": {
+    "name": "ms heart pulse",
+    "category": "000/001/650/original/heart_pulse.png"
+  },
+  ":ms_heart_purple:": {
+    "name": "ms heart purple",
+    "category": "000/001/651/original/heart_purple.png"
+  },
+  ":ms_heart_red:": {
+    "name": "ms heart red",
+    "category": "000/001/652/original/heart_red.png"
+  },
+  ":ms_heart_ribbon:": {
+    "name": "ms heart ribbon",
+    "category": "000/001/653/original/heart_ribbon.png"
+  },
+  ":ms_heart_sparkle:": {
+    "name": "ms heart sparkle",
+    "category": "000/001/654/original/heart_sparkle.png"
+  },
+  ":ms_heart_yellow:": {
+    "name": "ms heart yellow",
+    "category": "000/001/655/original/heart_yellow.png"
+  },
+  ":ms_hearts:": {
+    "name": "ms hearts",
+    "category": "000/001/637/original/hearts.png"
+  },
+  ":ms_hearts_orbiting:": {
+    "name": "ms hearts orbiting",
+    "category": "000/001/638/original/hearts_orbiting.png"
+  },
+  ":ms_hugs:": {
+    "name": "ms hugs",
+    "category": "000/001/735/original/hugs.png"
+  },
+  ":ms_hyena:": {
+    "name": "ms hyena",
+    "category": "000/000/799/original/hyena.png"
+  },
+  ":ms_imp_angry:": {
+    "name": "ms imp angry",
+    "category": "000/001/736/original/imp_angry.png"
+  },
+  ":ms_imp_devious:": {
+    "name": "ms imp devious",
+    "category": "000/001/737/original/imp_devious.png"
+  },
+  ":ms_imp_think:": {
+    "name": "ms imp think",
+    "category": "000/001/738/original/imp_think.png"
+  },
+  ":ms_infinity:": {
+    "name": "ms infinity",
+    "category": "000/001/656/original/infinity.png"
+  },
+  ":ms_information:": {
+    "name": "ms information",
+    "category": "000/001/657/original/information.png"
+  },
+  ":ms_jack_o_lantern:": {
+    "name": "ms jack o lantern",
+    "category": "000/001/739/original/jack_o_lantern.png"
+  },
+  ":ms_jackal:": {
+    "name": "ms jackal",
+    "category": "000/000/800/original/jackal.png"
+  },
+  ":ms_jaguar:": {
+    "name": "ms jaguar",
+    "category": "000/000/801/original/jaguar.png"
+  },
+  ":ms_kobold:": {
+    "name": "ms kobold",
+    "category": "000/000/802/original/kobold.png"
+  },
+  ":ms_label_back:": {
+    "name": "ms label back",
+    "category": "000/001/658/original/label_back.png"
+  },
+  ":ms_label_soon:": {
+    "name": "ms label soon",
+    "category": "000/001/659/original/label_soon.png"
+  },
+  ":ms_label_top:": {
+    "name": "ms label top",
+    "category": "000/001/660/original/label_top.png"
+  },
+  ":ms_labrys:": {
+    "name": "ms labrys",
+    "category": "000/001/661/original/labrys.png"
+  },
+  ":ms_lambda:": {
+    "name": "ms lambda",
+    "category": "000/001/662/original/lambda.png"
+  },
+  ":ms_leopard:": {
+    "name": "ms leopard",
+    "category": "000/000/803/original/leopard.png"
+  },
+  ":ms_lion_with_mane:": {
+    "name": "ms lion with mane",
+    "category": "000/000/805/original/lion_with_mane.png"
+  },
+  ":ms_lion_without_mane:": {
+    "name": "ms lion without mane",
+    "category": "000/000/804/original/lion_without_mane.png"
+  },
+  ":ms_lynx:": {
+    "name": "ms lynx",
+    "category": "000/000/806/original/lynx.png"
+  },
+  ":ms_magic_crystal_ball:": {
+    "name": "ms magic crystal ball",
+    "category": "000/001/740/original/magic_crystal_ball.png"
+  },
+  ":ms_magic_rune_stones:": {
+    "name": "ms magic rune stones",
+    "category": "000/001/741/original/magic_rune_stones.png"
+  },
+  ":ms_magic_spellbook:": {
+    "name": "ms magic spellbook",
+    "category": "000/001/742/original/magic_spellbook.png"
+  },
+  ":ms_magic_wand:": {
+    "name": "ms magic wand",
+    "category": "000/001/743/original/magic_wand.png"
+  },
+  ":ms_maple_leaf:": {
+    "name": "ms maple leaf",
+    "category": "000/001/744/original/maple_leaf.png"
+  },
+  ":ms_meeple_agender:": {
+    "name": "ms meeple agender",
+    "category": "000/001/497/original/meeple_agender.png"
+  },
+  ":ms_meeple_androgyne:": {
+    "name": "ms meeple androgyne",
+    "category": "000/001/498/original/meeple_androgyne.png"
+  },
+  ":ms_meeple_aromantic:": {
+    "name": "ms meeple aromantic",
+    "category": "000/001/499/original/meeple_aromantic.png"
+  },
+  ":ms_meeple_asexual:": {
+    "name": "ms meeple asexual",
+    "category": "000/001/500/original/meeple_asexual.png"
+  },
+  ":ms_meeple_bear:": {
+    "name": "ms meeple bear",
+    "category": "000/001/501/original/meeple_bear.png"
+  },
+  ":ms_meeple_bigender:": {
+    "name": "ms meeple bigender",
+    "category": "000/001/502/original/meeple_bigender.png"
+  },
+  ":ms_meeple_bisexual:": {
+    "name": "ms meeple bisexual",
+    "category": "000/001/503/original/meeple_bisexual.png"
+  },
+  ":ms_meeple_demifemme:": {
+    "name": "ms meeple demifemme",
+    "category": "000/001/504/original/meeple_demifemme.png"
+  },
+  ":ms_meeple_demigender:": {
+    "name": "ms meeple demigender",
+    "category": "000/001/505/original/meeple_demigender.png"
+  },
+  ":ms_meeple_demimasc:": {
+    "name": "ms meeple demimasc",
+    "category": "000/001/506/original/meeple_demimasc.png"
+  },
+  ":ms_meeple_demisexual:": {
+    "name": "ms meeple demisexual",
+    "category": "000/001/507/original/meeple_demisexual.png"
+  },
+  ":ms_meeple_enbian:": {
+    "name": "ms meeple enbian",
+    "category": "000/001/508/original/meeple_enbian.png"
+  },
+  ":ms_meeple_genderfluid:": {
+    "name": "ms meeple genderfluid",
+    "category": "000/001/509/original/meeple_genderfluid.png"
+  },
+  ":ms_meeple_genderqueer:": {
+    "name": "ms meeple genderqueer",
+    "category": "000/001/510/original/meeple_genderqueer.png"
+  },
+  ":ms_meeple_intersex:": {
+    "name": "ms meeple intersex",
+    "category": "000/001/511/original/meeple_intersex.png"
+  },
+  ":ms_meeple_leather:": {
+    "name": "ms meeple leather",
+    "category": "000/001/512/original/meeple_leather.png"
+  },
+  ":ms_meeple_lesbian:": {
+    "name": "ms meeple lesbian",
+    "category": "000/001/513/original/meeple_lesbian.png"
+  },
+  ":ms_meeple_lunaric:": {
+    "name": "ms meeple lunaric",
+    "category": "000/001/514/original/meeple_lunaric.png"
+  },
+  ":ms_meeple_mercuric:": {
+    "name": "ms meeple mercuric",
+    "category": "000/001/515/original/meeple_mercuric.png"
+  },
+  ":ms_meeple_neutrois:": {
+    "name": "ms meeple neutrois",
+    "category": "000/001/516/original/meeple_neutrois.png"
+  },
+  ":ms_meeple_nonbinary:": {
+    "name": "ms meeple nonbinary",
+    "category": "000/001/517/original/meeple_nonbinary.png"
+  },
+  ":ms_meeple_omnisexual:": {
+    "name": "ms meeple omnisexual",
+    "category": "000/001/518/original/meeple_omnisexual.png"
+  },
+  ":ms_meeple_pansexual:": {
+    "name": "ms meeple pansexual",
+    "category": "000/001/519/original/meeple_pansexual.png"
+  },
+  ":ms_meeple_polyamorous:": {
+    "name": "ms meeple polyamorous",
+    "category": "000/001/520/original/meeple_polyamorous.png"
+  },
+  ":ms_meeple_polysexual:": {
+    "name": "ms meeple polysexual",
+    "category": "000/001/521/original/meeple_polysexual.png"
+  },
+  ":ms_meeple_pride:": {
+    "name": "ms meeple pride",
+    "category": "000/001/522/original/meeple_pride.png"
+  },
+  ":ms_meeple_quoiromantic:": {
+    "name": "ms meeple quoiromantic",
+    "category": "000/001/523/original/meeple_quoiromantic.png"
+  },
+  ":ms_meeple_solaric:": {
+    "name": "ms meeple solaric",
+    "category": "000/001/524/original/meeple_solaric.png"
+  },
+  ":ms_meeple_stellaric:": {
+    "name": "ms meeple stellaric",
+    "category": "000/001/525/original/meeple_stellaric.png"
+  },
+  ":ms_meeple_trans:": {
+    "name": "ms meeple trans",
+    "category": "000/001/526/original/meeple_trans.png"
+  },
+  ":ms_message_email:": {
+    "name": "ms message email",
+    "category": "000/001/745/original/message_email.png"
+  },
+  ":ms_message_love:": {
+    "name": "ms message love",
+    "category": "000/001/746/original/message_love.png"
+  },
+  ":ms_minotaur:": {
+    "name": "ms minotaur",
+    "category": "000/000/807/original/minotaur.png"
+  },
+  ":ms_money_bag:": {
+    "name": "ms money bag",
+    "category": "000/001/747/original/money_bag.png"
+  },
+  ":ms_money_card:": {
+    "name": "ms money card",
+    "category": "000/001/748/original/money_card.png"
+  },
+  ":ms_money_green:": {
+    "name": "ms money green",
+    "category": "000/001/749/original/money_green.png"
+  },
+  ":ms_money_pink:": {
+    "name": "ms money pink",
+    "category": "000/001/750/original/money_pink.png"
+  },
+  ":ms_money_purple:": {
+    "name": "ms money purple",
+    "category": "000/001/751/original/money_purple.png"
+  },
+  ":ms_money_yellow:": {
+    "name": "ms money yellow",
+    "category": "000/001/752/original/money_yellow.png"
+  },
+  ":ms_mouse:": {
+    "name": "ms mouse",
+    "category": "000/000/808/original/mouse.png"
+  },
+  ":ms_music_note:": {
+    "name": "ms music note",
+    "category": "000/001/754/original/music_note.png"
+  },
+  ":ms_music_notes:": {
+    "name": "ms music notes",
+    "category": "000/001/755/original/music_notes.png"
+  },
+  ":ms_musical_score:": {
+    "name": "ms musical score",
+    "category": "000/001/753/original/musical_score.png"
+  },
+  ":ms_neurodiversity:": {
+    "name": "ms neurodiversity",
+    "category": "000/001/663/original/neurodiversity.png"
+  },
+  ":ms_no:": {
+    "name": "ms no",
+    "category": "000/001/664/original/no.png"
+  },
+  ":ms_no_awoo:": {
+    "name": "ms no awoo",
+    "category": "000/001/756/original/no_awoo.png"
+  },
+  ":ms_no_entry:": {
+    "name": "ms no entry",
+    "category": "000/001/665/original/no_entry.png"
+  },
+  ":ms_no_go:": {
+    "name": "ms no go",
+    "category": "000/001/666/original/no_go.png"
+  },
+  ":ms_no_ice:": {
+    "name": "ms no ice",
+    "category": "000/001/757/original/no_ice.png"
+  },
+  ":ms_oil_lamp:": {
+    "name": "ms oil lamp",
+    "category": "000/001/758/original/oil_lamp.png"
+  },
+  ":ms_oni:": {
+    "name": "ms oni",
+    "category": "000/000/809/original/oni.png"
+  },
+  ":ms_opossum:": {
+    "name": "ms opossum",
+    "category": "000/000/810/original/opossum.png"
+  },
+  ":ms_orc:": {
+    "name": "ms orc",
+    "category": "000/000/811/original/orc.png"
+  },
+  ":ms_otter:": {
+    "name": "ms otter",
+    "category": "000/000/812/original/otter.png"
+  },
+  ":ms_owl:": {
+    "name": "ms owl",
+    "category": "000/000/813/original/owl.png"
+  },
+  ":ms_panda:": {
+    "name": "ms panda",
+    "category": "000/000/814/original/panda.png"
+  },
+  ":ms_parrot:": {
+    "name": "ms parrot",
+    "category": "000/000/815/original/parrot.png"
+  },
+  ":ms_peacock:": {
+    "name": "ms peacock",
+    "category": "000/000/816/original/peacock.png"
+  },
+  ":ms_pelican:": {
+    "name": "ms pelican",
+    "category": "000/000/817/original/pelican.png"
+  },
+  ":ms_penguin:": {
+    "name": "ms penguin",
+    "category": "000/000/818/original/penguin.png"
+  },
+  ":ms_pentacle:": {
+    "name": "ms pentacle",
+    "category": "000/001/759/original/pentacle.png"
+  },
+  ":ms_phone:": {
+    "name": "ms phone",
+    "category": "000/001/760/original/phone.png"
+  },
+  ":ms_phone_off:": {
+    "name": "ms phone off",
+    "category": "000/001/761/original/phone_off.png"
+  },
+  ":ms_phone_vibrate:": {
+    "name": "ms phone vibrate",
+    "category": "000/001/762/original/phone_vibrate.png"
+  },
+  ":ms_phone_with_arrow:": {
+    "name": "ms phone with arrow",
+    "category": "000/001/763/original/phone_with_arrow.png"
+  },
+  ":ms_pigeon:": {
+    "name": "ms pigeon",
+    "category": "000/000/819/original/pigeon.png"
+  },
+  ":ms_potion_blue:": {
+    "name": "ms potion blue",
+    "category": "000/001/764/original/potion_blue.png"
+  },
+  ":ms_potion_green:": {
+    "name": "ms potion green",
+    "category": "000/001/765/original/potion_green.png"
+  },
+  ":ms_potion_pink:": {
+    "name": "ms potion pink",
+    "category": "000/001/766/original/potion_pink.png"
+  },
+  ":ms_potion_purple:": {
+    "name": "ms potion purple",
+    "category": "000/001/767/original/potion_purple.png"
+  },
+  ":ms_potion_red:": {
+    "name": "ms potion red",
+    "category": "000/001/768/original/potion_red.png"
+  },
+  ":ms_potion_yellow:": {
+    "name": "ms potion yellow",
+    "category": "000/001/769/original/potion_yellow.png"
+  },
+  ":ms_puffer_fish:": {
+    "name": "ms puffer fish",
+    "category": "000/000/820/original/puffer_fish.png"
+  },
+  ":ms_rabbit:": {
+    "name": "ms rabbit",
+    "category": "000/000/821/original/rabbit.png"
+  },
+  ":ms_raccoon:": {
+    "name": "ms raccoon",
+    "category": "000/000/822/original/raccoon.png"
+  },
+  ":ms_rainbow:": {
+    "name": "ms rainbow",
+    "category": "000/001/770/original/rainbow.png"
+  },
+  ":ms_ram:": {
+    "name": "ms ram",
+    "category": "000/000/823/original/ram.png"
+  },
+  ":ms_rat:": {
+    "name": "ms rat",
+    "category": "000/000/824/original/rat.png"
+  },
+  ":ms_red_panda:": {
+    "name": "ms red panda",
+    "category": "000/000/825/original/red_panda.png"
+  },
+  ":ms_robot:": {
+    "name": "ms robot",
+    "category": "000/001/771/original/robot.png"
+  },
+  ":ms_rooster:": {
+    "name": "ms rooster",
+    "category": "000/000/826/original/rooster.png"
+  },
+  ":ms_rose:": {
+    "name": "ms rose",
+    "category": "000/001/772/original/rose.png"
+  },
+  ":ms_scene_bridge:": {
+    "name": "ms scene bridge",
+    "category": "000/001/773/original/scene_bridge.png"
+  },
+  ":ms_scene_city:": {
+    "name": "ms scene city",
+    "category": "000/001/774/original/scene_city.png"
+  },
+  ":ms_scene_city_sunset:": {
+    "name": "ms scene city sunset",
+    "category": "000/001/775/original/scene_city_sunset.png"
+  },
+  ":ms_scene_fireworks:": {
+    "name": "ms scene fireworks",
+    "category": "000/001/776/original/scene_fireworks.png"
+  },
+  ":ms_scene_foggy:": {
+    "name": "ms scene foggy",
+    "category": "000/001/777/original/scene_foggy.png"
+  },
+  ":ms_scene_milky_way:": {
+    "name": "ms scene milky way",
+    "category": "000/001/778/original/scene_milky_way.png"
+  },
+  ":ms_scene_moon_ceremony:": {
+    "name": "ms scene moon ceremony",
+    "category": "000/001/779/original/scene_moon_ceremony.png"
+  },
+  ":ms_scene_mount_fuji:": {
+    "name": "ms scene mount fuji",
+    "category": "000/001/781/original/scene_mount_fuji.png"
+  },
+  ":ms_scene_mountain_snow:": {
+    "name": "ms scene mountain snow",
+    "category": "000/001/780/original/scene_mountain_snow.png"
+  },
+  ":ms_scene_night_stars:": {
+    "name": "ms scene night stars",
+    "category": "000/001/782/original/scene_night_stars.png"
+  },
+  ":ms_scene_park:": {
+    "name": "ms scene park",
+    "category": "000/001/783/original/scene_park.png"
+  },
+  ":ms_scene_railway:": {
+    "name": "ms scene railway",
+    "category": "000/001/784/original/scene_railway.png"
+  },
+  ":ms_scene_sparkler:": {
+    "name": "ms scene sparkler",
+    "category": "000/001/785/original/scene_sparkler.png"
+  },
+  ":ms_scene_sunrise:": {
+    "name": "ms scene sunrise",
+    "category": "000/001/786/original/scene_sunrise.png"
+  },
+  ":ms_scene_sunrise_mountains:": {
+    "name": "ms scene sunrise mountains",
+    "category": "000/001/787/original/scene_sunrise_mountains.png"
+  },
+  ":ms_scene_sunset:": {
+    "name": "ms scene sunset",
+    "category": "000/001/788/original/scene_sunset.png"
+  },
+  ":ms_shark:": {
+    "name": "ms shark",
+    "category": "000/000/827/original/shark.png"
+  },
+  ":ms_shark_think:": {
+    "name": "ms shark think",
+    "category": "000/001/789/original/shark_think.png"
+  },
+  ":ms_shit_grin:": {
+    "name": "ms shit grin",
+    "category": "000/002/658/original/08982728bd22e2e5.png"
+  },
+  ":ms_shit_on_fire:": {
+    "name": "ms shit on fire",
+    "category": "000/001/791/original/shit_on_fire.png"
+  },
+  ":ms_shit_think:": {
+    "name": "ms shit think",
+    "category": "000/001/792/original/shit_think.png"
+  },
+  ":ms_shooting_star:": {
+    "name": "ms shooting star",
+    "category": "000/001/793/original/shooting_star.png"
+  },
+  ":ms_sign_aromantic:": {
+    "name": "ms sign aromantic",
+    "category": "000/001/533/original/b67c3d1b796569e6.png"
+  },
+  ":ms_sign_asexual:": {
+    "name": "ms sign asexual",
+    "category": "000/001/532/original/4eefa64d9517489d.png"
+  },
+  ":ms_sign_gay:": {
+    "name": "ms sign gay",
+    "category": "000/001/529/original/sign_gay.png"
+  },
+  ":ms_sign_nonbinary:": {
+    "name": "ms sign nonbinary",
+    "category": "000/001/530/original/sign_nonbinary.png"
+  },
+  ":ms_sign_so_gay:": {
+    "name": "ms sign so gay",
+    "category": "000/001/531/original/sign_so_gay.png"
+  },
+  ":ms_siren:": {
+    "name": "ms siren",
+    "category": "000/001/794/original/siren.png"
+  },
+  ":ms_skunk:": {
+    "name": "ms skunk",
+    "category": "000/000/828/original/skunk.png"
+  },
+  ":ms_slime:": {
+    "name": "ms slime",
+    "category": "000/000/829/original/slime.png"
+  },
+  ":ms_snake:": {
+    "name": "ms snake",
+    "category": "000/000/830/original/snake.png"
+  },
+  ":ms_snow_leopard:": {
+    "name": "ms snow leopard",
+    "category": "000/000/831/original/snow_leopard.png"
+  },
+  ":ms_sparkles:": {
+    "name": "ms sparkles",
+    "category": "000/001/795/original/sparkles.png"
+  },
+  ":ms_spiral:": {
+    "name": "ms spiral",
+    "category": "000/001/796/original/spiral.png"
+  },
+  ":ms_squirrel:": {
+    "name": "ms squirrel",
+    "category": "000/000/832/original/squirrel.png"
+  },
+  ":ms_star:": {
+    "name": "ms star",
+    "category": "000/001/667/original/star.png"
+  },
+  ":ms_star_empty:": {
+    "name": "ms star empty",
+    "category": "000/001/668/original/star_empty.png"
+  },
+  ":ms_star_half:": {
+    "name": "ms star half",
+    "category": "000/001/669/original/star_half.png"
+  },
+  ":ms_suit_clubs:": {
+    "name": "ms suit clubs",
+    "category": "000/001/670/original/suit_clubs.png"
+  },
+  ":ms_suit_diamonds:": {
+    "name": "ms suit diamonds",
+    "category": "000/001/671/original/suit_diamonds.png"
+  },
+  ":ms_suit_hearts:": {
+    "name": "ms suit hearts",
+    "category": "000/001/672/original/suit_hearts.png"
+  },
+  ":ms_suit_spades:": {
+    "name": "ms suit spades",
+    "category": "000/001/673/original/suit_spades.png"
+  },
+  ":ms_tarot_cup:": {
+    "name": "ms tarot cup",
+    "category": "000/001/797/original/tarot_cup.png"
+  },
+  ":ms_tarot_pentacle:": {
+    "name": "ms tarot pentacle",
+    "category": "000/001/798/original/tarot_pentacle.png"
+  },
+  ":ms_tarot_sword:": {
+    "name": "ms tarot sword",
+    "category": "000/001/799/original/tarot_sword.png"
+  },
+  ":ms_tarot_wand:": {
+    "name": "ms tarot wand",
+    "category": "000/001/800/original/tarot_wand.png"
+  },
+  ":ms_tech_arcade_stick:": {
+    "name": "ms tech arcade stick",
+    "category": "000/001/801/original/tech_arcade_stick.png"
+  },
+  ":ms_tech_computer:": {
+    "name": "ms tech computer",
+    "category": "000/001/802/original/tech_computer.png"
+  },
+  ":ms_tech_gamepad:": {
+    "name": "ms tech gamepad",
+    "category": "000/001/803/original/tech_gamepad.png"
+  },
+  ":ms_tech_joystick:": {
+    "name": "ms tech joystick",
+    "category": "000/001/804/original/tech_joystick.png"
+  },
+  ":ms_tech_keyboard:": {
+    "name": "ms tech keyboard",
+    "category": "000/001/805/original/tech_keyboard.png"
+  },
+  ":ms_tech_laptop:": {
+    "name": "ms tech laptop",
+    "category": "000/001/806/original/tech_laptop.png"
+  },
+  ":ms_tech_mouse:": {
+    "name": "ms tech mouse",
+    "category": "000/001/807/original/tech_mouse.png"
+  },
+  ":ms_tech_projector:": {
+    "name": "ms tech projector",
+    "category": "000/001/808/original/tech_projector.png"
+  },
+  ":ms_tech_scales:": {
+    "name": "ms tech scales",
+    "category": "000/001/809/original/tech_scales.png"
+  },
+  ":ms_tech_speaker:": {
+    "name": "ms tech speaker",
+    "category": "000/001/810/original/tech_speaker.png"
+  },
+  ":ms_tech_stylus:": {
+    "name": "ms tech stylus",
+    "category": "000/001/811/original/tech_stylus.png"
+  },
+  ":ms_tech_trackball:": {
+    "name": "ms tech trackball",
+    "category": "000/001/812/original/tech_trackball.png"
+  },
+  ":ms_tech_vr_headset:": {
+    "name": "ms tech vr headset",
+    "category": "000/001/813/original/tech_vr_headset.png"
+  },
+  ":ms_tech_watch:": {
+    "name": "ms tech watch",
+    "category": "000/001/814/original/tech_watch.png"
+  },
+  ":ms_tengu_mask:": {
+    "name": "ms tengu mask",
+    "category": "000/002/656/original/024c61e285a47c78.png"
+  },
+  ":ms_tiger:": {
+    "name": "ms tiger",
+    "category": "000/000/833/original/tiger.png"
+  },
+  ":ms_tofu:": {
+    "name": "ms tofu",
+    "category": "000/001/815/original/tofu.png"
+  },
+  ":ms_toucan:": {
+    "name": "ms toucan",
+    "category": "000/000/834/original/toucan.png"
+  },
+  ":ms_trainsgender:": {
+    "name": "ms trainsgender",
+    "category": "000/001/816/original/trainsgender.png"
+  },
+  ":ms_trans_think:": {
+    "name": "ms trans think",
+    "category": "000/001/817/original/trans_think.png"
+  },
+  ":ms_triangle_black:": {
+    "name": "ms triangle black",
+    "category": "000/001/675/original/triangle_black.png"
+  },
+  ":ms_triangle_pink:": {
+    "name": "ms triangle pink",
+    "category": "000/001/676/original/triangle_pink.png"
+  },
+  ":ms_triangles_bisexual:": {
+    "name": "ms triangles bisexual",
+    "category": "000/001/674/original/triangles_bisexual.png"
+  },
+  ":ms_troll:": {
+    "name": "ms troll",
+    "category": "000/000/835/original/troll.png"
+  },
+  ":ms_turtle:": {
+    "name": "ms turtle",
+    "category": "000/000/836/original/turtle.png"
+  },
+  ":ms_weapon_arrow:": {
+    "name": "ms weapon arrow",
+    "category": "000/001/818/original/weapon_arrow.png"
+  },
+  ":ms_weapon_battle_axe:": {
+    "name": "ms weapon battle axe",
+    "category": "000/001/819/original/weapon_battle_axe.png"
+  },
+  ":ms_weapon_bow_and_arrow:": {
+    "name": "ms weapon bow and arrow",
+    "category": "000/001/820/original/weapon_bow_and_arrow.png"
+  },
+  ":ms_weapon_broadsword:": {
+    "name": "ms weapon broadsword",
+    "category": "000/001/821/original/weapon_broadsword.png"
+  },
+  ":ms_weapon_crossbow:": {
+    "name": "ms weapon crossbow",
+    "category": "000/001/822/original/weapon_crossbow.png"
+  },
+  ":ms_weapon_flail:": {
+    "name": "ms weapon flail",
+    "category": "000/001/823/original/weapon_flail.png"
+  },
+  ":ms_weapon_glaive:": {
+    "name": "ms weapon glaive",
+    "category": "000/001/824/original/weapon_glaive.png"
+  },
+  ":ms_weapon_great_axe:": {
+    "name": "ms weapon great axe",
+    "category": "000/001/825/original/weapon_great_axe.png"
+  },
+  ":ms_weapon_halberd:": {
+    "name": "ms weapon halberd",
+    "category": "000/001/826/original/weapon_halberd.png"
+  },
+  ":ms_weapon_katana:": {
+    "name": "ms weapon katana",
+    "category": "000/001/827/original/weapon_katana.png"
+  },
+  ":ms_weapon_mace:": {
+    "name": "ms weapon mace",
+    "category": "000/001/828/original/weapon_mace.png"
+  },
+  ":ms_weapon_rapier:": {
+    "name": "ms weapon rapier",
+    "category": "000/001/829/original/weapon_rapier.png"
+  },
+  ":ms_weapon_sabre:": {
+    "name": "ms weapon sabre",
+    "category": "000/001/830/original/weapon_sabre.png"
+  },
+  ":ms_weapon_shuriken:": {
+    "name": "ms weapon shuriken",
+    "category": "000/001/831/original/weapon_shuriken.png"
+  },
+  ":ms_weapon_tomahawk:": {
+    "name": "ms weapon tomahawk",
+    "category": "000/001/832/original/weapon_tomahawk.png"
+  },
+  ":ms_weapon_war_hammer:": {
+    "name": "ms weapon war hammer",
+    "category": "000/001/833/original/weapon_war_hammer.png"
+  },
+  ":ms_weapon_zweihander:": {
+    "name": "ms weapon zweihander",
+    "category": "000/001/834/original/weapon_zweihander.png"
+  },
+  ":ms_western_dragon:": {
+    "name": "ms western dragon",
+    "category": "000/000/837/original/western_dragon.png"
+  },
+  ":ms_wolf:": {
+    "name": "ms wolf",
+    "category": "000/000/838/original/wolf.png"
+  },
+  ":mudkip_love:": {
+    "name": "mudkip love",
+    "category": "000/002/317/original/b3ac7c00c4bc2737.png"
+  },
   ":munchlax_munch:": {
     "name": "munchlax munch",
     "category": "000/000/358/original/3644abc7a883b928.gif"
+  },
+  ":nature_heart:": {
+    "name": "nature heart",
+    "category": "000/002/729/original/73249a502e780de3.png"
+  },
+  ":neko_back_turned:": {
+    "name": "neko back turned",
+    "category": "000/002/589/original/db5178b6118a84c8.png"
+  },
+  ":neko_bag_on_head:": {
+    "name": "neko bag on head",
+    "category": "000/002/415/original/b349db96819181b2.png"
+  },
+  ":neko_in_box:": {
+    "name": "neko in box",
+    "category": "000/002/443/original/c4b1d9565709110b.png"
+  },
+  ":neko_in_pot:": {
+    "name": "neko in pot",
+    "category": "000/002/433/original/d43aaeaacdf00a21.png"
+  },
+  ":neko_love_left:": {
+    "name": "neko love left",
+    "category": "000/002/412/original/0663706e74acda79.png"
+  },
+  ":neko_love_right:": {
+    "name": "neko love right",
+    "category": "000/002/413/original/95cfd98554509166.png"
+  },
+  ":neko_macaron:": {
+    "name": "neko macaron",
+    "category": "000/002/414/original/db84acd8fe7dc0ad.png"
+  },
+  ":neko_paw:": {
+    "name": "neko paw",
+    "category": "000/002/429/original/4d94fda79c8ecbae.gif"
+  },
+  ":neko_play:": {
+    "name": "neko play",
+    "category": "000/002/428/original/de67f32387c6f406.gif"
+  },
+  ":neko_pounce:": {
+    "name": "neko pounce",
+    "category": "000/002/417/original/8fcce35db0b80f52.png"
+  },
+  ":neko_question:": {
+    "name": "neko question",
+    "category": "000/002/432/original/c231f96966c79635.png"
+  },
+  ":neko_smile:": {
+    "name": "neko smile",
+    "category": "000/002/426/original/7b8399857495c5f0.png"
+  },
+  ":neko_snack:": {
+    "name": "neko snack",
+    "category": "000/002/411/original/f6f749dcec1826f6.png"
+  },
+  ":neurodiversity:": {
+    "name": "neurodiversity",
+    "category": "000/002/788/original/aee3b3c190af06e6.png"
+  },
+  ":nintendo_switch:": {
+    "name": "nintendo switch",
+    "category": "000/002/606/original/09ec94c0cc014e62.png"
+  },
+  ":no_boost:": {
+    "name": "no boost",
+    "category": "000/002/792/original/711f68b32e123155.png"
+  },
+  ":no_fave:": {
+    "name": "no fave",
+    "category": "000/002/791/original/08cd7b42e2de36cb.png"
+  },
+  ":no_tankies:": {
+    "name": "no tankies",
+    "category": "000/002/550/original/7a06816198385c42.png"
+  },
+  ":not_like_this:": {
+    "name": "not like this",
+    "category": "000/002/498/original/592709cdbaaa2ccb.png"
   },
   ":nuzzles:": {
     "name": "nuzzles",
     "category": "000/000/589/original/58caecdd29ca1932.png"
   },
+  ":nyan_goat:": {
+    "name": "nyan goat",
+    "category": "000/002/441/original/a066a74d4b1c34cb.gif"
+  },
+  ":oh_no_blob:": {
+    "name": "oh no blob",
+    "category": "000/002/538/original/99798e8d7dbc2a02.png"
+  },
+  ":oh_no_bubble:": {
+    "name": "oh no bubble",
+    "category": "000/002/537/original/0f296e10e07a006b.png"
+  },
+  ":oof:": {
+    "name": "oof",
+    "category": "000/002/532/original/cbc19870204a1075.png"
+  },
   ":oshawott_shock:": {
     "name": "oshawott shock",
     "category": "000/000/168/original/73aa93634bfbc5dd.png"
+  },
+  ":otter_annoyed:": {
+    "name": "otter annoyed",
+    "category": "000/002/579/original/28164262bbac4eb1.png"
+  },
+  ":otter_love:": {
+    "name": "otter love",
+    "category": "000/002/326/original/49c2b63a2bbaa9f9.png"
+  },
+  ":panda_admire:": {
+    "name": "panda admire",
+    "category": "000/002/734/original/4087f3fdc75abf69.png"
+  },
+  ":panda_angel:": {
+    "name": "panda angel",
+    "category": "000/002/735/original/d4a216b711c10b97.png"
+  },
+  ":panda_angry:": {
+    "name": "panda angry",
+    "category": "000/002/746/original/b0039b44f7899d1f.png"
+  },
+  ":panda_blank:": {
+    "name": "panda blank",
+    "category": "000/002/753/original/a3a79d9b79b39545.png"
+  },
+  ":panda_blindfold:": {
+    "name": "panda blindfold",
+    "category": "000/002/736/original/0a4c453256980a36.png"
+  },
+  ":panda_cool:": {
+    "name": "panda cool",
+    "category": "000/002/737/original/00fd1e134ace38ea.png"
+  },
+  ":panda_cool_sip:": {
+    "name": "panda cool sip",
+    "category": "000/002/738/original/823d61934bacfc92.png"
+  },
+  ":panda_cry:": {
+    "name": "panda cry",
+    "category": "000/002/755/original/989538c1becbdd1b.png"
+  },
+  ":panda_derp:": {
+    "name": "panda derp",
+    "category": "000/002/760/original/926972d2d37c7f71.png"
+  },
+  ":panda_devil:": {
+    "name": "panda devil",
+    "category": "000/002/740/original/1d3d0d1af0e8b632.png"
+  },
+  ":panda_disgust:": {
+    "name": "panda disgust",
+    "category": "000/002/741/original/1f76d06e07adb112.png"
+  },
+  ":panda_duck_sip:": {
+    "name": "panda duck sip",
+    "category": "000/002/743/original/28e1193c23e25836.png"
+  },
+  ":panda_duck_yay:": {
+    "name": "panda duck yay",
+    "category": "000/002/742/original/1e434d1ea515ebb9.png"
+  },
+  ":panda_fish:": {
+    "name": "panda fish",
+    "category": "000/002/752/original/571dad6e18547014.png"
+  },
+  ":panda_frozen:": {
+    "name": "panda frozen",
+    "category": "000/002/751/original/52425e75c98637ee.png"
+  },
+  ":panda_gift:": {
+    "name": "panda gift",
+    "category": "000/002/744/original/fb43d9fb25e6204d.png"
+  },
+  ":panda_oh_no:": {
+    "name": "panda oh no",
+    "category": "000/002/749/original/8072175c0165c7db.png"
+  },
+  ":panda_profit:": {
+    "name": "panda profit",
+    "category": "000/002/745/original/ab666c16fb10baf6.png"
+  },
+  ":panda_sad:": {
+    "name": "panda sad",
+    "category": "000/002/757/original/f4441278de3cda4e.png"
+  },
+  ":panda_science:": {
+    "name": "panda science",
+    "category": "000/002/748/original/7588f17f64ddb77a.png"
+  },
+  ":panda_sleep:": {
+    "name": "panda sleep",
+    "category": "000/002/756/original/e1c3a826d23097a1.png"
+  },
+  ":panda_uwu:": {
+    "name": "panda uwu",
+    "category": "000/002/759/original/2df3635e7ac1f8a4.png"
+  },
+  ":panda_vampire:": {
+    "name": "panda vampire",
+    "category": "000/002/758/original/12c708e3d9e45c63.png"
+  },
+  ":panda_yay:": {
+    "name": "panda yay",
+    "category": "000/002/750/original/f261837b8cc32a19.png"
+  },
+  ":party_dog:": {
+    "name": "party dog",
+    "category": "000/002/536/original/8c23d2a1f1edfd40.gif"
+  },
+  ":party_kirby:": {
+    "name": "party kirby",
+    "category": "000/002/526/original/2ac40f846480d4ae.gif"
+  },
+  ":party_parrot:": {
+    "name": "party parrot",
+    "category": "000/002/522/original/aa5030cbf6b06a34.png"
   },
   ":patrick_ayaya:": {
     "name": "patrick ayaya",
@@ -1507,9 +5583,45 @@
     "name": "patrick yum",
     "category": "000/000/138/original/671262846ed95e34.png"
   },
+  ":penguin_cry:": {
+    "name": "penguin cry",
+    "category": "000/002/017/original/1cd44b709adf671d.png"
+  },
+  ":penguin_knife:": {
+    "name": "penguin knife",
+    "category": "000/002/439/original/06089ac854248d0d.png"
+  },
+  ":penguin_love:": {
+    "name": "penguin love",
+    "category": "000/002/019/original/3d16a7788a8798c9.png"
+  },
+  ":penguin_love_letter:": {
+    "name": "penguin love letter",
+    "category": "000/002/012/original/65509189a294ba8f.png"
+  },
+  ":penguin_neutral:": {
+    "name": "penguin neutral",
+    "category": "000/002/598/original/e03aef3f2d14aff8.png"
+  },
   ":penguin_pat:": {
     "name": "penguin pat",
     "category": "000/000/190/original/279268c583752e64.gif"
+  },
+  ":penguin_roll:": {
+    "name": "penguin roll",
+    "category": "000/002/578/original/2838b0d94430385f.gif"
+  },
+  ":penguin_sick:": {
+    "name": "penguin sick",
+    "category": "000/002/014/original/bf161d967de4112a.png"
+  },
+  ":penguin_sleep:": {
+    "name": "penguin sleep",
+    "category": "000/002/060/original/3566afb6543f4055.png"
+  },
+  ":penguin_stare:": {
+    "name": "penguin stare",
+    "category": "000/002/018/original/9c23fdbb70a03167.png"
   },
   ":pentagram_pan:": {
     "name": "pentagram pan",
@@ -1523,17 +5635,93 @@
     "name": "pikachu hello",
     "category": "000/000/176/original/72db6d00e6c54576.gif"
   },
+  ":pikachu_smug:": {
+    "name": "pikachu smug",
+    "category": "000/002/313/original/481cb4f17aa92bbf.png"
+  },
+  ":pikachu_toss_togepi:": {
+    "name": "pikachu toss togepi",
+    "category": "000/002/314/original/b33699325e8a5630.gif"
+  },
+  ":pink_bow:": {
+    "name": "pink bow",
+    "category": "000/002/725/original/1a3372f1ced086bd.png"
+  },
+  ":pink_moon_and_stars:": {
+    "name": "pink moon and stars",
+    "category": "000/002/726/original/d7629d78e5447424.png"
+  },
+  ":pink_sparkles:": {
+    "name": "pink sparkles",
+    "category": "000/002/727/original/22eac8a995850cd2.png"
+  },
   ":piplup_cry:": {
     "name": "piplup cry",
     "category": "000/000/361/original/aea1409fc8f5c385.png"
   },
+  ":pleading_heart_eyes:": {
+    "name": "pleading heart eyes",
+    "category": "000/002/619/original/6e70b3478ac47a1c.png"
+  },
   ":pleading_hearts:": {
     "name": "pleading hearts",
-    "category": "000/000/585/original/bb5da6963cec97d1.png"
+    "category": "000/002/620/original/2db16476bd43bb79.png"
+  },
+  ":poker_face:": {
+    "name": "poker face",
+    "category": "000/002/438/original/cd50768ee788ce8c.png"
+  },
+  ":polyamory:": {
+    "name": "polyamory",
+    "category": "000/002/068/original/5839884e69808d40.png"
+  },
+  ":pooh_love:": {
+    "name": "pooh love",
+    "category": "000/002/580/original/7ba6459eca24de11.png"
   },
   ":psyduck_sweat:": {
     "name": "psyduck sweat",
     "category": "000/000/164/original/3dae668d1119d63c.png"
+  },
+  ":pusheen_blush:": {
+    "name": "pusheen blush",
+    "category": "000/002/083/original/d39fa6f12008b3b7.png"
+  },
+  ":pusheen_cool:": {
+    "name": "pusheen cool",
+    "category": "000/002/085/original/1d3cd83869ea3612.png"
+  },
+  ":pusheen_cute:": {
+    "name": "pusheen cute",
+    "category": "000/002/599/original/5041269e6c3eb905.png"
+  },
+  ":pusheen_drawing:": {
+    "name": "pusheen drawing",
+    "category": "000/002/082/original/49186a777f4a6be5.png"
+  },
+  ":pusheen_love:": {
+    "name": "pusheen love",
+    "category": "000/002/079/original/6ad2bb2ef9f5c907.png"
+  },
+  ":pusheen_popcorn:": {
+    "name": "pusheen popcorn",
+    "category": "000/002/080/original/0b0b39751354c270.png"
+  },
+  ":pusheen_reading:": {
+    "name": "pusheen reading",
+    "category": "000/002/081/original/14c9563496f952d1.png"
+  },
+  ":pusheen_sad:": {
+    "name": "pusheen sad",
+    "category": "000/002/084/original/28ef796ee5a2074c.png"
+  },
+  ":pusheen_tired:": {
+    "name": "pusheen tired",
+    "category": "000/002/078/original/5aef0c6356c91c1c.png"
+  },
+  ":puss_in_boots:": {
+    "name": "puss in boots",
+    "category": "000/002/440/original/ff5516dad4d472c6.png"
   },
   ":qc_heart_agender:": {
     "name": "qc heart agender",
@@ -1663,13 +5851,37 @@
     "name": "queer cat trans",
     "category": "000/000/276/original/d174dbb27542a0d4.png"
   },
+  ":rainbow_awoo:": {
+    "name": "rainbow awoo",
+    "category": "000/002/499/original/f9ac24ac2f57fffd.png"
+  },
+  ":rainbow_ayaya:": {
+    "name": "rainbow ayaya",
+    "category": "000/002/562/original/7bc09b7fcdea2633.gif"
+  },
+  ":rainbow_blender:": {
+    "name": "rainbow blender",
+    "category": "000/002/525/original/dca7643a0d616655.gif"
+  },
   ":rainbow_dance:": {
     "name": "rainbow dance",
     "category": "000/000/252/original/4d539224d92f1c58.gif"
   },
+  ":rainbow_snake:": {
+    "name": "rainbow snake",
+    "category": "000/002/095/original/ed5583ed616ea600.png"
+  },
+  ":rainbow_sparkles:": {
+    "name": "rainbow sparkles",
+    "category": "000/002/305/original/92ceb462a70867a9.png"
+  },
   ":rainbow_star:": {
     "name": "rainbow star",
     "category": "000/000/580/original/cddebe9311bbf669.png"
+  },
+  ":rainbow_tada:": {
+    "name": "rainbow tada",
+    "category": "000/002/629/original/9eb76720b460102e.png"
   },
   ":rowlet_love:": {
     "name": "rowlet love",
@@ -1683,13 +5895,33 @@
     "name": "sakura tree",
     "category": "000/000/151/original/5867b34dcba835da.png"
   },
+  ":sayori_dislike:": {
+    "name": "sayori dislike",
+    "category": "000/002/559/original/656b6a232a6c4927.png"
+  },
+  ":sayori_like:": {
+    "name": "sayori like",
+    "category": "000/002/560/original/d87cacc17be1bf5b.png"
+  },
+  ":screech:": {
+    "name": "screech",
+    "category": "000/002/628/original/30c8aed789ccc447.png"
+  },
   ":send_love:": {
     "name": "send love",
     "category": "000/000/591/original/ebeff1f12d06bb6e.png"
   },
+  ":shaymin_sip:": {
+    "name": "shaymin sip",
+    "category": "000/002/316/original/b1446c6d9ac4763a.gif"
+  },
   ":shiba_angry:": {
     "name": "shiba angry",
     "category": "000/000/219/original/bbcf8112d834cbd1.png"
+  },
+  ":shiba_cheer:": {
+    "name": "shiba cheer",
+    "category": "000/002/585/original/542b7f5e8fefbb29.png"
   },
   ":shiba_confused:": {
     "name": "shiba confused",
@@ -1710,6 +5942,10 @@
   ":shiba_hide:": {
     "name": "shiba hide",
     "category": "000/000/226/original/698f6ebd23f22032.png"
+  },
+  ":shiba_kiss:": {
+    "name": "shiba kiss",
+    "category": "000/002/600/original/440d1dd3e2783560.png"
   },
   ":shiba_love:": {
     "name": "shiba love",
@@ -1751,6 +5987,26 @@
     "name": "shiny peach",
     "category": "000/000/076/original/90b586f118af17b0.png"
   },
+  ":shrek:": {
+    "name": "shrek",
+    "category": "000/002/581/original/dcacc9111a360632.png"
+  },
+  ":skull_angry:": {
+    "name": "skull angry",
+    "category": "000/002/201/original/41c7d4e9227e0012.png"
+  },
+  ":skull_laugh:": {
+    "name": "skull laugh",
+    "category": "000/002/541/original/c8440b68e7730dc0.png"
+  },
+  ":skull_love:": {
+    "name": "skull love",
+    "category": "000/002/202/original/8d144b386183a9ad.png"
+  },
+  ":sleepy_pillow:": {
+    "name": "sleepy pillow",
+    "category": "000/002/571/original/34ae10d0a3f998ce.png"
+  },
   ":snivy_smirk:": {
     "name": "snivy smirk",
     "category": "000/000/172/original/acb86fda3aee26be.png"
@@ -1759,9 +6015,149 @@
     "name": "snorlax snore",
     "category": "000/000/359/original/f9f6e5004e35ad4f.png"
   },
+  ":snuggie_dance:": {
+    "name": "snuggie dance",
+    "category": "000/002/304/original/de1eeaf7cc781076.gif"
+  },
+  ":sparkles_agender:": {
+    "name": "sparkles agender",
+    "category": "000/002/220/original/955b8d254bec9455.png"
+  },
+  ":sparkles_androgyne:": {
+    "name": "sparkles androgyne",
+    "category": "000/002/410/original/eecb9013830b4190.png"
+  },
+  ":sparkles_aromantic:": {
+    "name": "sparkles aromantic",
+    "category": "000/002/403/original/10ff789e5abf2cb4.png"
+  },
+  ":sparkles_asexual:": {
+    "name": "sparkles asexual",
+    "category": "000/002/222/original/2f37f3027cf9ef1f.png"
+  },
+  ":sparkles_bear:": {
+    "name": "sparkles bear",
+    "category": "000/002/409/original/2b093f8770dd21e3.png"
+  },
+  ":sparkles_bigender:": {
+    "name": "sparkles bigender",
+    "category": "000/002/223/original/ae71ac23910e0102.png"
+  },
+  ":sparkles_bisexual:": {
+    "name": "sparkles bisexual",
+    "category": "000/002/224/original/50222f5f02bcdb06.png"
+  },
+  ":sparkles_demifemme:": {
+    "name": "sparkles demifemme",
+    "category": "000/002/225/original/26c7d8da706b6fef.png"
+  },
+  ":sparkles_demigender:": {
+    "name": "sparkles demigender",
+    "category": "000/002/226/original/ba61185d62459220.png"
+  },
+  ":sparkles_demimasc:": {
+    "name": "sparkles demimasc",
+    "category": "000/002/227/original/cf36d1cdc66806c2.png"
+  },
+  ":sparkles_demiromantic:": {
+    "name": "sparkles demiromantic",
+    "category": "000/002/228/original/2d7213e3a15aef7a.png"
+  },
+  ":sparkles_demisexual:": {
+    "name": "sparkles demisexual",
+    "category": "000/002/229/original/5ff6d78ee9e76f74.png"
+  },
+  ":sparkles_enbian:": {
+    "name": "sparkles enbian",
+    "category": "000/002/230/original/89242c225074de78.png"
+  },
+  ":sparkles_genderfluid:": {
+    "name": "sparkles genderfluid",
+    "category": "000/002/231/original/41776d81026dc42d.png"
+  },
+  ":sparkles_genderqueer:": {
+    "name": "sparkles genderqueer",
+    "category": "000/002/232/original/28061870e4362e8a.png"
+  },
+  ":sparkles_intersex:": {
+    "name": "sparkles intersex",
+    "category": "000/002/233/original/3a69d4012f5500bc.png"
+  },
+  ":sparkles_leather:": {
+    "name": "sparkles leather",
+    "category": "000/002/402/original/1d5c248654bb8ba4.png"
+  },
+  ":sparkles_lesbian:": {
+    "name": "sparkles lesbian",
+    "category": "000/002/234/original/1028cb4a14b6c558.png"
+  },
+  ":sparkles_lunaric:": {
+    "name": "sparkles lunaric",
+    "category": "000/002/405/original/4c4a1a4add5757bf.png"
+  },
+  ":sparkles_mercuric:": {
+    "name": "sparkles mercuric",
+    "category": "000/002/406/original/71150d535bcb47a8.png"
+  },
+  ":sparkles_neutrois:": {
+    "name": "sparkles neutrois",
+    "category": "000/002/404/original/91503bd1baa1097d.png"
+  },
+  ":sparkles_nonbinary:": {
+    "name": "sparkles nonbinary",
+    "category": "000/002/235/original/f5211817ba72f29f.png"
+  },
+  ":sparkles_omnisexual:": {
+    "name": "sparkles omnisexual",
+    "category": "000/002/236/original/5b9f4e38420a587b.png"
+  },
+  ":sparkles_pansexual:": {
+    "name": "sparkles pansexual",
+    "category": "000/002/237/original/6aba873caa7e463f.png"
+  },
+  ":sparkles_polyamorous:": {
+    "name": "sparkles polyamorous",
+    "category": "000/002/238/original/51a91871fb11fceb.png"
+  },
+  ":sparkles_polysexual:": {
+    "name": "sparkles polysexual",
+    "category": "000/002/239/original/6a75fb92957ce482.png"
+  },
+  ":sparkles_queerplatonic:": {
+    "name": "sparkles queerplatonic",
+    "category": "000/002/394/original/2d4a72d3d965d6bb.png"
+  },
+  ":sparkles_quoiromantic:": {
+    "name": "sparkles quoiromantic",
+    "category": "000/002/241/original/c55ff775de3179a7.png"
+  },
+  ":sparkles_solaric:": {
+    "name": "sparkles solaric",
+    "category": "000/002/407/original/02faff00ade73d52.png"
+  },
+  ":sparkles_stellaric:": {
+    "name": "sparkles stellaric",
+    "category": "000/002/408/original/a592f0cc7d88a77f.png"
+  },
+  ":sparkles_trans:": {
+    "name": "sparkles trans",
+    "category": "000/002/242/original/f183a543601e7347.png"
+  },
+  ":sparkles_trigender:": {
+    "name": "sparkles trigender",
+    "category": "000/002/395/original/2d7b895debbf8278.png"
+  },
   ":spinning:": {
     "name": "spinning",
     "category": "000/000/593/original/6523236c56bf8364.gif"
+  },
+  ":squirtle_cool:": {
+    "name": "squirtle cool",
+    "category": "000/002/320/original/26cc173dde301ba9.png"
+  },
+  ":squirtle_jam:": {
+    "name": "squirtle jam",
+    "category": "000/002/306/original/b82abdf9db1cd68a.gif"
   },
   ":squirtle_puke:": {
     "name": "squirtle puke",
@@ -1779,13 +6175,29 @@
     "name": "star sleepy",
     "category": "000/000/080/original/638bbc7bc868e7b3.png"
   },
+  ":surprised_murloc:": {
+    "name": "surprised murloc",
+    "category": "000/002/435/original/60c6e9bfaaca55d4.png"
+  },
   ":sussy_boba:": {
     "name": "sussy boba",
     "category": "000/000/594/original/d5fee05a108b87f3.png"
   },
+  ":sussy_booty:": {
+    "name": "sussy booty",
+    "category": "000/002/300/original/8047c88cc05a480f.png"
+  },
+  ":sussy_dance:": {
+    "name": "sussy dance",
+    "category": "000/002/301/original/fb8c82dbed22805c.gif"
+  },
   ":suwussy:": {
     "name": "suwussy",
     "category": "000/000/256/original/dff670018e5b88b7.gif"
+  },
+  ":sylveon_kiss:": {
+    "name": "sylveon kiss",
+    "category": "000/002/309/original/7a09df23ab0c886c.gif"
   },
   ":sylveon_squish:": {
     "name": "sylveon squish",
@@ -1799,9 +6211,25 @@
     "name": "teddiursa cute",
     "category": "000/000/115/original/dc00a1f4cbff004e.png"
   },
+  ":therian:": {
+    "name": "therian",
+    "category": "000/002/563/original/f4a0c8812eef60bc.png"
+  },
   ":think_eyes:": {
     "name": "think eyes",
     "category": "000/000/230/original/a5479e7190712d32.png"
+  },
+  ":this_is_fine:": {
+    "name": "this is fine",
+    "category": "000/002/529/original/d6e193076b6b7932.gif"
+  },
+  ":thonk_ass:": {
+    "name": "thonk ass",
+    "category": "000/002/572/original/dc4b57f3f62dafc8.png"
+  },
+  ":three_hearts:": {
+    "name": "three hearts",
+    "category": "000/002/586/original/4b0c9b2c6b79d943.png"
   },
   ":toe_beans:": {
     "name": "toe beans",
@@ -1811,6 +6239,26 @@
     "name": "torchic love",
     "category": "000/000/165/original/94ff1156920b780d.png"
   },
+  ":tornado_rainbow:": {
+    "name": "tornado rainbow",
+    "category": "000/002/731/original/e848359076eab3bf.png"
+  },
+  ":totoro_love:": {
+    "name": "totoro love",
+    "category": "000/002/496/original/34cf6736edb22f99.png"
+  },
+  ":transbian:": {
+    "name": "transbian",
+    "category": "000/002/073/original/57571f976f8da214.png"
+  },
+  ":transfeminism:": {
+    "name": "transfeminism",
+    "category": "000/002/574/original/c126fba41dd2ff13.png"
+  },
+  ":trantifa:": {
+    "name": "trantifa",
+    "category": "000/002/218/original/4b8969aac4cd20eb.png"
+  },
   ":treecko_no:": {
     "name": "treecko no",
     "category": "000/000/166/original/a62cc9f9751f489d.png"
@@ -1819,13 +6267,25 @@
     "name": "tsundere",
     "category": "000/000/231/original/be2e88106aa30002.png"
   },
+  ":twitter:": {
+    "name": "twitter",
+    "category": "000/002/533/original/a16ab1a316184ce4.gif"
+  },
+  ":two_peas_in_a_pod:": {
+    "name": "two peas in a pod",
+    "category": "000/002/089/original/a3dd7834e4e7b594.png"
+  },
   ":umbreon_reverse_uno:": {
     "name": "umbreon reverse uno",
     "category": "000/000/043/original/7bea95171c1c9a3b.png"
   },
-  ":uwu_cat:": {
-    "name": "uwu cat",
-    "category": "000/000/235/original/c3587c588ed02a5c.png"
+  ":unicorn_bread:": {
+    "name": "unicorn bread",
+    "category": "000/002/330/original/deff6586fe565d40.png"
+  },
+  ":uwu:": {
+    "name": "uwu",
+    "category": "000/002/555/original/a6d6ea9806f71967.png"
   },
   ":uwu_face:": {
     "name": "uwu face",
@@ -1839,6 +6299,10 @@
     "name": "uwu lemon",
     "category": "000/000/234/original/fc5c353dbee34f2a.png"
   },
+  ":valid:": {
+    "name": "valid",
+    "category": "000/002/530/original/8282764d5ac4693c.png"
+  },
   ":vaporeon_sip:": {
     "name": "vaporeon sip",
     "category": "000/000/042/original/ce50130990d99786.png"
@@ -1847,12 +6311,188 @@
     "name": "vulpix gift",
     "category": "000/000/194/original/535517d1a3eb6a0d.gif"
   },
+  ":vulpix_headpats:": {
+    "name": "vulpix headpats",
+    "category": "000/002/321/original/06b56e4728049c6d.gif"
+  },
   ":wiggle:": {
     "name": "wiggle",
     "category": "000/000/177/original/d547bba9bb9ffd89.gif"
   },
+  ":wolf_fight:": {
+    "name": "wolf fight",
+    "category": "000/002/558/original/d88d976535fe0136.gif"
+  },
+  ":yeet:": {
+    "name": "yeet",
+    "category": "000/002/059/original/e5aa8c5f45af8daf.png"
+  },
+  ":yikes:": {
+    "name": "yikes",
+    "category": "000/002/191/original/0e8b340ac50993fe.png"
+  },
   ":zany_love:": {
     "name": "zany love",
     "category": "000/000/233/original/29fe25b0a3733e4f.png"
+  },
+  ":zerotwo_baby_huh:": {
+    "name": "zerotwo baby huh",
+    "category": "000/002/780/original/d61a4bb09266957f.png"
+  },
+  ":zerotwo_baby_lurk:": {
+    "name": "zerotwo baby lurk",
+    "category": "000/002/781/original/d9228bc12795baca.png"
+  },
+  ":zerotwo_baby_reach:": {
+    "name": "zerotwo baby reach",
+    "category": "000/002/777/original/abc220bd776852a9.png"
+  },
+  ":zerotwo_baby_sad:": {
+    "name": "zerotwo baby sad",
+    "category": "000/002/778/original/88b80cd7f3263501.png"
+  },
+  ":zerotwo_baby_teehee:": {
+    "name": "zerotwo baby teehee",
+    "category": "000/002/779/original/c63ea0516e923340.png"
+  },
+  ":zerotwo_big_angry:": {
+    "name": "zerotwo big angry",
+    "category": "000/002/782/original/bb9e3824b69fcfc7.png"
+  },
+  ":zerotwo_boba:": {
+    "name": "zerotwo boba",
+    "category": "000/002/369/original/cb312251d0ab0f5c.png"
+  },
+  ":zerotwo_cheeky:": {
+    "name": "zerotwo cheeky",
+    "category": "000/002/391/original/035711428e0a384b.png"
+  },
+  ":zerotwo_cozy:": {
+    "name": "zerotwo cozy",
+    "category": "000/002/367/original/3dc9393043840c26.png"
+  },
+  ":zerotwo_dead:": {
+    "name": "zerotwo dead",
+    "category": "000/002/366/original/3968f2aa082a1356.png"
+  },
+  ":zerotwo_excited:": {
+    "name": "zerotwo excited",
+    "category": "000/002/771/original/7ec5b71c609b8fa3.png"
+  },
+  ":zerotwo_facepalm:": {
+    "name": "zerotwo facepalm",
+    "category": "000/002/373/original/fedbc45fdd7fba7a.png"
+  },
+  ":zerotwo_flushed:": {
+    "name": "zerotwo flushed",
+    "category": "000/002/374/original/887a2e636f1479d4.png"
+  },
+  ":zerotwo_gasm:": {
+    "name": "zerotwo gasm",
+    "category": "000/002/371/original/f0b94a0d36fb0293.png"
+  },
+  ":zerotwo_headpats:": {
+    "name": "zerotwo headpats",
+    "category": "000/002/387/original/7e46b94ff89479fe.png"
+  },
+  ":zerotwo_heart:": {
+    "name": "zerotwo heart",
+    "category": "000/002/761/original/d81dfe7d5e2a0187.png"
+  },
+  ":zerotwo_hello:": {
+    "name": "zerotwo hello",
+    "category": "000/002/766/original/403b4072c55b99b8.png"
+  },
+  ":zerotwo_hmph:": {
+    "name": "zerotwo hmph",
+    "category": "000/002/376/original/2d25598f2f6303b7.png"
+  },
+  ":zerotwo_hype:": {
+    "name": "zerotwo hype",
+    "category": "000/002/783/original/0ecc5b612915a1b7.gif"
+  },
+  ":zerotwo_hype_fast:": {
+    "name": "zerotwo hype fast",
+    "category": "000/002/784/original/ec9e559b3f72d316.gif"
+  },
+  ":zerotwo_kiss:": {
+    "name": "zerotwo kiss",
+    "category": "000/002/380/original/c3523f8376d21a22.png"
+  },
+  ":zerotwo_laugh:": {
+    "name": "zerotwo laugh",
+    "category": "000/002/772/original/b0a65626f4013131.png"
+  },
+  ":zerotwo_learn:": {
+    "name": "zerotwo learn",
+    "category": "000/002/765/original/07b27bae79bf1cf7.png"
+  },
+  ":zerotwo_love:": {
+    "name": "zerotwo love",
+    "category": "000/002/385/original/b2cd56c34e93f52c.png"
+  },
+  ":zerotwo_lurk:": {
+    "name": "zerotwo lurk",
+    "category": "000/002/764/original/32caddc528e89a26.png"
+  },
+  ":zerotwo_not_like_this:": {
+    "name": "zerotwo not like this",
+    "category": "000/002/785/original/feef1ab0147c9bbc.gif"
+  },
+  ":zerotwo_peace:": {
+    "name": "zerotwo peace",
+    "category": "000/002/372/original/c245751af13a61da.png"
+  },
+  ":zerotwo_peace_out:": {
+    "name": "zerotwo peace out",
+    "category": "000/002/393/original/60f724b613dbf637.png"
+  },
+  ":zerotwo_peek:": {
+    "name": "zerotwo peek",
+    "category": "000/002/763/original/341b64344c1cde40.png"
+  },
+  ":zerotwo_pensive:": {
+    "name": "zerotwo pensive",
+    "category": "000/002/370/original/e0cdbba0a3907c3b.png"
+  },
+  ":zerotwo_rage:": {
+    "name": "zerotwo rage",
+    "category": "000/002/768/original/9a861f0fd93d7506.gif"
+  },
+  ":zerotwo_scream:": {
+    "name": "zerotwo scream",
+    "category": "000/002/384/original/ce96715ea0fe2dbc.png"
+  },
+  ":zerotwo_shrug:": {
+    "name": "zerotwo shrug",
+    "category": "000/002/379/original/b9d597a37a38974a.png"
+  },
+  ":zerotwo_smug:": {
+    "name": "zerotwo smug",
+    "category": "000/002/762/original/65b0e5c86dc5742d.png"
+  },
+  ":zerotwo_smug_thanos:": {
+    "name": "zerotwo smug thanos",
+    "category": "000/002/770/original/73254a0c3558263e.png"
+  },
+  ":zerotwo_stop:": {
+    "name": "zerotwo stop",
+    "category": "000/002/377/original/b3d11a7ceff9cc00.png"
+  },
+  ":zerotwo_uh_oh:": {
+    "name": "zerotwo uh oh",
+    "category": "000/002/375/original/03ceea7129e1bc2b.png"
+  },
+  ":zerotwo_uwu:": {
+    "name": "zerotwo uwu",
+    "category": "000/002/368/original/eed4d712c65e68a5.png"
+  },
+  ":zerotwo_wave:": {
+    "name": "zerotwo wave",
+    "category": "000/002/378/original/a0c5aa8d3349994b.png"
+  },
+  ":zerotwo_whew:": {
+    "name": "zerotwo whew",
+    "category": "000/002/388/original/1608b0181cba5d4e.png"
   }
 }
