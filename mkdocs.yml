@@ -44,7 +44,6 @@ theme:
     - content.code.copy
     - content.tabs.link
     - navigation.sections
-    - toc.integrate
 
 extra:
   social:
@@ -102,4 +101,4 @@ markdown_extensions:
   - toc:
       permalink: ☍
       permalink_title: Copy link to this section
-      title: Page Contents
+      title: Table of Contents

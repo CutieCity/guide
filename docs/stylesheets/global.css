@@ -63,10 +63,6 @@
 
 /* Adjust some features of the layout on bigger (i.e. non-mobile) screens. */
 @media screen and (min-width: 76.25em) {
-  /* Constrain the width of the content area to keep it easy-to-read. */
-  .md-content {
-    max-width: 800px;
-  }
   /* Hide the topmost navigation section title and the "Home" link. */
   .md-nav--primary > .md-nav__title,
   .md-nav--primary > .md-nav__list > .md-nav__item:first-child {
@@ -116,6 +112,14 @@ img.preview {
 /* Change the color of "strings" (i.e. values) in `ini` code blocks. */
 .highlight.language-ini .s {
   color: var(--md-accent-fg-color);
+}
+
+/* Change the colors of various syntax elements in `nginx` code blocks. */
+.highlight.language-nginx :is(.k, .kn) {
+  color: var(--md-accent-fg-color);
+}
+.highlight.language-nginx :is(.mi, .no, .s) {
+  color: var(--md-code-hl-generic-color);
 }
 
 /* Prevent some of the jankiness with the annotation icons. */
