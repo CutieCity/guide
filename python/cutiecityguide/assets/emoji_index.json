@@ -6045,7 +6045,7 @@
   },
   ":sparkles_bisexual:": {
     "name": "sparkles bisexual",
-    "category": "000/002/224/original/50222f5f02bcdb06.png"
+    "category": "000/002/914/original/69771d1c36ac7d01.png"
   },
   ":sparkles_demifemme:": {
     "name": "sparkles demifemme",
@@ -6069,7 +6069,7 @@
   },
   ":sparkles_enbian:": {
     "name": "sparkles enbian",
-    "category": "000/002/230/original/89242c225074de78.png"
+    "category": "000/002/915/original/e9734875986e3050.png"
   },
   ":sparkles_genderfluid:": {
     "name": "sparkles genderfluid",
@@ -6335,9 +6335,9 @@
     "name": "zany love",
     "category": "000/000/233/original/29fe25b0a3733e4f.png"
   },
-  ":zerotwo_baby_huh:": {
-    "name": "zerotwo baby huh",
-    "category": "000/002/780/original/d61a4bb09266957f.png"
+  ":zerotwo_baby_confused:": {
+    "name": "zerotwo baby confused",
+    "category": "000/002/917/original/0db556ed8120f247.png"
   },
   ":zerotwo_baby_lurk:": {
     "name": "zerotwo baby lurk",
@@ -6479,10 +6479,6 @@
     "name": "zerotwo stop",
     "category": "000/002/377/original/b3d11a7ceff9cc00.png"
   },
-  ":zerotwo_uh_oh:": {
-    "name": "zerotwo uh oh",
-    "category": "000/002/375/original/03ceea7129e1bc2b.png"
-  },
   ":zerotwo_uwu:": {
     "name": "zerotwo uwu",
     "category": "000/002/368/original/eed4d712c65e68a5.png"
@@ -6494,5 +6490,9 @@
   ":zerotwo_whew:": {
     "name": "zerotwo whew",
     "category": "000/002/388/original/1608b0181cba5d4e.png"
+  },
+  ":zerotwo_yikes:": {
+    "name": "zerotwo yikes",
+    "category": "000/002/916/original/f4447270cc34901b.png"
   }
 }

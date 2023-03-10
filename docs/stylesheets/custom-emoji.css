@@ -90,25 +90,30 @@ h1#custom-emoji ~ * table:not([class]) td:first-child {
 
   /* Add padding to all cells in the credits table. */
   h1#custom-emoji ~ * table:not([class]) :is(td, th) {
-    padding: 1em 2.5em;
+    padding: 1em 3em;
+  }
+
+  /* Add extra padding to the last column of the credits table. */
+  h1#custom-emoji ~ * table:not([class]) :is(td, th):last-child {
+    padding-right: 4em;
   }
 }
 
 /* Adjust some features of the layout on smaller (i.e. mobile) screens. */
 @media screen and (max-width: 76.25em) {
+  /* Hide the full-text labels for the page controls. */
+  h1#custom-emoji ~ * #animations-label,
+  h1#custom-emoji ~ * #categories-label {
+    display: none;
+  }
+
   /* Facilitate scrolling to see the complete emoji shortcodes. */
   h1#custom-emoji ~ * .grid.small-columns code {
     padding: 0.3em;
   }
 
-  /* Hide the last column of the credits table (license info). */
-  h1#custom-emoji ~ * table:not([class]) :is(td, th):last-child {
-    display: none;
-  }
-
-  /* Hide the full-text labels for the page controls. */
-  h1#custom-emoji ~ * #animations-label,
-  h1#custom-emoji ~ * #categories-label {
-    display: none;
+  /* Add padding to the first column of the credits table. */
+  h1#custom-emoji ~ * table:not([class]) :is(td, th):first-child {
+    padding: 1em 3.5em 1em 1em;
   }
 }

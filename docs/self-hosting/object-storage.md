@@ -212,7 +212,8 @@ proceed through the following steps.
 
 Make sure to keep these credentials safe! They're what'll give your Mastodon
 instance the ability to create and destroy objects in your Storj project, and
-you definitely don't want that power to fall into the wrong hands. :kitty_eyes:
+you definitely don't want that power to fall into the wrong hands.
+:zerotwo_yikes:
 
 ### Getting a link-sharing key
 
@@ -264,7 +265,7 @@ mine is bolded above, as an example. This is the only piece of information you
 need from the command you just ran, so feel free to ignore/discard the rest of
 the output.
 
-??? tip "Tip - Don't mix up your keys!"
+??? note "Note - Don't mix up your keys!"
 
     Just like the S3 access key you generated in the previous step, your
     link-sharing key should be **28 characters** long. Take care not to confuse
@@ -280,13 +281,17 @@ the output.
     bucket for your Mastodon instance. In fact, if you decide to forgo the
     [last section](#linking-your-own-domain) of this guide, your link-sharing
     key will be visible in all image/video links from your instance. This is
-    perfectly fine and safe! :cozy:
+    perfectly fine and safe! :chick_thumbs_up:
 
 ## Configuring Mastodon
 
 Now that you have your link-sharing key and S3 credentials, it's time to plug
-them all into your Mastodon environment! Open up your `.env.production` file and
-configure your `S3` and `AWS` variables as follows:
+them all into your Mastodon production environment. :panda_science:
+
+### Setting environment variables
+
+Open up your `.env.production` file and configure your `S3` and `AWS` variables
+as follows:
 
 ```ini title="/home/mastodon/live/.env.production"
 S3_ENABLED=true
@@ -317,8 +322,11 @@ generated for them.
     .setAttribute("style", `display: block; max-width: ${maxWidth}px`);
 </script>
 
-Once you're finished, **save the file** and then restart the relevant Mastodon
-processes:
+### Restarting the processes
+
+Once you've finished plugging in all of those values, **save** your
+`.env.production` file and then restart the relevant Mastodon processes by
+executing this command:
 
 ```console
 systemctl restart mastodon-sidekiq && systemctl reload mastodon-web
@@ -335,18 +343,18 @@ fairly long URLs. For example, check out these raw URLs for [an avatar] and [a
 custom emoji] from Cutie City.
 
 If you're satisfied with those URLs, then feel free to skip this section -
-you're done with this guide! But if you'd like shorter ones that use your own
+you're done with this page! But if you'd like shorter ones that use your own
 domain (like [this][this-avatar] or [this][this-custom-emoji]), then keep
 reading. :blobhaj_read:
 
 [an avatar]:
   https://link.storjshare.io/raw/jwcl3biyuellbunqouyj7g4htdna/cutiecity/accounts/avatars/109/867/520/496/596/492/original/a37f55905bc13d6d.png
 [a custom emoji]:
-  https://link.storjshare.io/raw/jwcl3biyuellbunqouyj7g4htdna/cutiecity/custom_emojis/images/000/000/597/original/beb5024972b75d0d.png
+  https://link.storjshare.io/raw/jwcl3biyuellbunqouyj7g4htdna/cutiecity/custom_emojis/images/000/000/046/original/f483d4f4894eb2d9.png
 [this-avatar]:
   https://media.cutie.city/accounts/avatars/109/867/520/496/596/492/original/a37f55905bc13d6d.png
 [this-custom-emoji]:
-  https://media.cutie.city/custom_emojis/images/000/000/597/original/beb5024972b75d0d.png
+  https://media.cutie.city/custom_emojis/images/000/000/046/original/f483d4f4894eb2d9.png
 
 ### Designating a subdomain
 
@@ -369,10 +377,10 @@ S3_ALIAS_HOST=link.storjshare.io/raw/LINK_SHARING_KEY/BUCKET # (1)!
    ```
 
 <style>
-/* Extra-specific styling to make the code annotation look better. */
-#alias-example span:last-child::after { content: "  "; }
-#alias-example pre { margin-top: 0.6em; margin-bottom: 0.2em; }
-.annotate code .md-annotation .md-tooltip { width: 15.65rem; }
+  /* Extra-specific styling to make the code annotation look better. */
+  #alias-example span:last-child::after { content: "  "; }
+  #alias-example pre { margin-top: 0.6em; margin-bottom: 0.2em; }
+  .annotate code .md-annotation .md-tooltip { width: 15.65rem; }
 </style>
 
 Make sure to keep your `LINK_SHARING_KEY` and `BUCKET` on hand, because you'll
@@ -387,14 +395,14 @@ S3_ALIAS_HOST=media.cutie.city
 ### Reverse-proxying via nginx
 
 Now you'll need to set up a **reverse proxy** so that all requests to your
-subdomain can be passed on to Storj. Since [nginx] is mentioned in the official
+subdomain can be passed on to Storj. Since [nginx] is used in the official
 [Mastodon setup instructions] and also works very nicely as a reverse proxy,
 it's what I decided to use for this piece of the puzzle.
 
 Note that Storj has recently implemented official support for [custom domains],
 which solves the same problem but requires you to upgrade to a [Pro Account].
-There are also other open-source projects that function similarly to (or even
-better than) nginx, such as [Caddy].
+Alternatively, there are other open-source projects that also allow you to
+easily set up a reverse proxy, such as [Caddy].
 
 If you have a different preferred solution, feel free to use that instead - and
 after setting it up, you can skip ahead to the next (and very last) step. But if
@@ -423,7 +431,7 @@ you'd like to use **nginx**, expand the following info box for instructions.
     [this thread] on the Storj forums. If you're more knowledgeable than I am
     (which, let's be real, is quite likely) and would like to help improve this
     guide, please don't hesitate to open a [pull request] for [this page]!
-    :bear_love:
+    :cat_love:
 
     With all that said, here's the nginx configuration that I use to solve the
     problem at hand:
@@ -533,8 +541,8 @@ you'd like to use **nginx**, expand the following info box for instructions.
     ```
 
     Your certificate info should be saved to `/etc/letsencrypt/live/`,
-    fulfilling lines 23-24 of your configuration file. Reload nginx one last
-    time before proceeding to the final step:
+    fulfilling lines 23-24 of the configuration file. Reload nginx one last time
+    before proceeding to the final step:
 
     ```console
     systemctl reload nginx
@@ -542,11 +550,12 @@ you'd like to use **nginx**, expand the following info box for instructions.
 
 ### Putting it all into action
 
-The very last thing you need to do is... restart the Mastodon processes again!
+The very last thing you need to do is... restart the Mastodon processes
+[again](#restarting-the-processes)!
 
 ```console
 systemctl restart mastodon-sidekiq && systemctl reload mastodon-web
 ```
 
-Once that's done, you can open up your Mastodon instance in your browser again
-and admire your fancy new custom media URLs! :celebrate:
+Once that's done, you can open up your Mastodon instance in your browser and
+admire your fancy new custom media URLs! :snuggie_dance:
