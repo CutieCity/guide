@@ -13,6 +13,7 @@ nav:
       - Custom Emoji: cutie-city/custom-emoji.md
   - Self-Hosting:
       - Object Storage: self-hosting/object-storage.md
+      - Development Setup: self-hosting/development-setup.md
 
 watch:
   - overrides/
@@ -27,8 +28,11 @@ theme:
     admonition:
       note: material/note-search-outline
       abstract: material/list-box-outline
-      tip: material/lightbulb-on-outline
       info: material/information-outline
+      tip: material/lightbulb-on-outline
+      success: material/check-circle-outline
+      question: material/help-circle-outline
+      warning: material/alert-rhombus-outline
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -85,6 +89,7 @@ plugins:
 markdown_extensions:
   - admonition
   - attr_list
+  - footnotes
   - md_in_html
   - pymdownx.caret
   - pymdownx.details
