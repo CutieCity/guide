@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: custom-emoji
+  group: pages
   cancel-in-progress: true
 
 jobs:
@@ -14,12 +14,12 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    outputs:
+      index_updated: ${{ steps.filter.outputs.index }}
 
     steps:
       - name: Check out repository
         uses: actions/checkout@v3
-        with:
-          ref: ${{ github.head_ref }}
 
       - name: Set up Python 3.11
         uses: actions/setup-python@v4
@@ -43,36 +43,25 @@ jobs:
       - name: Run emoji script and pre-commit
         run: |
           pip install -e ./python
-          python -m cutiecityguide.emoji_script
+          python -m cutiecityguide.custom_emoji
           pre-commit run --all-files
+
+      - name: Filter modified file paths
+        uses: dorny/paths-filter@v2
+        id: filter
+        with:
+          base: HEAD
+          filters: |
+            index: python/cutiecityguide/assets/emoji_index.json
 
       - name: Auto-commit any changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update custom emoji files
 
-  filter:
-    needs: update
-    runs-on: ubuntu-latest
-    outputs:
-      index_updated: ${{ steps.filter.outputs.index }}
-
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v3
-        with:
-          ref: ${{ github.head_ref }}
-
-      - name: Run paths-filter action
-        uses: dorny/paths-filter@v2
-        id: filter
-        with:
-          filters: |
-            index: python/cutiecityguide/assets/emoji_index.json
-
   publish:
-    needs: filter
-    if: needs.filter.outputs.index_updated == 'true'
+    needs: update
+    if: needs.update.outputs.index_updated == 'true'
     uses: ./.github/workflows/publish.yml
     permissions:
       pages: write

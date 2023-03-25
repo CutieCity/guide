@@ -47,7 +47,7 @@ def emoji_index(_options, _md) -> dict[str, Any]:
     from json import loads
     from pathlib import Path
 
-    from .emoji_script import INDEX_FILE_REL_PATH
+    from .custom_emoji import INDEX_FILE_REL_PATH
 
     index_path = (Path(__file__) / INDEX_FILE_REL_PATH).resolve()
 
