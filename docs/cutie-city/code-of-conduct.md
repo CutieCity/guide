@@ -72,11 +72,11 @@ Examples of actions that contribute to a healthy community include:
 
 ## Non-Issues
 
-The administrator will **not** act on complaints regarding:
+The administrator will **not** act on complaints about:
 
 - Alleged reverse-isms, including "reverse racism", "reverse sexism", and
   "cisphobia"
-- Reasonable communication of boundaries, such as "leave me alone," "go away,"
+- Reasonable communication of boundaries, such as "leave me alone", "go away",
   or "I'm not discussing this with you"
 - Communicating in a "tone" you don't find congenial
 - Criticism of racist, sexist, cissexist, or otherwise oppressive behavior or
@@ -112,8 +112,8 @@ participant as a harasser to other Cutie City members or the general public.
 
 The administrator reserves the right to update this page at any time, at their
 discretion. Nontrivial updates will be communicated via posts from the official
-Cutie City [@admin] account. If you have any concerns about or suggestions for
-this page, please contact the administrator via DM.
+Cutie City [@admin] account. If you have any concerns about (or suggestions for)
+this code of conduct, please contact the administrator.
 
 ## Attribution
 

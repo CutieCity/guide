@@ -82,9 +82,9 @@ PSQL_DIST=$(lsb_release -cs) && echo $PSQL_DIST
 
 ??? warning "Warning - Make sure your distribution name is valid!"
 
-    The value of `PSQL_DIST` (i.e. the output of the above command) **must match
-    one** of the distributions listed by the [PostgreSQL Apt Repository]. At the
-    time of writing, the valid values (a.k.a. **codenames**) are:
+    The value of `PSQL_DIST` (i.e. the output of the above command) **must**
+    match one of the distributions listed by the [PostgreSQL Apt Repository].
+    At the time of writing, the valid values (a.k.a. **codenames**) are:
 
     <div class="grid" markdown>
 
@@ -125,8 +125,8 @@ PSQL_DIST=$(lsb_release -cs) && echo $PSQL_DIST
     PSQL_DIST=$(cat /etc/os-release | grep UBUNTU_CODENAME | cut -d = -f 2) && echo $PSQL_DIST
     ```
 
-    This should correct the value of `PSQL_DIST` and set you up to proceed with
-    the next steps.
+    This should correct the value of `PSQL_DIST` and unblock the next step.
+    :chick_thumbs_up:
 
 With `PSQL_DIST` configured properly for your system, you can run this next
 command as-is to add the appropriate repository for `postgresql` to your `apt`
@@ -153,15 +153,15 @@ sudo wget -O /usr/share/keyrings/postgresql.asc \
 
 ## Installing the requirements
 
-Mastodon has _a lot_ of dependencies, some of which call for more involved
-management than others. We'll be tackling them in three distinct chunks:
-[NodeJS], simple [system packages], and [Ruby] - in that order.
+Mastodon has _a lot_ of dependencies, some of which require more management than
+others. We'll tackle them in three discrete chunks: [Node.js][a], simple [system
+packages][b], and [Ruby][c] - in that order.
 
-[nodejs]: #setting-up-nodejs
-[system packages]: #installing-system-packages
-[ruby]: #setting-up-ruby
+[a]: #setting-up-nodejs
+[b]: #installing-system-packages
+[c]: #setting-up-ruby
 
-### Setting up NodeJS
+### Setting up Node.js
 
 - _Under construction._
 

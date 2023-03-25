@@ -288,7 +288,7 @@ the output.
 Now that you have your link-sharing key and S3 credentials, it's time to plug
 them all into your Mastodon production environment. :panda_science:
 
-### Setting environment variables
+### Setting environment vars
 
 Open up your `.env.production` file and configure your `S3` and `AWS` variables
 as follows:
@@ -422,19 +422,20 @@ you'd like to use **nginx**, expand the following info box for instructions.
   https://github.com/CutieCity/.github/blob/main/.github/contributing.md
 [this page]:
   https://github.com/CutieCity/guide/blob/main/docs/self-hosting/object-storage.md
+[previous step]: #designating-a-subdomain
 
 ??? info "Info - Configuring nginx"
 
-    **Disclaimer:** I am *far* from a nginx expert and only barely know enough
-    about it to get this particular use case to work. The code provided here was
-    cobbled together based on [this article] from the official Mastodon docs and
-    [this thread] on the Storj forums. If you're more knowledgeable than I am
-    (which, let's be real, is quite likely) and would like to help improve this
-    guide, please don't hesitate to open a [pull request] for [this page]!
-    :cat_love:
+    **Disclaimer:** I'm _far_ from an expert on nginx and only barely know
+    enough about it to get this particular use case to work. The code provided
+    here was cobbled together based on [this article] from the official Mastodon
+    docs and [this thread] on the Storj forums. If you're more knowledgeable
+    than I am (which, let's be real, is quite likely) and would like to help
+    improve this guide, please don't hesitate to open a [pull request] for [this
+    page]! :cat_love:
 
-    With all that said, here's the nginx configuration that I use to solve the
-    problem at hand:
+    With that said, here's an example nginx configuration that solves the
+    problem at hand (and adds some nice caching):
 
     ```nginx linenums="1" hl_lines="4 15 23 24 41" title="/etc/nginx/sites-available/media.cutie.city"
     server {
@@ -515,15 +516,15 @@ you'd like to use **nginx**, expand the following info box for instructions.
     }
     ```
 
-    You'll need to replace `media.cutie.city` with your own domain (including
-    the subdomain you set up in the [previous step](#designating-a-subdomain))
-    on all of the highlighted lines. Additionally, on line 41, replace
+    Replace `media.cutie.city` with your own domain (i.e. the **current** value
+    of your `S3_ALIAS_HOST` config as set in the [previous step]) on all but one
+    of the highlighted lines. Additionally, on line 41, replace
     `LINK_SHARING_KEY` and `BUCKET` with the values that **used to be** in your
     `S3_ALIAS_HOST` config.
 
-    Save this file to `/etc/nginx/sites-available/media.cutie.city` (again,
-    replace `media.cutie.city` with your own domain) and then enable it using
-    these commands:
+    Save this file to `/etc/nginx/sites-available/media.cutie.city`, then enable
+    it using the following commands. Make sure to replace `media.cutie.city`
+    with your own domain in both the file name **and** the first command below!
 
     ```console
     ln -s /etc/nginx/sites-available/media.cutie.city /etc/nginx/sites-enabled/
@@ -541,7 +542,7 @@ you'd like to use **nginx**, expand the following info box for instructions.
     ```
 
     Your certificate info should be saved to `/etc/letsencrypt/live/`,
-    fulfilling lines 23-24 of the configuration file. Reload nginx one last time
+    fulfilling lines 23-24 of the configuration file. Reload nginx one more time
     before proceeding to the final step:
 
     ```console
