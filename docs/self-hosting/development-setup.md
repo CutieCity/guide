@@ -163,11 +163,70 @@ packages][b], and [Ruby][c] - in that order.
 
 ### Setting up Node.js
 
-- _Under construction._
+Conveniently, [NodeSource] provides setup scripts that consolidate the pre-work
+for installing an appropriate version of [Node.js]. Execute this command to run
+the required setup script:
+
+```bash
+curl -sL https://deb.nodesource.com/setup_16.x | sudo bash -
+```
+
+When the script finishes, it'll display some info about how to continue
+installing Node.js, but you can ignore that part - those steps are covered here
+for better understanding and ease-of-use. :pink_sparkles:
+
+The next step is to enable [Corepack], which is a tool that provides a
+standardized way to access [Yarn] (the JS package manager used by Mastodon).
+Afterwards, set the applicable `yarn` version.
+
+```bash
+sudo corepack enable
+```
+
+```bash
+yarn set version classic
+```
+
+[nodesource]: https://github.com/nodesource/distributions
+[node.js]: https://nodejs.org
+[corepack]: https://nodejs.org/api/corepack.html#corepack
+[yarn]: https://yarnpkg.com
 
 ### Installing system packages
 
-- _Under construction._
+First, make sure `apt` knows about the latest package information from your
+configured sources:
+
+```{.bash .annotate}
+apt update # (1)!
+```
+
+1. The output of this command may include a warning that looks something like
+   this:
+   ```{.console .no-copy}
+   N: Skipping acquire of configured file 'main/binary-i386/Packages' as
+      repository 'http://apt.postgresql.org/pub/repos/apt focal-pgdg InRelease'
+      doesn't support architecture 'i386'
+   ```
+   If so, don't worry - this shouldn't cause any problems down the line.
+   :bunhd_comfy:
+
+<style>
+  /* Extra-specific styling to make the code annotation look better. */
+  .annotate code .md-annotation .md-tooltip { width: min(27.5rem, 100%); }
+</style>
+
+Then, simply install all of the required packages (adapted from the list in the
+[Mastodon docs](https://docs.joinmastodon.org/admin/install/#system-packages)):
+
+```bash
+apt install -y \
+  autoconf bison build-essential ffmpeg file g++ gcc git-core imagemagick \
+  libffi-dev libgdbm-dev libicu-dev libidn11-dev libjemalloc-dev \
+  libncurses5-dev libpq-dev libprotobuf-dev libreadline6-dev libssl-dev \
+  libxml2-dev libxslt1-dev libyaml-dev nodejs pkg-config postgresql \
+  postgresql-contrib protobuf-compiler redis-server redis-tools zlib1g-dev
+```
 
 ### Setting up Ruby
 
@@ -181,8 +240,8 @@ released. Additionally, we'll be using rbenv's [ruby-build] plugin to power the
 [rbenv]: https://github.com/rbenv/rbenv
 [ruby-build]: https://github.com/rbenv/ruby-build
 
-First, clone the source code for both of these tools into `.rbenv` in your home
-directory:
+Start off by cloning the source code for both of these tools into `.rbenv` in
+your home directory:
 
 ```bash
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
@@ -229,4 +288,35 @@ rbenv global 3.2.1
     procedure. Although the term "reload" is less correct than "replace" in a
     technical sense, I find it conceptually easier to understand.
 
-## More info coming soon!
+## Initializing the project
+
+Now that we've prepared all the prerequisites, we can start working with the
+Mastodon codebase!
+
+### Getting the source code
+
+The next step will copy the source code for your favorite flavor of Mastodon
+into a new directory (appropriately called `mastodon`; will be created in your
+current working directory) and `cd` into it. Ensure you're in the desired parent
+directory, use the tabs below to select your Mastodon flavor, and then run the
+provided command.
+
+=== "Vanilla Mastodon"
+
+    ```bash
+    git clone https://github.com/mastodon/mastodon.git && cd mastodon
+    ```
+
+=== "Glitch Edition"
+
+    ```bash
+    git clone https://github.com/glitch-soc/mastodon.git && cd mastodon
+    ```
+
+=== "Cutie City Fork"
+
+    ```bash
+    git clone https://github.com/CutieCity/mastodon.git && cd mastodon
+    ```
+
+### More details coming soon!
