@@ -31,8 +31,10 @@ from functools import cached_property, partial
 from pathlib import Path
 from string import Template
 from typing import Any, Final, cast
-from urllib.error import HTTPError
-from urllib.request import urlopen
+
+from .utils import fetch_from_url, on_script_start, on_script_success
+
+SCRIPT_NAME: Final[str] = Path(__file__).stem
 
 EMOJI_API_ENDPOINT: Final[str] = "https://cutie.city/api/v1/custom_emojis"
 MD_FILE_REL_PATH: Final[str] = "../../../docs/cutie-city/custom-emoji.md"
@@ -119,15 +121,15 @@ class File:
         transform: Callable[[str], str] | None = None,
     ) -> None:
         """Pieces together the file content and writes it to the path for the `File`."""
-        file_content = cast(Template, self.template).substitute(
-            **{f"generated_{self.label}_content": generated_content}
+        file_contents = cast(Template, self.template).substitute(
+            **{f"generated_{self.label}": generated_content}
         )
         if transform:
-            file_content = transform(file_content)
+            file_contents = transform(file_contents)
 
-        num_bytes = len(file_content.encode("utf-8"))
+        num_bytes = len(file_contents.encode("utf-8"))
         logging.info(f"Writing {num_bytes} bytes to {self.label} file: '{self.path}'")
-        self.path.write_text(file_content, newline="\n")
+        self.path.write_text(file_contents, newline="\n")
 
 
 def get_md_file_template(file_contents: str) -> Template | None:
@@ -138,22 +140,20 @@ def get_md_file_template(file_contents: str) -> Template | None:
     end_match = search_file(f"{MD_COMMENT.substitute(label='end')}.*$")
 
     if start_match and end_match:
-        return Template(
-            f"{start_match.group(0)}\n$generated_markdown_content\n{end_match.group(0)}"
-        )
+        return Template(f"{start_match[0]}\n$generated_markdown\n{end_match[0]}")
     else:
         return None
 
 
-def fetch_emoji_list(timeout_seconds: int = 10) -> list[dict[str, Any]] | str:
+def fetch_emoji_list() -> list[dict[str, Any]] | str:
     """Fetches and returns custom emoji data from the Cutie City (Mastodon) API."""
+    response = fetch_from_url(EMOJI_API_ENDPOINT)
+
+    if isinstance(response, str):
+        return response  # This is an error message to be logged.
+
     try:
-        with urlopen(EMOJI_API_ENDPOINT, timeout=timeout_seconds) as response:
-            return json.loads(response.read())
-    except HTTPError as error:
-        return f"'GET {EMOJI_API_ENDPOINT}' failed: {error.status} ({error.reason})"
-    except TimeoutError:
-        return f"'GET {EMOJI_API_ENDPOINT}' timed out after {timeout_seconds} seconds."
+        return json.loads(response.read())
     except json.JSONDecodeError:
         return f"Response from 'GET {EMOJI_API_ENDPOINT}' is not valid JSON."
 
@@ -256,13 +256,12 @@ def write_files(
 
 
 def main() -> int:
-    """Serves as the primary entry point for (and executes) this entire script."""
-    logging.basicConfig(format="%(levelname)s: %(message)s", level=logging.INFO)
-    logging.info("Starting the Cutie City emoji script.")
+    """Serves as the primary entry point for the `custom_emoji` script."""
+    on_script_start(SCRIPT_NAME)
 
     markdown_file = File("markdown", get_md_file_template, MD_FILE_REL_PATH)
     index_file = File(
-        "index", lambda _: Template("$generated_index_content\n"), INDEX_FILE_REL_PATH
+        "index", lambda _: Template("$generated_index\n"), INDEX_FILE_REL_PATH
     )
 
     for file in [markdown_file, index_file]:
@@ -292,7 +291,7 @@ def main() -> int:
         logging.error(error.args[0])
         return 1
 
-    logging.info("Successfully finished the Cutie City emoji script.")
+    on_script_success(SCRIPT_NAME)
     return 0
 
 
