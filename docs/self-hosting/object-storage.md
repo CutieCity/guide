@@ -116,32 +116,33 @@ Storj bucket.
 
 === "Linux"
 
-    Execute the following commands in your terminal. (Depending on your
-    machine's architecture, you may need to replace `amd64` with `arm` or
-    `arm64` in the first two commands.)
+    Execute the following commands in your terminal.
 
-    ```console
-    curl -L https://github.com/storj/storj/releases/latest/download/uplink_linux_amd64.zip -o uplink_linux_amd64.zip
+    ```bash
+    ZIP=uplink_linux_$(dpkg --print-architecture).zip
     ```
-    ```console
-    unzip -o uplink_linux_amd64.zip
+    ```bash
+    curl -L "https://github.com/storj/storj/releases/latest/download/$ZIP" -o $ZIP
     ```
-    ```console
-    sudo install uplink /usr/local/bin/uplink
+    ```bash
+    unzip -o $ZIP
+    ```
+    ```bash
+    sudo install uplink '/usr/local/bin/uplink'
     ```
 
 === "macOS"
 
     Execute the following commands in your terminal.
 
-    ```console
-    curl -L https://github.com/storj/storj/releases/latest/download/uplink_darwin_amd64.zip -o uplink_darwin_amd64.zip
+    ```bash
+    curl -L 'https://github.com/storj/storj/releases/latest/download/uplink_darwin_amd64.zip' -o uplink_darwin_amd64.zip
     ```
-    ```console
+    ```bash
     unzip -o uplink_darwin_amd64.zip
     ```
-    ```console
-    sudo install uplink /usr/local/bin/uplink
+    ```bash
+    sudo install uplink '/usr/local/bin/uplink'
     ```
 
 === "Windows"
@@ -328,8 +329,8 @@ Once you've finished plugging in all of those values, **save** your
 `.env.production` file and then restart the relevant Mastodon processes by
 executing this command:
 
-```console
-systemctl restart mastodon-sidekiq && systemctl reload mastodon-web
+```bash
+systemctl restart 'mastodon-sidekiq' && systemctl reload 'mastodon-web'
 ```
 
 You should now be able to open up your Mastodon instance in your browser and
@@ -526,26 +527,26 @@ you'd like to use **nginx**, expand the following info box for instructions.
     it using the following commands. Make sure to replace `media.cutie.city`
     with your own domain in both the file name **and** the first command below!
 
-    ```console
-    ln -s /etc/nginx/sites-available/media.cutie.city /etc/nginx/sites-enabled/
+    ```bash
+    ln -s '/etc/nginx/sites-available/media.cutie.city' /etc/nginx/sites-enabled/
     ```
 
-    ```console
+    ```bash
     systemctl reload nginx
     ```
 
     You'll also need an SSL certificate for your subdomain. As usual, replace
     `media.cutie.city` with your own domain:
 
-    ```console
-    certbot certonly --nginx -d media.cutie.city
+    ```bash
+    certbot certonly --nginx -d 'media.cutie.city'
     ```
 
     Your certificate info should be saved to `/etc/letsencrypt/live/`,
     fulfilling lines 23-24 of the configuration file. Reload nginx one more time
     before proceeding to the final step:
 
-    ```console
+    ```bash
     systemctl reload nginx
     ```
 
@@ -554,8 +555,8 @@ you'd like to use **nginx**, expand the following info box for instructions.
 The very last thing you need to do is... restart the Mastodon processes
 [again](#restarting-the-processes)!
 
-```console
-systemctl restart mastodon-sidekiq && systemctl reload mastodon-web
+```bash
+systemctl restart 'mastodon-sidekiq' && systemctl reload 'mastodon-web'
 ```
 
 Once that's done, you can open up your Mastodon instance in your browser and

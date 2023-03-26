@@ -109,17 +109,22 @@ img.preview {
   margin-bottom: 0.6rem !important;
 }
 
-/* Change the color of "strings" (i.e. values) in `ini` code blocks. */
-.highlight.language-ini .s {
+/* Change the colors of various syntax elements in highlighted code blocks. */
+.highlight.language-bash :is(.k, .s1, .s2, .se),
+.highlight.language-ini :is(.s),
+.highlight.language-nginx :is(.k, .kn),
+.highlight.language-procfile :is(.nl, .s) {
   color: var(--md-accent-fg-color);
 }
-
-/* Change the colors of various syntax elements in `nginx` code blocks. */
-.highlight.language-nginx :is(.k, .kn) {
-  color: var(--md-accent-fg-color);
-}
-.highlight.language-nginx :is(.mi, .no, .s) {
+.highlight.language-bash :is(code, .m, .nb),
+.highlight.language-nginx :is(.mi, .no, .s),
+.highlight.language-procfile :is(code, .mi) {
   color: var(--md-code-hl-generic-color);
+}
+.highlight.language-bash :is(.nv, .o, .p),
+.highlight.language-nginx :is(.p),
+.highlight.language-procfile :is(.nv, .p) {
+  color: var(--md-code-fg-color);
 }
 
 /* Prevent some of the jankiness with the annotation icons. */

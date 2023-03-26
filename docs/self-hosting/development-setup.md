@@ -80,7 +80,7 @@ shortly:
 PSQL_DIST=$(lsb_release -cs) && echo $PSQL_DIST
 ```
 
-??? warning "Warning - Make sure your distribution name is valid!"
+??? warning "Warning - Make sure your distro name is valid!"
 
     The value of `PSQL_DIST` (i.e. the output of the above command) **must**
     match one of the distributions listed by the [PostgreSQL Apt Repository].
@@ -122,7 +122,7 @@ PSQL_DIST=$(lsb_release -cs) && echo $PSQL_DIST
     of those eight codenames, try running:
 
     ```bash
-    PSQL_DIST=$(cat /etc/os-release | grep UBUNTU_CODENAME | cut -d = -f 2) && echo $PSQL_DIST
+    PSQL_DIST=$(cat /etc/os-release | grep 'UBUNTU_CODENAME' | cut -d '=' -f 2) && echo $PSQL_DIST
     ```
 
     This should correct the value of `PSQL_DIST` and unblock the next step.
@@ -143,7 +143,7 @@ validate the package:
 
 ```bash
 sudo wget -O /usr/share/keyrings/postgresql.asc \
-  https://www.postgresql.org/media/keys/ACCC4CF8.asc
+  'https://www.postgresql.org/media/keys/ACCC4CF8.asc'
 ```
 
 [postgresql]: https://www.postgresql.org
@@ -168,7 +168,7 @@ for installing an appropriate version of [Node.js]. Execute this command to run
 the required setup script:
 
 ```bash
-curl -sL https://deb.nodesource.com/setup_16.x | sudo bash -
+curl -sL 'https://deb.nodesource.com/setup_16.x' | sudo bash -
 ```
 
 When the script finishes, it'll display some info about how to continue
@@ -198,7 +198,7 @@ First, make sure `apt` knows about the latest package information from your
 configured sources:
 
 ```{.bash .annotate}
-apt update # (1)!
+sudo apt update # (1)!
 ```
 
 1. The output of this command may include a warning that looks something like
@@ -209,7 +209,7 @@ apt update # (1)!
       doesn't support architecture 'i386'
    ```
    If so, don't worry - this shouldn't cause any problems down the line.
-   :bunhd_comfy:
+   :blobfox_box:
 
 <style>
   /* Extra-specific styling to make the code annotation look better. */
@@ -220,7 +220,7 @@ Then, simply install all of the required packages (adapted from the list in the
 [Mastodon docs](https://docs.joinmastodon.org/admin/install/#system-packages)):
 
 ```bash
-apt install -y \
+sudo apt install -y \
   autoconf bison build-essential ffmpeg file g++ gcc git-core imagemagick \
   libffi-dev libgdbm-dev libicu-dev libidn11-dev libjemalloc-dev \
   libncurses5-dev libpq-dev libprotobuf-dev libreadline6-dev libssl-dev \
@@ -241,11 +241,11 @@ Start off by cloning the source code for both of these tools into `.rbenv` in
 your home directory:
 
 ```bash
-git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+git clone 'https://github.com/rbenv/rbenv.git' ~/.rbenv
 ```
 
 ```bash
-git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+git clone 'https://github.com/rbenv/ruby-build.git' ~/.rbenv/plugins/ruby-build
 ```
 
 Next, add rbenv's initialization prereqs to your `.bashrc` so they run when you
@@ -269,7 +269,7 @@ Now it's time to actually install [Ruby] itself. This next command may take a
 while to complete:
 
 ```bash
-RUBY_CONFIGURE_OPTS=--with-jemalloc rbenv install 3.2.1
+RUBY_CONFIGURE_OPTS='--with-jemalloc' rbenv install 3.2.1
 ```
 
 Once that's done, set the newly installed version of Ruby as the default version
@@ -307,7 +307,7 @@ command.
 === "Vanilla Mastodon"
 
     ```bash
-    git clone https://github.com/mastodon/mastodon.git && cd mastodon
+    git clone 'https://github.com/mastodon/mastodon.git' && cd mastodon
     ```
 
     ??? info "Info - Using an official release"
@@ -325,13 +325,13 @@ command.
 === "Glitch Edition"
 
     ```bash
-    git clone https://github.com/glitch-soc/mastodon.git && cd mastodon
+    git clone 'https://github.com/glitch-soc/mastodon.git' && cd mastodon
     ```
 
 === "Cutie City Fork"
 
     ```bash
-    git clone https://github.com/CutieCity/mastodon.git && cd mastodon
+    git clone 'https://github.com/CutieCity/mastodon.git' && cd mastodon
     ```
 
 [latest stable release]: https://github.com/mastodon/mastodon/releases/latest
@@ -369,7 +369,7 @@ Now you can run `db:setup`, which initializes the `mastodon_development` and
 `mastodon_development`:
 
 ```bash
-RAILS_ENV=development bundle exec rails db:setup
+RAILS_ENV='development' bundle exec rails db:setup
 ```
 
 [bundler]: https://bundler.io
@@ -410,9 +410,9 @@ foreman start
     address and the default admin email address (listed below) will use
     your custom port number.
 
-Once all the processes have successfully started up, you can visit
-<http://localhost:3000> in your browser to see (and interact with) your
-development Mastodon instance! :celebrate:
+Once all the processes have successfully started up, navigate to
+<code><http://localhost:3000></code> in your browser to see (and interact with)
+your development Mastodon instance! :elmo_fire:
 
 To log in as the default admin user, use the following information:
 
