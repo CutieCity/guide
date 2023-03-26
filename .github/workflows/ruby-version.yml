@@ -1,8 +1,8 @@
-name: Update Custom Emoji
+name: Update Ruby Version
 
 on:
   schedule:
-    - cron: 0 0 * * 1
+    - cron: 0 1 * * 1
   workflow_dispatch:
 
 jobs:
@@ -11,7 +11,7 @@ jobs:
     permissions:
       contents: write
     outputs:
-      index_updated: ${{ steps.filter.outputs.index }}
+      dev_setup_page_updated: ${{ steps.filter.outputs.dev_setup_page }}
 
     steps:
       - name: Check out repository
@@ -36,10 +36,10 @@ jobs:
           key:
             pre-commit|${{ env.PY }}|${{ hashFiles('.pre-commit-config.yaml') }}
 
-      - name: Run custom_emoji script and pre-commit
+      - name: Run ruby_version script and pre-commit
         run: |
           pip install -e ./python
-          python -m cutiecityguide.custom_emoji
+          python -m cutiecityguide.ruby_version
           pre-commit run --all-files
 
       - name: Filter modified file paths
@@ -48,16 +48,16 @@ jobs:
         with:
           base: HEAD
           filters: |
-            index: python/cutiecityguide/assets/emoji_index.json
+            dev_setup_page: docs/self-hosting/development-setup.md
 
       - name: Auto-commit any changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Update custom emoji files
+          commit_message: Update Ruby version on Development Setup page
 
   publish:
     needs: update
-    if: needs.update.outputs.index_updated == 'true'
+    if: needs.update.outputs.dev_setup_page_updated == 'true'
     uses: ./.github/workflows/publish.yml
     permissions:
       pages: write
