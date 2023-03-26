@@ -237,9 +237,6 @@ released. Additionally, we'll be using rbenv's [ruby-build] plugin to power the
 `rbenv install` command and thereby streamline the installation process.
 :cat_wow:
 
-[rbenv]: https://github.com/rbenv/rbenv
-[ruby-build]: https://github.com/rbenv/ruby-build
-
 Start off by cloning the source code for both of these tools into `.rbenv` in
 your home directory:
 
@@ -268,7 +265,7 @@ Then, reload[^2] your terminal session to execute those initialization steps:
 exec bash
 ```
 
-Now it's time to actually install Ruby itself. This next command may take a
+Now it's time to actually install [Ruby] itself. This next command may take a
 while to complete:
 
 ```bash
@@ -288,6 +285,10 @@ rbenv global 3.2.1
     procedure. Although the term "reload" is less correct than "replace" in a
     technical sense, I find it conceptually easier to understand.
 
+[rbenv]: https://github.com/rbenv/rbenv
+[ruby-build]: https://github.com/rbenv/ruby-build
+[ruby]: https://www.ruby-lang.org
+
 ## Initializing the project
 
 Now that we've prepared all the prerequisites, we can start working with the
@@ -295,17 +296,31 @@ Mastodon codebase!
 
 ### Getting the source code
 
-The next step will copy the source code for your favorite flavor of Mastodon
-into a new directory (appropriately called `mastodon`; will be created in your
-current working directory) and `cd` into it. Ensure you're in the desired parent
-directory, use the tabs below to select your Mastodon flavor, and then run the
-provided command.
+This step will create a new directory called `mastodon` in your current working
+directory, then `cd` into it. The directory will contain the source code for
+your desired flavor (i.e. fork) of Mastodon.
+
+**To proceed:** Make sure you're in an appropriate parent directory, use the
+tabs below to select your preferred Mastodon flavor, and then run the provided
+command.
 
 === "Vanilla Mastodon"
 
     ```bash
     git clone https://github.com/mastodon/mastodon.git && cd mastodon
     ```
+
+    ??? info "Info - Using an official release"
+
+        If you'd like to work with the [latest stable release] of Mastodon, run
+        this command in your `mastodon` directory:
+
+        ```bash
+        git checkout $(git tag -l | grep -v 'rc[0-9]*$' | sort -V | tail -n 1)
+        ```
+
+        This is only relevant to **Vanilla Mastodon**, as the forks listed above
+        generally run on their respective `HEAD` commits.
 
 === "Glitch Edition"
 
@@ -319,4 +334,94 @@ provided command.
     git clone https://github.com/CutieCity/mastodon.git && cd mastodon
     ```
 
-### More details coming soon!
+[latest stable release]: https://github.com/mastodon/mastodon/releases/latest
+
+### Preparing the environment
+
+If you thought you were done installing dependencies, you'd be sorely mistaken!
+:giggle:
+
+Subsequent steps will use [Bundler] (the [gem] management tool used by Mastodon)
+and [Foreman] (a manager for [Procfile]-based applications), so let's install
+both of those now:
+
+```bash
+gem install bundler foreman --no-document
+```
+
+Run this command to install the required Ruby gems (via `bundle`) and JS
+packages (via `yarn`):
+
+```bash
+bundle install && yarn install
+```
+
+In development environments, Mastodon uses <code>[ident]</code> authentication
+for PostgreSQL, so you'll have to create a Postgres user with the same name as
+that of the currently signed-in OS user:
+
+```bash
+sudo -u postgres createuser $(whoami) --createdb
+```
+
+Now you can run `db:setup`, which initializes the `mastodon_development` and
+`mastodon_test` databases and loads some seed data (defined in `db/seeds`) into
+`mastodon_development`:
+
+```bash
+RAILS_ENV=development bundle exec rails db:setup
+```
+
+[bundler]: https://bundler.io
+[gem]: https://www.ruby-lang.org/en/libraries
+[foreman]: https://github.com/ddollar/foreman
+[procfile]: https://devcenter.heroku.com/articles/procfile
+[ident]: https://www.postgresql.org/docs/9.1/auth-methods.html#AUTH-IDENT
+
+## Running the dev server
+
+Mastodon's functionality (in a development environment) is provided by four
+separate processes, but [Foreman] (installed in a [previous step]) allows us to
+run all of them with just one command:
+
+```bash
+foreman start
+```
+
+??? note "Note - Procfile internals and adjustments"
+
+    The processes started by Foreman are defined in <code>[Procfile.dev]</code>
+    as follows:
+
+    ```{.procfile .no-copy linenums="1"}
+    web: env PORT=3000 RAILS_ENV=development bundle exec puma -C config/puma.rb
+    sidekiq: env PORT=3000 RAILS_ENV=development bundle exec sidekiq
+    stream: env PORT=4000 yarn run start
+    webpack: ./bin/webpack-dev-server --listen-host 0.0.0.0
+    ```
+
+    In order, the lines above represent: a [Rails] server, [Sidekiq], a
+    [streaming API] server, and a [Webpack] server. Depending on your
+    development needs, you may also run each one as a stand-alone process
+    (for advanced use cases only).
+
+    **Note:** By default, Mastodon runs on port `3000`. If you adjust your
+    `Procfile.dev` to make it use a different port, then the `localhost`
+    address and the default admin email address (listed below) will use
+    your custom port number.
+
+Once all the processes have successfully started up, you can visit
+<http://localhost:3000> in your browser to see (and interact with) your
+development Mastodon instance! :celebrate:
+
+To log in as the default admin user, use the following information:
+
+- **Email Address:** `admin@localhost:3000`
+- **Password:** `mastodonadmin`
+
+[previous step]: #preparing-the-environment
+[procfile.dev]: https://github.com/mastodon/mastodon/blob/main/Procfile.dev
+[rails]: https://rubyonrails.org
+[sidekiq]: https://sidekiq.org
+[streaming api]: https://docs.joinmastodon.org/methods/streaming
+[webpack]: https://webpack.js.org
