@@ -42,7 +42,7 @@ repos:
       - id: text-unicode-replacement-char
 
   - repo: https://github.com/psf/black
-    rev: 23.1.0
+    rev: 23.3.0
     hooks:
       - id: black
         args: ["--target-version=py311"]
@@ -86,7 +86,7 @@ repos:
         exclude: .*\.html$
 
   - repo: https://github.com/Lucas-C/pre-commit-hooks
-    rev: v1.4.2
+    rev: v1.5.1
     hooks:
       - id: remove-tabs
 
