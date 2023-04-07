@@ -2469,56 +2469,70 @@ the page. Have fun!
 Thank you so much to these amazing creators for helping to make Cutie City even
 cuter! :star_happy:
 
-| Emoji Pack                                   | Creator                        | License                                       |
-| -------------------------------------------- | ------------------------------ | --------------------------------------------- |
-| :bird_love: **[Bird Faces]**                 | Jackyy                         | [emoji.gg&nbsp;Basic&nbsp;License]            |
-| :blobfox_wink: **[Blobfox]**                 | [Volpeon]                      | <code>[Apache-2.0]</code>                     |
-| :blobhaj_innocent: **[Blobhaj]**             | [Heatherhorns]                 | _unknown_                                     |
-| :blob_aww: **[Blobs]**                       | Blob&nbsp;Emoji&nbsp;Community | <code>[Apache-2.0]</code>                     |
-| :bunhd_love: **[BunHD]**                     | [Volpeon]                      | <code>[Apache-2.0]</code>                     |
-| :chick_sprout: **[Chick Faces]**             | Kimmy                          | [emoji.gg&nbsp;Basic&nbsp;License]            |
-| :glaceon_uwu: **[Eeveelutions]**             | The Egg                        | [emoji.gg&nbsp;Basic&nbsp;License]            |
-| :kitty_plead: **[Kitty Faces]**              | Ean                            | [emoji.gg&nbsp;Basic&nbsp;License]            |
-| :gengar_cool: **[More&nbsp;Pokemon]**        | Sativa                         | [emoji.gg&nbsp;Basic&nbsp;License]            |
-| :ms_orc: **[Mutant&nbsp;Standard]**          | [Dzuk]                         | <code>[CC-BY-SA-4.0]</code>                   |
-| :panda_yay: **[Panda]**                      | Tommyfoxy2                     | [emoji.gg&nbsp;Basic&nbsp;License]            |
-| :patrick_sip: **[Patrick]**                  | René                           | [emoji.gg&nbsp;Basic&nbsp;License]            |
-| :penguin_love: **[Penguin&nbsp;Faces]**      | Kimmy                          | [emoji.gg&nbsp;Basic&nbsp;License]            |
-| :heart_omnisexual: **[Pride&nbsp;Hearts]**   | Raptortrash212                 | [emoji.gg&nbsp;Basic&nbsp;License]            |
-| :sparkles_lesbian: **[Pride&nbsp;Sparkles]** | [Nuztalgia]                    | <code>[Apache-2.0]</code>                     |
-| :shiba_oh: **[Shiba Faces]**                 | Marimo                         | [emoji.gg&nbsp;Basic&nbsp;License]            |
-| :queer_cat_trans: **[Queer Cats]**           | [Zoe Bijl]                     | <code>[CC0]</code> / <code>[Unlicense]</code> |
+| Emoji Pack                                    | Creator                        | License                                           |
+| --------------------------------------------- | ------------------------------ | ------------------------------------------------- |
+| :blobfox_wink: **[Blobfox]**                  | [Volpeon]                      | <code>[Apache-2.0]</code>                         |
+| :blobhaj_innocent: **[Blobhaj]**              | [Heatherhorns]                 | _unknown_                                         |
+| :blob_aww: **[Blobs]**                        | Blob&nbsp;Emoji&nbsp;Community | <code>[Apache-2.0]</code>                         |
+| :bunhd_love: **[BunHD]**                      | [Volpeon]                      | <code>[Apache-2.0]</code>                         |
+| :chick_sprout: **[Chick Faces]**              | Kimmy                          | [emoji.gg Basic License]                          |
+| :dracthyr_joy: **[Dracthyr]**                 | Aelnru                         | [emoji.gg Basic License]                          |
+| :sylveon_squish: **[Eeveelutions]**           | The Egg                        | [emoji.gg Basic License]                          |
+| :10_out_of_10: **[Fancy Text]**               | Qoqsik                         | [emoji.gg Basic License]                          |
+| :kitty_plead: **[Kitty Faces]**               | Ean                            | [emoji.gg Basic License]                          |
+| :torchic_love: **[More Pokemon]**             | Sativa                         | [emoji.gg Basic License]                          |
+| :ms_orc: **[Mutant Standard]**                | [Dzuk]                         | <code>[CC-BY-SA-4.0]</code>                       |
+| :panda_yay: **[Panda]**                       | Tommyfoxy2                     | [emoji.gg Basic License]                          |
+| :patrick_sip: **[Patrick]**                   | René                           | [emoji.gg Basic License]                          |
+| :penguin_love: **[Penguin Faces]**            | Kimmy                          | [emoji.gg Basic License]                          |
+| :fire_genderfluid: **[Pride Fire]**           | [Zoe Bijl]                     | <code>[CC0-1.0]</code> / <code>[Unlicense]</code> |
+| :frog_pansexual: **[Pride Frogs]**            | MochiPlant                     | [emoji.gg Basic License]                          |
+| :grin_gay: **[Pride Grins]**                  | Claire                         | [emoji.gg Basic License]                          |
+| :heart_omnisexual: **[Pride Hearts]**         | Raptortrash212                 | [emoji.gg Basic License]                          |
+| :lily_lesbian: **[Pride Lilies]**             | [Maddie Lim]                   | _unknown_                                         |
+| :sparkles_queerplatonic: **[Pride Sparkles]** | [Nuztalgia]                    | <code>[Apache-2.0]</code>                         |
+| :queer_cat_sapphic: **[Queer Cats]**          | [Zoe Bijl]                     | <code>[CC0-1.0]</code> / <code>[Unlicense]</code> |
+| :shiba_oh: **[Shiba Faces]**                  | Marimo                         | [emoji.gg Basic License]                          |
+| :trans_jedi_order: **[Trans Star Wars]**      | Roxxers                        | <code>[CC-BY-NC-SA-4.0]</code>                    |
 
 <!-- prettier-ignore-start -->
 
-[bird faces]: https://emoji.gg/user/839868084964818954
 [blobfox]: https://volpeon.ink/projects/emojis/blobfox
 [blobhaj]: http://heatherhorns.com/emoji
 [blobs]: https://blobs.gg
 [bunhd]: https://volpeon.ink/projects/emojis/bunhd
 [chick faces]: https://emoji.gg/user/1007807648349040661
+[dracthyr]: https://emoji.gg/user/459883857928519680
 [eeveelutions]: https://emoji.gg/user/581895449146032148
+[fancy text]: https://emoji.gg/user/506457175
 [kitty faces]: https://emoji.gg/user/407588192406208519
-[more&nbsp;pokemon]: https://emoji.gg/user/352545088489914380
-[mutant&nbsp;standard]: https://mutant.tech
+[more pokemon]: https://emoji.gg/user/352545088489914380
+[mutant standard]: https://mutant.tech
 [panda]: https://emoji.gg/user/104425482757357568
 [patrick]: https://emoji.gg/user/232043016024621056
-[penguin&nbsp;faces]: https://emoji.gg/user/1007807648349040661
-[pride&nbsp;hearts]: https://emoji.gg/user/259423902470504448
-[pride&nbsp;sparkles]: #pride-sparkles
-[shiba faces]: https://emoji.gg/user/232313302179512331
+[penguin faces]: https://emoji.gg/user/1007807648349040661
+[pride fire]: https://github.com/ZoeBijl/QueerCats
+[pride frogs]: https://emoji.gg/user/530952776214380554
+[pride grins]: https://emoji.gg/user/522482572245336077
+[pride hearts]: https://emoji.gg/user/259423902470504448
+[pride lilies]: https://maddie.rocks/@maddievision/109533048795703779
+[pride sparkles]: #pride-sparkles
 [queer cats]: https://github.com/ZoeBijl/QueerCats
+[shiba faces]: https://emoji.gg/user/232313302179512331
+[trans star wars]: https://github.com/Roxxers/pride-emojis
 
-[volpeon]: https://cutie.city/@volpeon@is-a.wyvern.rip
-[heatherhorns]: https://cutie.city/@heatherhorns@plush.city
 [dzuk]: https://cutie.city/@dzuk@weirder.earth
+[heatherhorns]: https://cutie.city/@heatherhorns@plush.city
+[maddie lim]: https://cutie.city/@maddievision@akiba.party
 [nuztalgia]: https://cutie.city/@nuz
+[volpeon]: https://cutie.city/@volpeon@is-a.wyvern.rip
 [zoe bijl]: https://cutie.city/@moiety@front-end.social
 
 [apache-2.0]: https://choosealicense.com/licenses/apache-2.0/
-[emoji.gg&nbsp;basic&nbsp;license]: https://emoji.gg/licenses
-[CC-BY-SA-4.0]: https://choosealicense.com/licenses/cc-by-sa-4.0/
-[cc0]: https://choosealicense.com/licenses/cc0-1.0/
+[cc-by-nc-sa-4.0]: https://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-sa-4.0]: https://creativecommons.org/licenses/by-sa/4.0/
+[cc0-1.0]: https://creativecommons.org/licenses/zero/1.0/
+[emoji.gg basic license]: https://emoji.gg/licenses
 [unlicense]: https://choosealicense.com/licenses/unlicense/
 
 <!-- prettier-ignore-end -->

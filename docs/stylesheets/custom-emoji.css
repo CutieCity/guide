@@ -64,9 +64,10 @@ h1#custom-emoji ~ * .tabbed-labels {
   display: none;
 }
 
-/* Fix alignment of all cells in the credits table. */
+/* Fix alignment and text wrapping of all cells in the credits table. */
 h1#custom-emoji ~ * table:not([class]) :is(td, th) {
   vertical-align: middle;
+  white-space: nowrap;
 }
 
 /* Center-align contents of the first column of the credits table. */
