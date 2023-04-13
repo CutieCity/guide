@@ -1,4 +1,5 @@
 *.bak
+*.cache
 *.diff
 *.egg-info/
 *.orig
@@ -8,9 +9,11 @@
 *.tmp
 .DS_Store
 .cache/
+.env
 .idea/
 .tox/
 .vscode/
+Thumbs.db
 build/
 dist/
 site/

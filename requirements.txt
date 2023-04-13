@@ -276,9 +276,9 @@ mkdocs==1.4.2 \
     #   mkdocs-git-committers-plugin-2
     #   mkdocs-git-revision-date-localized-plugin
     #   mkdocs-material
-mkdocs-git-committers-plugin-2==1.1.1 \
-    --hash=sha256:14d4a89bf8965ab62ca9b8b0cd90f6c9b421bb89bfedca0d91c5119f18791360 \
-    --hash=sha256:4f6eb6137f35967dfa444703b6ea293f05bf2fd183506bc51db8fb21b061d5a3
+mkdocs-git-committers-plugin-2==1.1.2 \
+    --hash=sha256:745993c4b486de0023ea4c2758daa7a8790a60ac6e369b55203db165d203be80 \
+    --hash=sha256:7ffa7c6eaae3ade9eaac625bd7dc155e8a543261c81a0354d12909b49eb48588
     # via -r requirements.in
 mkdocs-git-revision-date-localized-plugin==1.2.0 \
     --hash=sha256:540b9c930d8d48630c090b72ac2c3900ac2ed0799b23738a33b88e31f5198fe7 \
@@ -288,9 +288,9 @@ mkdocs-glightbox==0.3.2 \
     --hash=sha256:aec32193fa367f83a5159a10ef0a0e501e595860f4399fb860ca1c5d95fd099d \
     --hash=sha256:ef168717e0d6f5e3b33afa8a62837e9ea3b8754fbf073760db169650edbcb866
     # via -r requirements.in
-mkdocs-material==9.1.4 \
-    --hash=sha256:4c92dcf9365068259bef3eed8e0dd5410056b6f7187bdea2d52848c0f94cd94c \
-    --hash=sha256:c3a8943e9e4a7d2624291da365bbccf0b9f88688aa6947a46260d8c165cd4389
+mkdocs-material==9.1.6 \
+    --hash=sha256:2e555152f9771646bfa62dc78a86052876183eff69ce30db03a33e85702b21fc \
+    --hash=sha256:f2eb1d40db89da9922944833c1387207408f8937e1c2b46ab86e0c8f170b71e0
     # via -r requirements.in
 mkdocs-material-extensions==1.1.1 \
     --hash=sha256:9c003da71e2cc2493d910237448c672e00cefc800d3d6ae93d2fc69979e3bd93 \

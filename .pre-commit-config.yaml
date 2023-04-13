@@ -73,7 +73,7 @@ repos:
         exclude: ^python/setup\.py$
 
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.1.1
+    rev: v1.2.0
     hooks:
       - id: mypy
         args: ["--ignore-missing-imports", "--show-error-codes"]
@@ -100,6 +100,8 @@ repos:
     rev: 0.22.0
     hooks:
       - id: check-github-workflows
+      - id: check-renovate
+        additional_dependencies: ["json5"]
 
 ci:
   autoupdate_schedule: quarterly
