@@ -267,13 +267,17 @@
     "name": "big mood",
     "category": "000/002/502/original/626e088ae971a239.png"
   },
-  ":birb_blush:": {
-    "name": "birb blush",
-    "category": "000/004/810/original/birb_blush.png"
+  ":birb_bath:": {
+    "name": "birb bath",
+    "category": "000/005/468/original/476c6d8e8897b4ce.png"
   },
   ":birb_bored:": {
     "name": "birb bored",
     "category": "000/004/827/original/birb_bored.png"
+  },
+  ":birb_challenge:": {
+    "name": "birb challenge",
+    "category": "000/005/469/original/e8c39f676c98b40b.png"
   },
   ":birb_chill:": {
     "name": "birb chill",
@@ -295,21 +299,13 @@
     "name": "birb embarrassed",
     "category": "000/004/830/original/birb_embarrassed.png"
   },
-  ":birb_explorer:": {
-    "name": "birb explorer",
-    "category": "000/004/822/original/birb_explorer.png"
-  },
   ":birb_facepalm:": {
     "name": "birb facepalm",
     "category": "000/004/823/original/birb_facepalm.png"
   },
-  ":birb_fluff:": {
-    "name": "birb fluff",
-    "category": "000/004/842/original/birb_fluff.png"
-  },
   ":birb_full:": {
     "name": "birb full",
-    "category": "000/004/834/original/birb_full.png"
+    "category": "000/005/854/original/14e1af039ecfcec9.png"
   },
   ":birb_happy:": {
     "name": "birb happy",
@@ -327,33 +323,21 @@
     "name": "birb hug",
     "category": "000/004/825/original/birb_hug.png"
   },
-  ":birb_hungry:": {
-    "name": "birb hungry",
-    "category": "000/004/835/original/birb_hungry.png"
-  },
   ":birb_idea:": {
     "name": "birb idea",
     "category": "000/004/815/original/birb_idea.png"
-  },
-  ":birb_lonely:": {
-    "name": "birb lonely",
-    "category": "000/004/813/original/birb_lonely.png"
   },
   ":birb_love:": {
     "name": "birb love",
     "category": "000/004/814/original/birb_love.png"
   },
-  ":birb_maracas:": {
-    "name": "birb maracas",
-    "category": "000/004/807/original/birb_maracas.png"
-  },
   ":birb_nerdy:": {
     "name": "birb nerdy",
     "category": "000/004/821/original/birb_nerdy.png"
   },
-  ":birb_ooh:": {
-    "name": "birb ooh",
-    "category": "000/004/833/original/birb_ooh.png"
+  ":birb_oh_no:": {
+    "name": "birb oh no",
+    "category": "000/005/477/original/4a74c71c9f655703.gif"
   },
   ":birb_pat:": {
     "name": "birb pat",
@@ -379,61 +363,37 @@
     "name": "birb rain",
     "category": "000/004/831/original/birb_rain.png"
   },
-  ":birb_sad:": {
-    "name": "birb sad",
-    "category": "000/004/838/original/birb_sad.png"
-  },
   ":birb_scared:": {
     "name": "birb scared",
     "category": "000/004/811/original/birb_scared.png"
+  },
+  ":birb_scoot:": {
+    "name": "birb scoot",
+    "category": "000/005/470/original/76567725831d1b3b.gif"
   },
   ":birb_sick:": {
     "name": "birb sick",
     "category": "000/004/843/original/birb_sick.png"
   },
-  ":birb_sleep:": {
-    "name": "birb sleep",
-    "category": "000/004/832/original/birb_sleep.png"
-  },
   ":birb_sob:": {
     "name": "birb sob",
     "category": "000/004/812/original/birb_sob.png"
-  },
-  ":birb_spooked:": {
-    "name": "birb spooked",
-    "category": "000/004/806/original/birb_spooked.png"
   },
   ":birb_stare:": {
     "name": "birb stare",
     "category": "000/004/836/original/birb_stare.png"
   },
-  ":birb_strong:": {
-    "name": "birb strong",
-    "category": "000/004/839/original/birb_strong.png"
-  },
-  ":birb_tantrum:": {
-    "name": "birb tantrum",
-    "category": "000/004/819/original/birb_tantrum.png"
+  ":birb_taptap:": {
+    "name": "birb taptap",
+    "category": "000/005/471/original/e00fd1f72c5bd309.gif"
   },
   ":birb_thumbs_up:": {
     "name": "birb thumbs up",
     "category": "000/004/804/original/birb_thumbs_up.png"
   },
-  ":birb_tub:": {
-    "name": "birb tub",
-    "category": "000/004/841/original/birb_tub.png"
-  },
   ":birb_wave:": {
     "name": "birb wave",
-    "category": "000/004/824/original/birb_wave.png"
-  },
-  ":bird_scoot:": {
-    "name": "bird scoot",
-    "category": "000/004/863/original/bird_scoot.gif"
-  },
-  ":bird_taptap:": {
-    "name": "bird taptap",
-    "category": "000/004/984/original/21bf4f4025c191b7.gif"
+    "category": "000/005/855/original/8fb603e923330909.gif"
   },
   ":birthday_cake:": {
     "name": "birthday cake",
@@ -1851,10 +1811,6 @@
     "name": "boba",
     "category": "000/000/059/original/c4898c3942e1eff8.png"
   },
-  ":boiling_anger:": {
-    "name": "boiling anger",
-    "category": "000/004/902/original/boiling_anger.gif"
-  },
   ":bonk:": {
     "name": "bonk",
     "category": "000/002/567/original/71a7d95e4174f0dd.png"
@@ -1862,10 +1818,6 @@
   ":boosts_ok:": {
     "name": "boosts ok",
     "category": "000/002/066/original/fd93d7b01c5a20ca.png"
-  },
-  ":bro:": {
-    "name": "bro",
-    "category": "000/005/068/original/bro.png"
   },
   ":bugcat_cry:": {
     "name": "bugcat cry",
@@ -2135,6 +2087,10 @@
     "name": "cat bongo",
     "category": "000/000/596/original/8d36300b592aac39.gif"
   },
+  ":cat_bongo_rage:": {
+    "name": "cat bongo rage",
+    "category": "000/005/417/original/8c998add5f700508.gif"
+  },
   ":cat_clap:": {
     "name": "cat clap",
     "category": "000/000/241/original/a3eafda46c7a3d27.gif"
@@ -2143,9 +2099,9 @@
     "name": "cat clown",
     "category": "000/005/024/original/cat_clown.png"
   },
-  ":cat_creeping:": {
-    "name": "cat creeping",
-    "category": "000/002/614/original/67d7e0690883c608.png"
+  ":cat_couple:": {
+    "name": "cat couple",
+    "category": "000/005/441/original/24e30db28ba750f5.png"
   },
   ":cat_cute:": {
     "name": "cat cute",
@@ -2158,10 +2114,6 @@
   ":cat_excited:": {
     "name": "cat excited",
     "category": "000/002/617/original/1ffef7cfd9fcd9cc.png"
-  },
-  ":cat_farmer:": {
-    "name": "cat farmer",
-    "category": "000/002/608/original/7b11d17591e5ec31.png"
   },
   ":cat_fight:": {
     "name": "cat fight",
@@ -2198,6 +2150,10 @@
   ":cat_hearts:": {
     "name": "cat hearts",
     "category": "000/000/198/original/bb3ccc246ba417d8.gif"
+  },
+  ":cat_hmm:": {
+    "name": "cat hmm",
+    "category": "000/005/434/original/ab971aa5707e11cc.png"
   },
   ":cat_hug:": {
     "name": "cat hug",
@@ -2307,9 +2263,9 @@
     "name": "cat sob",
     "category": "000/002/150/original/2093e93a37fcd6b5.png"
   },
-  ":cat_sus:": {
-    "name": "cat sus",
-    "category": "000/005/028/original/cat_sus.png"
+  ":cat_thumbs_up:": {
+    "name": "cat thumbs up",
+    "category": "000/005/435/original/cd276986cbc8443b.png"
   },
   ":cat_uwu:": {
     "name": "cat uwu",
@@ -2334,10 +2290,6 @@
   ":cat_wow:": {
     "name": "cat wow",
     "category": "000/000/600/original/7e69b1aa3cea02a2.png"
-  },
-  ":cat_wtf:": {
-    "name": "cat wtf",
-    "category": "000/002/544/original/e807b36da78a7231.png"
   },
   ":caterpillar_knife:": {
     "name": "caterpillar knife",
@@ -2406,6 +2358,10 @@
   ":clap_clap:": {
     "name": "clap clap",
     "category": "000/005/104/original/clap_clap.gif"
+  },
+  ":clown_girl:": {
+    "name": "clown girl",
+    "category": "000/005/472/original/a4f61ceac70ab96a.png"
   },
   ":clown_skull:": {
     "name": "clown skull",
@@ -2527,9 +2483,13 @@
     "name": "dracthyr hehe",
     "category": "000/005/043/original/1b5c1a09660360ba.gif"
   },
-  ":dracthyr_joy:": {
-    "name": "dracthyr joy",
-    "category": "000/005/038/original/317d0dc832097ae7.png"
+  ":dracthyr_laugh:": {
+    "name": "dracthyr laugh",
+    "category": "000/005/418/original/1bddeccf20fe8fa3.png"
+  },
+  ":dracthyr_lul_lmao:": {
+    "name": "dracthyr lul lmao",
+    "category": "000/005/419/original/112018739ff9f3e7.png"
   },
   ":dracthyr_nod:": {
     "name": "dracthyr nod",
@@ -2587,6 +2547,10 @@
     "name": "espeon love",
     "category": "000/000/048/original/3f456f0a7ceb2fc0.png"
   },
+  ":explosive_anger:": {
+    "name": "explosive anger",
+    "category": "000/005/425/original/3fe3924a51af09d6.gif"
+  },
   ":f_key:": {
     "name": "f key",
     "category": "000/000/202/original/aa8cefa07dae2e87.png"
@@ -2641,7 +2605,7 @@
   },
   ":fire_lesbian:": {
     "name": "fire lesbian",
-    "category": "000/005/118/original/fire_lesbian.png"
+    "category": "000/005/439/original/17dd75dc3c6301fb.png"
   },
   ":fire_nonbinary:": {
     "name": "fire nonbinary",
@@ -3095,10 +3059,6 @@
     "name": "flareon wink",
     "category": "000/000/045/original/a620d48bd12c89de.png"
   },
-  ":fletchling_confused:": {
-    "name": "fletchling confused",
-    "category": "000/004/921/original/fletchling_confused.png"
-  },
   ":fox_aww:": {
     "name": "fox aww",
     "category": "000/002/561/original/e7afc55911bac098.png"
@@ -3107,9 +3067,13 @@
     "name": "fox ban",
     "category": "000/002/626/original/d71d676a3f8b5ace.png"
   },
+  ":frog_asexual:": {
+    "name": "frog asexual",
+    "category": "000/005/462/original/frog_asexual.png"
+  },
   ":frog_bisexual:": {
     "name": "frog bisexual",
-    "category": "000/005/085/original/frog_bisexual.png"
+    "category": "000/005/464/original/frog_bisexual.png"
   },
   ":frog_blush:": {
     "name": "frog blush",
@@ -3123,13 +3087,9 @@
     "name": "frog cry",
     "category": "000/002/247/original/97f4eaf423f3a79b.png"
   },
-  ":frog_demiromantic:": {
-    "name": "frog demiromantic",
-    "category": "000/005/080/original/frog_demiromantic.png"
-  },
   ":frog_demisexual:": {
     "name": "frog demisexual",
-    "category": "000/005/074/original/frog_demisexual.png"
+    "category": "000/005/459/original/frog_demisexual.png"
   },
   ":frog_dizzy:": {
     "name": "frog dizzy",
@@ -3141,11 +3101,7 @@
   },
   ":frog_gay:": {
     "name": "frog gay",
-    "category": "000/005/062/original/frog_gay.png"
-  },
-  ":frog_gay_male:": {
-    "name": "frog gay male",
-    "category": "000/005/060/original/frog_gay_male.png"
+    "category": "000/005/454/original/frog_gay.png"
   },
   ":frog_hug:": {
     "name": "frog hug",
@@ -3157,15 +3113,19 @@
   },
   ":frog_lesbian:": {
     "name": "frog lesbian",
-    "category": "000/005/055/original/frog_lesbian.png"
+    "category": "000/005/449/original/frog_lesbian.png"
   },
   ":frog_love:": {
     "name": "frog love",
     "category": "000/002/253/original/a0d38844e045b411.png"
   },
+  ":frog_nonbinary:": {
+    "name": "frog nonbinary",
+    "category": "000/005/461/original/frog_nonbinary.png"
+  },
   ":frog_pansexual:": {
     "name": "frog pansexual",
-    "category": "000/005/063/original/frog_pansexual.png"
+    "category": "000/005/455/original/frog_pansexual.png"
   },
   ":frog_please:": {
     "name": "frog please",
@@ -3193,11 +3153,19 @@
   },
   ":frog_tired:": {
     "name": "frog tired",
-    "category": "000/005/078/original/frog_tired.png"
+    "category": "000/005/502/original/fa16977d8f78f3b3.png"
+  },
+  ":frog_trans:": {
+    "name": "frog trans",
+    "category": "000/005/448/original/frog_trans.png"
+  },
+  ":furret_excited:": {
+    "name": "furret excited",
+    "category": "000/005/433/original/a0933ab92da17964.png"
   },
   ":gaayy:": {
     "name": "gaayy",
-    "category": "000/005/069/original/gaayy.png"
+    "category": "000/005/501/original/80e940ccf3e75d17.png"
   },
   ":galaxy_brain:": {
     "name": "galaxy brain",
@@ -3275,9 +3243,21 @@
     "name": "glaceon uwu",
     "category": "000/000/047/original/3862c0a099479a5e.png"
   },
+  ":good_morning:": {
+    "name": "good morning",
+    "category": "000/005/483/original/5007295536e16fe0.png"
+  },
+  ":good_night:": {
+    "name": "good night",
+    "category": "000/005/482/original/6404c534eead5e06.png"
+  },
   ":goose_bonk:": {
     "name": "goose bonk",
     "category": "000/002/327/original/43c6f3e6a13e4679.gif"
+  },
+  ":goose_calm:": {
+    "name": "goose calm",
+    "category": "000/005/421/original/fb631a7a9e87e4f1.png"
   },
   ":goose_cool:": {
     "name": "goose cool",
@@ -3307,10 +3287,6 @@
     "name": "goose honk right",
     "category": "000/004/780/original/dbb06e01278b2c19.png"
   },
-  ":goose_idle:": {
-    "name": "goose idle",
-    "category": "000/004/989/original/goose_idle.png"
-  },
   ":goose_peek:": {
     "name": "goose peek",
     "category": "000/004/138/original/goose_peek.png"
@@ -3327,9 +3303,9 @@
     "name": "gotta go fast",
     "category": "000/002/523/original/2197609138da7b1c.gif"
   },
-  ":grabby:": {
-    "name": "grabby",
-    "category": "000/005/047/original/grabby.png"
+  ":grabby_hands:": {
+    "name": "grabby hands",
+    "category": "000/005/484/original/7bcad073e8c3af76.png"
   },
   ":grin_aromantic:": {
     "name": "grin aromantic",
@@ -3350,6 +3326,10 @@
   ":grin_gay_male:": {
     "name": "grin gay male",
     "category": "000/005/084/original/grin_gay_male.png"
+  },
+  ":grin_genderfluid:": {
+    "name": "grin genderfluid",
+    "category": "000/005/440/original/79223e5a63ddd528.png"
   },
   ":grin_lesbian:": {
     "name": "grin lesbian",
@@ -3394,10 +3374,6 @@
   ":hamster_gamer:": {
     "name": "hamster gamer",
     "category": "000/000/304/original/8f1e6f50d9ad0ab9.gif"
-  },
-  ":hand_heart:": {
-    "name": "hand heart",
-    "category": "000/004/700/original/hand_heart.png"
   },
   ":hanzo_yikes:": {
     "name": "hanzo yikes",
@@ -3695,10 +3671,6 @@
     "name": "i am looking",
     "category": "000/004/862/original/i_am_looking.png"
   },
-  ":i_am_looking_away:": {
-    "name": "i am looking away",
-    "category": "000/004/867/original/i_am_looking_away.png"
-  },
   ":i_love_you:": {
     "name": "i love you",
     "category": "000/002/096/original/7c30638cee0e2da6.png"
@@ -3727,10 +3699,6 @@
     "name": "jolteon giggle",
     "category": "000/000/050/original/dfc4b8d2aa9bf8c7.png"
   },
-  ":joltik_love:": {
-    "name": "joltik love",
-    "category": "000/000/113/original/48c7650e85470a6f.png"
-  },
   ":jump_for_joy:": {
     "name": "jump for joy",
     "category": "000/000/303/original/473b79a6f5d1287f.gif"
@@ -3755,6 +3723,14 @@
     "name": "kirby tired",
     "category": "000/002/577/original/e8c1bbb18994722d.png"
   },
+  ":kitty_abrosexual:": {
+    "name": "kitty abrosexual",
+    "category": "000/005/451/original/kitty_abrosexual.png"
+  },
+  ":kitty_agender:": {
+    "name": "kitty agender",
+    "category": "000/005/446/original/kitty_agender.png"
+  },
   ":kitty_cry:": {
     "name": "kitty cry",
     "category": "000/000/099/original/3e88e00d630404d1.png"
@@ -3763,9 +3739,29 @@
     "name": "kitty curious",
     "category": "000/002/583/original/09d9b44e694c869c.png"
   },
+  ":kitty_demifemme:": {
+    "name": "kitty demifemme",
+    "category": "000/005/465/original/kitty_demifemme.png"
+  },
+  ":kitty_demifluid:": {
+    "name": "kitty demifluid",
+    "category": "000/005/463/original/kitty_demifluid.png"
+  },
+  ":kitty_demigender:": {
+    "name": "kitty demigender",
+    "category": "000/005/450/original/kitty_demigender.png"
+  },
+  ":kitty_demimasc:": {
+    "name": "kitty demimasc",
+    "category": "000/005/447/original/kitty_demimasc.png"
+  },
   ":kitty_drool:": {
     "name": "kitty drool",
     "category": "000/002/584/original/0541c7d045d2d0c8.png"
+  },
+  ":kitty_enbian:": {
+    "name": "kitty enbian",
+    "category": "000/005/460/original/kitty_enbian.png"
   },
   ":kitty_eyes:": {
     "name": "kitty eyes",
@@ -3774,6 +3770,18 @@
   ":kitty_flushed:": {
     "name": "kitty flushed",
     "category": "000/000/097/original/99a3261d6227d419.png"
+  },
+  ":kitty_genderqueer:": {
+    "name": "kitty genderqueer",
+    "category": "000/005/457/original/kitty_genderqueer.png"
+  },
+  ":kitty_lesbian:": {
+    "name": "kitty lesbian",
+    "category": "000/005/456/original/kitty_lesbian.png"
+  },
+  ":kitty_pansexual:": {
+    "name": "kitty pansexual",
+    "category": "000/005/458/original/kitty_pansexual.png"
   },
   ":kitty_plead:": {
     "name": "kitty plead",
@@ -3803,6 +3811,22 @@
     "name": "kitty smug",
     "category": "000/000/100/original/d5a4b7b944fa663a.png"
   },
+  ":kitty_trans:": {
+    "name": "kitty trans",
+    "category": "000/005/452/original/kitty_trans.png"
+  },
+  ":kitty_transfemme:": {
+    "name": "kitty transfemme",
+    "category": "000/005/444/original/kitty_transfemme.png"
+  },
+  ":kitty_transmasc:": {
+    "name": "kitty transmasc",
+    "category": "000/005/445/original/kitty_transmasc.png"
+  },
+  ":kitty_transneutral:": {
+    "name": "kitty transneutral",
+    "category": "000/005/453/original/kitty_transneutral.png"
+  },
   ":kitty_yikes:": {
     "name": "kitty yikes",
     "category": "000/000/094/original/b1af23368243e817.png"
@@ -3811,9 +3835,9 @@
     "name": "knife girl",
     "category": "000/003/968/original/15f6092b5e9a5ae2.png"
   },
-  ":laughing_with_anger:": {
-    "name": "laughing with anger",
-    "category": "000/004/148/original/laughing_with_anger.png"
+  ":koala_comfy:": {
+    "name": "koala comfy",
+    "category": "000/005/496/original/a55c0aa3c09102f9.png"
   },
   ":lavender:": {
     "name": "lavender",
@@ -3830,6 +3854,10 @@
   ":leafeon_money:": {
     "name": "leafeon money",
     "category": "000/002/308/original/6581df86ba8d918d.gif"
+  },
+  ":lesbian_bunny:": {
+    "name": "lesbian bunny",
+    "category": "000/005/486/original/8be79907e97360ad.png"
   },
   ":lesbian_hearts:": {
     "name": "lesbian hearts",
@@ -3871,6 +3899,10 @@
     "name": "lily bisexual",
     "category": "000/003/922/original/lily_bisexual.png"
   },
+  ":lily_gay:": {
+    "name": "lily gay",
+    "category": "000/005/422/original/7f1a6e215d4cec59.png"
+  },
   ":lily_lesbian:": {
     "name": "lily lesbian",
     "category": "000/003/944/original/lily_lesbian.png"
@@ -3882,10 +3914,6 @@
   ":lily_pansexual:": {
     "name": "lily pansexual",
     "category": "000/003/946/original/lily_pansexual.png"
-  },
-  ":lily_rainbow:": {
-    "name": "lily rainbow",
-    "category": "000/003/931/original/lily_rainbow.png"
   },
   ":lily_trans:": {
     "name": "lily trans",
@@ -3915,9 +3943,17 @@
     "name": "lucio cool",
     "category": "000/004/743/original/lucio_cool.png"
   },
+  ":lul_lmao:": {
+    "name": "lul lmao",
+    "category": "000/005/423/original/8e2c06a820bdc58d.png"
+  },
   ":mankey_angry:": {
     "name": "mankey angry",
     "category": "000/004/917/original/mankey_angry.png"
+  },
+  ":master_ball:": {
+    "name": "master ball",
+    "category": "000/005/427/original/a889fa882f843f90.png"
   },
   ":mega_flushed:": {
     "name": "mega flushed",
@@ -3954,6 +3990,10 @@
   ":meong_cry:": {
     "name": "meong cry",
     "category": "000/005/101/original/meong_cry.gif"
+  },
+  ":meong_cute:": {
+    "name": "meong cute",
+    "category": "000/005/420/original/f6030885124656f4.gif"
   },
   ":meong_dance:": {
     "name": "meong dance",
@@ -6443,10 +6483,6 @@
     "name": "not like this",
     "category": "000/002/498/original/592709cdbaaa2ccb.png"
   },
-  ":nsfw_warning:": {
-    "name": "nsfw warning",
-    "category": "000/003/925/original/nsfw_warning.png"
-  },
   ":nuzzles:": {
     "name": "nuzzles",
     "category": "000/000/589/original/58caecdd29ca1932.png"
@@ -6634,6 +6670,14 @@
   ":party_parrot:": {
     "name": "party parrot",
     "category": "000/002/522/original/aa5030cbf6b06a34.png"
+  },
+  ":party_roach:": {
+    "name": "party roach",
+    "category": "000/005/490/original/a16b582f481cb26e.gif"
+  },
+  ":party_wobble:": {
+    "name": "party wobble",
+    "category": "000/005/467/original/9ddcba2148575cb3.gif"
   },
   ":patrick_ayaya:": {
     "name": "patrick ayaya",
@@ -6839,29 +6883,17 @@
     "name": "plug",
     "category": "000/004/900/original/plug.png"
   },
+  ":plural:": {
+    "name": "plural",
+    "category": "000/005/437/original/f12262e53f39f441.png"
+  },
   ":plural_ampersand:": {
     "name": "plural ampersand",
     "category": "000/005/010/original/97c6589ffce19ed0.png"
   },
-  ":plural_rings:": {
-    "name": "plural rings",
-    "category": "000/005/011/original/13d49858602969e7.png"
-  },
   ":pokeball:": {
     "name": "pokeball",
     "category": "000/004/935/original/pokeball.png"
-  },
-  ":pokeball_great:": {
-    "name": "pokeball great",
-    "category": "000/004/920/original/pokeball_great.png"
-  },
-  ":pokeball_master:": {
-    "name": "pokeball master",
-    "category": "000/004/934/original/pokeball_master.png"
-  },
-  ":pokeball_ultra:": {
-    "name": "pokeball ultra",
-    "category": "000/004/937/original/pokeball_ultra.png"
   },
   ":poker_face:": {
     "name": "poker face",
@@ -6906,10 +6938,6 @@
   ":purple_crystals:": {
     "name": "purple crystals",
     "category": "000/004/132/original/purple_crystals.png"
-  },
-  ":pusheen_cool:": {
-    "name": "pusheen cool",
-    "category": "000/002/085/original/1d3cd83869ea3612.png"
   },
   ":pusheen_drawing:": {
     "name": "pusheen drawing",
@@ -7163,14 +7191,6 @@
     "name": "rainbow amogus",
     "category": "000/004/850/original/rainbow_amogus.png"
   },
-  ":rainbow_arc_left:": {
-    "name": "rainbow arc left",
-    "category": "000/004/973/original/6ba3ec10416f582d.png"
-  },
-  ":rainbow_arc_right:": {
-    "name": "rainbow arc right",
-    "category": "000/004/974/original/9ac8b4c2382904dd.png"
-  },
   ":rainbow_awoo:": {
     "name": "rainbow awoo",
     "category": "000/002/499/original/f9ac24ac2f57fffd.png"
@@ -7231,18 +7251,6 @@
     "name": "rainbow duck",
     "category": "000/004/139/original/rainbow_duck.png"
   },
-  ":rainbow_face:": {
-    "name": "rainbow face",
-    "category": "000/004/869/original/rainbow_face.png"
-  },
-  ":rainbow_glowstick:": {
-    "name": "rainbow glowstick",
-    "category": "000/004/116/original/rainbow_glowstick.gif"
-  },
-  ":rainbow_heart:": {
-    "name": "rainbow heart",
-    "category": "000/005/070/original/rainbow_heart.png"
-  },
   ":rainbow_heart_eyes:": {
     "name": "rainbow heart eyes",
     "category": "000/004/962/original/rainbow_heart_eyes.png"
@@ -7279,10 +7287,6 @@
     "name": "rainbow reverse uno",
     "category": "000/005/076/original/rainbow_reverse_uno.png"
   },
-  ":rainbow_roach:": {
-    "name": "rainbow roach",
-    "category": "000/004/147/original/rainbow_roach.gif"
-  },
   ":rainbow_rose:": {
     "name": "rainbow rose",
     "category": "000/005/056/original/rainbow_rose.png"
@@ -7311,21 +7315,33 @@
     "name": "rainbow tada",
     "category": "000/002/629/original/9eb76720b460102e.png"
   },
-  ":rainbow_think:": {
-    "name": "rainbow think",
-    "category": "000/005/064/original/rainbow_think.png"
-  },
-  ":rainbow_wobble:": {
-    "name": "rainbow wobble",
-    "category": "000/004/152/original/rainbow_wobble.gif"
-  },
   ":rat_bisexual:": {
     "name": "rat bisexual",
     "category": "000/004/800/original/a0dd62f70781ef19.png"
   },
+  ":rat_blush:": {
+    "name": "rat blush",
+    "category": "000/005/494/original/c6bda510a77be281.png"
+  },
+  ":rat_dance:": {
+    "name": "rat dance",
+    "category": "000/005/497/original/003c4c34308fa5a5.gif"
+  },
+  ":rat_jam:": {
+    "name": "rat jam",
+    "category": "000/005/488/original/65be290f7c992417.gif"
+  },
   ":rat_lesbian:": {
     "name": "rat lesbian",
     "category": "000/004/801/original/26c5225c4ab14b8e.png"
+  },
+  ":rat_love:": {
+    "name": "rat love",
+    "category": "000/005/473/original/798271b189f39b54.png"
+  },
+  ":rat_munch:": {
+    "name": "rat munch",
+    "category": "000/005/474/original/92ca44c53123f0e5.png"
   },
   ":rat_pride:": {
     "name": "rat pride",
@@ -7411,13 +7427,13 @@
     "name": "shark cozy",
     "category": "000/004/113/original/shark_cozy.png"
   },
-  ":shark_happy_blue:": {
-    "name": "shark happy blue",
-    "category": "000/004/130/original/shark_happy_blue.png"
+  ":shark_happy:": {
+    "name": "shark happy",
+    "category": "000/005/476/original/2f3abcd1b4f18ab4.png"
   },
-  ":shark_happy_pink:": {
-    "name": "shark happy pink",
-    "category": "000/004/112/original/shark_happy_pink.png"
+  ":shark_pog:": {
+    "name": "shark pog",
+    "category": "000/005/475/original/ac7a3ec682009124.png"
   },
   ":shaymin_sip:": {
     "name": "shaymin sip",
@@ -7454,10 +7470,6 @@
   ":shiba_hide:": {
     "name": "shiba hide",
     "category": "000/000/226/original/698f6ebd23f22032.png"
-  },
-  ":shiba_kiss:": {
-    "name": "shiba kiss",
-    "category": "000/002/600/original/440d1dd3e2783560.png"
   },
   ":shiba_love:": {
     "name": "shiba love",
@@ -7503,6 +7515,10 @@
     "name": "shrek",
     "category": "000/002/581/original/dcacc9111a360632.png"
   },
+  ":sip_tea:": {
+    "name": "sip tea",
+    "category": "000/005/487/original/7d46d943d1b56ffb.png"
+  },
   ":skull_angry:": {
     "name": "skull angry",
     "category": "000/002/201/original/41c7d4e9227e0012.png"
@@ -7518,6 +7534,10 @@
   ":sleepy_pillow:": {
     "name": "sleepy pillow",
     "category": "000/002/571/original/34ae10d0a3f998ce.png"
+  },
+  ":snivy_bored:": {
+    "name": "snivy bored",
+    "category": "000/005/429/original/7409cc6ccd4d54f3.png"
   },
   ":snivy_smirk:": {
     "name": "snivy smirk",
@@ -7547,133 +7567,165 @@
     "name": "soon tm",
     "category": "000/005/053/original/soon_tm.png"
   },
+  ":sparkles_abrosexual:": {
+    "name": "sparkles abrosexual",
+    "category": "000/005/892/original/sparkles_abrosexual.png"
+  },
   ":sparkles_agender:": {
     "name": "sparkles agender",
-    "category": "000/002/220/original/955b8d254bec9455.png"
+    "category": "000/005/869/original/sparkles_agender.png"
   },
-  ":sparkles_androgyne:": {
-    "name": "sparkles androgyne",
-    "category": "000/002/410/original/eecb9013830b4190.png"
+  ":sparkles_aroace:": {
+    "name": "sparkles aroace",
+    "category": "000/005/861/original/sparkles_aroace.png"
   },
   ":sparkles_aromantic:": {
     "name": "sparkles aromantic",
-    "category": "000/002/403/original/10ff789e5abf2cb4.png"
+    "category": "000/005/888/original/sparkles_aromantic.png"
   },
   ":sparkles_asexual:": {
     "name": "sparkles asexual",
-    "category": "000/002/222/original/2f37f3027cf9ef1f.png"
+    "category": "000/005/876/original/sparkles_asexual.png"
   },
-  ":sparkles_bear:": {
-    "name": "sparkles bear",
-    "category": "000/002/409/original/2b093f8770dd21e3.png"
+  ":sparkles_autistic:": {
+    "name": "sparkles autistic",
+    "category": "000/005/870/original/sparkles_autistic.png"
   },
   ":sparkles_bigender:": {
     "name": "sparkles bigender",
-    "category": "000/002/223/original/ae71ac23910e0102.png"
+    "category": "000/005/879/original/sparkles_bigender.png"
   },
   ":sparkles_bisexual:": {
     "name": "sparkles bisexual",
-    "category": "000/002/914/original/69771d1c36ac7d01.png"
+    "category": "000/005/862/original/sparkles_bisexual.png"
   },
   ":sparkles_demifemme:": {
     "name": "sparkles demifemme",
-    "category": "000/002/225/original/26c7d8da706b6fef.png"
+    "category": "000/005/886/original/sparkles_demifemme.png"
   },
   ":sparkles_demigender:": {
     "name": "sparkles demigender",
-    "category": "000/002/226/original/ba61185d62459220.png"
+    "category": "000/005/866/original/sparkles_demigender.png"
   },
   ":sparkles_demimasc:": {
     "name": "sparkles demimasc",
-    "category": "000/002/227/original/cf36d1cdc66806c2.png"
+    "category": "000/005/868/original/sparkles_demimasc.png"
   },
-  ":sparkles_demiromantic:": {
-    "name": "sparkles demiromantic",
-    "category": "000/002/228/original/2d7213e3a15aef7a.png"
-  },
-  ":sparkles_demisexual:": {
-    "name": "sparkles demisexual",
-    "category": "000/002/229/original/5ff6d78ee9e76f74.png"
-  },
-  ":sparkles_enbian:": {
-    "name": "sparkles enbian",
-    "category": "000/002/915/original/e9734875986e3050.png"
+  ":sparkles_gay_male:": {
+    "name": "sparkles gay male",
+    "category": "000/005/873/original/sparkles_gay_male.png"
   },
   ":sparkles_genderfluid:": {
     "name": "sparkles genderfluid",
-    "category": "000/002/231/original/41776d81026dc42d.png"
+    "category": "000/005/895/original/sparkles_genderfluid.png"
+  },
+  ":sparkles_genderflux:": {
+    "name": "sparkles genderflux",
+    "category": "000/005/858/original/sparkles_genderflux.png"
   },
   ":sparkles_genderqueer:": {
     "name": "sparkles genderqueer",
-    "category": "000/002/232/original/28061870e4362e8a.png"
+    "category": "000/005/856/original/sparkles_genderqueer.png"
+  },
+  ":sparkles_grey_aromantic:": {
+    "name": "sparkles grey aromantic",
+    "category": "000/005/863/original/sparkles_grey_aromantic.png"
+  },
+  ":sparkles_grey_asexual:": {
+    "name": "sparkles grey asexual",
+    "category": "000/005/891/original/sparkles_grey_asexual.png"
   },
   ":sparkles_intersex:": {
     "name": "sparkles intersex",
-    "category": "000/002/233/original/3a69d4012f5500bc.png"
-  },
-  ":sparkles_leather:": {
-    "name": "sparkles leather",
-    "category": "000/002/402/original/1d5c248654bb8ba4.png"
+    "category": "000/005/857/original/sparkles_intersex.png"
   },
   ":sparkles_lesbian:": {
     "name": "sparkles lesbian",
-    "category": "000/002/234/original/1028cb4a14b6c558.png"
+    "category": "000/005/877/original/sparkles_lesbian.png"
+  },
+  ":sparkles_lesbian_sapphic:": {
+    "name": "sparkles lesbian sapphic",
+    "category": "000/005/889/original/sparkles_lesbian_sapphic.png"
   },
   ":sparkles_lunaric:": {
     "name": "sparkles lunaric",
-    "category": "000/002/405/original/4c4a1a4add5757bf.png"
+    "category": "000/005/871/original/sparkles_lunaric.png"
+  },
+  ":sparkles_maverique:": {
+    "name": "sparkles maverique",
+    "category": "000/005/867/original/sparkles_maverique.png"
   },
   ":sparkles_mercuric:": {
     "name": "sparkles mercuric",
-    "category": "000/002/406/original/71150d535bcb47a8.png"
+    "category": "000/005/894/original/sparkles_mercuric.png"
+  },
+  ":sparkles_multisexual:": {
+    "name": "sparkles multisexual",
+    "category": "000/005/883/original/sparkles_multisexual.png"
   },
   ":sparkles_neutrois:": {
     "name": "sparkles neutrois",
-    "category": "000/002/404/original/91503bd1baa1097d.png"
+    "category": "000/005/860/original/sparkles_neutrois.png"
   },
   ":sparkles_nonbinary:": {
     "name": "sparkles nonbinary",
-    "category": "000/002/235/original/f5211817ba72f29f.png"
-  },
-  ":sparkles_omnisexual:": {
-    "name": "sparkles omnisexual",
-    "category": "000/002/236/original/5b9f4e38420a587b.png"
+    "category": "000/005/881/original/sparkles_nonbinary.png"
   },
   ":sparkles_pansexual:": {
     "name": "sparkles pansexual",
-    "category": "000/002/237/original/6aba873caa7e463f.png"
+    "category": "000/005/880/original/sparkles_pansexual.png"
+  },
+  ":sparkles_plural:": {
+    "name": "sparkles plural",
+    "category": "000/005/859/original/sparkles_plural.png"
   },
   ":sparkles_polyamorous:": {
     "name": "sparkles polyamorous",
-    "category": "000/002/238/original/51a91871fb11fceb.png"
+    "category": "000/005/890/original/sparkles_polyamorous.png"
   },
   ":sparkles_polysexual:": {
     "name": "sparkles polysexual",
-    "category": "000/002/239/original/6a75fb92957ce482.png"
+    "category": "000/005/893/original/sparkles_polysexual.png"
+  },
+  ":sparkles_pride:": {
+    "name": "sparkles pride",
+    "category": "000/005/878/original/sparkles_pride.png"
+  },
+  ":sparkles_queer:": {
+    "name": "sparkles queer",
+    "category": "000/005/887/original/sparkles_queer.png"
   },
   ":sparkles_queerplatonic:": {
     "name": "sparkles queerplatonic",
-    "category": "000/002/394/original/2d4a72d3d965d6bb.png"
+    "category": "000/005/875/original/sparkles_queerplatonic.png"
   },
   ":sparkles_quoiromantic:": {
     "name": "sparkles quoiromantic",
-    "category": "000/002/241/original/c55ff775de3179a7.png"
+    "category": "000/005/872/original/sparkles_quoiromantic.png"
+  },
+  ":sparkles_quoisexual:": {
+    "name": "sparkles quoisexual",
+    "category": "000/005/874/original/sparkles_quoisexual.png"
   },
   ":sparkles_solaric:": {
     "name": "sparkles solaric",
-    "category": "000/002/407/original/02faff00ade73d52.png"
+    "category": "000/005/885/original/sparkles_solaric.png"
   },
   ":sparkles_stellaric:": {
     "name": "sparkles stellaric",
-    "category": "000/002/408/original/a592f0cc7d88a77f.png"
+    "category": "000/005/884/original/sparkles_stellaric.png"
   },
   ":sparkles_trans:": {
     "name": "sparkles trans",
-    "category": "000/002/242/original/f183a543601e7347.png"
+    "category": "000/005/864/original/sparkles_trans.png"
   },
-  ":sparkles_trigender:": {
-    "name": "sparkles trigender",
-    "category": "000/002/395/original/2d7b895debbf8278.png"
+  ":sparkles_transfemme:": {
+    "name": "sparkles transfemme",
+    "category": "000/005/882/original/sparkles_transfemme.png"
+  },
+  ":sparkles_transmasc:": {
+    "name": "sparkles transmasc",
+    "category": "000/005/865/original/sparkles_transmasc.png"
   },
   ":spinning:": {
     "name": "spinning",
@@ -7759,10 +7811,6 @@
     "name": "teddiursa cute",
     "category": "000/000/115/original/dc00a1f4cbff004e.png"
   },
-  ":thats_a_whole_mood:": {
-    "name": "thats a whole mood",
-    "category": "000/005/089/original/thats_a_whole_mood.png"
-  },
   ":therian:": {
     "name": "therian",
     "category": "000/002/563/original/f4a0c8812eef60bc.png"
@@ -7783,9 +7831,9 @@
     "name": "three hearts",
     "category": "000/002/586/original/4b0c9b2c6b79d943.png"
   },
-  ":tissue_box:": {
-    "name": "tissue box",
-    "category": "000/004/871/original/tissue_box.png"
+  ":tissues:": {
+    "name": "tissues",
+    "category": "000/005/485/original/9aede727e5fe0c1d.png"
   },
   ":toe_beans:": {
     "name": "toe beans",
@@ -7795,9 +7843,9 @@
     "name": "toetanic",
     "category": "000/004/884/original/aae3a509d33ede6f.png"
   },
-  ":torbjorn_fire:": {
-    "name": "torbjorn fire",
-    "category": "000/004/768/original/torbjorn_fire.png"
+  ":torbjorn_fired_up:": {
+    "name": "torbjorn fired up",
+    "category": "000/005/424/original/5572684ee18f28be.png"
   },
   ":torchic_love:": {
     "name": "torchic love",
@@ -7919,6 +7967,10 @@
     "name": "vampire fangs",
     "category": "000/004/915/original/95a85a7fb4a107cb.png"
   },
+  ":vaporeon_cry:": {
+    "name": "vaporeon cry",
+    "category": "000/005/428/original/66d4f2e4384a0f4f.png"
+  },
   ":vaporeon_sip:": {
     "name": "vaporeon sip",
     "category": "000/000/042/original/ce50130990d99786.png"
@@ -7939,9 +7991,21 @@
     "name": "vulpix sleep",
     "category": "000/004/925/original/vulpix_sleep.png"
   },
+  ":vulpix_sparkle:": {
+    "name": "vulpix sparkle",
+    "category": "000/005/430/original/827be85583f32fe8.png"
+  },
+  ":waffle_heart:": {
+    "name": "waffle heart",
+    "category": "000/005/492/original/59acfef9d63a8a52.png"
+  },
   ":wand:": {
     "name": "wand",
     "category": "000/004/692/original/wand.png"
+  },
+  ":warning_nsfw:": {
+    "name": "warning nsfw",
+    "category": "000/005/438/original/eda0348f719de7d2.png"
   },
   ":water_spray:": {
     "name": "water spray",
