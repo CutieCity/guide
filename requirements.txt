@@ -11,9 +11,7 @@ babel==2.12.1 \
 beautifulsoup4==4.12.0 \
     --hash=sha256:2130a5ad7f513200fae61a17abb5e338ca980fa28c439c0571014bc0217e9591 \
     --hash=sha256:c5fceeaec29d09c84970e47c65f2f0efe57872f7cff494c9691a26ec0ff13234
-    # via
-    #   mkdocs-git-committers-plugin-2
-    #   mkdocs-glightbox
+    # via mkdocs-git-committers-plugin-2
 certifi==2022.12.7 \
     --hash=sha256:35824b4c3a97115964b408844d64aa14db1cc518f6562e8d7261699d1350a9e3 \
     --hash=sha256:4ad3232f5e926d6718ec31cfc1fcadfde020920e278684144551c91769c7bc18
@@ -284,9 +282,9 @@ mkdocs-git-revision-date-localized-plugin==1.2.0 \
     --hash=sha256:540b9c930d8d48630c090b72ac2c3900ac2ed0799b23738a33b88e31f5198fe7 \
     --hash=sha256:7752edd7c4dcaa9383e9a5b6a4f729831a62d604b0c43b319331127720c6a2bf
     # via -r requirements.in
-mkdocs-glightbox==0.3.2 \
-    --hash=sha256:aec32193fa367f83a5159a10ef0a0e501e595860f4399fb860ca1c5d95fd099d \
-    --hash=sha256:ef168717e0d6f5e3b33afa8a62837e9ea3b8754fbf073760db169650edbcb866
+mkdocs-glightbox==0.3.3 \
+    --hash=sha256:55e077a858da6f9f6ca384b737e0440c208392c9b61d7cdc2e6ea06e654cc26a \
+    --hash=sha256:f25944bd84702bbea429508edbcb949d712e85194744174aad6d412b3a1dccc0
     # via -r requirements.in
 mkdocs-material==9.1.6 \
     --hash=sha256:2e555152f9771646bfa62dc78a86052876183eff69ce30db03a33e85702b21fc \

@@ -3,6 +3,11 @@ h1#custom-emoji ~ .abstract > summary + h3 {
   font-size: 0px;
 }
 
+/* Remove extraneous vertical margins from invisible tabbed sets. */
+h1#custom-emoji ~ .abstract > .tabbed-set {
+  margin: 0;
+}
+
 /* Make "page controls" grid invisible when page is first loaded. */
 h1#custom-emoji ~ .grid.two-columns {
   opacity: 0;
@@ -59,11 +64,6 @@ h1#custom-emoji ~ * .grid.small-columns code::-webkit-scrollbar {
   display: none;
 }
 
-/* Hide all tab labels/controls (buttons are used instead). */
-h1#custom-emoji ~ * .tabbed-labels {
-  display: none;
-}
-
 /* Fix alignment and text wrapping of all cells in the credits table. */
 h1#custom-emoji ~ * table:not([class]) :is(td, th) {
   vertical-align: middle;
@@ -110,7 +110,8 @@ h1#custom-emoji ~ * table:not([class]) td:first-child {
 
   /* Facilitate scrolling to see the complete emoji shortcodes. */
   h1#custom-emoji ~ * .grid.small-columns code {
-    padding: 0.3em;
+    font-size: 1em;
+    padding: 0.45em;
   }
 
   /* Add padding to the first column of the credits table. */

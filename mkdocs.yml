@@ -11,6 +11,11 @@ nav:
   - Cutie City:
       - Code of Conduct: cutie-city/code-of-conduct.md
       - Custom Emoji: cutie-city/custom-emoji.md
+      - Custom Themes: cutie-city/custom-themes.md
+      - Server Blocklist: cutie-city/server-blocklist.md
+  - The Fediverse:
+      - Fedi Etiquette: the-fediverse/fedi-etiquette.md
+      - Migrating Servers: the-fediverse/migrating-servers.md
   - Self-Hosting:
       - Object Storage: self-hosting/object-storage.md
       - Development Setup: self-hosting/development-setup.md
