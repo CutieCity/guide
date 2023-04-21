@@ -24,6 +24,13 @@
  *  IN THE SOFTWARE.
  */
 
+:root {
+  --md-material-failure-color: #ff5252;
+  --md-material-failure-icon: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>');
+  --md-material-success-color: #00c853;
+  --md-material-success-icon: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59 21 7Z"/></svg>');
+}
+
 .md-source-file__fact {
   align-items: center;
   color: var(--md-default-fg-color--light);

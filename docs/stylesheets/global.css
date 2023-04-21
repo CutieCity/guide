@@ -91,8 +91,13 @@
 h1:is(#custom-emoji, #migrating-servers) ~ * .tabbed-labels {
   display: none;
 }
-h1#migrating-servers ~ * .tabbed-block > p {
-  margin: 0;
+
+/* Make paragraphs in hidden tab blocks appear like they're outside the tabs. */
+h1#migrating-servers ~ * .tabbed-block > p:first-child {
+  margin-top: 0;
+}
+h1#migrating-servers ~ * .tabbed-block > p:last-child {
+  margin-bottom: 0;
 }
 
 /* Adjust the maximum height and scaling/cropping of preview images. */
@@ -185,6 +190,13 @@ img.preview {
   vertical-align: text-top;
 }
 
+/* Style the labels for the custom text input fields described above. */
+.md-typeset .input-field label {
+  font-weight: bold;
+  position: relative;
+  bottom: 0.15em;
+}
+
 /* Style custom text input fields that fill most of the available space. */
 .md-typeset .input-field input {
   background: var(--md-code-bg-color);
@@ -193,11 +205,36 @@ img.preview {
   width: calc(100% - 1.15em);
 }
 
-/* Style the labels for the custom text input fields described above. */
-.md-typeset .input-field label {
-  font-weight: bold;
+/* Set up for success/failure icons displayed after typing in custom fields. */
+.md-typeset .input-field input + span {
   position: relative;
-  bottom: 0.15em;
+}
+.md-typeset .input-field input + span::after {
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  right: 0.4rem;
+  bottom: -0.05rem;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+
+/* Define success and failure icons for the respective custom field states. */
+.md-typeset .input-field input:not(:invalid, :placeholder-shown) + span::after {
+  background-color: var(--md-material-success-color);
+  -webkit-mask-image: var(--md-material-success-icon);
+  mask-image: var(--md-material-success-icon);
+}
+.md-typeset .input-field input:invalid:not(:focus) + span::after {
+  background-color: var(--md-material-failure-color);
+  -webkit-mask-image: var(--md-material-failure-icon);
+  mask-image: var(--md-material-failure-icon);
 }
 
 /* Style "fake button" CTAs that fill their available space. */
