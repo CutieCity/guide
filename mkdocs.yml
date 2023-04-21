@@ -74,6 +74,7 @@ extra_css:
 extra_javascript:
   - javascripts/global.js
   - javascripts/custom-emoji.js
+  - javascripts/migrating-servers.js
 
 plugins:
   - git-committers:

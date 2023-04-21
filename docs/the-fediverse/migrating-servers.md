@@ -147,6 +147,37 @@ the entire Fediverse! :flareon_wink:
 Once you've selected a server and created your new account, you're ready to
 begin your journey.
 
+???+ tip "Tip - Customize this guide!"
+
+    Do you want personalized instructions and direct links to all of the pages
+    you'll need to visit during this process? :rainbow_creature: If so, fill out
+    these two fields with your own usernames:
+
+    <div class="grid">
+      <div class="custom-account input-field">
+        <label for="old_account">Old Account</label>
+        <input
+          id="old_account"
+          class="md-input md-input--stretch"
+          placeholder="@yourname@mastodon.social"
+          type="text"
+        />
+      </div>
+      <div class="custom-account input-field">
+        <label for="new_account">New Account</label>
+        <input
+          id="new_account"
+          class="md-input md-input--stretch"
+          placeholder="@yourname@cutie.city"
+          type="text"
+        />
+      </div>
+    </div>
+
+    **Note:** The values you put in won't be saved or sent anywhere outside this
+    page. They'll only be accessed by some very basic client-side Javascript
+    code in order to customize the placeholder text and links below.
+
 [fedi.garden]: https://fedi.garden
 [cutie.city]: https://cutie.city/about
 
@@ -162,7 +193,7 @@ begin your journey.
 
 === "Customized Instructions"
 
-    Go to the <a data-custom-link="{new_server}/settings/aliases">Account
+    Go to the <a data-custom-link="http://NEW_SERVER/settings/aliases">Account
     Aliases</a> page on your <u>new</u> server. You should see a form that looks
     like this:
 
@@ -185,7 +216,7 @@ containing the text "Create Alias" in all-capitalized letters.")
 
 === "Customized Instructions"
 
-    Put your <u>old</u> handle (<strong data-custom-text="{old_handle}">
+    Put your <u>old</u> handle (<strong data-custom-text="@OLD_HANDLE">
     </strong>) into the text box, then click the **Create Alias** button.
 
 After the operation finishes, you should see this message at the top of the
