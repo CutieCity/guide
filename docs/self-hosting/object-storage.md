@@ -21,10 +21,9 @@ In the words of the official [Mastodon documentation]:
 > a monthly cost based on the amount of files stored as well as how often they
 > are accessed.
 
-All of those providers are viable choices, as are self-hosted options like
-[Garage] and [MinIO]. However, I chose to use [Storj] because I saw a progress
-pride rainbow on their website and thought it was cute, so this page will be
-focused on how to get set up with their service. :flag_progress:
+Those providers are all valid choices, as are self-hosted options like [Garage]
+& [MinIO]. Personally, I decided to go with [Storj], so this page will be
+focused on how to get set up with their service. :blobfox_box:
 
 [mastodon documentation]: https://docs.joinmastodon.org/user/run-your-own/
 [garage]: https://garagehq.deuxfleurs.fr/
@@ -38,8 +37,8 @@ correct **satellite** (i.e. your geographic region) is selected - currently, the
 available options are **US1**, **EU1**, and **AP1**. You don't need to provide
 your payment information until you hit the limits of their [free plan]:
 
-- 150GB of static object storage
-- 150GB of download bandwidth per month
+- 25 GB of static object storage
+- 25 GB of download bandwidth per month
 - 10,000 [segments] in total
 
 ### Creating a bucket
@@ -48,42 +47,44 @@ Once you've activated your account and successfully signed in, navigate to your
 **Buckets** page and create the bucket that will hold all of your instance's
 media files. Bucket names have to be unique, so pick something cute and
 relevant! (The bucket for [cutie.city] is named `cutiecity`, in case that's a
-helpful example. :blobfox_derp_mlem:)
+helpful example. :zerotwo_derp:)
 
 ### Obtaining an API key
 
 Next, navigate to your **Access** page. You should see a menu that looks like
 this:
 
-![](/images/storj-access.png "Screenshot of the Access Management page on Storj.
-Three sections are displayed: Access Grant, S3 Credentials, and API Key. The
-blue action button in the API Key section reads "Create Keys for CLI" and is
-circled in pink."){.preview data-gallery="storj-access"}
+![](/images/object-storage_manage-access.png "A screenshot of the Access
+Management page on Storj. Three sections are displayed: "Access Grant", "S3
+Credentials", and "API Key". The blue action button in the API Key section reads
+"Create Keys for CLI" and is circled in pink."){.preview data-gallery="access"}
 
+<!-- prettier-ignore -->
 Click the "Create Keys for CLI" button in the **API Key** section (it's circled
 in the above screenshot). Put in whatever name you want, check the box to select
 ^^all^^ the permissions, and then click the "Create Keys" button. You'll be
 shown the resulting **Satellite Address** and **API Key**, but don't worry about
 using them right now - just click "Download .txt" and put the file somewhere
 safe.
+{style="margin-bottom: 10px;"}
 
-<div class="grid two-columns" style="margin-bottom: 0;" markdown>
+<div class="grid two-columns" style="margin: 0;" markdown>
 <figure style="width: 100%;" markdown>
 
-![](/images/storj-create-key.png "Screenshot of the "Create Access" modal
-dialog. The type is set to "API Access", the name is set to "Kiki" (but this is
-unimportant), and the checkbox for "All" permissions is checked and circled in
-pink. The remaining options are untouched, and display their default
-values."){.preview data-gallery="storj-key" style="object-position: 0 42%;"}
+![](/images/object-storage_create-key.png "A screenshot of the "Create Access"
+modal dialog. The type is set to "API Access", the name is set to "Kiki" (but
+this is unimportant), and the checkbox for "All" permissions is checked and
+circled in pink. The remaining options are untouched, and display their default
+values."){.preview data-gallery="api-key" style="object-position: 0 42%;"}
 
 </figure>
 <figure style="width: 100%;" markdown>
 
-![](/images/storj-download-key.png "Screenshot of the success dialog displayed
-after clicking the "Create Keys" button in the previous image. At the bottom,
-there is a large blue button labeled "Download .txt". It's circled in pink. The
-"Satellite Address" and "API Key" are visible. (Don't worry, I've revoked this
-particular key!)"){.preview data-gallery="storj-key"}
+![](/images/object-storage_download-key.png "A screenshot of the success dialog
+displayed after clicking the "Create Keys" button in the previous image. At the
+bottom, there is a large blue button labeled "Download .txt". It's circled in
+pink. The "Satellite Address" and "API Key" are visible. (Don't worry, I've
+revoked this particular key!)"){.preview data-gallery="api-key"}
 
 </figure>
 </div>
@@ -214,7 +215,7 @@ proceed through the following steps.
 Make sure to keep these credentials safe! They're what'll give your Mastodon
 instance the ability to create and destroy objects in your Storj project, and
 you definitely don't want that power to fall into the wrong hands.
-:zerotwo_yikes:
+:blobfox_coffee_yikes:
 
 ### Getting a link-sharing key
 
@@ -282,7 +283,7 @@ the output.
     bucket for your Mastodon instance. In fact, if you decide to forgo the
     [last section](#linking-your-own-domain) of this guide, your link-sharing
     key will be visible in all image/video links from your instance. This is
-    perfectly fine and safe! :chick_thumbs_up:
+    perfectly fine and safe! :vulpix_sparkle:
 
 ## Configuring Mastodon
 

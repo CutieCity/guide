@@ -1,5 +1,7 @@
 /* Define primary and accent colors for all themes. */
-:root {
+:root,
+[data-md-color-accent="pink"],
+[data-md-color-primary="pink"] {
   --md-primary-fg-color: #d57f7b;
   --md-primary-fg-color--light: #dd9995;
   --md-primary-fg-color--dark: #c0726f;
@@ -51,6 +53,11 @@
   --md-footer-bg-color--dark: #14191ab3;
 }
 
+/* Restore the default link color based on the primary color. */
+[data-md-color-scheme="slate"][data-md-color-primary="pink"] {
+  --md-typeset-a-color: var(--md-primary-fg-color);
+}
+
 /* Define keyframes for a super-basic "fade in" animation. */
 @keyframes fadeIn {
   0% {
@@ -92,11 +99,11 @@ h1:is(#custom-emoji, #migrating-servers) ~ * .tabbed-labels {
   display: none;
 }
 
-/* Make paragraphs in hidden tab blocks appear like they're outside the tabs. */
-h1#migrating-servers ~ * .tabbed-block > p:first-child {
+/* Make elements in hidden tab blocks appear like they're outside the tabs. */
+h1#migrating-servers ~ * .tabbed-block > :first-child {
   margin-top: 0;
 }
-h1#migrating-servers ~ * .tabbed-block > p:last-child {
+h1#migrating-servers ~ * .tabbed-block > :last-child {
   margin-bottom: 0;
 }
 
@@ -255,7 +262,7 @@ img.preview {
   cursor: initial;
 }
 
-/* Adjust the sizing and spacing of task list items and their checkboxes. */
+/* Adjust the sizing and display of task list items and their checkboxes. */
 [dir="ltr"] .md-typeset .task-list .task-list-item {
   margin-left: 2em;
 }
@@ -265,4 +272,7 @@ img.preview {
 .md-typeset .task-list-indicator:before {
   -webkit-mask-size: auto;
   mask-size: auto;
+}
+.md-typeset [type="checkbox"]:checked + .task-list-indicator::before {
+  background-color: var(--md-material-success-color);
 }

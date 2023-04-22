@@ -88,8 +88,8 @@ def _get_bundled_icons(source_directory) -> Iterator[tuple[str, Any]]:
     ]
 
     for absolute_path in source_directory.glob("**/*.svg"):
-        relative_path = absolute_path.relative_to(source_directory)
-        name = f':{relative_path.with_suffix("").as_posix().replace("/", "_")}:'
+        relative_path = absolute_path.relative_to(source_directory).with_suffix("")
+        name = f':{relative_path.as_posix().replace("/", "_").replace("-", "_")}:'
 
         for pattern, prefix in icon_sets:
             name = pattern.sub(prefix, name)

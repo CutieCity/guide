@@ -37,6 +37,7 @@ order to clarify and thoroughly explain each one. (Click to expand the boxes!
 
 <!-- prettier-ignore -->
 ??? info "All of your followers will be transferred from your current account to your new account."
+    <a id="understanding-the-process-1"></a>
 
     This is the main functionality provided by Mastodon's built-in account
     migration feature. As soon as you press the **Move Followers** button, a
@@ -58,7 +59,9 @@ order to clarify and thoroughly explain each one. (Click to expand the boxes!
     your current account, then imported into your new account (but don't worry,
     these steps are quick and easy).
 
+<!-- prettier-ignore -->
 ??? info "None of your other data will be transferred automatically."
+    <a id="understanding-the-process-2"></a>
 
     As mentioned above, you'll need to explicitly transfer the list of **users
     that you follow** (unless you're looking to start from scratch with an empty
@@ -83,6 +86,7 @@ order to clarify and thoroughly explain each one. (Click to expand the boxes!
 
 <!-- prettier-ignore -->
 ??? info "Your new account must first be configured to back-reference your current one."
+    <a id="understanding-the-process-3"></a>
 
     This point is simply emphasizing a prerequisite step ([Creating an
     account alias]) that you'll need to complete on your new server before
@@ -93,6 +97,7 @@ order to clarify and thoroughly explain each one. (Click to expand the boxes!
 
 <!-- prettier-ignore -->
 ??? info "After migrating, there is a 30-day waiting period during which you won't be able to migrate again."
+    <a id="understanding-the-process-4"></a>
 
     This caveat is often misunderstood, and isn't actually as restrictive as it
     sounds. It's true that a "cooldown" period begins when you press the **Move
@@ -122,6 +127,7 @@ order to clarify and thoroughly explain each one. (Click to expand the boxes!
 
 <!-- prettier-ignore -->
 ??? info "Your current account's profile will be updated with a redirect notice and be excluded from searches."
+    <a id="understanding-the-process-5"></a>
 
     Although this point is largely self-explanatory, it's worth mentioning that
     your current (i.e. old) account will be unable to gain new followers while
@@ -132,6 +138,7 @@ order to clarify and thoroughly explain each one. (Click to expand the boxes!
 
 <!-- prettier-ignore -->
 ??? info "Your current account won't be fully usable after you migrate away from it. However..."
+    <a id="understanding-the-process-6"></a>
 
     ... you _will_ have access to **data export** and **re-activation**.
     This means that it's totally fine if you accidentally press the **Move
@@ -201,7 +208,7 @@ begin your journey.
 
     **Note:** The values you put in won't be saved or sent anywhere outside this
     page. They'll only be accessed by some very basic [client-side JavaScript
-    code] in order to customize the generic instructions and links below.
+    code] in order to customize the instructions and links below.
 
 [fedi.garden]: https://fedi.garden
 [cutie.city]: https://cutie.city/about
@@ -245,11 +252,11 @@ containing the text "Create Alias" in all-capitalized letters."){.no-lightbox}
 When the operation finishes, you should see a message that says something like
 this:
 
-> Successfully created a new alias. You can now initiate the move from the old
+> Successfully created a new alias. You can now initiate the move from your old
 > account.
 
 It may take a few minutes for your old server to become aware of the new alias,
-so let's tackle another migration step while that happens in the background.
+so let's tackle another migration step while that happens in the background!
 
 ## Exporting your data
 
@@ -265,7 +272,7 @@ so let's tackle another migration step while that happens in the background.
     like this:
 
 <!-- prettier-ignore -->
-![](/images/migrating-servers_download-data.png "A screenshot of the relevant
+![](/images/migrating-servers_export-data.png "A screenshot of the relevant
 section on the aforementioned page. It contains a table with rows labeled
 "Media storage", "Posts", "Follows", "Lists", "Followers", "You block",
 "You mute", "Domain blocks", and "Bookmarks". Most of the rows (all except
@@ -274,16 +281,15 @@ a CSV file."){.no-lightbox}
 {style="line-height: 0;"}
 
 With the sole exception of [Lists], all table rows containing a
-<span class="csv">":fa_solid_download: **CSV**"</span> link can be transferred
-to your new account via a mostly-automated process. Click the links to download
-the `.csv` files for the items that you'd like to take with you to your new
-account.
+<span id="csv">":fa_solid_download: **CSV**"</span> link can be transferred to
+your new account via a mostly-automated process. Click the links to download the
+`.csv` files for the items that you'd like to take with you to your new account.
 
 <style>
   /* Extra-specific styling to make the CSV text, icon, and code look better. */
-  .csv { margin: 0 0.1em; white-space: nowrap; }
-  .csv > .twemoji { margin-right: 0.05em; width: 0.9em; }
-  .csv ~ code { margin: 0 0.1em; padding: 0 0.5em 0 0.3em; }
+  #csv { margin: 0 0.1em; white-space: nowrap; }
+  #csv > .twemoji { margin-right: 0.05em; width: 0.9em; }
+  #csv ~ code { margin: 0 0.1em; padding: 0 0.5em 0 0.3em; }
 </style>
 
 ??? tip "Tip - Decide which data is worth transferring!"
@@ -308,13 +314,13 @@ account.
 ??? question "FAQ - What about the rows without a CSV link?"
 
     If you'd like to download your **posts** and any **media** that you've
-    uploaded to your current account, you may do so by clicking the **"Request
+    uploaded to your current account, you can do so by clicking the **"Request
     your archive"** button, which you'll find below the table pictured in the
     above screenshot (unless you've already clicked it within the past week).
     You won't be able to transfer this data to your new account - at least not
     with any official tools - unless you want to re-post it all manually.
-    :psyduck_sweat: Regardless, it can be nice to have a local copy of your
-    posts and uploads, especially if your current server is shutting down.
+    :psyduck_sweat: Regardless, it can be nice to have a copy of your posts and
+    uploads, especially if your current server is shutting down.
 
     As for your **followers**, we'll be moving them over to your new account in
     the [next step]!
