@@ -284,6 +284,8 @@ With the sole exception of [Lists], all table rows containing a
 <span id="csv">":fa_solid_download: **CSV**"</span> link can be transferred to
 your new account via a mostly-automated process. Click the links to download the
 `.csv` files for the items that you'd like to take with you to your new account.
+We'll be using these files [later], after we've taken care of [the last thing]
+that needs to be done on your old account.
 
 <style>
   /* Extra-specific styling to make the CSV text, icon, and code look better. */
@@ -309,7 +311,7 @@ your new account via a mostly-automated process. Click the links to download the
 
     **Note:** The above checkboxes are toggleable, which may be helpful if you
     decide to go with a different subset of data and/or want to keep track of
-    the things that you'll need to [import] into your new account!
+    the things that you'll need to import into your new account!
 
 ??? question "FAQ - What about the rows without a CSV link?"
 
@@ -323,16 +325,144 @@ your new account via a mostly-automated process. Click the links to download the
     uploads, especially if your current server is shutting down.
 
     As for your **followers**, we'll be moving them over to your new account in
-    the [next step]!
+    the next step!
 
 [lists]: https://github.com/mastodon/mastodon/issues/15015
-[import]: #importing-your-data
-[next step]: #migrating-your-followers
+[later]: #importing-your-data
+[the last thing]: #migrating-your-followers
 
 ## Migrating your followers
 
-Coming soon!
+=== "Default Instructions"
+
+    Staying on your <u>old</u> account, go to **Preferences** > **Profile**.
+    Scroll down to the bottom of the page and look for the section called **Move
+    to a different account**. Follow the link to **configure it here**.
+
+    On that page, you should see the following content:
+
+=== "Customized Instructions"
+
+    Go to the <a data-custom-link="http://OLD_SERVER/settings/migration">Account
+    Migration</a> page on your <u>old</u> server. You should see the following
+    content:
+
+<!-- prettier-ignore -->
+![](/images/migrating-servers_move-followers.png "A screenshot of the relevant
+section on the aforementioned page. It warns about the caveats explained in the
+section of this guide entitled "Understanding the process", then presents two
+required text boxes labeled "Handle of the new account" and "Current password".
+Below the text boxes, there's a large button containing the text "Move
+Followers" in all-capitalized letters."){.no-lightbox}
+{style="line-height: 0;"}
+
+If any of the bullet points on that page are unclear, unexpected, or otherwise
+concerning to you for any reason, check out this guide's [in-depth explanations]
+for each of them. :cat_love:
+
+When you're ready to proceed:
+
+=== "Default Instructions"
+
+    1. Put the full handle of your <u>new</u> account
+       (e.g. **@yourname@cutie.city**) into the first text box.
+    2. Put the password for your <u>old</u> (a.k.a. current) account
+       into the second text box.
+    3. Click the **Move Followers** button.
+
+    After the operation goes through, you should see a message that
+    says something like this:
+
+    > Your account is now redirecting to <new account\> and your
+    > followers are being moved over.
+    {style="margin-bottom: 4px;"}
+
+=== "Customized Instructions"
+
+    1. Put your <u>new</u> handle (<strong data-custom-text="@NEW_HANDLE">
+       </strong>) into the first text box.
+    2. Put the password for your <u>old</u> (a.k.a. current) account into
+       the second text box.
+    3. Click the **Move Followers** button.
+
+    After the operation goes through, you should see a message that says
+    something like this:
+
+    > Your account is now redirecting to <span data-custom-text="NEW_HANDLE">
+    > </span> and your followers are being moved over.
+    {style="margin-bottom: 4px;"}
+
+??? question "FAQ - What if it isn't working?"
+
+    If you're getting an error when you press **Move Followers**, it's likely
+    the case that your [account alias] hasn't propagated through the network
+    from your new server to your old (a.k.a. current) server yet. You may want
+    to double-check that you've set it properly on your <u>new</u> account. If
+    it looks correct, simply wait a bit, then try pressing the button again.
+
+    If you're wondering why you aren't immediately seeing _all_ of your
+    followers on your new account, don't worry! This is expected behavior due to
+    the nature of the Fediverse. As mentioned [earlier], it may take anywhere
+    from a few seconds to a few hours (or rarely, days) for each of your
+    followers to make their way over to your new account. The amount of time it
+    takes depends on how clogged up their own servers currently are, so they'll
+    likely migrate in waves. :goose_calm:
+
+With this step done, you're free to log out of your old account for the last
+time ever! :celebrate: ([Unless]...)
+
+[in-depth explanations]: #understanding-the-process
+[account alias]: #creating-an-account-alias
+[earlier]: #understanding-the-process-1
+[unless]: #understanding-the-process-6
 
 ## Importing your data
 
-Coming soon!
+=== "Default Instructions"
+
+    On your <u>new</u> account, go to **Preferences** > **Import and export**.
+    This will expand the corresponding section in the navigation sidebar,
+    revealing a sub-menu item labeled <span id="impt">":fa_solid_cloud_arrow_up:
+    **Import**"</span>. Click that link.
+
+    On that page, you should see a form that looks like this:
+
+=== "Customized Instructions"
+
+    Go to the <a data-custom-link="http://NEW_SERVER/settings/import">Import</a>
+    page on your <u>new</u> server. You should see a form that looks like this:
+
+<style>
+  /* Extra-specific styling to make the "Import" icon and text look better. */
+  #impt { white-space: nowrap; }
+  #impt > .twemoji { margin-right: 0.1em; }
+</style>
+
+<!-- prettier-ignore -->
+![](/images/migrating-servers_import-data.png "A screenshot of the relevant
+section on the aforementioned page. It includes a dropdown menu labeled "Import
+type", a file-picker button containing the word "Browse", and two radio buttons
+labeled "Merge" and "Overwrite". Below all the form input elements, there's a
+large button containing the word "Upload" in all-capitalized
+letters."){.no-lightbox}
+{style="line-height: 0;"}
+
+For each of the CSV files that you [downloaded] from your old account:
+
+1. Use the dropdown menu to select the appropriate **Import Type**.
+2. Click the **Browse** button on the left and select the corresponding CSV file
+   on your computer.
+3. Leave the **Merge** option selected (unless you have a niche use case for the
+   Overwrite option).
+4. Click the **Upload** button and wait a few seconds.
+5. You should see a message that says something like:
+   > Your data was successfully uploaded and will be processed in due time.
+
+Once you've completed those steps for all of the data that you wanted to take
+with you to your new account, you're officially done with the migration process!
+It may take a little while for your server (and your followers' servers) to
+finish accounting for the changes, but no further action is needed on your part,
+and you can start using your new account right away. Have fun! :corgi_yay:
+{style="margin-top: -0.4em;"}
+
+[downloaded]: #exporting-your-data
