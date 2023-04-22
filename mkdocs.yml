@@ -90,6 +90,7 @@ plugins:
   - glightbox:
       skip_classes:
         - cutiemoji
+        - no-lightbox
   - search
 
 markdown_extensions:
@@ -108,6 +109,9 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.tasklist:
+      clickable_checkbox: true
+      custom_checkbox: true
   - tables
   - toc:
       permalink: ☍

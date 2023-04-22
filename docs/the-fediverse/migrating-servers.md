@@ -62,9 +62,9 @@ order to clarify and thoroughly explain each one. (Click to expand the boxes!
 
     As mentioned above, you'll need to explicitly transfer the list of **users
     that you follow** (unless you're looking to start from scratch with an empty
-    home timeline). You may also want to download and transfer your current
+    home timeline). You may also want to [download] and [transfer] your current
     account's **bookmarks**, **muted users**, **blocked users**, and **blocked
-    domains**.
+    domains**. We'll go into detail about those steps later!
 
     Unfortunately, there's currently no way to automatically copy over the
     **posts** (a.k.a. **toots**) that you've made from your current account. You
@@ -149,6 +149,8 @@ order to clarify and thoroughly explain each one. (Click to expand the boxes!
 If all of those things sound acceptable to you, let's get started! :cat_wizard:
 
 [account migration]: https://docs.joinmastodon.org/user/moving/#move
+[download]: #exporting-your-data
+[transfer]: #importing-your-data
 [boost]: https://tech.lgbt/@Natasha_Jay/109643276422036265
 [creating an account alias]: #creating-an-account-alias
 [yona]: https://eldritch.cafe/@yonabee/109906208870346342
@@ -226,7 +228,7 @@ begin your journey.
 section on the aforementioned page. There's a required text box labeled "Handle
 of the old account", with a hint saying to "Specify the username@domain of the
 account you want to move from". Below the text box, there's a large button
-containing the text "Create Alias" in all-capitalized letters.")
+containing the text "Create Alias" in all-capitalized letters."){.no-lightbox}
 {style="line-height: 0;"}
 
 === "Default Instructions"
@@ -246,4 +248,85 @@ this:
 > Successfully created a new alias. You can now initiate the move from the old
 > account.
 
-## More info coming soon!
+It may take a few minutes for your old server to become aware of the new alias,
+so let's tackle another migration step while that happens in the background.
+
+## Exporting your data
+
+=== "Default Instructions"
+
+    On your <u>old</u> account, go to **Preferences** > **Import and export**.
+    You should see a table like this:
+
+=== "Customized Instructions"
+
+    Go to the <a data-custom-link="http://OLD_SERVER/settings/export">Data
+    Export</a> page on your <u>old</u> server. You should see a table that looks
+    like this:
+
+<!-- prettier-ignore -->
+![](/images/migrating-servers_download-data.png "A screenshot of the relevant
+section on the aforementioned page. It contains a table with rows labeled
+"Media storage", "Posts", "Follows", "Lists", "Followers", "You block",
+"You mute", "Domain blocks", and "Bookmarks". Most of the rows (all except
+for "Media storage", "Posts", and "Followers"\) provide a link to download
+a CSV file."){.no-lightbox}
+{style="line-height: 0;"}
+
+With the sole exception of [Lists], all table rows containing a
+<span class="csv">":fa_solid_download: **CSV**"</span> link can be transferred
+to your new account via a mostly-automated process. Click the links to download
+the `.csv` files for the items that you'd like to take with you to your new
+account.
+
+<style>
+  /* Extra-specific styling to make the CSV text, icon, and code look better. */
+  .csv { margin: 0 0.1em; white-space: nowrap; }
+  .csv > .twemoji { margin-right: 0.05em; width: 0.9em; }
+  .csv ~ code { margin: 0 0.1em; padding: 0 0.5em 0 0.3em; }
+</style>
+
+??? tip "Tip - Decide which data is worth transferring!"
+
+    Here are some opinions/recommendations on which pieces of data are worth
+    transferring over to your new server, based on my own personal experience:
+
+    - [x] **Follows** - Definitely. If you aren't following lots of accounts,
+          then you probably aren't very well-Fediversed. :sip_tea:
+    - [ ] **You block** - Only if you think these users will continue being
+          problematic (probably worth checking manually).
+    - [ ] **You mute** - Same as the above point about your blocked users.
+    - [ ] **Domain blocks** - Only if you block a lot of domains that aren't
+          already blocked by your new server.
+    - [x] **Bookmarks** - Recommended if you have lots of bookmarks that you
+          want to continue being able to access.
+
+    **Note:** The above checkboxes are toggleable, which may be helpful if you
+    decide to go with a different subset of data and/or want to keep track of
+    the things that you'll need to [import] into your new account!
+
+??? question "FAQ - What about the rows without a CSV link?"
+
+    If you'd like to download your **posts** and any **media** that you've
+    uploaded to your current account, you may do so by clicking the **"Request
+    your archive"** button, which you'll find below the table pictured in the
+    above screenshot (unless you've already clicked it within the past week).
+    You won't be able to transfer this data to your new account - at least not
+    with any official tools - unless you want to re-post it all manually.
+    :psyduck_sweat: Regardless, it can be nice to have a local copy of your
+    posts and uploads, especially if your current server is shutting down.
+
+    As for your **followers**, we'll be moving them over to your new account in
+    the [next step]!
+
+[lists]: https://github.com/mastodon/mastodon/issues/15015
+[import]: #importing-your-data
+[next step]: #migrating-your-followers
+
+## Migrating your followers
+
+Coming soon!
+
+## Importing your data
+
+Coming soon!

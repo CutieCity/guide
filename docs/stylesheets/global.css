@@ -254,3 +254,15 @@ img.preview {
   color: var(--md-default-fg-color--light);
   cursor: initial;
 }
+
+/* Adjust the sizing and spacing of task list items and their checkboxes. */
+[dir="ltr"] .md-typeset .task-list .task-list-item {
+  margin-left: 2em;
+}
+[dir="ltr"] .md-typeset .task-list-indicator:before {
+  left: -2em;
+}
+.md-typeset .task-list-indicator:before {
+  -webkit-mask-size: auto;
+  mask-size: auto;
+}
