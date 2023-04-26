@@ -282,13 +282,13 @@ mkdocs-git-revision-date-localized-plugin==1.2.0 \
     --hash=sha256:540b9c930d8d48630c090b72ac2c3900ac2ed0799b23738a33b88e31f5198fe7 \
     --hash=sha256:7752edd7c4dcaa9383e9a5b6a4f729831a62d604b0c43b319331127720c6a2bf
     # via -r requirements.in
-mkdocs-glightbox==0.3.3 \
-    --hash=sha256:55e077a858da6f9f6ca384b737e0440c208392c9b61d7cdc2e6ea06e654cc26a \
-    --hash=sha256:f25944bd84702bbea429508edbcb949d712e85194744174aad6d412b3a1dccc0
+mkdocs-glightbox==0.3.4 \
+    --hash=sha256:8f894435b4f75231164e5d9fb023c01e922e6769e74a121e822c4914f310a41d \
+    --hash=sha256:96aaf98216f83c0d0fad2e42a8d805cfa6329d6ab25b54265012ccb2154010d8
     # via -r requirements.in
-mkdocs-material==9.1.7 \
-    --hash=sha256:244f85d13e3aa773aaa66c74b95bb4b00d89a3a917f6f9d33704a5655bf0c423 \
-    --hash=sha256:4ab0e2f378bb811ca44a001a63d687403a2725f0485c41d6a2a7aed3aa34cd31
+mkdocs-material==9.1.8 \
+    --hash=sha256:616ef98fc143b3ec8c559e2fec85f32103d2093e9c88333964d93105ea2d670b \
+    --hash=sha256:ac76e31bf52b2742c08a9d6629d64878f32dda5c949cd371082e25106c9be7dd
     # via -r requirements.in
 mkdocs-material-extensions==1.1.1 \
     --hash=sha256:9c003da71e2cc2493d910237448c672e00cefc800d3d6ae93d2fc69979e3bd93 \
@@ -425,9 +425,9 @@ regex==2023.3.23 \
     --hash=sha256:fdf7ad455f1916b8ea5cdbc482d379f6daf93f3867b4232d14699867a5a13af7 \
     --hash=sha256:fffe57312a358be6ec6baeb43d253c36e5790e436b7bf5b7a38df360363e88e9
     # via mkdocs-material
-requests==2.28.2 \
-    --hash=sha256:64299f4909223da747622c030b781c0d7811e359c37124b4bd368fb8c6518baa \
-    --hash=sha256:98b1b2782e3c6c4904938b84c0eb932721069dfdb9134313beff7c83c2df24bf
+requests==2.29.0 \
+    --hash=sha256:e8f3c9be120d3333921d213eef078af392fba3933ab7ed2d1cba3b56f2568c3b \
+    --hash=sha256:f2e34a75f4749019bb0e3effb66683630e4ffeaf75819fb51bebef1bf5aef059
     # via
     #   mkdocs-git-committers-plugin-2
     #   mkdocs-material

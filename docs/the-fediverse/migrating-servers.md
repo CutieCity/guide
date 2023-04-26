@@ -130,11 +130,28 @@ order to clarify and thoroughly explain each one. (Click to expand the boxes!
     <a id="understanding-the-process-5"></a>
 
     Although this point is largely self-explanatory, it's worth mentioning that
-    your current (i.e. old) account will be unable to gain new followers while
-    the redirect notice is in place (or permanently, if you have no intention
-    of ever returning to that account and taking down the notice). This makes
-    sense, because following an abandoned shell of an account doesn't make for a
-    great user experience. :blobfox_trash_derp:
+    your current (i.e. old) account will also be unable to gain new followers
+    while the redirect notice is in place (or permanently, if you have no
+    intention of ever returning to that account and taking down the notice).
+    This makes sense, because following an abandoned shell of an account doesn't
+    make for a great user experience. :blobfox_trash_derp:
+
+    Here's an example of what the redirect notice on your old profile will look
+    like:
+
+    <figure style="margin: 0 auto 0.4em;" markdown>
+
+    ![](/images/migrating-servers_redirect-notice.png "A screenshot of the
+    redirect notice on @nuz's old profile page, back on mastodon.lol. It
+    features a prominent banner that reads "nuztalgia has indicated that their
+    new account is now @nuz@cutie.city" with a button labeled "Go to profile"
+    (which will open the new account's profile page when clicked). Below the
+    banner, the old account's cover photo (a cute white dog making puppy eyes
+    at the camera) and profile photo (a cartoon girl surrounded by queer pride
+    flags) are greyed out."){.no-lightbox}
+    {style="margin-top: 0;"}
+
+    </figure>
 
 <!-- prettier-ignore -->
 ??? info "Your current account won't be fully usable after you migrate away from it. However..."
@@ -373,8 +390,8 @@ When you're ready to proceed:
     After the operation goes through, you should see a message that
     says something like this:
 
-    > Your account is now redirecting to <new account\> and your
-    > followers are being moved over.
+    > Your account is now redirecting to <span style="white-space: nowrap;"><new
+    account\></span> and your followers are being moved over.
     {style="margin-bottom: 4px;"}
 
 === "Customized Instructions"
@@ -398,7 +415,7 @@ When you're ready to proceed:
     the case that your [account alias] hasn't propagated through the network
     from your new server to your old (a.k.a. current) server yet. You may want
     to double-check that you've set it properly on your <u>new</u> account. If
-    it looks correct, simply wait a bit, then try pressing the button again.
+    it looks correct, simply wait a bit, then click **Move Followers** again.
 
     If you're wondering why you aren't immediately seeing _all_ of your
     followers on your new account, don't worry! This is expected behavior due to
@@ -458,11 +475,11 @@ For each of the CSV files that you [downloaded] from your old account:
 5. You should see a message that says something like:
    > Your data was successfully uploaded and will be processed in due time.
 
-Once you've completed those steps for all of the data that you wanted to take
-with you to your new account, you're officially done with the migration process!
-It may take a little while for your server (and your followers' servers) to
-finish accounting for the changes, but no further action is needed on your part,
-and you can start using your new account right away. Have fun! :corgi_yay:
+Once you've completed those steps for all the data that you wanted to take with
+you to your new account, you're officially done with the migration process! It
+may take a little while for your server (and your followers' servers) to finish
+accounting for the changes, but no further action is needed on your part, and
+you can start using your new account right away. Have fun! :corgi_yay:
 {style="margin-top: -0.4em;"}
 
 [downloaded]: #exporting-your-data

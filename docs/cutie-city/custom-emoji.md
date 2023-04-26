@@ -3229,6 +3229,7 @@ cuter! :star_happy:
 | :chick_sprout: **[Chick Faces]**           | Kimmy                          | [emoji.gg Basic License]                          |
 | :dracthyr_laugh: **[Dracthyr]**            | Aelnru                         | [emoji.gg Basic License]                          |
 | :sylveon_squish: **[Eeveelutions]**        | The Egg                        | [emoji.gg Basic License]                          |
+| :cactuar_attack: **[Final Fantasy]**       | Square Enix + LINE             | <code>[CC-BY-SA-4.0]</code>                       |
 | :kitty_plead: **[Kitty Faces]**            | Ean                            | [emoji.gg Basic License]                          |
 | :gengar_cool: **[More Pokemon]**           | Sativa                         | [emoji.gg Basic License]                          |
 | :heart_disability: **[More Pride Hearts]** | [SleepyCatten]                 | [emoji.gg Basic License]                          |
@@ -3253,6 +3254,7 @@ cuter! :star_happy:
 [chick faces]: https://emoji.gg/user/1007807648349040661
 [dracthyr]: https://emoji.gg/user/459883857928519680
 [eeveelutions]: https://emoji.gg/user/581895449146032148
+[final fantasy]: https://finalfantasy.fandom.com/wiki/LINE_x_Final_Fantasy
 [kitty faces]: https://emoji.gg/user/407588192406208519
 [more pokemon]: https://emoji.gg/user/352545088489914380
 [more pride hearts]: https://emoji.gg/user/766654688732643350
@@ -3279,6 +3281,7 @@ cuter! :star_happy:
 [apache-2.0]: https://choosealicense.com/licenses/apache-2.0/
 [cc-by-4.0]: https://creativecommons.org/licenses/by/4.0/
 [cc-by-nc-sa-4.0]: https://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-sa-4.0]: https://creativecommons.org/licenses/by-sa/4.0/
 [cc0-1.0]: https://creativecommons.org/licenses/zero/1.0/
 [emoji.gg basic license]: https://emoji.gg/licenses
 [unlicense]: https://choosealicense.com/licenses/unlicense/

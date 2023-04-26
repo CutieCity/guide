@@ -147,7 +147,7 @@ img.preview {
 }
 
 /* Prevent some of the jankiness with the annotation icons. */
-.md-annotation__index [data-md-annotation-id]:before {
+.md-annotation__index [data-md-annotation-id]::before {
   transform: unset;
 }
 
@@ -195,6 +195,11 @@ img.preview {
   height: 1.125em;
   margin: 0 0.1em;
   vertical-align: text-top;
+}
+
+/* Prevent emoji from shrinking down to nothing on small screens. */
+.md-typeset :is(.cutiemoji, .twemoji) {
+  width: 1.125em;
 }
 
 /* Style the labels for the custom text input fields described above. */
@@ -266,10 +271,10 @@ img.preview {
 [dir="ltr"] .md-typeset .task-list .task-list-item {
   margin-left: 2em;
 }
-[dir="ltr"] .md-typeset .task-list-indicator:before {
+[dir="ltr"] .md-typeset .task-list-indicator::before {
   left: -2em;
 }
-.md-typeset .task-list-indicator:before {
+.md-typeset .task-list-indicator::before {
   -webkit-mask-size: auto;
   mask-size: auto;
 }
