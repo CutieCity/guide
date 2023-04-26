@@ -1811,6 +1811,14 @@
     "name": "boba",
     "category": "000/000/059/original/c4898c3942e1eff8.png"
   },
+  ":bomb_glare:": {
+    "name": "bomb glare",
+    "category": "000/010/767/original/bomb_glare.png"
+  },
+  ":bomb_rage:": {
+    "name": "bomb rage",
+    "category": "000/010/770/original/bomb_rage.png"
+  },
   ":bonk:": {
     "name": "bonk",
     "category": "000/002/567/original/71a7d95e4174f0dd.png"
@@ -2038,6 +2046,26 @@
   ":butterfly_trans:": {
     "name": "butterfly trans",
     "category": "000/002/592/original/d044a694582c606e.png"
+  },
+  ":cactuar_attack:": {
+    "name": "cactuar attack",
+    "category": "000/010/735/original/cactuar_attack.png"
+  },
+  ":cactuar_run_away:": {
+    "name": "cactuar run away",
+    "category": "000/010/772/original/cactuar_run_away.png"
+  },
+  ":cactuar_sparkle:": {
+    "name": "cactuar sparkle",
+    "category": "000/010/743/original/cactuar_sparkle.png"
+  },
+  ":cait_sith_sweat:": {
+    "name": "cait sith sweat",
+    "category": "000/010/766/original/cait_sith_sweat.png"
+  },
+  ":cait_sith_wow:": {
+    "name": "cait sith wow",
+    "category": "000/010/771/original/cait_sith_wow.png"
   },
   ":call_now:": {
     "name": "call now",
@@ -2351,6 +2379,38 @@
     "name": "chikorita disgust",
     "category": "000/002/323/original/bbb3bc7a0abb8b61.png"
   },
+  ":chocobo_anxious:": {
+    "name": "chocobo anxious",
+    "category": "000/010/761/original/chocobo_anxious.png"
+  },
+  ":chocobo_cute:": {
+    "name": "chocobo cute",
+    "category": "000/010/746/original/chocobo_cute.png"
+  },
+  ":chocobo_excited:": {
+    "name": "chocobo excited",
+    "category": "000/010/738/original/chocobo_excited.png"
+  },
+  ":chocobo_plead:": {
+    "name": "chocobo plead",
+    "category": "000/010/765/original/chocobo_plead.png"
+  },
+  ":chocobo_run:": {
+    "name": "chocobo run",
+    "category": "000/010/756/original/chocobo_run.png"
+  },
+  ":chocobo_sad:": {
+    "name": "chocobo sad",
+    "category": "000/010/742/original/chocobo_sad.png"
+  },
+  ":chocobo_sit:": {
+    "name": "chocobo sit",
+    "category": "000/010/760/original/chocobo_sit.png"
+  },
+  ":chocobo_wow:": {
+    "name": "chocobo wow",
+    "category": "000/010/755/original/chocobo_wow.png"
+  },
   ":chocolate_milk:": {
     "name": "chocolate milk",
     "category": "000/004/697/original/chocolate_milk.png"
@@ -2554,6 +2614,18 @@
   ":f_key:": {
     "name": "f key",
     "category": "000/000/202/original/aa8cefa07dae2e87.png"
+  },
+  ":fat_chocobo_hmm:": {
+    "name": "fat chocobo hmm",
+    "category": "000/010/737/original/fat_chocobo_hmm.png"
+  },
+  ":fat_chocobo_sleepy:": {
+    "name": "fat chocobo sleepy",
+    "category": "000/010/741/original/fat_chocobo_sleepy.png"
+  },
+  ":fat_chocobo_sweat:": {
+    "name": "fat chocobo sweat",
+    "category": "000/010/754/original/fat_chocobo_sweat.png"
   },
   ":fediverse:": {
     "name": "fediverse",
@@ -3947,6 +4019,18 @@
     "name": "lul lmao",
     "category": "000/005/423/original/8e2c06a820bdc58d.png"
   },
+  ":malboro_breathe:": {
+    "name": "malboro breathe",
+    "category": "000/010/758/original/malboro_breathe.png"
+  },
+  ":mandragora_celebrate:": {
+    "name": "mandragora celebrate",
+    "category": "000/010/750/original/mandragora_celebrate.png"
+  },
+  ":mandragora_flustered:": {
+    "name": "mandragora flustered",
+    "category": "000/010/773/original/mandragora_flustered.png"
+  },
   ":mankey_angry:": {
     "name": "mankey angry",
     "category": "000/004/917/original/mankey_angry.png"
@@ -4078,6 +4162,38 @@
   ":mood:": {
     "name": "mood",
     "category": "000/005/008/original/4abad4b19a52368a.png"
+  },
+  ":moogle_cheer:": {
+    "name": "moogle cheer",
+    "category": "000/010/762/original/moogle_cheer.png"
+  },
+  ":moogle_peek:": {
+    "name": "moogle peek",
+    "category": "000/010/757/original/moogle_peek.png"
+  },
+  ":moogle_salute:": {
+    "name": "moogle salute",
+    "category": "000/010/751/original/moogle_salute.png"
+  },
+  ":moogle_sleep:": {
+    "name": "moogle sleep",
+    "category": "000/010/749/original/moogle_sleep.png"
+  },
+  ":moogle_think:": {
+    "name": "moogle think",
+    "category": "000/010/745/original/moogle_think.png"
+  },
+  ":moogle_thumbs_up:": {
+    "name": "moogle thumbs up",
+    "category": "000/010/774/original/moogle_thumbs_up.png"
+  },
+  ":moogle_tired:": {
+    "name": "moogle tired",
+    "category": "000/010/740/original/moogle_tired.png"
+  },
+  ":moogle_wave:": {
+    "name": "moogle wave",
+    "category": "000/010/748/original/moogle_wave.png"
   },
   ":ms_100:": {
     "name": "ms 100",
@@ -6391,6 +6507,18 @@
     "name": "munchlax munch",
     "category": "000/000/358/original/3644abc7a883b928.gif"
   },
+  ":namazu_dead:": {
+    "name": "namazu dead",
+    "category": "000/010/739/original/namazu_dead.png"
+  },
+  ":namazu_drool:": {
+    "name": "namazu drool",
+    "category": "000/010/744/original/namazu_drool.png"
+  },
+  ":namazu_surprised:": {
+    "name": "namazu surprised",
+    "category": "000/010/736/original/namazu_surprised.png"
+  },
   ":neko_back_turned:": {
     "name": "neko back turned",
     "category": "000/002/589/original/db5178b6118a84c8.png"
@@ -6490,6 +6618,10 @@
   ":nyan_goat:": {
     "name": "nyan goat",
     "category": "000/002/441/original/a066a74d4b1c34cb.gif"
+  },
+  ":oglop_cid_fabool_ix:": {
+    "name": "oglop cid fabool ix",
+    "category": "000/010/759/original/oglop_cid_fabool_ix.png"
   },
   ":oh_no_blob:": {
     "name": "oh no blob",
@@ -6935,6 +7067,14 @@
     "name": "psyduck sweat",
     "category": "000/000/164/original/3dae668d1119d63c.png"
   },
+  ":pupu_cry:": {
+    "name": "pupu cry",
+    "category": "000/010/768/original/pupu_cry.png"
+  },
+  ":pupu_sigh:": {
+    "name": "pupu sigh",
+    "category": "000/010/763/original/pupu_sigh.png"
+  },
   ":purple_crystals:": {
     "name": "purple crystals",
     "category": "000/004/132/original/purple_crystals.png"
@@ -7186,6 +7326,14 @@
   ":queer_cat_trans:": {
     "name": "queer cat trans",
     "category": "000/000/276/original/d174dbb27542a0d4.png"
+  },
+  ":rabbit_confused:": {
+    "name": "rabbit confused",
+    "category": "000/010/752/original/rabbit_confused.png"
+  },
+  ":rabbit_in_hole:": {
+    "name": "rabbit in hole",
+    "category": "000/010/769/original/rabbit_in_hole.png"
   },
   ":rainbow_amogus:": {
     "name": "rainbow amogus",
@@ -7843,6 +7991,14 @@
     "name": "toetanic",
     "category": "000/004/884/original/aae3a509d33ede6f.png"
   },
+  ":tonberry_hungry:": {
+    "name": "tonberry hungry",
+    "category": "000/010/764/original/tonberry_hungry.png"
+  },
+  ":tonberry_umm:": {
+    "name": "tonberry umm",
+    "category": "000/010/747/original/tonberry_umm.png"
+  },
   ":torbjorn_fired_up:": {
     "name": "torbjorn fired up",
     "category": "000/005/424/original/5572684ee18f28be.png"
@@ -7934,6 +8090,10 @@
   ":two_peas_in_a_pod:": {
     "name": "two peas in a pod",
     "category": "000/002/089/original/a3dd7834e4e7b594.png"
+  },
+  ":ultros_love:": {
+    "name": "ultros love",
+    "category": "000/010/753/original/ultros_love.png"
   },
   ":umbreon_reverse_uno:": {
     "name": "umbreon reverse uno",

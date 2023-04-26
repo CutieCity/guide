@@ -19,7 +19,7 @@ schedule.
 
 ## Page Controls
 
-There are currently **2072** custom emoji on this page. That's a lot!
+There are currently **2112** custom emoji on this page. That's a lot!
 :flareon_wink:
 
 Here are some handy controls to help you navigate and browse them more easily:
@@ -43,7 +43,7 @@ Here are some handy controls to help you navigate and browse them more easily:
   </div>
 
   <small id="categories-label">
-    **0** out of **25** categories are currently expanded.
+    **0** out of **26** categories are currently expanded.
   </small>
 
   <small id="animations-label">
@@ -51,7 +51,7 @@ Here are some handy controls to help you navigate and browse them more easily:
   </small>
 
   <small id="categories-label-compact">
-    **0**/**25** categories are expanded.
+    **0**/**26** categories are expanded.
   </small>
 
   <small id="animations-label-compact">
@@ -1147,6 +1147,55 @@ the page. Have fun!
     - :bunhd_think: `:bunhd_think:`
     - :bunhd_thonk: `:bunhd_thonk:`
     - :bunhd_uwu: `:bunhd_uwu:`
+
+    </div>
+
+??? abstract "Final Fantasy (40)"
+
+    ### Final Fantasy
+
+    <div class="grid cards small-columns" markdown>
+
+    - :bomb_glare: `:bomb_glare:`
+    - :bomb_rage: `:bomb_rage:`
+    - :cactuar_attack: `:cactuar_attack:`
+    - :cactuar_run_away: `:cactuar_run_away:`
+    - :cactuar_sparkle: `:cactuar_sparkle:`
+    - :cait_sith_sweat: `:cait_sith_sweat:`
+    - :cait_sith_wow: `:cait_sith_wow:`
+    - :chocobo_anxious: `:chocobo_anxious:`
+    - :chocobo_cute: `:chocobo_cute:`
+    - :chocobo_excited: `:chocobo_excited:`
+    - :chocobo_plead: `:chocobo_plead:`
+    - :chocobo_run: `:chocobo_run:`
+    - :chocobo_sad: `:chocobo_sad:`
+    - :chocobo_sit: `:chocobo_sit:`
+    - :chocobo_wow: `:chocobo_wow:`
+    - :fat_chocobo_hmm: `:fat_chocobo_hmm:`
+    - :fat_chocobo_sleepy: `:fat_chocobo_sleepy:`
+    - :fat_chocobo_sweat: `:fat_chocobo_sweat:`
+    - :malboro_breathe: `:malboro_breathe:`
+    - :mandragora_celebrate: `:mandragora_celebrate:`
+    - :mandragora_flustered: `:mandragora_flustered:`
+    - :moogle_cheer: `:moogle_cheer:`
+    - :moogle_peek: `:moogle_peek:`
+    - :moogle_salute: `:moogle_salute:`
+    - :moogle_sleep: `:moogle_sleep:`
+    - :moogle_think: `:moogle_think:`
+    - :moogle_thumbs_up: `:moogle_thumbs_up:`
+    - :moogle_tired: `:moogle_tired:`
+    - :moogle_wave: `:moogle_wave:`
+    - :namazu_dead: `:namazu_dead:`
+    - :namazu_drool: `:namazu_drool:`
+    - :namazu_surprised: `:namazu_surprised:`
+    - :oglop_cid_fabool_ix: `:oglop_cid_fabool_ix:`
+    - :pupu_cry: `:pupu_cry:`
+    - :pupu_sigh: `:pupu_sigh:`
+    - :rabbit_confused: `:rabbit_confused:`
+    - :rabbit_in_hole: `:rabbit_in_hole:`
+    - :tonberry_hungry: `:tonberry_hungry:`
+    - :tonberry_umm: `:tonberry_umm:`
+    - :ultros_love: `:ultros_love:`
 
     </div>
 
