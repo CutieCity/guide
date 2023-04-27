@@ -2639,6 +2639,166 @@
     "name": "fennekin gasp",
     "category": "000/000/171/original/cfc28fb76081581a.png"
   },
+  ":ffxiv_acn:": {
+    "name": "ffxiv acn",
+    "category": "000/011/091/original/acn.png"
+  },
+  ":ffxiv_alc:": {
+    "name": "ffxiv alc",
+    "category": "000/011/095/original/alc.png"
+  },
+  ":ffxiv_arc:": {
+    "name": "ffxiv arc",
+    "category": "000/011/096/original/arc.png"
+  },
+  ":ffxiv_arm:": {
+    "name": "ffxiv arm",
+    "category": "000/011/079/original/arm.png"
+  },
+  ":ffxiv_ast:": {
+    "name": "ffxiv ast",
+    "category": "000/011/071/original/ast.png"
+  },
+  ":ffxiv_blm:": {
+    "name": "ffxiv blm",
+    "category": "000/011/102/original/blm.png"
+  },
+  ":ffxiv_blu:": {
+    "name": "ffxiv blu",
+    "category": "000/011/103/original/blu.png"
+  },
+  ":ffxiv_brd:": {
+    "name": "ffxiv brd",
+    "category": "000/011/085/original/brd.png"
+  },
+  ":ffxiv_bsm:": {
+    "name": "ffxiv bsm",
+    "category": "000/011/094/original/bsm.png"
+  },
+  ":ffxiv_btn:": {
+    "name": "ffxiv btn",
+    "category": "000/011/101/original/btn.png"
+  },
+  ":ffxiv_cnj:": {
+    "name": "ffxiv cnj",
+    "category": "000/011/080/original/cnj.png"
+  },
+  ":ffxiv_crp:": {
+    "name": "ffxiv crp",
+    "category": "000/011/077/original/crp.png"
+  },
+  ":ffxiv_cul:": {
+    "name": "ffxiv cul",
+    "category": "000/011/098/original/cul.png"
+  },
+  ":ffxiv_dnc:": {
+    "name": "ffxiv dnc",
+    "category": "000/011/092/original/dnc.png"
+  },
+  ":ffxiv_drg:": {
+    "name": "ffxiv drg",
+    "category": "000/011/065/original/drg.png"
+  },
+  ":ffxiv_drk:": {
+    "name": "ffxiv drk",
+    "category": "000/011/097/original/drk.png"
+  },
+  ":ffxiv_fsh:": {
+    "name": "ffxiv fsh",
+    "category": "000/011/082/original/fsh.png"
+  },
+  ":ffxiv_gla:": {
+    "name": "ffxiv gla",
+    "category": "000/011/064/original/gla.png"
+  },
+  ":ffxiv_gnb:": {
+    "name": "ffxiv gnb",
+    "category": "000/011/104/original/gnb.png"
+  },
+  ":ffxiv_gsm:": {
+    "name": "ffxiv gsm",
+    "category": "000/011/100/original/gsm.png"
+  },
+  ":ffxiv_lnc:": {
+    "name": "ffxiv lnc",
+    "category": "000/011/070/original/lnc.png"
+  },
+  ":ffxiv_ltw:": {
+    "name": "ffxiv ltw",
+    "category": "000/011/078/original/ltw.png"
+  },
+  ":ffxiv_mch:": {
+    "name": "ffxiv mch",
+    "category": "000/011/088/original/mch.png"
+  },
+  ":ffxiv_min:": {
+    "name": "ffxiv min",
+    "category": "000/011/099/original/min.png"
+  },
+  ":ffxiv_mnk:": {
+    "name": "ffxiv mnk",
+    "category": "000/011/084/original/mnk.png"
+  },
+  ":ffxiv_mrd:": {
+    "name": "ffxiv mrd",
+    "category": "000/011/083/original/mrd.png"
+  },
+  ":ffxiv_nin:": {
+    "name": "ffxiv nin",
+    "category": "000/011/067/original/nin.png"
+  },
+  ":ffxiv_pgl:": {
+    "name": "ffxiv pgl",
+    "category": "000/011/066/original/pgl.png"
+  },
+  ":ffxiv_pld:": {
+    "name": "ffxiv pld",
+    "category": "000/011/076/original/pld.png"
+  },
+  ":ffxiv_rdm:": {
+    "name": "ffxiv rdm",
+    "category": "000/011/090/original/rdm.png"
+  },
+  ":ffxiv_rog:": {
+    "name": "ffxiv rog",
+    "category": "000/011/074/original/rog.png"
+  },
+  ":ffxiv_rpr:": {
+    "name": "ffxiv rpr",
+    "category": "000/011/075/original/rpr.png"
+  },
+  ":ffxiv_sam:": {
+    "name": "ffxiv sam",
+    "category": "000/011/086/original/sam.png"
+  },
+  ":ffxiv_sch:": {
+    "name": "ffxiv sch",
+    "category": "000/011/069/original/sch.png"
+  },
+  ":ffxiv_sge:": {
+    "name": "ffxiv sge",
+    "category": "000/011/089/original/sge.png"
+  },
+  ":ffxiv_smn:": {
+    "name": "ffxiv smn",
+    "category": "000/011/062/original/smn.png"
+  },
+  ":ffxiv_thm:": {
+    "name": "ffxiv thm",
+    "category": "000/011/087/original/thm.png"
+  },
+  ":ffxiv_war:": {
+    "name": "ffxiv war",
+    "category": "000/011/073/original/war.png"
+  },
+  ":ffxiv_whm:": {
+    "name": "ffxiv whm",
+    "category": "000/011/093/original/whm.png"
+  },
+  ":ffxiv_wvr:": {
+    "name": "ffxiv wvr",
+    "category": "000/011/081/original/wvr.png"
+  },
   ":fire_agender:": {
     "name": "fire agender",
     "category": "000/005/110/original/fire_agender.png"

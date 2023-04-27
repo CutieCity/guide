@@ -19,7 +19,7 @@ schedule.
 
 ## Page Controls
 
-There are currently **2112** custom emoji on this page. That's a lot!
+There are currently **2152** custom emoji on this page. That's a lot!
 :flareon_wink:
 
 Here are some handy controls to help you navigate and browse them more easily:
@@ -43,7 +43,7 @@ Here are some handy controls to help you navigate and browse them more easily:
   </div>
 
   <small id="categories-label">
-    **0** out of **26** categories are currently expanded.
+    **0** out of **27** categories are currently expanded.
   </small>
 
   <small id="animations-label">
@@ -51,7 +51,7 @@ Here are some handy controls to help you navigate and browse them more easily:
   </small>
 
   <small id="categories-label-compact">
-    **0**/**26** categories are expanded.
+    **0**/**27** categories are expanded.
   </small>
 
   <small id="animations-label-compact">
@@ -1147,6 +1147,55 @@ the page. Have fun!
     - :bunhd_think: `:bunhd_think:`
     - :bunhd_thonk: `:bunhd_thonk:`
     - :bunhd_uwu: `:bunhd_uwu:`
+
+    </div>
+
+??? abstract "FFXIV Icons (40)"
+
+    ### FFXIV Icons
+
+    <div class="grid cards small-columns" markdown>
+
+    - :ffxiv_acn: `:ffxiv_acn:`
+    - :ffxiv_alc: `:ffxiv_alc:`
+    - :ffxiv_arc: `:ffxiv_arc:`
+    - :ffxiv_arm: `:ffxiv_arm:`
+    - :ffxiv_ast: `:ffxiv_ast:`
+    - :ffxiv_blm: `:ffxiv_blm:`
+    - :ffxiv_blu: `:ffxiv_blu:`
+    - :ffxiv_brd: `:ffxiv_brd:`
+    - :ffxiv_bsm: `:ffxiv_bsm:`
+    - :ffxiv_btn: `:ffxiv_btn:`
+    - :ffxiv_cnj: `:ffxiv_cnj:`
+    - :ffxiv_crp: `:ffxiv_crp:`
+    - :ffxiv_cul: `:ffxiv_cul:`
+    - :ffxiv_dnc: `:ffxiv_dnc:`
+    - :ffxiv_drg: `:ffxiv_drg:`
+    - :ffxiv_drk: `:ffxiv_drk:`
+    - :ffxiv_fsh: `:ffxiv_fsh:`
+    - :ffxiv_gla: `:ffxiv_gla:`
+    - :ffxiv_gnb: `:ffxiv_gnb:`
+    - :ffxiv_gsm: `:ffxiv_gsm:`
+    - :ffxiv_lnc: `:ffxiv_lnc:`
+    - :ffxiv_ltw: `:ffxiv_ltw:`
+    - :ffxiv_mch: `:ffxiv_mch:`
+    - :ffxiv_min: `:ffxiv_min:`
+    - :ffxiv_mnk: `:ffxiv_mnk:`
+    - :ffxiv_mrd: `:ffxiv_mrd:`
+    - :ffxiv_nin: `:ffxiv_nin:`
+    - :ffxiv_pgl: `:ffxiv_pgl:`
+    - :ffxiv_pld: `:ffxiv_pld:`
+    - :ffxiv_rdm: `:ffxiv_rdm:`
+    - :ffxiv_rog: `:ffxiv_rog:`
+    - :ffxiv_rpr: `:ffxiv_rpr:`
+    - :ffxiv_sam: `:ffxiv_sam:`
+    - :ffxiv_sch: `:ffxiv_sch:`
+    - :ffxiv_sge: `:ffxiv_sge:`
+    - :ffxiv_smn: `:ffxiv_smn:`
+    - :ffxiv_thm: `:ffxiv_thm:`
+    - :ffxiv_war: `:ffxiv_war:`
+    - :ffxiv_whm: `:ffxiv_whm:`
+    - :ffxiv_wvr: `:ffxiv_wvr:`
 
     </div>
 
