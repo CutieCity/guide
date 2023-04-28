@@ -19,7 +19,7 @@ schedule.
 
 ## Page Controls
 
-There are currently **2152** custom emoji on this page. That's a lot!
+There are currently **2184** custom emoji on this page. That's a lot!
 :flareon_wink:
 
 Here are some handy controls to help you navigate and browse them more easily:
@@ -43,7 +43,7 @@ Here are some handy controls to help you navigate and browse them more easily:
   </div>
 
   <small id="categories-label">
-    **0** out of **27** categories are currently expanded.
+    **0** out of **28** categories are currently expanded.
   </small>
 
   <small id="animations-label">
@@ -51,7 +51,7 @@ Here are some handy controls to help you navigate and browse them more easily:
   </small>
 
   <small id="categories-label-compact">
-    **0**/**27** categories are expanded.
+    **0**/**28** categories are expanded.
   </small>
 
   <small id="animations-label-compact">
@@ -1147,6 +1147,47 @@ the page. Have fun!
     - :bunhd_think: `:bunhd_think:`
     - :bunhd_thonk: `:bunhd_thonk:`
     - :bunhd_uwu: `:bunhd_uwu:`
+
+    </div>
+
+??? abstract "Cinnamoroll (32)"
+
+    ### Cinnamoroll
+
+    <div class="grid cards small-columns" markdown>
+
+    - :cinna_angry: `:cinna_angry:`
+    - :cinna_balloon: `:cinna_balloon:`
+    - :cinna_bun: `:cinna_bun:`
+    - :cinna_coffee: `:cinna_coffee:`
+    - :cinna_confused: `:cinna_confused:`
+    - :cinna_crown: `:cinna_crown:`
+    - :cinna_cry: `:cinna_cry:`
+    - :cinna_excited: `:cinna_excited:`
+    - :cinna_friend_chiffon: `:cinna_friend_chiffon:`
+    - :cinna_friend_espresso: `:cinna_friend_espresso:`
+    - :cinna_friend_milk: `:cinna_friend_milk:`
+    - :cinna_friend_mocha: `:cinna_friend_mocha:`
+    - :cinna_happy: `:cinna_happy:`
+    - :cinna_hide: `:cinna_hide:`
+    - :cinna_laugh: `:cinna_laugh:`
+    - :cinna_love: `:cinna_love:`
+    - :cinna_music: `:cinna_music:`
+    - :cinna_oh_no: `:cinna_oh_no:`
+    - :cinna_rainbow: `:cinna_rainbow:`
+    - :cinna_sad: `:cinna_sad:`
+    - :cinna_scared: `:cinna_scared:`
+    - :cinna_shocked: `:cinna_shocked:`
+    - :cinna_sleep: `:cinna_sleep:`
+    - :cinna_smile: `:cinna_smile:`
+    - :cinna_stand: `:cinna_stand:`
+    - :cinna_sweat: `:cinna_sweat:`
+    - :cinna_twist: `:cinna_twist:`
+    - :cinna_wave: `:cinna_wave:`
+    - :cinna_wink: `:cinna_wink:`
+    - :cinna_wow: `:cinna_wow:`
+    - :cinna_yum: `:cinna_yum:`
+    - :cinna_zoom: `:cinna_zoom:`
 
     </div>
 

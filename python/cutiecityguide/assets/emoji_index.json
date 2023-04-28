@@ -2415,6 +2415,134 @@
     "name": "chocolate milk",
     "category": "000/004/697/original/chocolate_milk.png"
   },
+  ":cinna_angry:": {
+    "name": "cinna angry",
+    "category": "000/012/554/original/cinna_angry.png"
+  },
+  ":cinna_balloon:": {
+    "name": "cinna balloon",
+    "category": "000/012/541/original/cinna_balloon.png"
+  },
+  ":cinna_bun:": {
+    "name": "cinna bun",
+    "category": "000/012/531/original/cinna_bun.png"
+  },
+  ":cinna_coffee:": {
+    "name": "cinna coffee",
+    "category": "000/012/544/original/cinna_coffee.png"
+  },
+  ":cinna_confused:": {
+    "name": "cinna confused",
+    "category": "000/012/552/original/cinna_confused.png"
+  },
+  ":cinna_crown:": {
+    "name": "cinna crown",
+    "category": "000/012/525/original/cinna_crown.png"
+  },
+  ":cinna_cry:": {
+    "name": "cinna cry",
+    "category": "000/012/549/original/cinna_cry.png"
+  },
+  ":cinna_excited:": {
+    "name": "cinna excited",
+    "category": "000/012/553/original/cinna_excited.png"
+  },
+  ":cinna_friend_chiffon:": {
+    "name": "cinna friend chiffon",
+    "category": "000/012/558/original/cinna_friend_chiffon.png"
+  },
+  ":cinna_friend_espresso:": {
+    "name": "cinna friend espresso",
+    "category": "000/012/539/original/cinna_friend_espresso.png"
+  },
+  ":cinna_friend_milk:": {
+    "name": "cinna friend milk",
+    "category": "000/012/530/original/cinna_friend_milk.png"
+  },
+  ":cinna_friend_mocha:": {
+    "name": "cinna friend mocha",
+    "category": "000/012/543/original/cinna_friend_mocha.png"
+  },
+  ":cinna_happy:": {
+    "name": "cinna happy",
+    "category": "000/012/542/original/cinna_happy.png"
+  },
+  ":cinna_hide:": {
+    "name": "cinna hide",
+    "category": "000/012/547/original/cinna_hide.png"
+  },
+  ":cinna_laugh:": {
+    "name": "cinna laugh",
+    "category": "000/012/559/original/cinna_laugh.png"
+  },
+  ":cinna_love:": {
+    "name": "cinna love",
+    "category": "000/012/546/original/cinna_love.png"
+  },
+  ":cinna_music:": {
+    "name": "cinna music",
+    "category": "000/012/526/original/cinna_music.png"
+  },
+  ":cinna_oh_no:": {
+    "name": "cinna oh no",
+    "category": "000/012/529/original/cinna_oh_no.png"
+  },
+  ":cinna_rainbow:": {
+    "name": "cinna rainbow",
+    "category": "000/012/527/original/cinna_rainbow.png"
+  },
+  ":cinna_sad:": {
+    "name": "cinna sad",
+    "category": "000/012/557/original/cinna_sad.png"
+  },
+  ":cinna_scared:": {
+    "name": "cinna scared",
+    "category": "000/012/560/original/cinna_scared.png"
+  },
+  ":cinna_shocked:": {
+    "name": "cinna shocked",
+    "category": "000/012/532/original/cinna_shocked.png"
+  },
+  ":cinna_sleep:": {
+    "name": "cinna sleep",
+    "category": "000/012/534/original/cinna_sleep.png"
+  },
+  ":cinna_smile:": {
+    "name": "cinna smile",
+    "category": "000/012/533/original/cinna_smile.png"
+  },
+  ":cinna_stand:": {
+    "name": "cinna stand",
+    "category": "000/012/545/original/cinna_stand.png"
+  },
+  ":cinna_sweat:": {
+    "name": "cinna sweat",
+    "category": "000/012/548/original/cinna_sweat.png"
+  },
+  ":cinna_twist:": {
+    "name": "cinna twist",
+    "category": "000/012/551/original/cinna_twist.png"
+  },
+  ":cinna_wave:": {
+    "name": "cinna wave",
+    "category": "000/012/556/original/cinna_wave.png"
+  },
+  ":cinna_wink:": {
+    "name": "cinna wink",
+    "category": "000/012/528/original/cinna_wink.png"
+  },
+  ":cinna_wow:": {
+    "name": "cinna wow",
+    "category": "000/012/555/original/cinna_wow.png"
+  },
+  ":cinna_yum:": {
+    "name": "cinna yum",
+    "category": "000/012/536/original/cinna_yum.png"
+  },
+  ":cinna_zoom:": {
+    "name": "cinna zoom",
+    "category": "000/012/538/original/cinna_zoom.png"
+  },
   ":clap_clap:": {
     "name": "clap clap",
     "category": "000/005/104/original/clap_clap.gif"
