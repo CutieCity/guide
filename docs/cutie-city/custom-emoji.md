@@ -19,7 +19,7 @@ schedule.
 
 ## Page Controls
 
-There are currently **2184** custom emoji on this page. That's a lot!
+There are currently **2185** custom emoji on this page. That's a lot!
 :flareon_wink:
 
 Here are some handy controls to help you navigate and browse them more easily:
@@ -67,7 +67,7 @@ the page. Have fun!
 
 <!-- emoji-categories-start -->
 
-??? abstract "Animal Packs (152)"
+??? abstract "Animal Packs (153)"
 
     ### Animal Packs
 
@@ -115,6 +115,7 @@ the page. Have fun!
         - :cat_gun: `:cat_gun:`
         - :cat_lurk: `:cat_lurk:`
         - :cat_ooh: `:cat_ooh:`
+        - :cat_pats: `:cat_pats:`
         - :cat_pout: `:cat_pout:`
         - :cat_sip: `:cat_sip:`
         - :cat_uwu: `:cat_uwu:`
@@ -274,6 +275,7 @@ the page. Have fun!
         - :cat_gun: `:cat_gun:`
         - :cat_lurk: `:cat_lurk:`
         - :cat_ooh: `:cat_ooh:`
+        - ![:cat_pats:](https://media.cutie.city/custom_emojis/images/000/036/867/static/7a5d03256c89213b.png){.cutiemoji loading="lazy" title="\:cat_pats:"} `:cat_pats:`
         - :cat_pout: `:cat_pout:`
         - :cat_sip: `:cat_sip:`
         - :cat_uwu: `:cat_uwu:`
