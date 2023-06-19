@@ -19,7 +19,7 @@ schedule.
 
 ## Page Controls
 
-There are currently **2185** custom emoji on this page. That's a lot!
+There are currently **2200** custom emoji on this page. That's a lot!
 :flareon_wink:
 
 Here are some handy controls to help you navigate and browse them more easily:
@@ -67,7 +67,7 @@ the page. Have fun!
 
 <!-- emoji-categories-start -->
 
-??? abstract "Animal Packs (153)"
+??? abstract "Animal Packs (168)"
 
     ### Animal Packs
 
@@ -110,14 +110,29 @@ the page. Have fun!
         - :bunny_evil: `:bunny_evil:`
         - :bunny_hug: `:bunny_hug:`
         - :bunny_reach: `:bunny_reach:`
+        - :cat_celebrate: `:cat_celebrate:`
+        - :cat_cool: `:cat_cool:`
+        - :cat_dead: `:cat_dead:`
         - :cat_embarrassed: `:cat_embarrassed:`
+        - :cat_facepalm: `:cat_facepalm:`
+        - :cat_frown: `:cat_frown:`
+        - :cat_gasp: `:cat_gasp:`
         - :cat_giggle: `:cat_giggle:`
         - :cat_gun: `:cat_gun:`
+        - :cat_hammer: `:cat_hammer:`
+        - :cat_innocent: `:cat_innocent:`
+        - :cat_lewd: `:cat_lewd:`
+        - :cat_lul: `:cat_lul:`
         - :cat_lurk: `:cat_lurk:`
         - :cat_ooh: `:cat_ooh:`
         - :cat_pats: `:cat_pats:`
         - :cat_pout: `:cat_pout:`
+        - :cat_relaxed: `:cat_relaxed:`
         - :cat_sip: `:cat_sip:`
+        - :cat_sleep: `:cat_sleep:`
+        - :cat_smart: `:cat_smart:`
+        - :cat_tea: `:cat_tea:`
+        - :cat_think: `:cat_think:`
         - :cat_uwu: `:cat_uwu:`
         - :cat_wave: `:cat_wave:`
         - :cat_wow: `:cat_wow:`
@@ -270,14 +285,29 @@ the page. Have fun!
         - ![:bunny_evil:](https://media.cutie.city/custom_emojis/images/000/002/297/static/fe4911963d8c393e.png){.cutiemoji loading="lazy" title="\:bunny_evil:"} `:bunny_evil:`
         - ![:bunny_hug:](https://media.cutie.city/custom_emojis/images/000/002/298/static/1f3719d4be946efd.png){.cutiemoji loading="lazy" title="\:bunny_hug:"} `:bunny_hug:`
         - ![:bunny_reach:](https://media.cutie.city/custom_emojis/images/000/004/901/static/bunny_reach.png){.cutiemoji loading="lazy" title="\:bunny_reach:"} `:bunny_reach:`
+        - :cat_celebrate: `:cat_celebrate:`
+        - :cat_cool: `:cat_cool:`
+        - :cat_dead: `:cat_dead:`
         - :cat_embarrassed: `:cat_embarrassed:`
+        - :cat_facepalm: `:cat_facepalm:`
+        - :cat_frown: `:cat_frown:`
+        - :cat_gasp: `:cat_gasp:`
         - :cat_giggle: `:cat_giggle:`
         - :cat_gun: `:cat_gun:`
+        - :cat_hammer: `:cat_hammer:`
+        - :cat_innocent: `:cat_innocent:`
+        - :cat_lewd: `:cat_lewd:`
+        - :cat_lul: `:cat_lul:`
         - :cat_lurk: `:cat_lurk:`
         - :cat_ooh: `:cat_ooh:`
         - ![:cat_pats:](https://media.cutie.city/custom_emojis/images/000/036/867/static/7a5d03256c89213b.png){.cutiemoji loading="lazy" title="\:cat_pats:"} `:cat_pats:`
         - :cat_pout: `:cat_pout:`
+        - :cat_relaxed: `:cat_relaxed:`
         - :cat_sip: `:cat_sip:`
+        - :cat_sleep: `:cat_sleep:`
+        - :cat_smart: `:cat_smart:`
+        - :cat_tea: `:cat_tea:`
+        - :cat_think: `:cat_think:`
         - :cat_uwu: `:cat_uwu:`
         - :cat_wave: `:cat_wave:`
         - :cat_wow: `:cat_wow:`

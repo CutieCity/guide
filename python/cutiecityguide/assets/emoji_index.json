@@ -2119,6 +2119,10 @@
     "name": "cat bongo rage",
     "category": "000/005/417/original/8c998add5f700508.gif"
   },
+  ":cat_celebrate:": {
+    "name": "cat celebrate",
+    "category": "000/043/998/original/cat_celebrate.png"
+  },
   ":cat_clap:": {
     "name": "cat clap",
     "category": "000/000/241/original/a3eafda46c7a3d27.gif"
@@ -2126,6 +2130,10 @@
   ":cat_clown:": {
     "name": "cat clown",
     "category": "000/005/024/original/cat_clown.png"
+  },
+  ":cat_cool:": {
+    "name": "cat cool",
+    "category": "000/043/995/original/cat_cool.png"
   },
   ":cat_couple:": {
     "name": "cat couple",
@@ -2135,6 +2143,10 @@
     "name": "cat cute",
     "category": "000/000/595/original/f45fd7708c7a97df.png"
   },
+  ":cat_dead:": {
+    "name": "cat dead",
+    "category": "000/044/004/original/cat_dead.png"
+  },
   ":cat_embarrassed:": {
     "name": "cat embarrassed",
     "category": "000/004/726/original/98f29083769b5d35.png"
@@ -2142,6 +2154,10 @@
   ":cat_excited:": {
     "name": "cat excited",
     "category": "000/002/617/original/1ffef7cfd9fcd9cc.png"
+  },
+  ":cat_facepalm:": {
+    "name": "cat facepalm",
+    "category": "000/043/999/original/cat_facepalm.png"
   },
   ":cat_fight:": {
     "name": "cat fight",
@@ -2155,6 +2171,14 @@
     "name": "cat friends",
     "category": "000/002/618/original/3b33fcf6e3f3cc69.png"
   },
+  ":cat_frown:": {
+    "name": "cat frown",
+    "category": "000/044/000/original/cat_frown.png"
+  },
+  ":cat_gasp:": {
+    "name": "cat gasp",
+    "category": "000/043/997/original/cat_gasp.png"
+  },
   ":cat_ghost:": {
     "name": "cat ghost",
     "category": "000/005/029/original/cat_ghost.png"
@@ -2166,6 +2190,10 @@
   ":cat_gun:": {
     "name": "cat gun",
     "category": "000/004/728/original/0178f6eefea38792.png"
+  },
+  ":cat_hammer:": {
+    "name": "cat hammer",
+    "category": "000/044/006/original/cat_hammer.png"
   },
   ":cat_happy:": {
     "name": "cat happy",
@@ -2191,6 +2219,10 @@
     "name": "cat hype",
     "category": "000/002/625/original/8c8c2e10c030f7bc.gif"
   },
+  ":cat_innocent:": {
+    "name": "cat innocent",
+    "category": "000/044/001/original/cat_innocent.png"
+  },
   ":cat_interact:": {
     "name": "cat interact",
     "category": "000/002/566/original/416143347fd82565.gif"
@@ -2199,9 +2231,17 @@
     "name": "cat jam",
     "category": "000/002/146/original/8f4571af67295afb.gif"
   },
+  ":cat_lewd:": {
+    "name": "cat lewd",
+    "category": "000/044/003/original/cat_lewd.png"
+  },
   ":cat_love:": {
     "name": "cat love",
     "category": "000/002/056/original/aeb96bb3354cd016.png"
+  },
+  ":cat_lul:": {
+    "name": "cat lul",
+    "category": "000/044/005/original/cat_lul.png"
   },
   ":cat_lurk:": {
     "name": "cat lurk",
@@ -2251,6 +2291,10 @@
     "name": "cat reach",
     "category": "000/002/610/original/5ad6ca385e67a767.png"
   },
+  ":cat_relaxed:": {
+    "name": "cat relaxed",
+    "category": "000/044/002/original/cat_relaxed.png"
+  },
   ":cat_roar:": {
     "name": "cat roar",
     "category": "000/004/736/original/feba9c2876f7f79b.gif"
@@ -2283,9 +2327,17 @@
     "name": "cat sip",
     "category": "000/004/994/original/cat_sip.png"
   },
+  ":cat_sleep:": {
+    "name": "cat sleep",
+    "category": "000/043/994/original/cat_sleep.png"
+  },
   ":cat_sleepy:": {
     "name": "cat sleepy",
     "category": "000/002/622/original/b7b6474b6f423877.png"
+  },
+  ":cat_smart:": {
+    "name": "cat smart",
+    "category": "000/043/996/original/cat_smart.png"
   },
   ":cat_smug:": {
     "name": "cat smug",
@@ -2294,6 +2346,14 @@
   ":cat_sob:": {
     "name": "cat sob",
     "category": "000/002/150/original/2093e93a37fcd6b5.png"
+  },
+  ":cat_tea:": {
+    "name": "cat tea",
+    "category": "000/043/993/original/cat_tea.png"
+  },
+  ":cat_think:": {
+    "name": "cat think",
+    "category": "000/044/007/original/cat_think.png"
   },
   ":cat_thumbs_up:": {
     "name": "cat thumbs up",
