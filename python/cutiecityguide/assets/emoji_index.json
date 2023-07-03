@@ -2763,6 +2763,518 @@
     "name": "dracthyr yay",
     "category": "000/005/042/original/e63a590e1cc9396d.gif"
   },
+  ":drgn:": {
+    "name": "drgn",
+    "category": "000/053/392/original/drgn.png"
+  },
+  ":drgn_angry:": {
+    "name": "drgn angry",
+    "category": "000/053/308/original/drgn_angry.png"
+  },
+  ":drgn_aww:": {
+    "name": "drgn aww",
+    "category": "000/053/391/original/drgn_aww.png"
+  },
+  ":drgn_blep:": {
+    "name": "drgn blep",
+    "category": "000/053/295/original/drgn_blep.png"
+  },
+  ":drgn_blush:": {
+    "name": "drgn blush",
+    "category": "000/053/351/original/drgn_blush.png"
+  },
+  ":drgn_blush_giggle:": {
+    "name": "drgn blush giggle",
+    "category": "000/053/358/original/drgn_blush_giggle.png"
+  },
+  ":drgn_comfy:": {
+    "name": "drgn comfy",
+    "category": "000/053/401/original/drgn_comfy.png"
+  },
+  ":drgn_comfy_blep:": {
+    "name": "drgn comfy blep",
+    "category": "000/053/377/original/drgn_comfy_blep.png"
+  },
+  ":drgn_comfy_cup:": {
+    "name": "drgn comfy cup",
+    "category": "000/053/407/original/drgn_comfy_cup.png"
+  },
+  ":drgn_comfy_cup_mlem:": {
+    "name": "drgn comfy cup mlem",
+    "category": "000/053/360/original/drgn_comfy_cup_mlem.png"
+  },
+  ":drgn_comfy_cute:": {
+    "name": "drgn comfy cute",
+    "category": "000/053/315/original/drgn_comfy_cute.png"
+  },
+  ":drgn_comfy_evil:": {
+    "name": "drgn comfy evil",
+    "category": "000/053/395/original/drgn_comfy_evil.png"
+  },
+  ":drgn_comfy_happy:": {
+    "name": "drgn comfy happy",
+    "category": "000/053/335/original/drgn_comfy_happy.png"
+  },
+  ":drgn_comfy_owo:": {
+    "name": "drgn comfy owo",
+    "category": "000/053/354/original/drgn_comfy_owo.png"
+  },
+  ":drgn_comfy_smug:": {
+    "name": "drgn comfy smug",
+    "category": "000/053/285/original/drgn_comfy_smug.png"
+  },
+  ":drgn_confused:": {
+    "name": "drgn confused",
+    "category": "000/053/343/original/drgn_confused.png"
+  },
+  ":drgn_cool:": {
+    "name": "drgn cool",
+    "category": "000/053/402/original/drgn_cool.png"
+  },
+  ":drgn_cup:": {
+    "name": "drgn cup",
+    "category": "000/053/331/original/drgn_cup.png"
+  },
+  ":drgn_cup_mlem:": {
+    "name": "drgn cup mlem",
+    "category": "000/053/369/original/drgn_cup_mlem.png"
+  },
+  ":drgn_cup_sleepy:": {
+    "name": "drgn cup sleepy",
+    "category": "000/053/381/original/drgn_cup_sleepy.png"
+  },
+  ":drgn_cute:": {
+    "name": "drgn cute",
+    "category": "000/053/320/original/drgn_cute.png"
+  },
+  ":drgn_cute_sparkle:": {
+    "name": "drgn cute sparkle",
+    "category": "000/053/379/original/drgn_cute_sparkle.png"
+  },
+  ":drgn_dark:": {
+    "name": "drgn dark",
+    "category": "000/053/302/original/drgn_dark.png"
+  },
+  ":drgn_dark_mlem:": {
+    "name": "drgn dark mlem",
+    "category": "000/053/385/original/drgn_dark_mlem.png"
+  },
+  ":drgn_dead:": {
+    "name": "drgn dead",
+    "category": "000/053/403/original/drgn_dead.png"
+  },
+  ":drgn_dizzy:": {
+    "name": "drgn dizzy",
+    "category": "000/053/393/original/drgn_dizzy.png"
+  },
+  ":drgn_drake_nah:": {
+    "name": "drgn drake nah",
+    "category": "000/053/286/original/drgn_drake_nah.png"
+  },
+  ":drgn_drake_yeah:": {
+    "name": "drgn drake yeah",
+    "category": "000/053/370/original/drgn_drake_yeah.png"
+  },
+  ":drgn_drool:": {
+    "name": "drgn drool",
+    "category": "000/053/388/original/drgn_drool.png"
+  },
+  ":drgn_embarrassed:": {
+    "name": "drgn embarrassed",
+    "category": "000/053/410/original/drgn_embarrassed.png"
+  },
+  ":drgn_evil:": {
+    "name": "drgn evil",
+    "category": "000/053/284/original/drgn_evil.png"
+  },
+  ":drgn_evil_giggle:": {
+    "name": "drgn evil giggle",
+    "category": "000/053/375/original/drgn_evil_giggle.png"
+  },
+  ":drgn_flat:": {
+    "name": "drgn flat",
+    "category": "000/053/361/original/drgn_flat.png"
+  },
+  ":drgn_flat_blep:": {
+    "name": "drgn flat blep",
+    "category": "000/053/301/original/drgn_flat_blep.png"
+  },
+  ":drgn_flat_blush:": {
+    "name": "drgn flat blush",
+    "category": "000/053/405/original/drgn_flat_blush.png"
+  },
+  ":drgn_flat_dead:": {
+    "name": "drgn flat dead",
+    "category": "000/053/339/original/drgn_flat_dead.png"
+  },
+  ":drgn_flat_happy:": {
+    "name": "drgn flat happy",
+    "category": "000/053/291/original/drgn_flat_happy.png"
+  },
+  ":drgn_flat_love:": {
+    "name": "drgn flat love",
+    "category": "000/053/348/original/drgn_flat_love.png"
+  },
+  ":drgn_flat_nervous:": {
+    "name": "drgn flat nervous",
+    "category": "000/053/293/original/drgn_flat_nervous.png"
+  },
+  ":drgn_flat_owo:": {
+    "name": "drgn flat owo",
+    "category": "000/053/397/original/drgn_flat_owo.png"
+  },
+  ":drgn_flat_plead:": {
+    "name": "drgn flat plead",
+    "category": "000/053/345/original/drgn_flat_plead.png"
+  },
+  ":drgn_flat_sleep:": {
+    "name": "drgn flat sleep",
+    "category": "000/053/306/original/drgn_flat_sleep.png"
+  },
+  ":drgn_flat_sob:": {
+    "name": "drgn flat sob",
+    "category": "000/053/404/original/drgn_flat_sob.png"
+  },
+  ":drgn_flat_sob_loved:": {
+    "name": "drgn flat sob loved",
+    "category": "000/053/280/original/drgn_flat_sob_loved.png"
+  },
+  ":drgn_glare:": {
+    "name": "drgn glare",
+    "category": "000/053/380/original/drgn_glare.png"
+  },
+  ":drgn_glare_sob:": {
+    "name": "drgn glare sob",
+    "category": "000/053/300/original/drgn_glare_sob.png"
+  },
+  ":drgn_happy:": {
+    "name": "drgn happy",
+    "category": "000/053/356/original/drgn_happy.png"
+  },
+  ":drgn_happy_blep:": {
+    "name": "drgn happy blep",
+    "category": "000/053/305/original/drgn_happy_blep.png"
+  },
+  ":drgn_hide:": {
+    "name": "drgn hide",
+    "category": "000/053/408/original/drgn_hide.png"
+  },
+  ":drgn_hide_blush:": {
+    "name": "drgn hide blush",
+    "category": "000/053/409/original/drgn_hide_blush.png"
+  },
+  ":drgn_hide_nervous:": {
+    "name": "drgn hide nervous",
+    "category": "000/053/312/original/drgn_hide_nervous.png"
+  },
+  ":drgn_hyper:": {
+    "name": "drgn hyper",
+    "category": "000/053/337/original/drgn_hyper.png"
+  },
+  ":drgn_innocent:": {
+    "name": "drgn innocent",
+    "category": "000/053/378/original/drgn_innocent.png"
+  },
+  ":drgn_innocent_blep:": {
+    "name": "drgn innocent blep",
+    "category": "000/053/346/original/drgn_innocent_blep.png"
+  },
+  ":drgn_innocent_plead:": {
+    "name": "drgn innocent plead",
+    "category": "000/053/374/original/drgn_innocent_plead.png"
+  },
+  ":drgn_knife_angry:": {
+    "name": "drgn knife angry",
+    "category": "000/053/303/original/drgn_knife_angry.png"
+  },
+  ":drgn_knife_cute:": {
+    "name": "drgn knife cute",
+    "category": "000/053/362/original/drgn_knife_cute.png"
+  },
+  ":drgn_laugh:": {
+    "name": "drgn laugh",
+    "category": "000/053/352/original/drgn_laugh.png"
+  },
+  ":drgn_laugh_sweat:": {
+    "name": "drgn laugh sweat",
+    "category": "000/053/344/original/drgn_laugh_sweat.png"
+  },
+  ":drgn_love:": {
+    "name": "drgn love",
+    "category": "000/053/383/original/drgn_love.png"
+  },
+  ":drgn_lurk:": {
+    "name": "drgn lurk",
+    "category": "000/053/368/original/drgn_lurk.png"
+  },
+  ":drgn_lurk_blep:": {
+    "name": "drgn lurk blep",
+    "category": "000/053/396/original/drgn_lurk_blep.png"
+  },
+  ":drgn_lurk_cute:": {
+    "name": "drgn lurk cute",
+    "category": "000/053/322/original/drgn_lurk_cute.png"
+  },
+  ":drgn_lurk_nervous:": {
+    "name": "drgn lurk nervous",
+    "category": "000/053/336/original/drgn_lurk_nervous.png"
+  },
+  ":drgn_lurk_notice:": {
+    "name": "drgn lurk notice",
+    "category": "000/053/314/original/drgn_lurk_notice.png"
+  },
+  ":drgn_lurk_owo:": {
+    "name": "drgn lurk owo",
+    "category": "000/053/326/original/drgn_lurk_owo.png"
+  },
+  ":drgn_lurk_plead:": {
+    "name": "drgn lurk plead",
+    "category": "000/053/338/original/drgn_lurk_plead.png"
+  },
+  ":drgn_lurk_sob:": {
+    "name": "drgn lurk sob",
+    "category": "000/053/325/original/drgn_lurk_sob.png"
+  },
+  ":drgn_mlem:": {
+    "name": "drgn mlem",
+    "category": "000/053/294/original/drgn_mlem.png"
+  },
+  ":drgn_music:": {
+    "name": "drgn music",
+    "category": "000/053/372/original/drgn_music.png"
+  },
+  ":drgn_nauseous:": {
+    "name": "drgn nauseous",
+    "category": "000/053/350/original/drgn_nauseous.png"
+  },
+  ":drgn_nerdy:": {
+    "name": "drgn nerdy",
+    "category": "000/053/329/original/drgn_nerdy.png"
+  },
+  ":drgn_nervous:": {
+    "name": "drgn nervous",
+    "category": "000/053/281/original/drgn_nervous.png"
+  },
+  ":drgn_neutral:": {
+    "name": "drgn neutral",
+    "category": "000/053/297/original/drgn_neutral.png"
+  },
+  ":drgn_nom_blobcat:": {
+    "name": "drgn nom blobcat",
+    "category": "000/053/296/original/drgn_nom_blobcat.png"
+  },
+  ":drgn_nom_blobfox:": {
+    "name": "drgn nom blobfox",
+    "category": "000/053/394/original/drgn_nom_blobfox.png"
+  },
+  ":drgn_nom_bread:": {
+    "name": "drgn nom bread",
+    "category": "000/053/283/original/drgn_nom_bread.png"
+  },
+  ":drgn_nom_burger:": {
+    "name": "drgn nom burger",
+    "category": "000/053/310/original/drgn_nom_burger.png"
+  },
+  ":drgn_nom_cookie:": {
+    "name": "drgn nom cookie",
+    "category": "000/053/389/original/drgn_nom_cookie.png"
+  },
+  ":drgn_nom_donut:": {
+    "name": "drgn nom donut",
+    "category": "000/053/332/original/drgn_nom_donut.png"
+  },
+  ":drgn_nom_egg:": {
+    "name": "drgn nom egg",
+    "category": "000/053/319/original/drgn_nom_egg.png"
+  },
+  ":drgn_nom_melon:": {
+    "name": "drgn nom melon",
+    "category": "000/053/390/original/drgn_nom_melon.png"
+  },
+  ":drgn_nom_pita:": {
+    "name": "drgn nom pita",
+    "category": "000/053/292/original/drgn_nom_pita.png"
+  },
+  ":drgn_nom_pizza:": {
+    "name": "drgn nom pizza",
+    "category": "000/053/323/original/drgn_nom_pizza.png"
+  },
+  ":drgn_nom_waffle:": {
+    "name": "drgn nom waffle",
+    "category": "000/053/290/original/drgn_nom_waffle.png"
+  },
+  ":drgn_notice:": {
+    "name": "drgn notice",
+    "category": "000/053/321/original/drgn_notice.png"
+  },
+  ":drgn_nuzzle:": {
+    "name": "drgn nuzzle",
+    "category": "000/053/328/original/drgn_nuzzle.png"
+  },
+  ":drgn_owo:": {
+    "name": "drgn owo",
+    "category": "000/053/299/original/drgn_owo.png"
+  },
+  ":drgn_owo_mlem:": {
+    "name": "drgn owo mlem",
+    "category": "000/053/311/original/drgn_owo_mlem.png"
+  },
+  ":drgn_pat:": {
+    "name": "drgn pat",
+    "category": "000/053/287/original/drgn_pat.png"
+  },
+  ":drgn_pat_blush:": {
+    "name": "drgn pat blush",
+    "category": "000/053/400/original/drgn_pat_blush.png"
+  },
+  ":drgn_pat_sob:": {
+    "name": "drgn pat sob",
+    "category": "000/053/406/original/drgn_pat_sob.png"
+  },
+  ":drgn_plead:": {
+    "name": "drgn plead",
+    "category": "000/053/282/original/drgn_plead.png"
+  },
+  ":drgn_pout:": {
+    "name": "drgn pout",
+    "category": "000/053/316/original/drgn_pout.png"
+  },
+  ":drgn_rainbow:": {
+    "name": "drgn rainbow",
+    "category": "000/053/359/original/drgn_rainbow.png"
+  },
+  ":drgn_roar:": {
+    "name": "drgn roar",
+    "category": "000/053/365/original/drgn_roar.png"
+  },
+  ":drgn_roar_angry:": {
+    "name": "drgn roar angry",
+    "category": "000/053/342/original/drgn_roar_angry.png"
+  },
+  ":drgn_roar_happy:": {
+    "name": "drgn roar happy",
+    "category": "000/053/304/original/drgn_roar_happy.png"
+  },
+  ":drgn_roar_stare:": {
+    "name": "drgn roar stare",
+    "category": "000/053/373/original/drgn_roar_stare.png"
+  },
+  ":drgn_sad:": {
+    "name": "drgn sad",
+    "category": "000/053/349/original/drgn_sad.png"
+  },
+  ":drgn_science:": {
+    "name": "drgn science",
+    "category": "000/053/341/original/drgn_science.png"
+  },
+  ":drgn_shocked:": {
+    "name": "drgn shocked",
+    "category": "000/053/384/original/drgn_shocked.png"
+  },
+  ":drgn_sleep:": {
+    "name": "drgn sleep",
+    "category": "000/053/324/original/drgn_sleep.png"
+  },
+  ":drgn_sleepy:": {
+    "name": "drgn sleepy",
+    "category": "000/053/366/original/drgn_sleepy.png"
+  },
+  ":drgn_smug:": {
+    "name": "drgn smug",
+    "category": "000/053/355/original/drgn_smug.png"
+  },
+  ":drgn_sob:": {
+    "name": "drgn sob",
+    "category": "000/053/386/original/drgn_sob.png"
+  },
+  ":drgn_sob_cute:": {
+    "name": "drgn sob cute",
+    "category": "000/053/387/original/drgn_sob_cute.png"
+  },
+  ":drgn_sob_loud:": {
+    "name": "drgn sob loud",
+    "category": "000/053/334/original/drgn_sob_loud.png"
+  },
+  ":drgn_stare:": {
+    "name": "drgn stare",
+    "category": "000/053/330/original/drgn_stare.png"
+  },
+  ":drgn_stare_nervous:": {
+    "name": "drgn stare nervous",
+    "category": "000/053/376/original/drgn_stare_nervous.png"
+  },
+  ":drgn_think:": {
+    "name": "drgn think",
+    "category": "000/053/398/original/drgn_think.png"
+  },
+  ":drgn_think_confused:": {
+    "name": "drgn think confused",
+    "category": "000/053/363/original/drgn_think_confused.png"
+  },
+  ":drgn_think_evil:": {
+    "name": "drgn think evil",
+    "category": "000/053/298/original/drgn_think_evil.png"
+  },
+  ":drgn_think_owo:": {
+    "name": "drgn think owo",
+    "category": "000/053/367/original/drgn_think_owo.png"
+  },
+  ":drgn_think_science:": {
+    "name": "drgn think science",
+    "category": "000/053/357/original/drgn_think_science.png"
+  },
+  ":drgn_think_smug:": {
+    "name": "drgn think smug",
+    "category": "000/053/309/original/drgn_think_smug.png"
+  },
+  ":drgn_think_woozy:": {
+    "name": "drgn think woozy",
+    "category": "000/053/327/original/drgn_think_woozy.png"
+  },
+  ":drgn_thumbs_down:": {
+    "name": "drgn thumbs down",
+    "category": "000/053/399/original/drgn_thumbs_down.png"
+  },
+  ":drgn_thumbs_up:": {
+    "name": "drgn thumbs up",
+    "category": "000/053/347/original/drgn_thumbs_up.png"
+  },
+  ":drgn_up:": {
+    "name": "drgn up",
+    "category": "000/053/318/original/drgn_up.png"
+  },
+  ":drgn_up_blep:": {
+    "name": "drgn up blep",
+    "category": "000/053/317/original/drgn_up_blep.png"
+  },
+  ":drgn_up_cute:": {
+    "name": "drgn up cute",
+    "category": "000/053/288/original/drgn_up_cute.png"
+  },
+  ":drgn_up_happy:": {
+    "name": "drgn up happy",
+    "category": "000/053/364/original/drgn_up_happy.png"
+  },
+  ":drgn_up_mlem:": {
+    "name": "drgn up mlem",
+    "category": "000/053/307/original/drgn_up_mlem.png"
+  },
+  ":drgn_uwu:": {
+    "name": "drgn uwu",
+    "category": "000/053/371/original/drgn_uwu.png"
+  },
+  ":drgn_weary:": {
+    "name": "drgn weary",
+    "category": "000/053/333/original/drgn_weary.png"
+  },
+  ":drgn_weary_sob:": {
+    "name": "drgn weary sob",
+    "category": "000/053/289/original/drgn_weary_sob.png"
+  },
+  ":drgn_woozy:": {
+    "name": "drgn woozy",
+    "category": "000/053/353/original/drgn_woozy.png"
+  },
   ":dumpster_fire:": {
     "name": "dumpster fire",
     "category": "000/002/524/original/462978b840504554.gif"
@@ -6922,6 +7434,486 @@
   ":neko_snack:": {
     "name": "neko snack",
     "category": "000/002/411/original/f6f749dcec1826f6.png"
+  },
+  ":neofox:": {
+    "name": "neofox",
+    "category": "000/052/185/original/neofox.png"
+  },
+  ":neofox_angry:": {
+    "name": "neofox angry",
+    "category": "000/052/179/original/neofox_angry.png"
+  },
+  ":neofox_aww:": {
+    "name": "neofox aww",
+    "category": "000/052/116/original/neofox_aww.png"
+  },
+  ":neofox_blank:": {
+    "name": "neofox blank",
+    "category": "000/052/156/original/neofox_blank.png"
+  },
+  ":neofox_blush:": {
+    "name": "neofox blush",
+    "category": "000/052/188/original/neofox_blush.png"
+  },
+  ":neofox_blush_hide:": {
+    "name": "neofox blush hide",
+    "category": "000/052/083/original/neofox_blush_hide.png"
+  },
+  ":neofox_boop:": {
+    "name": "neofox boop",
+    "category": "000/052/123/original/neofox_boop.png"
+  },
+  ":neofox_boop_blush:": {
+    "name": "neofox boop blush",
+    "category": "000/052/112/original/neofox_boop_blush.png"
+  },
+  ":neofox_boop_cute:": {
+    "name": "neofox boop cute",
+    "category": "000/052/084/original/neofox_boop_cute.png"
+  },
+  ":neofox_boop_derp:": {
+    "name": "neofox boop derp",
+    "category": "000/052/164/original/neofox_boop_derp.png"
+  },
+  ":neofox_boop_happy:": {
+    "name": "neofox boop happy",
+    "category": "000/052/118/original/neofox_boop_happy.png"
+  },
+  ":neofox_boop_nervous:": {
+    "name": "neofox boop nervous",
+    "category": "000/052/149/original/neofox_boop_nervous.png"
+  },
+  ":neofox_boop_owo:": {
+    "name": "neofox boop owo",
+    "category": "000/052/089/original/neofox_boop_owo.png"
+  },
+  ":neofox_box:": {
+    "name": "neofox box",
+    "category": "000/052/075/original/neofox_box.png"
+  },
+  ":neofox_coffee:": {
+    "name": "neofox coffee",
+    "category": "000/052/130/original/neofox_coffee.png"
+  },
+  ":neofox_comfy:": {
+    "name": "neofox comfy",
+    "category": "000/052/162/original/neofox_comfy.png"
+  },
+  ":neofox_comfy_happy:": {
+    "name": "neofox comfy happy",
+    "category": "000/052/095/original/neofox_comfy_happy.png"
+  },
+  ":neofox_comfy_mug:": {
+    "name": "neofox comfy mug",
+    "category": "000/052/113/original/neofox_comfy_mug.png"
+  },
+  ":neofox_comfy_sleepy:": {
+    "name": "neofox comfy sleepy",
+    "category": "000/052/105/original/neofox_comfy_sleepy.png"
+  },
+  ":neofox_computer:": {
+    "name": "neofox computer",
+    "category": "000/052/143/original/neofox_computer.png"
+  },
+  ":neofox_confused:": {
+    "name": "neofox confused",
+    "category": "000/052/144/original/neofox_confused.png"
+  },
+  ":neofox_cool:": {
+    "name": "neofox cool",
+    "category": "000/052/166/original/neofox_cool.png"
+  },
+  ":neofox_cool_finger_guns:": {
+    "name": "neofox cool finger guns",
+    "category": "000/052/103/original/neofox_cool_finger_guns.png"
+  },
+  ":neofox_cute:": {
+    "name": "neofox cute",
+    "category": "000/052/140/original/neofox_cute.png"
+  },
+  ":neofox_dead:": {
+    "name": "neofox dead",
+    "category": "000/052/142/original/neofox_dead.png"
+  },
+  ":neofox_derp:": {
+    "name": "neofox derp",
+    "category": "000/052/150/original/neofox_derp.png"
+  },
+  ":neofox_derp_blep:": {
+    "name": "neofox derp blep",
+    "category": "000/052/126/original/neofox_derp_blep.png"
+  },
+  ":neofox_devil:": {
+    "name": "neofox devil",
+    "category": "000/052/180/original/neofox_devil.png"
+  },
+  ":neofox_dizzy:": {
+    "name": "neofox dizzy",
+    "category": "000/052/163/original/neofox_dizzy.png"
+  },
+  ":neofox_drake_nah:": {
+    "name": "neofox drake nah",
+    "category": "000/053/071/original/63b0eed30c17cf7d.png"
+  },
+  ":neofox_drake_yeah:": {
+    "name": "neofox drake yeah",
+    "category": "000/053/072/original/d480fc62a608cda0.png"
+  },
+  ":neofox_evil:": {
+    "name": "neofox evil",
+    "category": "000/052/076/original/neofox_evil.png"
+  },
+  ":neofox_facepalm:": {
+    "name": "neofox facepalm",
+    "category": "000/052/159/original/neofox_facepalm.png"
+  },
+  ":neofox_finger_guns:": {
+    "name": "neofox finger guns",
+    "category": "000/052/125/original/neofox_finger_guns.png"
+  },
+  ":neofox_gasp:": {
+    "name": "neofox gasp",
+    "category": "000/052/161/original/neofox_gasp.png"
+  },
+  ":neofox_glare:": {
+    "name": "neofox glare",
+    "category": "000/052/153/original/neofox_glare.png"
+  },
+  ":neofox_glare_sob:": {
+    "name": "neofox glare sob",
+    "category": "000/052/146/original/neofox_glare_sob.png"
+  },
+  ":neofox_happy:": {
+    "name": "neofox happy",
+    "category": "000/052/184/original/neofox_happy.png"
+  },
+  ":neofox_happy_blep:": {
+    "name": "neofox happy blep",
+    "category": "000/052/099/original/neofox_happy_blep.png"
+  },
+  ":neofox_hmm:": {
+    "name": "neofox hmm",
+    "category": "000/052/141/original/neofox_hmm.png"
+  },
+  ":neofox_hmm_evil:": {
+    "name": "neofox hmm evil",
+    "category": "000/052/189/original/neofox_hmm_evil.png"
+  },
+  ":neofox_hug:": {
+    "name": "neofox hug",
+    "category": "000/052/129/original/neofox_hug.png"
+  },
+  ":neofox_hug_cat:": {
+    "name": "neofox hug cat",
+    "category": "000/052/073/original/neofox_hug_cat.png"
+  },
+  ":neofox_hyper:": {
+    "name": "neofox hyper",
+    "category": "000/052/157/original/neofox_hyper.png"
+  },
+  ":neofox_innocent:": {
+    "name": "neofox innocent",
+    "category": "000/052/093/original/neofox_innocent.png"
+  },
+  ":neofox_innocent_plead:": {
+    "name": "neofox innocent plead",
+    "category": "000/052/094/original/neofox_innocent_plead.png"
+  },
+  ":neofox_kirby:": {
+    "name": "neofox kirby",
+    "category": "000/052/110/original/neofox_kirby.png"
+  },
+  ":neofox_kirby_inhale:": {
+    "name": "neofox kirby inhale",
+    "category": "000/052/137/original/neofox_kirby_inhale.png"
+  },
+  ":neofox_knife:": {
+    "name": "neofox knife",
+    "category": "000/052/101/original/neofox_knife.png"
+  },
+  ":neofox_laugh:": {
+    "name": "neofox laugh",
+    "category": "000/052/158/original/neofox_laugh.png"
+  },
+  ":neofox_laugh_sweat:": {
+    "name": "neofox laugh sweat",
+    "category": "000/052/178/original/neofox_laugh_sweat.png"
+  },
+  ":neofox_love:": {
+    "name": "neofox love",
+    "category": "000/052/127/original/neofox_love.png"
+  },
+  ":neofox_lul:": {
+    "name": "neofox lul",
+    "category": "000/052/170/original/neofox_lul.png"
+  },
+  ":neofox_melt:": {
+    "name": "neofox melt",
+    "category": "000/052/191/original/neofox_melt.png"
+  },
+  ":neofox_melt_happy:": {
+    "name": "neofox melt happy",
+    "category": "000/052/175/original/neofox_melt_happy.png"
+  },
+  ":neofox_melt_reach:": {
+    "name": "neofox melt reach",
+    "category": "000/052/190/original/neofox_melt_reach.png"
+  },
+  ":neofox_melt_sob:": {
+    "name": "neofox melt sob",
+    "category": "000/052/115/original/neofox_melt_sob.png"
+  },
+  ":neofox_melt_sob_loved:": {
+    "name": "neofox melt sob loved",
+    "category": "000/052/098/original/neofox_melt_sob_loved.png"
+  },
+  ":neofox_mug:": {
+    "name": "neofox mug",
+    "category": "000/052/138/original/neofox_mug.png"
+  },
+  ":neofox_mug_owo:": {
+    "name": "neofox mug owo",
+    "category": "000/052/136/original/neofox_mug_owo.png"
+  },
+  ":neofox_mug_sleepy:": {
+    "name": "neofox mug sleepy",
+    "category": "000/052/091/original/neofox_mug_sleepy.png"
+  },
+  ":neofox_nervous:": {
+    "name": "neofox nervous",
+    "category": "000/052/102/original/neofox_nervous.png"
+  },
+  ":neofox_nervous_sweat:": {
+    "name": "neofox nervous sweat",
+    "category": "000/052/109/original/neofox_nervous_sweat.png"
+  },
+  ":neofox_nom_bread:": {
+    "name": "neofox nom bread",
+    "category": "000/052/173/original/neofox_nom_bread.png"
+  },
+  ":neofox_nom_burger:": {
+    "name": "neofox nom burger",
+    "category": "000/052/106/original/neofox_nom_burger.png"
+  },
+  ":neofox_nom_cookie:": {
+    "name": "neofox nom cookie",
+    "category": "000/052/072/original/neofox_nom_cookie.png"
+  },
+  ":neofox_nom_donut:": {
+    "name": "neofox nom donut",
+    "category": "000/052/090/original/neofox_nom_donut.png"
+  },
+  ":neofox_nom_egg:": {
+    "name": "neofox nom egg",
+    "category": "000/052/092/original/neofox_nom_egg.png"
+  },
+  ":neofox_nom_pita:": {
+    "name": "neofox nom pita",
+    "category": "000/052/187/original/neofox_nom_pita.png"
+  },
+  ":neofox_nom_pizza:": {
+    "name": "neofox nom pizza",
+    "category": "000/052/078/original/neofox_nom_pizza.png"
+  },
+  ":neofox_nom_waffle:": {
+    "name": "neofox nom waffle",
+    "category": "000/052/135/original/neofox_nom_waffle.png"
+  },
+  ":neofox_nom_watermelon:": {
+    "name": "neofox nom watermelon",
+    "category": "000/052/165/original/neofox_nom_watermelon.png"
+  },
+  ":neofox_not_like_this:": {
+    "name": "neofox not like this",
+    "category": "000/052/080/original/neofox_not_like_this.png"
+  },
+  ":neofox_not_like_this_derp:": {
+    "name": "neofox not like this derp",
+    "category": "000/052/147/original/neofox_not_like_this_derp.png"
+  },
+  ":neofox_owo:": {
+    "name": "neofox owo",
+    "category": "000/052/088/original/neofox_owo.png"
+  },
+  ":neofox_owo_blep:": {
+    "name": "neofox owo blep",
+    "category": "000/052/120/original/neofox_owo_blep.png"
+  },
+  ":neofox_pat:": {
+    "name": "neofox pat",
+    "category": "000/052/096/original/neofox_pat.png"
+  },
+  ":neofox_pat_derp:": {
+    "name": "neofox pat derp",
+    "category": "000/052/077/original/neofox_pat_derp.png"
+  },
+  ":neofox_pat_happy:": {
+    "name": "neofox pat happy",
+    "category": "000/052/128/original/neofox_pat_happy.png"
+  },
+  ":neofox_pat_sad:": {
+    "name": "neofox pat sad",
+    "category": "000/052/134/original/neofox_pat_sad.png"
+  },
+  ":neofox_peek:": {
+    "name": "neofox peek",
+    "category": "000/052/104/original/neofox_peek.png"
+  },
+  ":neofox_peek_comfy:": {
+    "name": "neofox peek comfy",
+    "category": "000/052/174/original/neofox_peek_comfy.png"
+  },
+  ":neofox_peek_knife:": {
+    "name": "neofox peek knife",
+    "category": "000/052/167/original/neofox_peek_knife.png"
+  },
+  ":neofox_peek_owo:": {
+    "name": "neofox peek owo",
+    "category": "000/052/176/original/neofox_peek_owo.png"
+  },
+  ":neofox_plead:": {
+    "name": "neofox plead",
+    "category": "000/052/169/original/neofox_plead.png"
+  },
+  ":neofox_plead_fingers:": {
+    "name": "neofox plead fingers",
+    "category": "000/052/086/original/neofox_plead_fingers.png"
+  },
+  ":neofox_pout:": {
+    "name": "neofox pout",
+    "category": "000/052/082/original/neofox_pout.png"
+  },
+  ":neofox_reach:": {
+    "name": "neofox reach",
+    "category": "000/052/172/original/neofox_reach.png"
+  },
+  ":neofox_reach_drool:": {
+    "name": "neofox reach drool",
+    "category": "000/052/079/original/neofox_reach_drool.png"
+  },
+  ":neofox_reach_sad:": {
+    "name": "neofox reach sad",
+    "category": "000/052/192/original/neofox_reach_sad.png"
+  },
+  ":neofox_scream:": {
+    "name": "neofox scream",
+    "category": "000/052/132/original/neofox_scream.png"
+  },
+  ":neofox_scream_angry:": {
+    "name": "neofox scream angry",
+    "category": "000/052/100/original/neofox_scream_angry.png"
+  },
+  ":neofox_scream_scared:": {
+    "name": "neofox scream scared",
+    "category": "000/052/171/original/neofox_scream_scared.png"
+  },
+  ":neofox_scream_stare:": {
+    "name": "neofox scream stare",
+    "category": "000/052/155/original/neofox_scream_stare.png"
+  },
+  ":neofox_sip:": {
+    "name": "neofox sip",
+    "category": "000/052/193/original/neofox_sip.png"
+  },
+  ":neofox_sleepy:": {
+    "name": "neofox sleepy",
+    "category": "000/052/168/original/neofox_sleepy.png"
+  },
+  ":neofox_smug:": {
+    "name": "neofox smug",
+    "category": "000/052/133/original/neofox_smug.png"
+  },
+  ":neofox_snug:": {
+    "name": "neofox snug",
+    "category": "000/052/151/original/neofox_snug.png"
+  },
+  ":neofox_snug_nervous:": {
+    "name": "neofox snug nervous",
+    "category": "000/052/152/original/neofox_snug_nervous.png"
+  },
+  ":neofox_snug_owo:": {
+    "name": "neofox snug owo",
+    "category": "000/052/122/original/neofox_snug_owo.png"
+  },
+  ":neofox_snuggle:": {
+    "name": "neofox snuggle",
+    "category": "000/052/131/original/neofox_snuggle.png"
+  },
+  ":neofox_snuggle_cat:": {
+    "name": "neofox snuggle cat",
+    "category": "000/052/087/original/neofox_snuggle_cat.png"
+  },
+  ":neofox_sob:": {
+    "name": "neofox sob",
+    "category": "000/052/117/original/neofox_sob.png"
+  },
+  ":neofox_sob_cute:": {
+    "name": "neofox sob cute",
+    "category": "000/052/097/original/neofox_sob_cute.png"
+  },
+  ":neofox_stare:": {
+    "name": "neofox stare",
+    "category": "000/052/107/original/neofox_stare.png"
+  },
+  ":neofox_stare_nervous:": {
+    "name": "neofox stare nervous",
+    "category": "000/052/182/original/neofox_stare_nervous.png"
+  },
+  ":neofox_surprised:": {
+    "name": "neofox surprised",
+    "category": "000/052/119/original/neofox_surprised.png"
+  },
+  ":neofox_think:": {
+    "name": "neofox think",
+    "category": "000/052/145/original/neofox_think.png"
+  },
+  ":neofox_think_derp:": {
+    "name": "neofox think derp",
+    "category": "000/052/139/original/neofox_think_derp.png"
+  },
+  ":neofox_think_glare:": {
+    "name": "neofox think glare",
+    "category": "000/052/183/original/neofox_think_glare.png"
+  },
+  ":neofox_think_hmm:": {
+    "name": "neofox think hmm",
+    "category": "000/052/160/original/neofox_think_hmm.png"
+  },
+  ":neofox_think_owo:": {
+    "name": "neofox think owo",
+    "category": "000/052/108/original/neofox_think_owo.png"
+  },
+  ":neofox_think_woozy:": {
+    "name": "neofox think woozy",
+    "category": "000/052/074/original/neofox_think_woozy.png"
+  },
+  ":neofox_thumbs_down:": {
+    "name": "neofox thumbs down",
+    "category": "000/052/111/original/neofox_thumbs_down.png"
+  },
+  ":neofox_thumbs_up:": {
+    "name": "neofox thumbs up",
+    "category": "000/052/121/original/neofox_thumbs_up.png"
+  },
+  ":neofox_uwu:": {
+    "name": "neofox uwu",
+    "category": "000/052/181/original/neofox_uwu.png"
+  },
+  ":neofox_wink:": {
+    "name": "neofox wink",
+    "category": "000/052/081/original/neofox_wink.png"
+  },
+  ":neofox_wink_blep:": {
+    "name": "neofox wink blep",
+    "category": "000/052/124/original/neofox_wink_blep.png"
+  },
+  ":neofox_woozy:": {
+    "name": "neofox woozy",
+    "category": "000/052/114/original/neofox_woozy.png"
+  },
+  ":neofox_worried:": {
+    "name": "neofox worried",
+    "category": "000/052/154/original/neofox_worried.png"
   },
   ":nerf_this:": {
     "name": "nerf this",
