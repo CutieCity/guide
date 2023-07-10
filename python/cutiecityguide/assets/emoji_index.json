@@ -923,6 +923,126 @@
     "name": "blob yikes",
     "category": "000/002/493/original/blob_yikes.png"
   },
+  ":blobbee:": {
+    "name": "blobbee",
+    "category": "000/060/407/original/blobbee.png"
+  },
+  ":blobbee_agender:": {
+    "name": "blobbee agender",
+    "category": "000/060/399/original/blobbee_agender.png"
+  },
+  ":blobbee_aromantic:": {
+    "name": "blobbee aromantic",
+    "category": "000/060/408/original/blobbee_aromantic.png"
+  },
+  ":blobbee_asexual:": {
+    "name": "blobbee asexual",
+    "category": "000/060/406/original/blobbee_asexual.png"
+  },
+  ":blobbee_bisexual:": {
+    "name": "blobbee bisexual",
+    "category": "000/060/426/original/blobbee_bisexual.png"
+  },
+  ":blobbee_blep:": {
+    "name": "blobbee blep",
+    "category": "000/060/412/original/blobbee_blep.png"
+  },
+  ":blobbee_blush:": {
+    "name": "blobbee blush",
+    "category": "000/060/403/original/blobbee_blush.png"
+  },
+  ":blobbee_boop:": {
+    "name": "blobbee boop",
+    "category": "000/060/413/original/blobbee_boop.png"
+  },
+  ":blobbee_boykisser:": {
+    "name": "blobbee boykisser",
+    "category": "000/060/397/original/blobbee_boykisser.png"
+  },
+  ":blobbee_fox_ears:": {
+    "name": "blobbee fox ears",
+    "category": "000/060/409/original/blobbee_fox_ears.png"
+  },
+  ":blobbee_fox_hug:": {
+    "name": "blobbee fox hug",
+    "category": "000/060/420/original/blobbee_fox_hug.png"
+  },
+  ":blobbee_fox_snuggle:": {
+    "name": "blobbee fox snuggle",
+    "category": "000/060/418/original/blobbee_fox_snuggle.png"
+  },
+  ":blobbee_headpats:": {
+    "name": "blobbee headpats",
+    "category": "000/060/411/original/blobbee_headpats.png"
+  },
+  ":blobbee_heart:": {
+    "name": "blobbee heart",
+    "category": "000/060/398/original/blobbee_heart.png"
+  },
+  ":blobbee_lego:": {
+    "name": "blobbee lego",
+    "category": "000/060/416/original/blobbee_lego.png"
+  },
+  ":blobbee_lesbian:": {
+    "name": "blobbee lesbian",
+    "category": "000/060/400/original/blobbee_lesbian.png"
+  },
+  ":blobbee_nonbinary:": {
+    "name": "blobbee nonbinary",
+    "category": "000/060/415/original/blobbee_nonbinary.png"
+  },
+  ":blobbee_pansexual:": {
+    "name": "blobbee pansexual",
+    "category": "000/060/423/original/blobbee_pansexual.png"
+  },
+  ":blobbee_peek:": {
+    "name": "blobbee peek",
+    "category": "000/060/425/original/blobbee_peek.png"
+  },
+  ":blobbee_plead:": {
+    "name": "blobbee plead",
+    "category": "000/060/405/original/blobbee_plead.png"
+  },
+  ":blobbee_pride:": {
+    "name": "blobbee pride",
+    "category": "000/060/422/original/blobbee_pride.png"
+  },
+  ":blobbee_sleep:": {
+    "name": "blobbee sleep",
+    "category": "000/060/421/original/blobbee_sleep.png"
+  },
+  ":blobbee_sob:": {
+    "name": "blobbee sob",
+    "category": "000/060/419/original/blobbee_sob.png"
+  },
+  ":blobbee_surprised:": {
+    "name": "blobbee surprised",
+    "category": "000/060/402/original/blobbee_surprised.png"
+  },
+  ":blobbee_think:": {
+    "name": "blobbee think",
+    "category": "000/060/410/original/blobbee_think.png"
+  },
+  ":blobbee_trans:": {
+    "name": "blobbee trans",
+    "category": "000/060/404/original/blobbee_trans.png"
+  },
+  ":blobbee_upside_down:": {
+    "name": "blobbee upside down",
+    "category": "000/060/414/original/blobbee_upside_down.png"
+  },
+  ":blobbee_uwu:": {
+    "name": "blobbee uwu",
+    "category": "000/060/401/original/blobbee_uwu.png"
+  },
+  ":blobbee_wink:": {
+    "name": "blobbee wink",
+    "category": "000/060/417/original/blobbee_wink.png"
+  },
+  ":blobbee_woozy:": {
+    "name": "blobbee woozy",
+    "category": "000/060/424/original/blobbee_woozy.png"
+  },
   ":blobfox:": {
     "name": "blobfox",
     "category": "000/000/368/original/94513ccda5a93ef3.png"

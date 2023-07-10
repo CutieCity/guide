@@ -19,7 +19,7 @@ schedule.
 
 ## Page Controls
 
-There are currently **2448** custom emoji on this page. That's a lot!
+There are currently **2478** custom emoji on this page. That's a lot!
 :flareon_wink:
 
 Here are some handy controls to help you navigate and browse them more easily:
@@ -43,7 +43,7 @@ Here are some handy controls to help you navigate and browse them more easily:
   </div>
 
   <small id="categories-label">
-    **0** out of **30** categories are currently expanded.
+    **0** out of **31** categories are currently expanded.
   </small>
 
   <small id="animations-label">
@@ -51,7 +51,7 @@ Here are some handy controls to help you navigate and browse them more easily:
   </small>
 
   <small id="categories-label-compact">
-    **0**/**30** categories are expanded.
+    **0**/**31** categories are expanded.
   </small>
 
   <small id="animations-label-compact">
@@ -616,6 +616,45 @@ the page. Have fun!
         - ![:birb_wave:](https://media.cutie.city/custom_emojis/images/000/005/855/static/8fb603e923330909.png){.cutiemoji loading="lazy" title="\:birb_wave:"} `:birb_wave:`
 
         </div>
+
+??? abstract "Blobbee (30)"
+
+    ### Blobbee
+
+    <div class="grid cards small-columns" markdown>
+
+    - :blobbee: `:blobbee:`
+    - :blobbee_agender: `:blobbee_agender:`
+    - :blobbee_aromantic: `:blobbee_aromantic:`
+    - :blobbee_asexual: `:blobbee_asexual:`
+    - :blobbee_bisexual: `:blobbee_bisexual:`
+    - :blobbee_blep: `:blobbee_blep:`
+    - :blobbee_blush: `:blobbee_blush:`
+    - :blobbee_boop: `:blobbee_boop:`
+    - :blobbee_boykisser: `:blobbee_boykisser:`
+    - :blobbee_fox_ears: `:blobbee_fox_ears:`
+    - :blobbee_fox_hug: `:blobbee_fox_hug:`
+    - :blobbee_fox_snuggle: `:blobbee_fox_snuggle:`
+    - :blobbee_headpats: `:blobbee_headpats:`
+    - :blobbee_heart: `:blobbee_heart:`
+    - :blobbee_lego: `:blobbee_lego:`
+    - :blobbee_lesbian: `:blobbee_lesbian:`
+    - :blobbee_nonbinary: `:blobbee_nonbinary:`
+    - :blobbee_pansexual: `:blobbee_pansexual:`
+    - :blobbee_peek: `:blobbee_peek:`
+    - :blobbee_plead: `:blobbee_plead:`
+    - :blobbee_pride: `:blobbee_pride:`
+    - :blobbee_sleep: `:blobbee_sleep:`
+    - :blobbee_sob: `:blobbee_sob:`
+    - :blobbee_surprised: `:blobbee_surprised:`
+    - :blobbee_think: `:blobbee_think:`
+    - :blobbee_trans: `:blobbee_trans:`
+    - :blobbee_upside_down: `:blobbee_upside_down:`
+    - :blobbee_uwu: `:blobbee_uwu:`
+    - :blobbee_wink: `:blobbee_wink:`
+    - :blobbee_woozy: `:blobbee_woozy:`
+
+    </div>
 
 ??? abstract "Blobfox (184)"
 
