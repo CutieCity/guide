@@ -47,6 +47,10 @@
     "name": "ashe yell",
     "category": "000/004/761/original/ashe_yell.png"
   },
+  ":autistic_lurk:": {
+    "name": "autistic lurk",
+    "category": "000/061/988/original/7b838a639b1b61a1.png"
+  },
   ":axolotl_angry:": {
     "name": "axolotl angry",
     "category": "000/000/118/original/6636ce789f6d106d.png"
@@ -1987,9 +1991,17 @@
     "name": "bugcat work",
     "category": "000/002/207/original/41123f89c2f1d678.gif"
   },
+  ":bulbasaur_aww:": {
+    "name": "bulbasaur aww",
+    "category": "000/063/151/original/bulbasaur_aww.png"
+  },
   ":bulbasaur_confused:": {
     "name": "bulbasaur confused",
     "category": "000/000/163/original/b2fe04de3bda3d3c.png"
+  },
+  ":bulbasaur_sip:": {
+    "name": "bulbasaur sip",
+    "category": "000/063/146/original/bulbasaur_sip.png"
   },
   ":bunhd:": {
     "name": "bunhd",
@@ -2190,6 +2202,10 @@
   ":call_now:": {
     "name": "call now",
     "category": "000/004/714/original/call_now.png"
+  },
+  ":can_of_worms:": {
+    "name": "can of worms",
+    "category": "000/061/699/original/e5535cc6e859c495.png"
   },
   ":canada_goose:": {
     "name": "canada goose",
@@ -2506,6 +2522,10 @@
   ":caterpillar_knife:": {
     "name": "caterpillar knife",
     "category": "000/004/853/original/caterpillar_knife.png"
+  },
+  ":catgirl_lurk:": {
+    "name": "catgirl lurk",
+    "category": "000/061/701/original/8fce70dabbaf1d59.png"
   },
   ":celebrate:": {
     "name": "celebrate",
@@ -3395,6 +3415,10 @@
     "name": "drgn woozy",
     "category": "000/053/353/original/drgn_woozy.png"
   },
+  ":drool_love:": {
+    "name": "drool love",
+    "category": "000/061/698/original/f93be1c134783f11.png"
+  },
   ":dumpster_fire:": {
     "name": "dumpster fire",
     "category": "000/002/524/original/462978b840504554.gif"
@@ -3427,9 +3451,17 @@
     "name": "elmo fire",
     "category": "000/002/521/original/03d38025faf532d0.png"
   },
+  ":emolga_sweat:": {
+    "name": "emolga sweat",
+    "category": "000/063/149/original/emolga_sweat.png"
+  },
   ":espeon_love:": {
     "name": "espeon love",
     "category": "000/000/048/original/3f456f0a7ceb2fc0.png"
+  },
+  ":espeon_pout:": {
+    "name": "espeon pout",
+    "category": "000/063/148/original/espeon_pout.png"
   },
   ":explosive_anger:": {
     "name": "explosive anger",
@@ -4315,6 +4347,10 @@
     "name": "goose calm",
     "category": "000/005/421/original/fb631a7a9e87e4f1.png"
   },
+  ":goose_chaos:": {
+    "name": "goose chaos",
+    "category": "000/061/704/original/a01a68cc63eb1d5e.png"
+  },
   ":goose_cool:": {
     "name": "goose cool",
     "category": "000/003/971/original/1489fecd3464cfe6.png"
@@ -4551,6 +4587,10 @@
     "name": "heart disability",
     "category": "000/004/163/original/656e7650f7ed637f.png"
   },
+  ":heart_disability_alt:": {
+    "name": "heart disability alt",
+    "category": "000/061/677/original/2f6712ce3f6c8016.png"
+  },
   ":heart_fuchsia:": {
     "name": "heart fuchsia",
     "category": "000/004/701/original/heart_fuchsia.png"
@@ -4634,6 +4674,10 @@
   ":heart_pansexual:": {
     "name": "heart pansexual",
     "category": "000/001/873/original/heart_pansexual.png"
+  },
+  ":heart_pink:": {
+    "name": "heart pink",
+    "category": "000/061/697/original/943ee0b822ac2e31.png"
   },
   ":heart_polyamorous:": {
     "name": "heart polyamorous",
@@ -4887,6 +4931,10 @@
     "name": "kitty yikes",
     "category": "000/000/094/original/b1af23368243e817.png"
   },
+  ":knife_disability:": {
+    "name": "knife disability",
+    "category": "000/061/674/original/7debea0d7123f568.png"
+  },
   ":knife_girl:": {
     "name": "knife girl",
     "category": "000/003/968/original/15f6092b5e9a5ae2.png"
@@ -5002,6 +5050,10 @@
   ":lul_lmao:": {
     "name": "lul lmao",
     "category": "000/005/423/original/8e2c06a820bdc58d.png"
+  },
+  ":magikarp_angry:": {
+    "name": "magikarp angry",
+    "category": "000/063/152/original/magikarp_angry.gif"
   },
   ":malboro_breathe:": {
     "name": "malboro breathe",
@@ -8455,6 +8507,10 @@
     "name": "pink bow",
     "category": "000/002/725/original/1a3372f1ced086bd.png"
   },
+  ":pink_hearts:": {
+    "name": "pink hearts",
+    "category": "000/061/706/original/a488e9a9e79e1351.png"
+  },
   ":pink_moon_and_stars:": {
     "name": "pink moon and stars",
     "category": "000/002/726/original/d7629d78e5447424.png"
@@ -8466,6 +8522,10 @@
   ":piplup_cry:": {
     "name": "piplup cry",
     "category": "000/000/361/original/aea1409fc8f5c385.png"
+  },
+  ":piplup_love:": {
+    "name": "piplup love",
+    "category": "000/063/150/original/piplup_love.png"
   },
   ":pleading_heart_eyes:": {
     "name": "pleading heart eyes",
@@ -9223,6 +9283,10 @@
     "name": "sparkles demimasc",
     "category": "000/005/868/original/sparkles_demimasc.png"
   },
+  ":sparkles_disability:": {
+    "name": "sparkles disability",
+    "category": "000/061/642/original/4fd059a8597f05d6.png"
+  },
   ":sparkles_gay_male:": {
     "name": "sparkles gay male",
     "category": "000/005/873/original/sparkles_gay_male.png"
@@ -9342,6 +9406,10 @@
   ":spinning:": {
     "name": "spinning",
     "category": "000/000/593/original/6523236c56bf8364.gif"
+  },
+  ":spoons:": {
+    "name": "spoons",
+    "category": "000/061/675/original/ee825294cd6dd03b.png"
   },
   ":squirtle_cool:": {
     "name": "squirtle cool",
@@ -9603,6 +9671,10 @@
     "name": "vault boy",
     "category": "000/004/875/original/vault_boy.png"
   },
+  ":vulpix_cry:": {
+    "name": "vulpix cry",
+    "category": "000/063/147/original/vulpix_cry.png"
+  },
   ":vulpix_gift:": {
     "name": "vulpix gift",
     "category": "000/000/194/original/535517d1a3eb6a0d.gif"
@@ -9610,6 +9682,10 @@
   ":vulpix_headpats:": {
     "name": "vulpix headpats",
     "category": "000/002/321/original/06b56e4728049c6d.gif"
+  },
+  ":vulpix_relaxed:": {
+    "name": "vulpix relaxed",
+    "category": "000/063/153/original/f84e2095c2aa58fc.png"
   },
   ":vulpix_sleep:": {
     "name": "vulpix sleep",

@@ -19,7 +19,7 @@ schedule.
 
 ## Page Controls
 
-There are currently **2478** custom emoji on this page. That's a lot!
+There are currently **2497** custom emoji on this page. That's a lot!
 :flareon_wink:
 
 Here are some handy controls to help you navigate and browse them more easily:
@@ -2118,7 +2118,7 @@ the page. Have fun!
 
     </div>
 
-??? abstract "Miscellaneous (224)"
+??? abstract "Miscellaneous (233)"
 
     ### Miscellaneous
 
@@ -2129,6 +2129,7 @@ the page. Have fun!
         - :angelic_heart: `:angelic_heart:`
         - :arrow_through_heart: `:arrow_through_heart:`
         - :arrow_through_hearts: `:arrow_through_hearts:`
+        - :autistic_lurk: `:autistic_lurk:`
         - :baby_yoda_sleepy: `:baby_yoda_sleepy:`
         - :balloon_hearts: `:balloon_hearts:`
         - :baseball_bat: `:baseball_bat:`
@@ -2147,10 +2148,12 @@ the page. Have fun!
         - :bunny_sign_toxic: `:bunny_sign_toxic:`
         - :butt: `:butt:`
         - :butt_thonk: `:butt_thonk:`
+        - :can_of_worms: `:can_of_worms:`
         - :canada_goose: `:canada_goose:`
         - :canada_moose: `:canada_moose:`
         - :care_package: `:care_package:`
         - :caterpillar_knife: `:caterpillar_knife:`
+        - :catgirl_lurk: `:catgirl_lurk:`
         - :celebrate: `:celebrate:`
         - :chick_hearts: `:chick_hearts:`
         - :chocolate_milk: `:chocolate_milk:`
@@ -2176,6 +2179,7 @@ the page. Have fun!
         - :doge_jam: `:doge_jam:`
         - :doge_laugh: `:doge_laugh:`
         - :doh_no: `:doh_no:`
+        - :drool_love: `:drool_love:`
         - :dumpster_fire: `:dumpster_fire:`
         - :eggplant_hand: `:eggplant_hand:`
         - :eggplant_snip: `:eggplant_snip:`
@@ -2193,6 +2197,7 @@ the page. Have fun!
         - :gaming_love: `:gaming_love:`
         - :giggle: `:giggle:`
         - :goose_bonk: `:goose_bonk:`
+        - :goose_chaos: `:goose_chaos:`
         - :goose_honk: `:goose_honk:`
         - :gotta_go_fast: `:gotta_go_fast:`
         - :grabby_hands: `:grabby_hands:`
@@ -2207,6 +2212,7 @@ the page. Have fun!
         - :heart_cyber: `:heart_cyber:`
         - :heart_fuchsia: `:heart_fuchsia:`
         - :heart_nature: `:heart_nature:`
+        - :heart_pink: `:heart_pink:`
         - :hehe: `:hehe:`
         - :hug_love: `:hug_love:`
         - :hugs: `:hugs:`
@@ -2219,6 +2225,7 @@ the page. Have fun!
         - :kirby_burger: `:kirby_burger:`
         - :kirby_popcorn: `:kirby_popcorn:`
         - :kirby_tired: `:kirby_tired:`
+        - :knife_disability: `:knife_disability:`
         - :knife_girl: `:knife_girl:`
         - :koala_comfy: `:koala_comfy:`
         - :lavender: `:lavender:`
@@ -2260,6 +2267,7 @@ the page. Have fun!
         - :penguin_roll: `:penguin_roll:`
         - :pensive_wobble: `:pensive_wobble:`
         - :pink_bow: `:pink_bow:`
+        - :pink_hearts: `:pink_hearts:`
         - :pink_moon_and_stars: `:pink_moon_and_stars:`
         - :pink_sparkles: `:pink_sparkles:`
         - :pleading_heart_eyes: `:pleading_heart_eyes:`
@@ -2306,6 +2314,7 @@ the page. Have fun!
         - :sleepy_pillow: `:sleepy_pillow:`
         - :snuggie_dance: `:snuggie_dance:`
         - :spinning: `:spinning:`
+        - :spoons: `:spoons:`
         - :squishy_cheeks: `:squishy_cheeks:`
         - :star_happy: `:star_happy:`
         - :star_sleepy: `:star_sleepy:`
@@ -2360,6 +2369,7 @@ the page. Have fun!
         - :angelic_heart: `:angelic_heart:`
         - :arrow_through_heart: `:arrow_through_heart:`
         - :arrow_through_hearts: `:arrow_through_hearts:`
+        - :autistic_lurk: `:autistic_lurk:`
         - :baby_yoda_sleepy: `:baby_yoda_sleepy:`
         - :balloon_hearts: `:balloon_hearts:`
         - :baseball_bat: `:baseball_bat:`
@@ -2378,10 +2388,12 @@ the page. Have fun!
         - :bunny_sign_toxic: `:bunny_sign_toxic:`
         - :butt: `:butt:`
         - :butt_thonk: `:butt_thonk:`
+        - :can_of_worms: `:can_of_worms:`
         - :canada_goose: `:canada_goose:`
         - :canada_moose: `:canada_moose:`
         - :care_package: `:care_package:`
         - :caterpillar_knife: `:caterpillar_knife:`
+        - :catgirl_lurk: `:catgirl_lurk:`
         - :celebrate: `:celebrate:`
         - :chick_hearts: `:chick_hearts:`
         - :chocolate_milk: `:chocolate_milk:`
@@ -2407,6 +2419,7 @@ the page. Have fun!
         - ![:doge_jam:](https://media.cutie.city/custom_emojis/images/000/004/983/static/d6bb4d6531a876fd.png){.cutiemoji loading="lazy" title="\:doge_jam:"} `:doge_jam:`
         - :doge_laugh: `:doge_laugh:`
         - :doh_no: `:doh_no:`
+        - :drool_love: `:drool_love:`
         - ![:dumpster_fire:](https://media.cutie.city/custom_emojis/images/000/002/524/static/462978b840504554.png){.cutiemoji loading="lazy" title="\:dumpster_fire:"} `:dumpster_fire:`
         - :eggplant_hand: `:eggplant_hand:`
         - :eggplant_snip: `:eggplant_snip:`
@@ -2424,6 +2437,7 @@ the page. Have fun!
         - :gaming_love: `:gaming_love:`
         - :giggle: `:giggle:`
         - ![:goose_bonk:](https://media.cutie.city/custom_emojis/images/000/002/327/static/43c6f3e6a13e4679.png){.cutiemoji loading="lazy" title="\:goose_bonk:"} `:goose_bonk:`
+        - :goose_chaos: `:goose_chaos:`
         - :goose_honk: `:goose_honk:`
         - ![:gotta_go_fast:](https://media.cutie.city/custom_emojis/images/000/002/523/static/2197609138da7b1c.png){.cutiemoji loading="lazy" title="\:gotta_go_fast:"} `:gotta_go_fast:`
         - :grabby_hands: `:grabby_hands:`
@@ -2438,6 +2452,7 @@ the page. Have fun!
         - :heart_cyber: `:heart_cyber:`
         - :heart_fuchsia: `:heart_fuchsia:`
         - :heart_nature: `:heart_nature:`
+        - :heart_pink: `:heart_pink:`
         - :hehe: `:hehe:`
         - :hug_love: `:hug_love:`
         - :hugs: `:hugs:`
@@ -2450,6 +2465,7 @@ the page. Have fun!
         - :kirby_burger: `:kirby_burger:`
         - :kirby_popcorn: `:kirby_popcorn:`
         - :kirby_tired: `:kirby_tired:`
+        - :knife_disability: `:knife_disability:`
         - :knife_girl: `:knife_girl:`
         - :koala_comfy: `:koala_comfy:`
         - :lavender: `:lavender:`
@@ -2491,6 +2507,7 @@ the page. Have fun!
         - ![:penguin_roll:](https://media.cutie.city/custom_emojis/images/000/002/578/static/2838b0d94430385f.png){.cutiemoji loading="lazy" title="\:penguin_roll:"} `:penguin_roll:`
         - ![:pensive_wobble:](https://media.cutie.city/custom_emojis/images/000/004/905/static/pensive_wobble.png){.cutiemoji loading="lazy" title="\:pensive_wobble:"} `:pensive_wobble:`
         - :pink_bow: `:pink_bow:`
+        - :pink_hearts: `:pink_hearts:`
         - :pink_moon_and_stars: `:pink_moon_and_stars:`
         - :pink_sparkles: `:pink_sparkles:`
         - :pleading_heart_eyes: `:pleading_heart_eyes:`
@@ -2537,6 +2554,7 @@ the page. Have fun!
         - :sleepy_pillow: `:sleepy_pillow:`
         - ![:snuggie_dance:](https://media.cutie.city/custom_emojis/images/000/002/304/static/de1eeaf7cc781076.png){.cutiemoji loading="lazy" title="\:snuggie_dance:"} `:snuggie_dance:`
         - ![:spinning:](https://media.cutie.city/custom_emojis/images/000/000/593/static/6523236c56bf8364.png){.cutiemoji loading="lazy" title="\:spinning:"} `:spinning:`
+        - :spoons: `:spoons:`
         - ![:squishy_cheeks:](https://media.cutie.city/custom_emojis/images/000/000/187/static/165b3bf688136341.png){.cutiemoji loading="lazy" title="\:squishy_cheeks:"} `:squishy_cheeks:`
         - :star_happy: `:star_happy:`
         - :star_sleepy: `:star_sleepy:`
@@ -2869,7 +2887,7 @@ the page. Have fun!
 
     </div>
 
-??? abstract "Pokemon (64)"
+??? abstract "Pokemon (72)"
 
     ### Pokemon
 
@@ -2877,14 +2895,18 @@ the page. Have fun!
 
         <div class="grid cards small-columns" markdown>
 
+        - :bulbasaur_aww: `:bulbasaur_aww:`
         - :bulbasaur_confused: `:bulbasaur_confused:`
+        - :bulbasaur_sip: `:bulbasaur_sip:`
         - :charmander_yay: `:charmander_yay:`
         - :chikorita_disgust: `:chikorita_disgust:`
         - :cyndaquil_blush: `:cyndaquil_blush:`
         - :ditto_yikes: `:ditto_yikes:`
         - :eevee_cool: `:eevee_cool:`
         - :eevee_joy: `:eevee_joy:`
+        - :emolga_sweat: `:emolga_sweat:`
         - :espeon_love: `:espeon_love:`
+        - :espeon_pout: `:espeon_pout:`
         - :fennekin_gasp: `:fennekin_gasp:`
         - :flareon_pop_cat: `:flareon_pop_cat:`
         - :flareon_sip: `:flareon_sip:`
@@ -2901,6 +2923,7 @@ the page. Have fun!
         - :leafeon_giggle: `:leafeon_giggle:`
         - :leafeon_money: `:leafeon_money:`
         - :litten_rage: `:litten_rage:`
+        - :magikarp_angry: `:magikarp_angry:`
         - :mankey_angry: `:mankey_angry:`
         - :master_ball: `:master_ball:`
         - :meowth_money: `:meowth_money:`
@@ -2915,6 +2938,7 @@ the page. Have fun!
         - :pikachu_smug: `:pikachu_smug:`
         - :pikachu_toss_togepi: `:pikachu_toss_togepi:`
         - :piplup_cry: `:piplup_cry:`
+        - :piplup_love: `:piplup_love:`
         - :pokeball: `:pokeball:`
         - :psyduck_confused: `:psyduck_confused:`
         - :psyduck_sweat: `:psyduck_sweat:`
@@ -2936,8 +2960,10 @@ the page. Have fun!
         - :umbreon_reverse_uno: `:umbreon_reverse_uno:`
         - :vaporeon_cry: `:vaporeon_cry:`
         - :vaporeon_sip: `:vaporeon_sip:`
+        - :vulpix_cry: `:vulpix_cry:`
         - :vulpix_gift: `:vulpix_gift:`
         - :vulpix_headpats: `:vulpix_headpats:`
+        - :vulpix_relaxed: `:vulpix_relaxed:`
         - :vulpix_sleep: `:vulpix_sleep:`
         - :vulpix_sparkle: `:vulpix_sparkle:`
         - :zangoose_love: `:zangoose_love:`
@@ -2948,14 +2974,18 @@ the page. Have fun!
 
         <div class="grid cards small-columns" markdown>
 
+        - :bulbasaur_aww: `:bulbasaur_aww:`
         - :bulbasaur_confused: `:bulbasaur_confused:`
+        - :bulbasaur_sip: `:bulbasaur_sip:`
         - :charmander_yay: `:charmander_yay:`
         - :chikorita_disgust: `:chikorita_disgust:`
         - :cyndaquil_blush: `:cyndaquil_blush:`
         - :ditto_yikes: `:ditto_yikes:`
         - :eevee_cool: `:eevee_cool:`
         - :eevee_joy: `:eevee_joy:`
+        - :emolga_sweat: `:emolga_sweat:`
         - :espeon_love: `:espeon_love:`
+        - :espeon_pout: `:espeon_pout:`
         - :fennekin_gasp: `:fennekin_gasp:`
         - ![:flareon_pop_cat:](https://media.cutie.city/custom_emojis/images/000/002/311/static/1564f4fd728bd4d9.png){.cutiemoji loading="lazy" title="\:flareon_pop_cat:"} `:flareon_pop_cat:`
         - :flareon_sip: `:flareon_sip:`
@@ -2972,6 +3002,7 @@ the page. Have fun!
         - ![:leafeon_giggle:](https://media.cutie.city/custom_emojis/images/000/002/312/static/e598d6c0d09410fd.png){.cutiemoji loading="lazy" title="\:leafeon_giggle:"} `:leafeon_giggle:`
         - ![:leafeon_money:](https://media.cutie.city/custom_emojis/images/000/002/308/static/6581df86ba8d918d.png){.cutiemoji loading="lazy" title="\:leafeon_money:"} `:leafeon_money:`
         - :litten_rage: `:litten_rage:`
+        - ![:magikarp_angry:](https://media.cutie.city/custom_emojis/images/000/063/152/static/magikarp_angry.png){.cutiemoji loading="lazy" title="\:magikarp_angry:"} `:magikarp_angry:`
         - :mankey_angry: `:mankey_angry:`
         - :master_ball: `:master_ball:`
         - ![:meowth_money:](https://media.cutie.city/custom_emojis/images/000/000/360/static/bf3f2b48e2694400.png){.cutiemoji loading="lazy" title="\:meowth_money:"} `:meowth_money:`
@@ -2986,6 +3017,7 @@ the page. Have fun!
         - :pikachu_smug: `:pikachu_smug:`
         - ![:pikachu_toss_togepi:](https://media.cutie.city/custom_emojis/images/000/002/314/static/b33699325e8a5630.png){.cutiemoji loading="lazy" title="\:pikachu_toss_togepi:"} `:pikachu_toss_togepi:`
         - :piplup_cry: `:piplup_cry:`
+        - :piplup_love: `:piplup_love:`
         - :pokeball: `:pokeball:`
         - :psyduck_confused: `:psyduck_confused:`
         - :psyduck_sweat: `:psyduck_sweat:`
@@ -3007,8 +3039,10 @@ the page. Have fun!
         - :umbreon_reverse_uno: `:umbreon_reverse_uno:`
         - :vaporeon_cry: `:vaporeon_cry:`
         - :vaporeon_sip: `:vaporeon_sip:`
+        - :vulpix_cry: `:vulpix_cry:`
         - ![:vulpix_gift:](https://media.cutie.city/custom_emojis/images/000/000/194/static/535517d1a3eb6a0d.png){.cutiemoji loading="lazy" title="\:vulpix_gift:"} `:vulpix_gift:`
         - ![:vulpix_headpats:](https://media.cutie.city/custom_emojis/images/000/002/321/static/06b56e4728049c6d.png){.cutiemoji loading="lazy" title="\:vulpix_headpats:"} `:vulpix_headpats:`
+        - :vulpix_relaxed: `:vulpix_relaxed:`
         - :vulpix_sleep: `:vulpix_sleep:`
         - :vulpix_sparkle: `:vulpix_sparkle:`
         - :zangoose_love: `:zangoose_love:`
@@ -3128,7 +3162,7 @@ the page. Have fun!
 
     </div>
 
-??? abstract "Pride Hearts (56)"
+??? abstract "Pride Hearts (57)"
 
     ### Pride Hearts
 
@@ -3155,6 +3189,7 @@ the page. Have fun!
     - :heart_demisexual: `:heart_demisexual:`
     - :heart_diamoric: `:heart_diamoric:`
     - :heart_disability: `:heart_disability:`
+    - :heart_disability_alt: `:heart_disability_alt:`
     - :heart_gay: `:heart_gay:`
     - :heart_gay_male: `:heart_gay_male:`
     - :heart_genderfluid: `:heart_genderfluid:`
@@ -3290,7 +3325,7 @@ the page. Have fun!
 
     </div>
 
-??? abstract "Queemoji (40)"
+??? abstract "Queemoji (41)"
 
     ### Queemoji
 
@@ -3307,6 +3342,7 @@ the page. Have fun!
     - :sparkles_demifemme: `:sparkles_demifemme:`
     - :sparkles_demigender: `:sparkles_demigender:`
     - :sparkles_demimasc: `:sparkles_demimasc:`
+    - :sparkles_disability: `:sparkles_disability:`
     - :sparkles_gay_male: `:sparkles_gay_male:`
     - :sparkles_genderfluid: `:sparkles_genderfluid:`
     - :sparkles_genderflux: `:sparkles_genderflux:`
