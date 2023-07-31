@@ -23,6 +23,10 @@
     "name": "anarchy",
     "category": "000/002/143/original/888342b872b9ac95.png"
   },
+  ":anarchy_heart:": {
+    "name": "anarchy heart",
+    "category": "000/071/732/original/aa439da89077a23a.png"
+  },
   ":angelic_heart:": {
     "name": "angelic heart",
     "category": "000/000/067/original/3f3459e03c5e9b31.png"
@@ -106,6 +110,10 @@
   ":balloon_hearts:": {
     "name": "balloon hearts",
     "category": "000/004/909/original/balloon_hearts.png"
+  },
+  ":bam:": {
+    "name": "bam",
+    "category": "000/071/792/original/f574e217aacbbcab.png"
   },
   ":baseball_bat:": {
     "name": "baseball bat",
@@ -4755,6 +4763,10 @@
     "name": "hella gay",
     "category": "000/005/079/original/hella_gay.png"
   },
+  ":hot:": {
+    "name": "hot",
+    "category": "000/071/788/original/c3590f1dd86afd58.png"
+  },
   ":hug_love:": {
     "name": "hug love",
     "category": "000/004/013/original/0ea222b26e910cf5.png"
@@ -5030,6 +5042,10 @@
   ":lizard_hehe:": {
     "name": "lizard hehe",
     "category": "000/002/497/original/3322077f82f045be.gif"
+  },
+  ":llama_roll:": {
+    "name": "llama roll",
+    "category": "000/071/740/original/6bef5b178b5ffca1.gif"
   },
   ":lol:": {
     "name": "lol",
@@ -8423,6 +8439,10 @@
     "name": "patrick yum",
     "category": "000/000/138/original/671262846ed95e34.png"
   },
+  ":penguin_awake:": {
+    "name": "penguin awake",
+    "category": "000/071/809/original/6ea5e22e43a6c62d.png"
+  },
   ":penguin_cry:": {
     "name": "penguin cry",
     "category": "000/002/017/original/1cd44b709adf671d.png"
@@ -8458,6 +8478,10 @@
   ":penguin_sleep:": {
     "name": "penguin sleep",
     "category": "000/002/060/original/3566afb6543f4055.png"
+  },
+  ":penguin_sob:": {
+    "name": "penguin sob",
+    "category": "000/071/810/original/886915ebe2dd2c8e.png"
   },
   ":penguin_stare:": {
     "name": "penguin stare",
@@ -8502,6 +8526,10 @@
   ":pikachu_toss_togepi:": {
     "name": "pikachu toss togepi",
     "category": "000/002/314/original/b33699325e8a5630.gif"
+  },
+  ":pink_100:": {
+    "name": "pink 100",
+    "category": "000/071/746/original/facba4fb9130390e.png"
   },
   ":pink_bow:": {
     "name": "pink bow",
@@ -9227,6 +9255,10 @@
     "name": "snuggie dance",
     "category": "000/002/304/original/de1eeaf7cc781076.gif"
   },
+  ":soda:": {
+    "name": "soda",
+    "category": "000/071/745/original/5493ea0e1028e6cb.png"
+  },
   ":soldier_angry:": {
     "name": "soldier angry",
     "category": "000/004/759/original/soldier_angry.png"
@@ -9491,6 +9523,10 @@
     "name": "teddiursa cute",
     "category": "000/000/115/original/dc00a1f4cbff004e.png"
   },
+  ":thank_you:": {
+    "name": "thank you",
+    "category": "000/071/739/original/631e83e31b3a83f2.png"
+  },
   ":therian:": {
     "name": "therian",
     "category": "000/002/563/original/f4a0c8812eef60bc.png"
@@ -9498,6 +9534,10 @@
   ":think_eyes:": {
     "name": "think eyes",
     "category": "000/000/230/original/a5479e7190712d32.png"
+  },
+  ":this:": {
+    "name": "this",
+    "category": "000/071/743/original/e9a4ff6ca1a866c4.png"
   },
   ":this_is_fine:": {
     "name": "this is fine",
@@ -9650,6 +9690,10 @@
   ":uwu_lemon:": {
     "name": "uwu lemon",
     "category": "000/000/234/original/fc5c353dbee34f2a.png"
+  },
+  ":vader_love:": {
+    "name": "vader love",
+    "category": "000/071/812/original/096cdde21fff59c3.png"
   },
   ":valid:": {
     "name": "valid",

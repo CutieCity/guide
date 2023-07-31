@@ -19,7 +19,7 @@ schedule.
 
 ## Page Controls
 
-There are currently **2497** custom emoji on this page. That's a lot!
+There are currently **2508** custom emoji on this page. That's a lot!
 :flareon_wink:
 
 Here are some handy controls to help you navigate and browse them more easily:
@@ -2118,7 +2118,7 @@ the page. Have fun!
 
     </div>
 
-??? abstract "Miscellaneous (233)"
+??? abstract "Miscellaneous (238)"
 
     ### Miscellaneous
 
@@ -2235,6 +2235,7 @@ the page. Have fun!
         - :lets_go: `:lets_go:`
         - :lick_lips: `:lick_lips:`
         - :lizard_hehe: `:lizard_hehe:`
+        - :llama_roll: `:llama_roll:`
         - :lots_of_love: `:lots_of_love:`
         - :lotus_flower: `:lotus_flower:`
         - :lul_lmao: `:lul_lmao:`
@@ -2262,9 +2263,11 @@ the page. Have fun!
         - :party_parrot: `:party_parrot:`
         - :party_roach: `:party_roach:`
         - :party_wobble: `:party_wobble:`
+        - :penguin_awake: `:penguin_awake:`
         - :penguin_knife: `:penguin_knife:`
         - :penguin_pat: `:penguin_pat:`
         - :penguin_roll: `:penguin_roll:`
+        - :penguin_sob: `:penguin_sob:`
         - :pensive_wobble: `:pensive_wobble:`
         - :pink_bow: `:pink_bow:`
         - :pink_hearts: `:pink_hearts:`
@@ -2313,6 +2316,7 @@ the page. Have fun!
         - :skull_love: `:skull_love:`
         - :sleepy_pillow: `:sleepy_pillow:`
         - :snuggie_dance: `:snuggie_dance:`
+        - :soda: `:soda:`
         - :spinning: `:spinning:`
         - :spoons: `:spoons:`
         - :squishy_cheeks: `:squishy_cheeks:`
@@ -2349,6 +2353,7 @@ the page. Have fun!
         - :uwu_face: `:uwu_face:`
         - :uwu_heart: `:uwu_heart:`
         - :uwu_lemon: `:uwu_lemon:`
+        - :vader_love: `:vader_love:`
         - :vampire_fangs: `:vampire_fangs:`
         - :vault_boy: `:vault_boy:`
         - :waffle_heart: `:waffle_heart:`
@@ -2475,6 +2480,7 @@ the page. Have fun!
         - :lets_go: `:lets_go:`
         - :lick_lips: `:lick_lips:`
         - ![:lizard_hehe:](https://media.cutie.city/custom_emojis/images/000/002/497/static/3322077f82f045be.png){.cutiemoji loading="lazy" title="\:lizard_hehe:"} `:lizard_hehe:`
+        - ![:llama_roll:](https://media.cutie.city/custom_emojis/images/000/071/740/static/6bef5b178b5ffca1.png){.cutiemoji loading="lazy" title="\:llama_roll:"} `:llama_roll:`
         - :lots_of_love: `:lots_of_love:`
         - :lotus_flower: `:lotus_flower:`
         - :lul_lmao: `:lul_lmao:`
@@ -2502,9 +2508,11 @@ the page. Have fun!
         - :party_parrot: `:party_parrot:`
         - ![:party_roach:](https://media.cutie.city/custom_emojis/images/000/005/490/static/a16b582f481cb26e.png){.cutiemoji loading="lazy" title="\:party_roach:"} `:party_roach:`
         - ![:party_wobble:](https://media.cutie.city/custom_emojis/images/000/005/467/static/9ddcba2148575cb3.png){.cutiemoji loading="lazy" title="\:party_wobble:"} `:party_wobble:`
+        - :penguin_awake: `:penguin_awake:`
         - :penguin_knife: `:penguin_knife:`
         - ![:penguin_pat:](https://media.cutie.city/custom_emojis/images/000/000/190/static/279268c583752e64.png){.cutiemoji loading="lazy" title="\:penguin_pat:"} `:penguin_pat:`
         - ![:penguin_roll:](https://media.cutie.city/custom_emojis/images/000/002/578/static/2838b0d94430385f.png){.cutiemoji loading="lazy" title="\:penguin_roll:"} `:penguin_roll:`
+        - :penguin_sob: `:penguin_sob:`
         - ![:pensive_wobble:](https://media.cutie.city/custom_emojis/images/000/004/905/static/pensive_wobble.png){.cutiemoji loading="lazy" title="\:pensive_wobble:"} `:pensive_wobble:`
         - :pink_bow: `:pink_bow:`
         - :pink_hearts: `:pink_hearts:`
@@ -2553,6 +2561,7 @@ the page. Have fun!
         - :skull_love: `:skull_love:`
         - :sleepy_pillow: `:sleepy_pillow:`
         - ![:snuggie_dance:](https://media.cutie.city/custom_emojis/images/000/002/304/static/de1eeaf7cc781076.png){.cutiemoji loading="lazy" title="\:snuggie_dance:"} `:snuggie_dance:`
+        - :soda: `:soda:`
         - ![:spinning:](https://media.cutie.city/custom_emojis/images/000/000/593/static/6523236c56bf8364.png){.cutiemoji loading="lazy" title="\:spinning:"} `:spinning:`
         - :spoons: `:spoons:`
         - ![:squishy_cheeks:](https://media.cutie.city/custom_emojis/images/000/000/187/static/165b3bf688136341.png){.cutiemoji loading="lazy" title="\:squishy_cheeks:"} `:squishy_cheeks:`
@@ -2589,6 +2598,7 @@ the page. Have fun!
         - :uwu_face: `:uwu_face:`
         - ![:uwu_heart:](https://media.cutie.city/custom_emojis/images/000/000/228/static/ded8c8c14ffdb773.png){.cutiemoji loading="lazy" title="\:uwu_heart:"} `:uwu_heart:`
         - :uwu_lemon: `:uwu_lemon:`
+        - :vader_love: `:vader_love:`
         - :vampire_fangs: `:vampire_fangs:`
         - :vault_boy: `:vault_boy:`
         - :waffle_heart: `:waffle_heart:`
@@ -3522,7 +3532,7 @@ the page. Have fun!
 
         </div>
 
-??? abstract "Symbols & Text (64)"
+??? abstract "Symbols & Text (70)"
 
     ### Symbols & Text
 
@@ -3532,8 +3542,10 @@ the page. Have fun!
     - :adhd: `:adhd:`
     - :adhd_butterfly: `:adhd_butterfly:`
     - :anarchy: `:anarchy:`
+    - :anarchy_heart: `:anarchy_heart:`
     - :antifa: `:antifa:`
     - :asap: `:asap:`
+    - :bam: `:bam:`
     - :big_mood: `:big_mood:`
     - :black_lives_matter: `:black_lives_matter:`
     - :boosts_ok: `:boosts_ok:`
@@ -3554,6 +3566,7 @@ the page. Have fun!
     - :half_gay_pan: `:half_gay_pan:`
     - :heck: `:heck:`
     - :hella_gay: `:hella_gay:`
+    - :hot: `:hot:`
     - :hype: `:hype:`
     - :i_love_you: `:i_love_you:`
     - :infinity_heart: `:infinity_heart:`
@@ -3571,13 +3584,16 @@ the page. Have fun!
     - :oof: `:oof:`
     - :owo: `:owo:`
     - :pentagram: `:pentagram:`
+    - :pink_100: `:pink_100:`
     - :plural: `:plural:`
     - :plural_ampersand: `:plural_ampersand:`
     - :polyamory: `:polyamory:`
     - :sexy: `:sexy:`
     - :sheesh: `:sheesh:`
     - :soon_tm: `:soon_tm:`
+    - :thank_you: `:thank_you:`
     - :therian: `:therian:`
+    - :this: `:this:`
     - :tranarchy: `:tranarchy:`
     - :trans_galactic_empire: `:trans_galactic_empire:`
     - :trans_jedi_order: `:trans_jedi_order:`
