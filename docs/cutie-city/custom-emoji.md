@@ -19,7 +19,7 @@ schedule.
 
 ## Page Controls
 
-There are currently **2508** custom emoji on this page. That's a lot!
+There are currently **2544** custom emoji on this page. That's a lot!
 :flareon_wink:
 
 Here are some handy controls to help you navigate and browse them more easily:
@@ -2118,7 +2118,7 @@ the page. Have fun!
 
     </div>
 
-??? abstract "Miscellaneous (238)"
+??? abstract "Miscellaneous (240)"
 
     ### Miscellaneous
 
@@ -2238,6 +2238,7 @@ the page. Have fun!
         - :llama_roll: `:llama_roll:`
         - :lots_of_love: `:lots_of_love:`
         - :lotus_flower: `:lotus_flower:`
+        - :lucina_love: `:lucina_love:`
         - :lul_lmao: `:lul_lmao:`
         - :mega_flushed: `:mega_flushed:`
         - :melody_cry: `:melody_cry:`
@@ -2268,6 +2269,7 @@ the page. Have fun!
         - :penguin_pat: `:penguin_pat:`
         - :penguin_roll: `:penguin_roll:`
         - :penguin_sob: `:penguin_sob:`
+        - :penguin_tea: `:penguin_tea:`
         - :pensive_wobble: `:pensive_wobble:`
         - :pink_bow: `:pink_bow:`
         - :pink_hearts: `:pink_hearts:`
@@ -2483,6 +2485,7 @@ the page. Have fun!
         - ![:llama_roll:](https://media.cutie.city/custom_emojis/images/000/071/740/static/6bef5b178b5ffca1.png){.cutiemoji loading="lazy" title="\:llama_roll:"} `:llama_roll:`
         - :lots_of_love: `:lots_of_love:`
         - :lotus_flower: `:lotus_flower:`
+        - :lucina_love: `:lucina_love:`
         - :lul_lmao: `:lul_lmao:`
         - :mega_flushed: `:mega_flushed:`
         - :melody_cry: `:melody_cry:`
@@ -2513,6 +2516,7 @@ the page. Have fun!
         - ![:penguin_pat:](https://media.cutie.city/custom_emojis/images/000/000/190/static/279268c583752e64.png){.cutiemoji loading="lazy" title="\:penguin_pat:"} `:penguin_pat:`
         - ![:penguin_roll:](https://media.cutie.city/custom_emojis/images/000/002/578/static/2838b0d94430385f.png){.cutiemoji loading="lazy" title="\:penguin_roll:"} `:penguin_roll:`
         - :penguin_sob: `:penguin_sob:`
+        - :penguin_tea: `:penguin_tea:`
         - ![:pensive_wobble:](https://media.cutie.city/custom_emojis/images/000/004/905/static/pensive_wobble.png){.cutiemoji loading="lazy" title="\:pensive_wobble:"} `:pensive_wobble:`
         - :pink_bow: `:pink_bow:`
         - :pink_hearts: `:pink_hearts:`
@@ -2741,7 +2745,7 @@ the page. Have fun!
 
     </div>
 
-??? abstract "Overwatch (32)"
+??? abstract "Overwatch (64)"
 
     ### Overwatch
 
@@ -2751,36 +2755,68 @@ the page. Have fun!
 
         - :ana_no: `:ana_no:`
         - :ana_shush: `:ana_shush:`
+        - :ana_unamused: `:ana_unamused:`
+        - :ana_zzz: `:ana_zzz:`
         - :ashe_yell: `:ashe_yell:`
+        - :bastion_birb: `:bastion_birb:`
         - :bastion_dizzy: `:bastion_dizzy:`
         - :bob_sweat: `:bob_sweat:`
+        - :brigitte_smile: `:brigitte_smile:`
+        - :cassidy_glare: `:cassidy_glare:`
         - :cassidy_grin: `:cassidy_grin:`
+        - :cassidy_lul: `:cassidy_lul:`
+        - :doomfist_angry: `:doomfist_angry:`
         - :doomfist_confused: `:doomfist_confused:`
         - :dva_peace: `:dva_peace:`
         - :dva_rage: `:dva_rage:`
+        - :dva_salt: `:dva_salt:`
+        - :dva_selfie: `:dva_selfie:`
+        - :genji_dragonblade: `:genji_dragonblade:`
         - :genji_needs_healing: `:genji_needs_healing:`
+        - :hammond_eating: `:hammond_eating:`
         - :hammond_point: `:hammond_point:`
+        - :hanzo_yell: `:hanzo_yell:`
         - :hanzo_yikes: `:hanzo_yikes:`
         - :junkrat_gasp: `:junkrat_gasp:`
+        - :kiriko_lurk: `:kiriko_lurk:`
+        - :lifeweaver_heart: `:lifeweaver_heart:`
         - :lucio_cool: `:lucio_cool:`
+        - :lucio_jam: `:lucio_jam:`
         - :mei_nerdy: `:mei_nerdy:`
+        - :mei_snowball: `:mei_snowball:`
+        - :mercy_attack: `:mercy_attack:`
         - :mercy_grin: `:mercy_grin:`
         - :mercy_headpats: `:mercy_headpats:`
+        - :mercy_resurrect: `:mercy_resurrect:`
         - :moira_facepalm: `:moira_facepalm:`
+        - :moira_frown: `:moira_frown:`
+        - :orisa_happy: `:orisa_happy:`
         - :orisa_love: `:orisa_love:`
         - :pharah_unamused: `:pharah_unamused:`
+        - :reaper_attack: `:reaper_attack:`
         - :reaper_shrug: `:reaper_shrug:`
+        - :reinhardt_hammer: `:reinhardt_hammer:`
         - :reinhardt_laugh: `:reinhardt_laugh:`
         - :roadhog_rage: `:roadhog_rage:`
+        - :roadhog_surprised: `:roadhog_surprised:`
         - :soldier_angry: `:soldier_angry:`
+        - :soldier_sweat: `:soldier_sweat:`
         - :sombra_boop: `:sombra_boop:`
+        - :sombra_giggle: `:sombra_giggle:`
+        - :sombra_hack: `:sombra_hack:`
+        - :symmetra_giggle: `:symmetra_giggle:`
         - :symmetra_unamused: `:symmetra_unamused:`
         - :torbjorn_fired_up: `:torbjorn_fired_up:`
+        - :torbjorn_shocked: `:torbjorn_shocked:`
+        - :tracer_happy: `:tracer_happy:`
         - :tracer_sweat: `:tracer_sweat:`
         - :widowmaker_kiss: `:widowmaker_kiss:`
+        - :winston_rage: `:winston_rage:`
         - :winston_think: `:winston_think:`
+        - :zarya_attack: `:zarya_attack:`
         - :zarya_flex: `:zarya_flex:`
         - :zenyatta_cry: `:zenyatta_cry:`
+        - :zenyatta_kick: `:zenyatta_kick:`
 
         </div>
 
@@ -2790,36 +2826,68 @@ the page. Have fun!
 
         - :ana_no: `:ana_no:`
         - :ana_shush: `:ana_shush:`
+        - :ana_unamused: `:ana_unamused:`
+        - :ana_zzz: `:ana_zzz:`
         - :ashe_yell: `:ashe_yell:`
+        - :bastion_birb: `:bastion_birb:`
         - :bastion_dizzy: `:bastion_dizzy:`
         - :bob_sweat: `:bob_sweat:`
+        - :brigitte_smile: `:brigitte_smile:`
+        - :cassidy_glare: `:cassidy_glare:`
         - :cassidy_grin: `:cassidy_grin:`
+        - :cassidy_lul: `:cassidy_lul:`
+        - :doomfist_angry: `:doomfist_angry:`
         - :doomfist_confused: `:doomfist_confused:`
         - :dva_peace: `:dva_peace:`
         - :dva_rage: `:dva_rage:`
+        - :dva_salt: `:dva_salt:`
+        - :dva_selfie: `:dva_selfie:`
+        - :genji_dragonblade: `:genji_dragonblade:`
         - :genji_needs_healing: `:genji_needs_healing:`
+        - :hammond_eating: `:hammond_eating:`
         - :hammond_point: `:hammond_point:`
+        - :hanzo_yell: `:hanzo_yell:`
         - :hanzo_yikes: `:hanzo_yikes:`
         - :junkrat_gasp: `:junkrat_gasp:`
+        - :kiriko_lurk: `:kiriko_lurk:`
+        - :lifeweaver_heart: `:lifeweaver_heart:`
         - :lucio_cool: `:lucio_cool:`
+        - :lucio_jam: `:lucio_jam:`
         - :mei_nerdy: `:mei_nerdy:`
+        - :mei_snowball: `:mei_snowball:`
+        - :mercy_attack: `:mercy_attack:`
         - :mercy_grin: `:mercy_grin:`
         - ![:mercy_headpats:](https://media.cutie.city/custom_emojis/images/000/004/704/static/mercy_headpats.png){.cutiemoji loading="lazy" title="\:mercy_headpats:"} `:mercy_headpats:`
+        - :mercy_resurrect: `:mercy_resurrect:`
         - :moira_facepalm: `:moira_facepalm:`
+        - :moira_frown: `:moira_frown:`
+        - :orisa_happy: `:orisa_happy:`
         - :orisa_love: `:orisa_love:`
         - :pharah_unamused: `:pharah_unamused:`
+        - :reaper_attack: `:reaper_attack:`
         - :reaper_shrug: `:reaper_shrug:`
+        - :reinhardt_hammer: `:reinhardt_hammer:`
         - :reinhardt_laugh: `:reinhardt_laugh:`
         - :roadhog_rage: `:roadhog_rage:`
+        - :roadhog_surprised: `:roadhog_surprised:`
         - :soldier_angry: `:soldier_angry:`
+        - :soldier_sweat: `:soldier_sweat:`
         - :sombra_boop: `:sombra_boop:`
+        - :sombra_giggle: `:sombra_giggle:`
+        - :sombra_hack: `:sombra_hack:`
+        - :symmetra_giggle: `:symmetra_giggle:`
         - :symmetra_unamused: `:symmetra_unamused:`
         - :torbjorn_fired_up: `:torbjorn_fired_up:`
+        - :torbjorn_shocked: `:torbjorn_shocked:`
+        - :tracer_happy: `:tracer_happy:`
         - :tracer_sweat: `:tracer_sweat:`
         - :widowmaker_kiss: `:widowmaker_kiss:`
+        - :winston_rage: `:winston_rage:`
         - :winston_think: `:winston_think:`
+        - :zarya_attack: `:zarya_attack:`
         - :zarya_flex: `:zarya_flex:`
         - :zenyatta_cry: `:zenyatta_cry:`
+        - :zenyatta_kick: `:zenyatta_kick:`
 
         </div>
 
@@ -3532,7 +3600,7 @@ the page. Have fun!
 
         </div>
 
-??? abstract "Symbols & Text (70)"
+??? abstract "Symbols & Text (72)"
 
     ### Symbols & Text
 
@@ -3544,6 +3612,7 @@ the page. Have fun!
     - :anarchy: `:anarchy:`
     - :anarchy_heart: `:anarchy_heart:`
     - :antifa: `:antifa:`
+    - :ara_ara: `:ara_ara:`
     - :asap: `:asap:`
     - :bam: `:bam:`
     - :big_mood: `:big_mood:`
@@ -3604,6 +3673,7 @@ the page. Have fun!
     - :trantifa: `:trantifa:`
     - :uwu: `:uwu:`
     - :valid: `:valid:`
+    - :versus: `:versus:`
     - :warning_nsfw: `:warning_nsfw:`
     - :yay: `:yay:`
     - :yeet: `:yeet:`

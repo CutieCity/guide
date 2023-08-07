@@ -19,6 +19,14 @@
     "name": "ana shush",
     "category": "000/004/742/original/ana_shush.png"
   },
+  ":ana_unamused:": {
+    "name": "ana unamused",
+    "category": "000/079/138/original/ana_unamused.png"
+  },
+  ":ana_zzz:": {
+    "name": "ana zzz",
+    "category": "000/079/158/original/ana_zzz.png"
+  },
   ":anarchy:": {
     "name": "anarchy",
     "category": "000/002/143/original/888342b872b9ac95.png"
@@ -34,6 +42,10 @@
   ":antifa:": {
     "name": "antifa",
     "category": "000/000/301/original/bb2b8b95608ca5ac.png"
+  },
+  ":ara_ara:": {
+    "name": "ara ara",
+    "category": "000/079/171/original/a331e432648f533d.png"
   },
   ":arrow_through_heart:": {
     "name": "arrow through heart",
@@ -118,6 +130,10 @@
   ":baseball_bat:": {
     "name": "baseball bat",
     "category": "000/004/882/original/baseball_bat.png"
+  },
+  ":bastion_birb:": {
+    "name": "bastion birb",
+    "category": "000/079/157/original/bastion_birb.png"
   },
   ":bastion_dizzy:": {
     "name": "bastion dizzy",
@@ -1959,6 +1975,10 @@
     "name": "boosts ok",
     "category": "000/002/066/original/fd93d7b01c5a20ca.png"
   },
+  ":brigitte_smile:": {
+    "name": "brigitte smile",
+    "category": "000/079/148/original/brigitte_smile.png"
+  },
   ":bugcat_cry:": {
     "name": "bugcat cry",
     "category": "000/002/208/original/d9e6e1b2cec4b8fb.gif"
@@ -2227,9 +2247,17 @@
     "name": "care package",
     "category": "000/002/732/original/58b4806d15b964ef.png"
   },
+  ":cassidy_glare:": {
+    "name": "cassidy glare",
+    "category": "000/079/162/original/cassidy_glare.png"
+  },
   ":cassidy_grin:": {
     "name": "cassidy grin",
     "category": "000/004/765/original/cassidy_grin.png"
+  },
+  ":cassidy_lul:": {
+    "name": "cassidy lul",
+    "category": "000/079/134/original/cassidy_lul.png"
   },
   ":cat_angry:": {
     "name": "cat angry",
@@ -2871,6 +2899,10 @@
     "name": "doh no",
     "category": "000/004/878/original/doh_no.png"
   },
+  ":doomfist_angry:": {
+    "name": "doomfist angry",
+    "category": "000/079/159/original/doomfist_angry.png"
+  },
   ":doomfist_confused:": {
     "name": "doomfist confused",
     "category": "000/004/749/original/doomfist_confused.png"
@@ -3438,6 +3470,14 @@
   ":dva_rage:": {
     "name": "dva rage",
     "category": "000/004/744/original/dva_rage.png"
+  },
+  ":dva_salt:": {
+    "name": "dva salt",
+    "category": "000/079/139/original/dva_salt.png"
+  },
+  ":dva_selfie:": {
+    "name": "dva selfie",
+    "category": "000/079/145/original/dva_selfie.png"
   },
   ":eevee_cool:": {
     "name": "eevee cool",
@@ -4315,6 +4355,10 @@
     "name": "gengar cool",
     "category": "000/000/110/original/835fdf53a516949e.png"
   },
+  ":genji_dragonblade:": {
+    "name": "genji dragonblade",
+    "category": "000/079/140/original/genji_dragonblade.png"
+  },
   ":genji_needs_healing:": {
     "name": "genji needs healing",
     "category": "000/004/771/original/genji_needs_healing.png"
@@ -4467,6 +4511,10 @@
     "name": "half gay pan",
     "category": "000/005/071/original/half_gay_pan.png"
   },
+  ":hammond_eating:": {
+    "name": "hammond eating",
+    "category": "000/079/133/original/hammond_eating.png"
+  },
   ":hammond_point:": {
     "name": "hammond point",
     "category": "000/004/746/original/hammond_point.png"
@@ -4474,6 +4522,10 @@
   ":hamster_gamer:": {
     "name": "hamster gamer",
     "category": "000/000/304/original/8f1e6f50d9ad0ab9.gif"
+  },
+  ":hanzo_yell:": {
+    "name": "hanzo yell",
+    "category": "000/079/156/original/hanzo_yell.png"
   },
   ":hanzo_yikes:": {
     "name": "hanzo yikes",
@@ -4835,6 +4887,10 @@
     "name": "kirby tired",
     "category": "000/002/577/original/e8c1bbb18994722d.png"
   },
+  ":kiriko_lurk:": {
+    "name": "kiriko lurk",
+    "category": "000/079/172/original/cf0a5f7cd2942e79.png"
+  },
   ":kitty_abrosexual:": {
     "name": "kitty abrosexual",
     "category": "000/005/451/original/kitty_abrosexual.png"
@@ -4995,6 +5051,10 @@
     "name": "lick lips",
     "category": "000/002/528/original/54269c1682a78aa0.png"
   },
+  ":lifeweaver_heart:": {
+    "name": "lifeweaver heart",
+    "category": "000/079/173/original/3c1ade562edd419e.png"
+  },
   ":lily_adhd:": {
     "name": "lily adhd",
     "category": "000/003/928/original/lily_adhd.png"
@@ -5059,9 +5119,17 @@
     "name": "lotus flower",
     "category": "000/004/136/original/lotus_flower.png"
   },
+  ":lucina_love:": {
+    "name": "lucina love",
+    "category": "000/078/472/original/7609fdefceb4de0d.png"
+  },
   ":lucio_cool:": {
     "name": "lucio cool",
     "category": "000/004/743/original/lucio_cool.png"
+  },
+  ":lucio_jam:": {
+    "name": "lucio jam",
+    "category": "000/079/160/original/lucio_jam.png"
   },
   ":lul_lmao:": {
     "name": "lul lmao",
@@ -5098,6 +5166,10 @@
   ":mei_nerdy:": {
     "name": "mei nerdy",
     "category": "000/004/766/original/mei_nerdy.png"
+  },
+  ":mei_snowball:": {
+    "name": "mei snowball",
+    "category": "000/079/153/original/mei_snowball.png"
   },
   ":melody_cry:": {
     "name": "melody cry",
@@ -5171,6 +5243,10 @@
     "name": "meowth money",
     "category": "000/000/360/original/bf3f2b48e2694400.gif"
   },
+  ":mercy_attack:": {
+    "name": "mercy attack",
+    "category": "000/079/154/original/mercy_attack.png"
+  },
   ":mercy_grin:": {
     "name": "mercy grin",
     "category": "000/004/753/original/mercy_grin.png"
@@ -5178,6 +5254,10 @@
   ":mercy_headpats:": {
     "name": "mercy headpats",
     "category": "000/004/704/original/mercy_headpats.gif"
+  },
+  ":mercy_resurrect:": {
+    "name": "mercy resurrect",
+    "category": "000/079/147/original/mercy_resurrect.png"
   },
   ":mew_giggle:": {
     "name": "mew giggle",
@@ -5210,6 +5290,10 @@
   ":moira_facepalm:": {
     "name": "moira facepalm",
     "category": "000/004/772/original/moira_facepalm.png"
+  },
+  ":moira_frown:": {
+    "name": "moira frown",
+    "category": "000/079/146/original/moira_frown.png"
   },
   ":mood:": {
     "name": "mood",
@@ -8167,6 +8251,10 @@
     "name": "oof",
     "category": "000/002/532/original/cbc19870204a1075.png"
   },
+  ":orisa_happy:": {
+    "name": "orisa happy",
+    "category": "000/079/161/original/orisa_happy.png"
+  },
   ":orisa_love:": {
     "name": "orisa love",
     "category": "000/004/767/original/orisa_love.png"
@@ -8486,6 +8574,10 @@
   ":penguin_stare:": {
     "name": "penguin stare",
     "category": "000/002/018/original/9c23fdbb70a03167.png"
+  },
+  ":penguin_tea:": {
+    "name": "penguin tea",
+    "category": "000/078/473/original/6440c84e2df12bf7.png"
   },
   ":pensive_wobble:": {
     "name": "pensive wobble",
@@ -9051,6 +9143,10 @@
     "name": "rat trans",
     "category": "000/004/803/original/7fe362cb7bbb59d7.png"
   },
+  ":reaper_attack:": {
+    "name": "reaper attack",
+    "category": "000/079/142/original/reaper_attack.png"
+  },
   ":reaper_shrug:": {
     "name": "reaper shrug",
     "category": "000/004/745/original/reaper_shrug.png"
@@ -9059,6 +9155,10 @@
     "name": "red panda sip",
     "category": "000/004/775/original/5a18e4136db57238.png"
   },
+  ":reinhardt_hammer:": {
+    "name": "reinhardt hammer",
+    "category": "000/079/144/original/reinhardt_hammer.png"
+  },
   ":reinhardt_laugh:": {
     "name": "reinhardt laugh",
     "category": "000/004/758/original/reinhardt_laugh.png"
@@ -9066,6 +9166,10 @@
   ":roadhog_rage:": {
     "name": "roadhog rage",
     "category": "000/004/762/original/roadhog_rage.png"
+  },
+  ":roadhog_surprised:": {
+    "name": "roadhog surprised",
+    "category": "000/079/143/original/roadhog_surprised.png"
   },
   ":robot_headpats:": {
     "name": "robot headpats",
@@ -9263,9 +9367,21 @@
     "name": "soldier angry",
     "category": "000/004/759/original/soldier_angry.png"
   },
+  ":soldier_sweat:": {
+    "name": "soldier sweat",
+    "category": "000/079/135/original/soldier_sweat.png"
+  },
   ":sombra_boop:": {
     "name": "sombra boop",
     "category": "000/004/755/original/sombra_boop.png"
+  },
+  ":sombra_giggle:": {
+    "name": "sombra giggle",
+    "category": "000/079/155/original/sombra_giggle.png"
+  },
+  ":sombra_hack:": {
+    "name": "sombra hack",
+    "category": "000/079/152/original/sombra_hack.png"
   },
   ":soon_tm:": {
     "name": "soon tm",
@@ -9503,6 +9619,10 @@
     "name": "sylveon squish",
     "category": "000/000/046/original/f483d4f4894eb2d9.png"
   },
+  ":symmetra_giggle:": {
+    "name": "symmetra giggle",
+    "category": "000/079/136/original/symmetra_giggle.png"
+  },
   ":symmetra_unamused:": {
     "name": "symmetra unamused",
     "category": "000/004/770/original/symmetra_unamused.png"
@@ -9575,6 +9695,10 @@
     "name": "torbjorn fired up",
     "category": "000/005/424/original/5572684ee18f28be.png"
   },
+  ":torbjorn_shocked:": {
+    "name": "torbjorn shocked",
+    "category": "000/079/137/original/torbjorn_shocked.png"
+  },
   ":torchic_love:": {
     "name": "torchic love",
     "category": "000/000/165/original/94ff1156920b780d.png"
@@ -9590,6 +9714,10 @@
   ":touch_grass:": {
     "name": "touch grass",
     "category": "000/004/118/original/touch_grass.png"
+  },
+  ":tracer_happy:": {
+    "name": "tracer happy",
+    "category": "000/079/150/original/tracer_happy.png"
   },
   ":tracer_sweat:": {
     "name": "tracer sweat",
@@ -9715,6 +9843,10 @@
     "name": "vault boy",
     "category": "000/004/875/original/vault_boy.png"
   },
+  ":versus:": {
+    "name": "versus",
+    "category": "000/078/474/original/8167ec88e57b1c9b.png"
+  },
   ":vulpix_cry:": {
     "name": "vulpix cry",
     "category": "000/063/147/original/vulpix_cry.png"
@@ -9767,6 +9899,10 @@
     "name": "wiggle",
     "category": "000/000/177/original/d547bba9bb9ffd89.gif"
   },
+  ":winston_rage:": {
+    "name": "winston rage",
+    "category": "000/079/141/original/winston_rage.png"
+  },
   ":winston_think:": {
     "name": "winston think",
     "category": "000/004/756/original/winston_think.png"
@@ -9799,6 +9935,10 @@
     "name": "zany love",
     "category": "000/000/233/original/29fe25b0a3733e4f.png"
   },
+  ":zarya_attack:": {
+    "name": "zarya attack",
+    "category": "000/079/151/original/zarya_attack.png"
+  },
   ":zarya_flex:": {
     "name": "zarya flex",
     "category": "000/004/750/original/zarya_flex.png"
@@ -9806,6 +9946,10 @@
   ":zenyatta_cry:": {
     "name": "zenyatta cry",
     "category": "000/004/764/original/zenyatta_cry.png"
+  },
+  ":zenyatta_kick:": {
+    "name": "zenyatta kick",
+    "category": "000/079/163/original/zenyatta_kick.png"
   },
   ":zerotwo_baby_confused:": {
     "name": "zerotwo baby confused",
