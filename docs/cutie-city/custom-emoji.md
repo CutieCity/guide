@@ -19,7 +19,7 @@ schedule.
 
 ## Page Controls
 
-There are currently **2544** custom emoji on this page. That's a lot!
+There are currently **2591** custom emoji on this page. That's a lot!
 :flareon_wink:
 
 Here are some handy controls to help you navigate and browse them more easily:
@@ -2118,7 +2118,7 @@ the page. Have fun!
 
     </div>
 
-??? abstract "Miscellaneous (240)"
+??? abstract "Miscellaneous (248)"
 
     ### Miscellaneous
 
@@ -2173,6 +2173,7 @@ the page. Have fun!
         - :daydreaming: `:daydreaming:`
         - :derp: `:derp:`
         - :disco_ball: `:disco_ball:`
+        - :distraught: `:distraught:`
         - :dizzy_love: `:dizzy_love:`
         - :dog_boop: `:dog_boop:`
         - :doge: `:doge:`
@@ -2210,6 +2211,7 @@ the page. Have fun!
         - :headpats: `:headpats:`
         - :heart_brain: `:heart_brain:`
         - :heart_cyber: `:heart_cyber:`
+        - :heart_cyber_pink: `:heart_cyber_pink:`
         - :heart_fuchsia: `:heart_fuchsia:`
         - :heart_nature: `:heart_nature:`
         - :heart_pink: `:heart_pink:`
@@ -2220,6 +2222,7 @@ the page. Have fun!
         - :imagination: `:imagination:`
         - :isabelle_heart: `:isabelle_heart:`
         - :jellyfish: `:jellyfish:`
+        - :jellyfish_hug: `:jellyfish_hug:`
         - :jump_for_joy: `:jump_for_joy:`
         - :kaboom: `:kaboom:`
         - :kirby_burger: `:kirby_burger:`
@@ -2246,6 +2249,7 @@ the page. Have fun!
         - :menhera_happy: `:menhera_happy:`
         - :menhera_wink: `:menhera_wink:`
         - :mic_drop: `:mic_drop:`
+        - :miku_dab: `:miku_dab:`
         - :miku_love: `:miku_love:`
         - :miku_sing: `:miku_sing:`
         - :mischief: `:mischief:`
@@ -2264,6 +2268,8 @@ the page. Have fun!
         - :party_parrot: `:party_parrot:`
         - :party_roach: `:party_roach:`
         - :party_wobble: `:party_wobble:`
+        - :peachy_butt: `:peachy_butt:`
+        - :peanut_butter: `:peanut_butter:`
         - :penguin_awake: `:penguin_awake:`
         - :penguin_knife: `:penguin_knife:`
         - :penguin_pat: `:penguin_pat:`
@@ -2272,6 +2278,7 @@ the page. Have fun!
         - :penguin_tea: `:penguin_tea:`
         - :pensive_wobble: `:pensive_wobble:`
         - :pink_bow: `:pink_bow:`
+        - :pink_cup: `:pink_cup:`
         - :pink_hearts: `:pink_hearts:`
         - :pink_moon_and_stars: `:pink_moon_and_stars:`
         - :pink_sparkles: `:pink_sparkles:`
@@ -2324,6 +2331,7 @@ the page. Have fun!
         - :squishy_cheeks: `:squishy_cheeks:`
         - :star_happy: `:star_happy:`
         - :star_sleepy: `:star_sleepy:`
+        - :subtoot: `:subtoot:`
         - :succulent_plant: `:succulent_plant:`
         - :surprised_murloc: `:surprised_murloc:`
         - :sussy_boba: `:sussy_boba:`
@@ -2420,6 +2428,7 @@ the page. Have fun!
         - :daydreaming: `:daydreaming:`
         - :derp: `:derp:`
         - :disco_ball: `:disco_ball:`
+        - :distraught: `:distraught:`
         - :dizzy_love: `:dizzy_love:`
         - :dog_boop: `:dog_boop:`
         - :doge: `:doge:`
@@ -2457,6 +2466,7 @@ the page. Have fun!
         - :headpats: `:headpats:`
         - :heart_brain: `:heart_brain:`
         - :heart_cyber: `:heart_cyber:`
+        - :heart_cyber_pink: `:heart_cyber_pink:`
         - :heart_fuchsia: `:heart_fuchsia:`
         - :heart_nature: `:heart_nature:`
         - :heart_pink: `:heart_pink:`
@@ -2467,6 +2477,7 @@ the page. Have fun!
         - :imagination: `:imagination:`
         - :isabelle_heart: `:isabelle_heart:`
         - :jellyfish: `:jellyfish:`
+        - :jellyfish_hug: `:jellyfish_hug:`
         - ![:jump_for_joy:](https://media.cutie.city/custom_emojis/images/000/000/303/static/473b79a6f5d1287f.png){.cutiemoji loading="lazy" title="\:jump_for_joy:"} `:jump_for_joy:`
         - :kaboom: `:kaboom:`
         - :kirby_burger: `:kirby_burger:`
@@ -2493,6 +2504,7 @@ the page. Have fun!
         - ![:menhera_happy:](https://media.cutie.city/custom_emojis/images/000/002/500/static/bfa4752dadcaa738.png){.cutiemoji loading="lazy" title="\:menhera_happy:"} `:menhera_happy:`
         - :menhera_wink: `:menhera_wink:`
         - :mic_drop: `:mic_drop:`
+        - :miku_dab: `:miku_dab:`
         - :miku_love: `:miku_love:`
         - ![:miku_sing:](https://media.cutie.city/custom_emojis/images/000/003/966/static/99e2fcde8e842d79.png){.cutiemoji loading="lazy" title="\:miku_sing:"} `:miku_sing:`
         - :mischief: `:mischief:`
@@ -2511,6 +2523,8 @@ the page. Have fun!
         - :party_parrot: `:party_parrot:`
         - ![:party_roach:](https://media.cutie.city/custom_emojis/images/000/005/490/static/a16b582f481cb26e.png){.cutiemoji loading="lazy" title="\:party_roach:"} `:party_roach:`
         - ![:party_wobble:](https://media.cutie.city/custom_emojis/images/000/005/467/static/9ddcba2148575cb3.png){.cutiemoji loading="lazy" title="\:party_wobble:"} `:party_wobble:`
+        - :peachy_butt: `:peachy_butt:`
+        - :peanut_butter: `:peanut_butter:`
         - :penguin_awake: `:penguin_awake:`
         - :penguin_knife: `:penguin_knife:`
         - ![:penguin_pat:](https://media.cutie.city/custom_emojis/images/000/000/190/static/279268c583752e64.png){.cutiemoji loading="lazy" title="\:penguin_pat:"} `:penguin_pat:`
@@ -2519,6 +2533,7 @@ the page. Have fun!
         - :penguin_tea: `:penguin_tea:`
         - ![:pensive_wobble:](https://media.cutie.city/custom_emojis/images/000/004/905/static/pensive_wobble.png){.cutiemoji loading="lazy" title="\:pensive_wobble:"} `:pensive_wobble:`
         - :pink_bow: `:pink_bow:`
+        - :pink_cup: `:pink_cup:`
         - :pink_hearts: `:pink_hearts:`
         - :pink_moon_and_stars: `:pink_moon_and_stars:`
         - :pink_sparkles: `:pink_sparkles:`
@@ -2571,6 +2586,7 @@ the page. Have fun!
         - ![:squishy_cheeks:](https://media.cutie.city/custom_emojis/images/000/000/187/static/165b3bf688136341.png){.cutiemoji loading="lazy" title="\:squishy_cheeks:"} `:squishy_cheeks:`
         - :star_happy: `:star_happy:`
         - :star_sleepy: `:star_sleepy:`
+        - :subtoot: `:subtoot:`
         - :succulent_plant: `:succulent_plant:`
         - :surprised_murloc: `:surprised_murloc:`
         - :sussy_boba: `:sussy_boba:`
@@ -2965,7 +2981,7 @@ the page. Have fun!
 
     </div>
 
-??? abstract "Pokemon (72)"
+??? abstract "Pokemon (80)"
 
     ### Pokemon
 
@@ -2979,9 +2995,12 @@ the page. Have fun!
         - :charmander_yay: `:charmander_yay:`
         - :chikorita_disgust: `:chikorita_disgust:`
         - :cyndaquil_blush: `:cyndaquil_blush:`
+        - :diglett_sus: `:diglett_sus:`
         - :ditto_yikes: `:ditto_yikes:`
         - :eevee_cool: `:eevee_cool:`
         - :eevee_joy: `:eevee_joy:`
+        - :eevee_ooh_shiny: `:eevee_ooh_shiny:`
+        - :eevee_sip: `:eevee_sip:`
         - :emolga_sweat: `:emolga_sweat:`
         - :espeon_love: `:espeon_love:`
         - :espeon_pout: `:espeon_pout:`
@@ -2997,6 +3016,7 @@ the page. Have fun!
         - :haunter_ok: `:haunter_ok:`
         - :jigglypuff_wow: `:jigglypuff_wow:`
         - :jolteon_giggle: `:jolteon_giggle:`
+        - :joltik_love: `:joltik_love:`
         - :leafeon_flower: `:leafeon_flower:`
         - :leafeon_giggle: `:leafeon_giggle:`
         - :leafeon_money: `:leafeon_money:`
@@ -3014,6 +3034,7 @@ the page. Have fun!
         - :pikachu_cool: `:pikachu_cool:`
         - :pikachu_hello: `:pikachu_hello:`
         - :pikachu_smug: `:pikachu_smug:`
+        - :pikachu_surprised: `:pikachu_surprised:`
         - :pikachu_toss_togepi: `:pikachu_toss_togepi:`
         - :piplup_cry: `:piplup_cry:`
         - :piplup_love: `:piplup_love:`
@@ -3031,11 +3052,13 @@ the page. Have fun!
         - :squirtle_puke: `:squirtle_puke:`
         - :squirtle_thirst: `:squirtle_thirst:`
         - :sylveon_kiss: `:sylveon_kiss:`
+        - :sylveon_sip: `:sylveon_sip:`
         - :sylveon_squish: `:sylveon_squish:`
         - :teddiursa_cute: `:teddiursa_cute:`
         - :torchic_love: `:torchic_love:`
         - :treecko_no: `:treecko_no:`
         - :umbreon_reverse_uno: `:umbreon_reverse_uno:`
+        - :umbreon_stare: `:umbreon_stare:`
         - :vaporeon_cry: `:vaporeon_cry:`
         - :vaporeon_sip: `:vaporeon_sip:`
         - :vulpix_cry: `:vulpix_cry:`
@@ -3045,6 +3068,7 @@ the page. Have fun!
         - :vulpix_sleep: `:vulpix_sleep:`
         - :vulpix_sparkle: `:vulpix_sparkle:`
         - :zangoose_love: `:zangoose_love:`
+        - :zigzagoon_cool: `:zigzagoon_cool:`
 
         </div>
 
@@ -3058,9 +3082,12 @@ the page. Have fun!
         - :charmander_yay: `:charmander_yay:`
         - :chikorita_disgust: `:chikorita_disgust:`
         - :cyndaquil_blush: `:cyndaquil_blush:`
+        - :diglett_sus: `:diglett_sus:`
         - :ditto_yikes: `:ditto_yikes:`
         - :eevee_cool: `:eevee_cool:`
         - :eevee_joy: `:eevee_joy:`
+        - :eevee_ooh_shiny: `:eevee_ooh_shiny:`
+        - :eevee_sip: `:eevee_sip:`
         - :emolga_sweat: `:emolga_sweat:`
         - :espeon_love: `:espeon_love:`
         - :espeon_pout: `:espeon_pout:`
@@ -3076,6 +3103,7 @@ the page. Have fun!
         - :haunter_ok: `:haunter_ok:`
         - :jigglypuff_wow: `:jigglypuff_wow:`
         - :jolteon_giggle: `:jolteon_giggle:`
+        - :joltik_love: `:joltik_love:`
         - :leafeon_flower: `:leafeon_flower:`
         - ![:leafeon_giggle:](https://media.cutie.city/custom_emojis/images/000/002/312/static/e598d6c0d09410fd.png){.cutiemoji loading="lazy" title="\:leafeon_giggle:"} `:leafeon_giggle:`
         - ![:leafeon_money:](https://media.cutie.city/custom_emojis/images/000/002/308/static/6581df86ba8d918d.png){.cutiemoji loading="lazy" title="\:leafeon_money:"} `:leafeon_money:`
@@ -3093,6 +3121,7 @@ the page. Have fun!
         - :pikachu_cool: `:pikachu_cool:`
         - ![:pikachu_hello:](https://media.cutie.city/custom_emojis/images/000/000/176/static/72db6d00e6c54576.png){.cutiemoji loading="lazy" title="\:pikachu_hello:"} `:pikachu_hello:`
         - :pikachu_smug: `:pikachu_smug:`
+        - :pikachu_surprised: `:pikachu_surprised:`
         - ![:pikachu_toss_togepi:](https://media.cutie.city/custom_emojis/images/000/002/314/static/b33699325e8a5630.png){.cutiemoji loading="lazy" title="\:pikachu_toss_togepi:"} `:pikachu_toss_togepi:`
         - :piplup_cry: `:piplup_cry:`
         - :piplup_love: `:piplup_love:`
@@ -3110,11 +3139,13 @@ the page. Have fun!
         - :squirtle_puke: `:squirtle_puke:`
         - :squirtle_thirst: `:squirtle_thirst:`
         - ![:sylveon_kiss:](https://media.cutie.city/custom_emojis/images/000/002/309/static/7a09df23ab0c886c.png){.cutiemoji loading="lazy" title="\:sylveon_kiss:"} `:sylveon_kiss:`
+        - :sylveon_sip: `:sylveon_sip:`
         - :sylveon_squish: `:sylveon_squish:`
         - :teddiursa_cute: `:teddiursa_cute:`
         - :torchic_love: `:torchic_love:`
         - :treecko_no: `:treecko_no:`
         - :umbreon_reverse_uno: `:umbreon_reverse_uno:`
+        - :umbreon_stare: `:umbreon_stare:`
         - :vaporeon_cry: `:vaporeon_cry:`
         - :vaporeon_sip: `:vaporeon_sip:`
         - :vulpix_cry: `:vulpix_cry:`
@@ -3124,6 +3155,7 @@ the page. Have fun!
         - :vulpix_sleep: `:vulpix_sleep:`
         - :vulpix_sparkle: `:vulpix_sparkle:`
         - :zangoose_love: `:zangoose_love:`
+        - :zigzagoon_cool: `:zigzagoon_cool:`
 
         </div>
 
@@ -3240,7 +3272,7 @@ the page. Have fun!
 
     </div>
 
-??? abstract "Pride Hearts (57)"
+??? abstract "Pride Hearts (64)"
 
     ### Pride Hearts
 
@@ -3250,14 +3282,17 @@ the page. Have fun!
     - :heart_achillean: `:heart_achillean:`
     - :heart_agender: `:heart_agender:`
     - :heart_agenderflux: `:heart_agenderflux:`
+    - :heart_anarcha_feminist: `:heart_anarcha_feminist:`
     - :heart_anarcho_communist: `:heart_anarcho_communist:`
     - :heart_androgyne: `:heart_androgyne:`
     - :heart_aromantic: `:heart_aromantic:`
     - :heart_asensual: `:heart_asensual:`
     - :heart_asexual: `:heart_asexual:`
     - :heart_autistic: `:heart_autistic:`
+    - :heart_autistic_alt: `:heart_autistic_alt:`
     - :heart_bigender: `:heart_bigender:`
     - :heart_bisexual: `:heart_bisexual:`
+    - :heart_boyflux: `:heart_boyflux:`
     - :heart_demifemme: `:heart_demifemme:`
     - :heart_demifluid: `:heart_demifluid:`
     - :heart_demiflux: `:heart_demiflux:`
@@ -3273,6 +3308,7 @@ the page. Have fun!
     - :heart_genderfluid: `:heart_genderfluid:`
     - :heart_genderflux: `:heart_genderflux:`
     - :heart_genderqueer: `:heart_genderqueer:`
+    - :heart_girlflux: `:heart_girlflux:`
     - :heart_gnc: `:heart_gnc:`
     - :heart_grey_aromantic: `:heart_grey_aromantic:`
     - :heart_grey_asexual: `:heart_grey_asexual:`
@@ -3287,11 +3323,14 @@ the page. Have fun!
     - :heart_nonbinary: `:heart_nonbinary:`
     - :heart_omnisexual: `:heart_omnisexual:`
     - :heart_pansexual: `:heart_pansexual:`
+    - :heart_plural: `:heart_plural:`
     - :heart_polyamorous: `:heart_polyamorous:`
+    - :heart_polyamorous_new: `:heart_polyamorous_new:`
     - :heart_polysexual: `:heart_polysexual:`
     - :heart_pride: `:heart_pride:`
     - :heart_progress: `:heart_progress:`
     - :heart_queer: `:heart_queer:`
+    - :heart_queer_villain: `:heart_queer_villain:`
     - :heart_queerplatonic: `:heart_queerplatonic:`
     - :heart_sapphic: `:heart_sapphic:`
     - :heart_straight_ally: `:heart_straight_ally:`
@@ -3600,7 +3639,7 @@ the page. Have fun!
 
         </div>
 
-??? abstract "Symbols & Text (72)"
+??? abstract "Symbols & Text (96)"
 
     ### Symbols & Text
 
@@ -3615,9 +3654,14 @@ the page. Have fun!
     - :ara_ara: `:ara_ara:`
     - :asap: `:asap:`
     - :bam: `:bam:`
+    - :big_love: `:big_love:`
     - :big_mood: `:big_mood:`
     - :black_lives_matter: `:black_lives_matter:`
+    - :boosts_appreciated: `:boosts_appreciated:`
+    - :boosts_are_okay: `:boosts_are_okay:`
+    - :boosts_discouraged: `:boosts_discouraged:`
     - :boosts_ok: `:boosts_ok:`
+    - :bork: `:bork:`
     - :call_now: `:call_now:`
     - :celtic_knot: `:celtic_knot:`
     - :cute: `:cute:`
@@ -3629,23 +3673,34 @@ the page. Have fun!
     - :get_rekt: `:get_rekt:`
     - :gg: `:gg:`
     - :girl_power: `:girl_power:`
+    - :good_boy: `:good_boy:`
+    - :good_enby: `:good_enby:`
+    - :good_girl: `:good_girl:`
     - :good_morning: `:good_morning:`
     - :good_night: `:good_night:`
     - :half_gay_bi: `:half_gay_bi:`
     - :half_gay_pan: `:half_gay_pan:`
     - :heck: `:heck:`
     - :hella_gay: `:hella_gay:`
+    - :help_describe: `:help_describe:`
     - :hot: `:hot:`
     - :hype: `:hype:`
+    - :hype_heart: `:hype_heart:`
     - :i_love_you: `:i_love_you:`
     - :infinity_heart: `:infinity_heart:`
     - :lewd: `:lewd:`
     - :lol: `:lol:`
+    - :make_me: `:make_me:`
     - :mood: `:mood:`
     - :nerf_this: `:nerf_this:`
     - :neurodiversity: `:neurodiversity:`
+    - :nice: `:nice:`
+    - :no_advice: `:no_advice:`
     - :no_boost: `:no_boost:`
     - :no_fave: `:no_fave:`
+    - :no_hashtags: `:no_hashtags:`
+    - :no_mentions: `:no_mentions:`
+    - :no_nazis: `:no_nazis:`
     - :no_tankies: `:no_tankies:`
     - :no_u: `:no_u:`
     - :non_verbal: `:non_verbal:`
@@ -3657,9 +3712,14 @@ the page. Have fun!
     - :plural: `:plural:`
     - :plural_ampersand: `:plural_ampersand:`
     - :polyamory: `:polyamory:`
+    - :replies_appreciated: `:replies_appreciated:`
+    - :replies_are_okay: `:replies_are_okay:`
+    - :replies_discouraged: `:replies_discouraged:`
+    - :same: `:same:`
     - :sexy: `:sexy:`
     - :sheesh: `:sheesh:`
     - :soon_tm: `:soon_tm:`
+    - :sus: `:sus:`
     - :thank_you: `:thank_you:`
     - :therian: `:therian:`
     - :this: `:this:`
@@ -3675,8 +3735,11 @@ the page. Have fun!
     - :valid: `:valid:`
     - :versus: `:versus:`
     - :warning_nsfw: `:warning_nsfw:`
+    - :wat: `:wat:`
     - :yay: `:yay:`
+    - :yee_haw: `:yee_haw:`
     - :yeet: `:yeet:`
+    - :yes: `:yes:`
     - :yikes: `:yikes:`
 
     </div>

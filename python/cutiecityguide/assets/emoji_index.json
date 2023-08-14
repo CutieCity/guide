@@ -291,6 +291,10 @@
     "name": "big heart eyes",
     "category": "000/000/582/original/dc71137488db08c4.png"
   },
+  ":big_love:": {
+    "name": "big love",
+    "category": "000/082/437/original/big_love.png"
+  },
   ":big_mood:": {
     "name": "big mood",
     "category": "000/002/502/original/626e088ae971a239.png"
@@ -1971,9 +1975,25 @@
     "name": "bonk",
     "category": "000/002/567/original/71a7d95e4174f0dd.png"
   },
+  ":boosts_appreciated:": {
+    "name": "boosts appreciated",
+    "category": "000/081/967/original/boosts_appreciated.png"
+  },
+  ":boosts_are_okay:": {
+    "name": "boosts are okay",
+    "category": "000/081/971/original/boosts_are_okay.png"
+  },
+  ":boosts_discouraged:": {
+    "name": "boosts discouraged",
+    "category": "000/081/966/original/boosts_discouraged.png"
+  },
   ":boosts_ok:": {
     "name": "boosts ok",
     "category": "000/002/066/original/fd93d7b01c5a20ca.png"
+  },
+  ":bork:": {
+    "name": "bork",
+    "category": "000/082/435/original/bork.png"
   },
   ":brigitte_smile:": {
     "name": "brigitte smile",
@@ -2851,9 +2871,17 @@
     "name": "derp",
     "category": "000/000/106/original/3aecc7d8070a22c6.png"
   },
+  ":diglett_sus:": {
+    "name": "diglett sus",
+    "category": "000/081/748/original/87340d6326d6a37f.png"
+  },
   ":disco_ball:": {
     "name": "disco ball",
     "category": "000/004/125/original/disco_ball.png"
+  },
+  ":distraught:": {
+    "name": "distraught",
+    "category": "000/081/666/original/distraught.png"
   },
   ":ditto_yikes:": {
     "name": "ditto yikes",
@@ -3486,6 +3514,14 @@
   ":eevee_joy:": {
     "name": "eevee joy",
     "category": "000/000/040/original/c8acccb0ea746ab9.png"
+  },
+  ":eevee_ooh_shiny:": {
+    "name": "eevee ooh shiny",
+    "category": "000/081/742/original/eevee_ooh_shiny.png"
+  },
+  ":eevee_sip:": {
+    "name": "eevee sip",
+    "category": "000/081/736/original/eevee_sip.png"
   },
   ":eggplant_hand:": {
     "name": "eggplant hand",
@@ -4383,6 +4419,18 @@
     "name": "glaceon uwu",
     "category": "000/000/047/original/3862c0a099479a5e.png"
   },
+  ":good_boy:": {
+    "name": "good boy",
+    "category": "000/081/970/original/good_boy.png"
+  },
+  ":good_enby:": {
+    "name": "good enby",
+    "category": "000/081/972/original/good_enby.png"
+  },
+  ":good_girl:": {
+    "name": "good girl",
+    "category": "000/081/963/original/good_girl.png"
+  },
   ":good_morning:": {
     "name": "good morning",
     "category": "000/005/483/original/5007295536e16fe0.png"
@@ -4571,6 +4619,10 @@
     "name": "heart agenderflux",
     "category": "000/001/843/original/heart_agenderflux.png"
   },
+  ":heart_anarcha_feminist:": {
+    "name": "heart anarcha feminist",
+    "category": "000/080/144/original/heart_anarcha_feminist.png"
+  },
   ":heart_anarcho_communist:": {
     "name": "heart anarcho communist",
     "category": "000/004/693/original/heart_anarcho_communist.png"
@@ -4595,6 +4647,10 @@
     "name": "heart autistic",
     "category": "000/004/158/original/heart_autistic.png"
   },
+  ":heart_autistic_alt:": {
+    "name": "heart autistic alt",
+    "category": "000/080/146/original/heart_autistic_alt.png"
+  },
   ":heart_bigender:": {
     "name": "heart bigender",
     "category": "000/001/848/original/heart_bigender.png"
@@ -4603,6 +4659,10 @@
     "name": "heart bisexual",
     "category": "000/001/849/original/heart_bisexual.png"
   },
+  ":heart_boyflux:": {
+    "name": "heart boyflux",
+    "category": "000/080/142/original/heart_boyflux.png"
+  },
   ":heart_brain:": {
     "name": "heart brain",
     "category": "000/004/154/original/heart_brain.png"
@@ -4610,6 +4670,10 @@
   ":heart_cyber:": {
     "name": "heart cyber",
     "category": "000/002/067/original/d07c09341593f5d5.png"
+  },
+  ":heart_cyber_pink:": {
+    "name": "heart cyber pink",
+    "category": "000/081/662/original/heart_cyber_pink.png"
   },
   ":heart_demifemme:": {
     "name": "heart demifemme",
@@ -4675,6 +4739,10 @@
     "name": "heart genderqueer",
     "category": "000/001/861/original/heart_genderqueer.png"
   },
+  ":heart_girlflux:": {
+    "name": "heart girlflux",
+    "category": "000/080/145/original/heart_girlflux.png"
+  },
   ":heart_gnc:": {
     "name": "heart gnc",
     "category": "000/001/862/original/heart_gnc.png"
@@ -4739,9 +4807,17 @@
     "name": "heart pink",
     "category": "000/061/697/original/943ee0b822ac2e31.png"
   },
+  ":heart_plural:": {
+    "name": "heart plural",
+    "category": "000/080/143/original/heart_plural.png"
+  },
   ":heart_polyamorous:": {
     "name": "heart polyamorous",
     "category": "000/001/874/original/heart_polyamorous.png"
+  },
+  ":heart_polyamorous_new:": {
+    "name": "heart polyamorous new",
+    "category": "000/080/140/original/heart_polyamorous_new.png"
   },
   ":heart_polysexual:": {
     "name": "heart polysexual",
@@ -4758,6 +4834,10 @@
   ":heart_queer:": {
     "name": "heart queer",
     "category": "000/002/206/original/a9f0f2f76d23546b.png"
+  },
+  ":heart_queer_villain:": {
+    "name": "heart queer villain",
+    "category": "000/080/141/original/heart_queer_villain.png"
   },
   ":heart_queerplatonic:": {
     "name": "heart queerplatonic",
@@ -4815,6 +4895,10 @@
     "name": "hella gay",
     "category": "000/005/079/original/hella_gay.png"
   },
+  ":help_describe:": {
+    "name": "help describe",
+    "category": "000/082/438/original/help_describe.png"
+  },
   ":hot:": {
     "name": "hot",
     "category": "000/071/788/original/c3590f1dd86afd58.png"
@@ -4830,6 +4914,10 @@
   ":hype:": {
     "name": "hype",
     "category": "000/004/002/original/5b2c8294e38b7681.png"
+  },
+  ":hype_heart:": {
+    "name": "hype heart",
+    "category": "000/081/973/original/hype_heart.png"
   },
   ":i_am_looking:": {
     "name": "i am looking",
@@ -4855,6 +4943,10 @@
     "name": "jellyfish",
     "category": "000/003/967/original/a6d92937f3f5b5ee.png"
   },
+  ":jellyfish_hug:": {
+    "name": "jellyfish hug",
+    "category": "000/081/663/original/jellyfish_hug.png"
+  },
   ":jigglypuff_wow:": {
     "name": "jigglypuff wow",
     "category": "000/002/319/original/69e19212f9a3ae8d.png"
@@ -4862,6 +4954,10 @@
   ":jolteon_giggle:": {
     "name": "jolteon giggle",
     "category": "000/000/050/original/dfc4b8d2aa9bf8c7.png"
+  },
+  ":joltik_love:": {
+    "name": "joltik love",
+    "category": "000/081/740/original/joltik_love.png"
   },
   ":jump_for_joy:": {
     "name": "jump for joy",
@@ -5139,6 +5235,10 @@
     "name": "magikarp angry",
     "category": "000/063/152/original/magikarp_angry.gif"
   },
+  ":make_me:": {
+    "name": "make me",
+    "category": "000/082/442/original/make_me.png"
+  },
   ":malboro_breathe:": {
     "name": "malboro breathe",
     "category": "000/010/758/original/malboro_breathe.png"
@@ -5270,6 +5370,10 @@
   ":mic_drop:": {
     "name": "mic drop",
     "category": "000/004/140/original/mic_drop.png"
+  },
+  ":miku_dab:": {
+    "name": "miku dab",
+    "category": "000/081/668/original/miku_dab.png"
   },
   ":miku_love:": {
     "name": "miku love",
@@ -8195,9 +8299,17 @@
     "name": "neurodiversity",
     "category": "000/004/000/original/250c962d1789810d.png"
   },
+  ":nice:": {
+    "name": "nice",
+    "category": "000/082/439/original/nice.png"
+  },
   ":nintendo_switch:": {
     "name": "nintendo switch",
     "category": "000/002/606/original/09ec94c0cc014e62.png"
+  },
+  ":no_advice:": {
+    "name": "no advice",
+    "category": "000/081/965/original/no_advice.png"
   },
   ":no_boost:": {
     "name": "no boost",
@@ -8206,6 +8318,18 @@
   ":no_fave:": {
     "name": "no fave",
     "category": "000/002/791/original/08cd7b42e2de36cb.png"
+  },
+  ":no_hashtags:": {
+    "name": "no hashtags",
+    "category": "000/081/975/original/no_hashtags.png"
+  },
+  ":no_mentions:": {
+    "name": "no mentions",
+    "category": "000/081/964/original/no_mentions.png"
+  },
+  ":no_nazis:": {
+    "name": "no nazis",
+    "category": "000/081/977/original/no_nazis.png"
   },
   ":no_tankies:": {
     "name": "no tankies",
@@ -8527,6 +8651,14 @@
     "name": "patrick yum",
     "category": "000/000/138/original/671262846ed95e34.png"
   },
+  ":peachy_butt:": {
+    "name": "peachy butt",
+    "category": "000/081/667/original/peachy_butt.png"
+  },
+  ":peanut_butter:": {
+    "name": "peanut butter",
+    "category": "000/081/665/original/peanut_butter.png"
+  },
   ":penguin_awake:": {
     "name": "penguin awake",
     "category": "000/071/809/original/6ea5e22e43a6c62d.png"
@@ -8615,6 +8747,10 @@
     "name": "pikachu smug",
     "category": "000/002/313/original/481cb4f17aa92bbf.png"
   },
+  ":pikachu_surprised:": {
+    "name": "pikachu surprised",
+    "category": "000/081/738/original/pikachu_surprised.png"
+  },
   ":pikachu_toss_togepi:": {
     "name": "pikachu toss togepi",
     "category": "000/002/314/original/b33699325e8a5630.gif"
@@ -8626,6 +8762,10 @@
   ":pink_bow:": {
     "name": "pink bow",
     "category": "000/002/725/original/1a3372f1ced086bd.png"
+  },
+  ":pink_cup:": {
+    "name": "pink cup",
+    "category": "000/081/669/original/pink_cup.png"
   },
   ":pink_hearts:": {
     "name": "pink hearts",
@@ -9163,6 +9303,18 @@
     "name": "reinhardt laugh",
     "category": "000/004/758/original/reinhardt_laugh.png"
   },
+  ":replies_appreciated:": {
+    "name": "replies appreciated",
+    "category": "000/081/974/original/replies_appreciated.png"
+  },
+  ":replies_are_okay:": {
+    "name": "replies are okay",
+    "category": "000/081/976/original/replies_are_okay.png"
+  },
+  ":replies_discouraged:": {
+    "name": "replies discouraged",
+    "category": "000/081/962/original/replies_discouraged.png"
+  },
   ":roadhog_rage:": {
     "name": "roadhog rage",
     "category": "000/004/762/original/roadhog_rage.png"
@@ -9202,6 +9354,10 @@
   ":sakura_tree:": {
     "name": "sakura tree",
     "category": "000/000/151/original/5867b34dcba835da.png"
+  },
+  ":same:": {
+    "name": "same",
+    "category": "000/082/436/original/same.png"
   },
   ":sans:": {
     "name": "sans",
@@ -9587,6 +9743,10 @@
     "name": "star sleepy",
     "category": "000/000/080/original/638bbc7bc868e7b3.png"
   },
+  ":subtoot:": {
+    "name": "subtoot",
+    "category": "000/081/664/original/subtoot.png"
+  },
   ":succulent_plant:": {
     "name": "succulent plant",
     "category": "000/004/874/original/succulent_plant.png"
@@ -9594,6 +9754,10 @@
   ":surprised_murloc:": {
     "name": "surprised murloc",
     "category": "000/002/435/original/60c6e9bfaaca55d4.png"
+  },
+  ":sus:": {
+    "name": "sus",
+    "category": "000/081/968/original/sus.png"
   },
   ":sussy_boba:": {
     "name": "sussy boba",
@@ -9614,6 +9778,10 @@
   ":sylveon_kiss:": {
     "name": "sylveon kiss",
     "category": "000/002/309/original/7a09df23ab0c886c.gif"
+  },
+  ":sylveon_sip:": {
+    "name": "sylveon sip",
+    "category": "000/081/739/original/sylveon_sip.png"
   },
   ":sylveon_squish:": {
     "name": "sylveon squish",
@@ -9799,6 +9967,10 @@
     "name": "umbreon reverse uno",
     "category": "000/000/043/original/7bea95171c1c9a3b.png"
   },
+  ":umbreon_stare:": {
+    "name": "umbreon stare",
+    "category": "000/081/735/original/umbreon_stare.png"
+  },
   ":unicorn_bread:": {
     "name": "unicorn bread",
     "category": "000/002/330/original/deff6586fe565d40.png"
@@ -9883,6 +10055,10 @@
     "name": "warning nsfw",
     "category": "000/005/438/original/eda0348f719de7d2.png"
   },
+  ":wat:": {
+    "name": "wat",
+    "category": "000/082/434/original/wat.png"
+  },
   ":water_spray:": {
     "name": "water spray",
     "category": "000/004/916/original/9f9b5191ecc2125f.png"
@@ -9919,9 +10095,17 @@
     "name": "yay",
     "category": "000/004/710/original/yay.png"
   },
+  ":yee_haw:": {
+    "name": "yee haw",
+    "category": "000/082/440/original/yee_haw.png"
+  },
   ":yeet:": {
     "name": "yeet",
     "category": "000/002/059/original/e5aa8c5f45af8daf.png"
+  },
+  ":yes:": {
+    "name": "yes",
+    "category": "000/082/441/original/yes.png"
   },
   ":yikes:": {
     "name": "yikes",
@@ -10174,5 +10358,9 @@
   ":zerotwo_yikes:": {
     "name": "zerotwo yikes",
     "category": "000/002/916/original/f4447270cc34901b.png"
+  },
+  ":zigzagoon_cool:": {
+    "name": "zigzagoon cool",
+    "category": "000/081/737/original/zigzagoon_cool.png"
   }
 }
