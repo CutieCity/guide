@@ -9,11 +9,11 @@ or for any other reason. It isn't a bad thing - and fortunately, migrating is
 easier than it may seem!
 
 On this page, I'll walk you through the migration process from one [Mastodon]
-instance to another. According to [Fediverse Observer], Mastodon's user base
-makes up around **80%** of the Fediverse, so hopefully this is useful for you.
-If you're knowledgeable about the migration process to/from a different kind of
-server (such as [Misskey] or [Akkoma]) and would like to contribute to this
-guide, feel free to open a [pull request] for [this page]! :birb_heart:
+instance to another. According to [Fediverse Observer], Mastodon's user base makes
+up around **80%** of the Fediverse, so hopefully this is useful for you. If you're
+knowledgeable about the migration process to/from a different kind of server (such
+as [Misskey] or [Akkoma]) and would like to contribute to this guide, feel free to
+open a [pull request] for [this page]! :birb_heart:
 
 [decentralized]:
   https://fedi.tips/why-is-the-fediverse-on-so-many-separate-servers
@@ -32,8 +32,7 @@ Although migrating is fairly easy, it's important to make sure that it's what
 you _actually_ want to do, as it does bear some caveats that you should fully
 understand before initiating the process. You'll see a brief summary of these
 points on Mastodon's [Account Migration] page, but I've reproduced them below in
-order to clarify and thoroughly explain each one. (Click to expand the boxes!
-:cat_lurk:)
+order to clarify and thoroughly explain each one. (Click to expand the boxes! :cat_lurk:)
 
 <!-- prettier-ignore -->
 ??? info "All of your followers will be transferred from your current account to your new account."
@@ -374,8 +373,8 @@ Followers" in all-capitalized letters."){.no-lightbox}
 {style="line-height: 0;"}
 
 If any of the bullet points on that page are unclear, unexpected, or otherwise
-concerning to you for any reason, check out this guide's [in-depth explanations]
-for each of them. :cat_love:
+concerning to you for any reason, check out this guide's [in-depth
+explanations] for each of them. :cat_love:
 
 When you're ready to proceed:
 

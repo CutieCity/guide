@@ -7,10 +7,10 @@ is very highly recommended over making code changes directly to your production
 (live) instance, especially if you have other users who would be affected by the
 potential downtime!
 
-The official [Mastodon docs] have instructions on how to create a dev
-environment using [Vagrant], if you'd like to go that route. Personally, I
-prefer to cut out the intermediary, so on this page I'll be walking you through
-how to manually set up a development environment **from source**.
+The official [Mastodon docs] have instructions on how to create a dev environment
+using [Vagrant], if you'd like to go that route. Personally, I prefer to cut out
+the intermediary, so on this page I'll be walking you through how to manually set
+up a development environment **from source**.
 
 ??? question "FAQ - Why not use Vagrant?"
 
@@ -33,8 +33,8 @@ how to manually set up a development environment **from source**.
 All of the following instructions assume that you have a **Linux**[^1] machine
 (and root access to it, of course). If you have a Mac, you'll probably be able
 to get these instructions to work with some minor adjustments. If you're on
-Windows, though, you'll probably want to look into using either [WSL 2] or a
-desktop virtual machine (such as [VMware Workstation] or [Oracle VirtualBox]).
+Windows, though, you'll probably want to look into using either [WSL 2] or a desktop
+virtual machine (such as [VMware Workstation] or [Oracle VirtualBox]).
 
 [^1]:
     A machine running Ubuntu or Debian will likely provide the most
@@ -381,8 +381,8 @@ RAILS_ENV='development' bundle exec rails db:setup
 ## Running the dev server
 
 Mastodon's functionality (in a development environment) is provided by four
-separate processes, but [Foreman] (installed in a [previous step]) allows us to
-run all of them with just one command:
+separate processes, but [Foreman] (installed in a [previous step]) allows us to run
+all of them with just one command:
 
 ```bash
 foreman start

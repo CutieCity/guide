@@ -7,10 +7,9 @@ glightbox: false
 These are all the custom emoji that have been added to the [cutie.city] Mastodon
 instance! :angelic_heart:
 
-This page is updated automatically via a [GitHub Action] that runs once per
-week. The workflow can also be triggered manually, so feel free to send [@admin]
-a message if this page is out of date and you'd like it to be refreshed ahead of
-schedule.
+This page is updated automatically via a [GitHub Action] that runs once per week.
+The workflow can also be triggered manually, so feel free to send [@admin] a message
+if this page is out of date and you'd like it to be refreshed ahead of schedule.
 
 [cutie.city]: https://cutie.city
 [@admin]: https://cutie.city/@admin
@@ -3950,9 +3949,10 @@ cuter! :star_happy:
 <!-- prettier-ignore-end -->
 
 All of our custom emoji that don't belong to one of the above packs are most
-likely from [emoji.gg] and covered by their [Basic License]. Special thanks to
-[Clover Cutie], [DRIJUCE], [ivyllx], and [xoMikasa] for contributing lots of
-awesome emoji that don't happen to fit into a single pack/theme! :bugcat_love:
+likely from [emoji.gg] and covered by their [Basic License]. Special thanks to [Clover
+Cutie],
+[DRIJUCE], [ivyllx], and [xoMikasa] for contributing lots of awesome emoji that
+don't happen to fit into a single pack/theme! :bugcat_love:
 
 [emoji.gg]: https://emoji.gg
 [basic license]: https://emoji.gg/licenses

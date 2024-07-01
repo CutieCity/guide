@@ -117,16 +117,16 @@ this code of conduct, please contact the administrator.
 
 ## Attribution
 
-This code of conduct was adapted from that of [Friend Camp], which in turn was
-adapted from that of [LGBTQ in Technology]. Both of those sources use the
-[Creative Commons Zero] license, which means their contents are in the public
-domain.
+This code of conduct was adapted from that of [Friend Camp], which in turn was adapted
+from that of [LGBTQ in Technology]. Both of those sources use the [Creative
+Commons
+Zero] license, which means their contents are in the public domain.
 
-This code of conduct also incorporates elements from the [Contributor Covenant],
-which is released under the [CC-BY-4.0] license.
+This code of conduct also incorporates elements from the [Contributor
+Covenant], which is released under the [CC-BY-4.0] license.
 
-This code of conduct is released under the [same license] used by the
-<code>[CutieCity/guide]</code> project.
+This code of conduct is released under the [same license] used by the <code>[CutieCity/guide]</code>
+project.
 
 [friend camp]: https://friend.camp
 [lgbtq in technology]: https://lgbtq.technology/coc.html
