@@ -32,10 +32,10 @@ focused on how to get set up with their service. :blobfox_box:
 
 ## Getting started with Storj
 
-The first thing you'll need to do is [create a Storj account]. Make sure the
-correct **satellite** (i.e. your geographic region) is selected - currently, the
-available options are **US1**, **EU1**, and **AP1**. You don't need to provide
-your payment information until you hit the limits of their [free plan]:
+The first thing you'll need to do is [create a Storj account]. Make sure the correct
+**satellite** (i.e. your geographic region) is selected - currently, the available
+options are **US1**, **EU1**, and **AP1**. You don't need to provide your payment
+information until you hit the limits of their [free plan]:
 
 - 25 GB of static object storage
 - 25 GB of download bandwidth per month
@@ -342,7 +342,8 @@ public via link-sharing!
 
 At this point, images/videos that have been uploaded to your instance will have
 fairly long URLs. For example, check out these raw URLs for [an avatar] and [a
-custom emoji] from Cutie City.
+custom
+emoji] from Cutie City.
 
 If you're satisfied with those URLs, then feel free to skip this section -
 you're done with this page! But if you'd like shorter ones that use your own
@@ -401,8 +402,8 @@ subdomain can be passed on to Storj. Since [nginx] is used in the official
 [Mastodon setup instructions] and also works very nicely as a reverse proxy,
 it's what I decided to use for this piece of the puzzle.
 
-Note that Storj has recently implemented official support for [custom domains],
-which solves the same problem but requires you to upgrade to a [Pro Account].
+Note that Storj has recently implemented official support for [custom domains], which
+solves the same problem but requires you to upgrade to a [Pro Account].
 Alternatively, there are other open-source projects that also allow you to
 easily set up a reverse proxy, such as [Caddy].
 
