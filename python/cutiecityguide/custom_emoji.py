@@ -159,7 +159,7 @@ def fetch_emoji_list() -> list[dict[str, Any]] | str:
 
 
 def organize_emoji(
-    all_emoji: list[dict[str, Any]]
+    all_emoji: list[dict[str, Any]],
 ) -> tuple[dict[str, list[Emoji]], dict[str, dict[str, str]]]:
     """Returns a tuple consisting of two differently-organized emoji dictionaries."""
     emoji_by_category: Final[dict[str, list[Emoji]]] = {}
