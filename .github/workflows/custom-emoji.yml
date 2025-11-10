@@ -43,7 +43,7 @@ jobs:
           pre-commit run --all-files
 
       - name: Filter modified file paths
-        uses: dorny/paths-filter@v2
+        uses: dorny/paths-filter@v3
         id: filter
         with:
           base: HEAD
