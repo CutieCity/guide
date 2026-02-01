@@ -30,7 +30,7 @@ jobs:
           echo "PY=$(python -VV | sha256sum | cut -d' ' -f1)" >> $GITHUB_ENV
 
       - name: Restore pre-commit cache
-        uses: actions/cache@v3
+        uses: actions/cache@v5
         with:
           path: ~/.cache/pre-commit
           key:
